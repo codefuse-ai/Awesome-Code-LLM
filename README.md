@@ -272,7 +272,7 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 | 2022-11 | ESEC/FSE 2022                    | TypeBugs            | 93       | Python                          | "PyTER: Effective Program Repair for Python Type Errors" [[paper](https://dl.acm.org/doi/abs/10.1145/3540250.3549130)] [[data](https://github.com/kupl/PyTER)]                                                            |
 | 2023-08 | arXiv                            | HumanEvalPack       | 984      | Python, JS, Go, Java, C++, Rust | "OctoPack: Instruction Tuning Code Large Language Models" [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]                                                     |
 
-- This is a code-change dataset, and only a subset there in concern bug fixing.
+\* This is a code-change dataset, and only a subset therein concern bug fixing.
 
 #### Code Summarization
 
@@ -313,7 +313,7 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 | 2023-03 | ICLR 2023     | BetterTypes4Py/InferTypes4Py | 608K/4.6K | Python     | "TypeT5: Seq2seq Type Inference using Static Analysis" [[paper](https://arxiv.org/abs/2303.09564)] [[data](https://github.com/utopia-group/TypeT5)]                                                                              |
 | 2023-05 | arXiv         | OpenTau                      | 744 \*    | TypeScript | "Type Prediction With Program Decomposition and Fill-in-the-Type Training" [[paper](https://arxiv.org/abs/2305.17145)] [[data](https://github.com/GammaTauAI/opentau)]                                                           |
 
-- These are project counts.
+\* These are project counts.
 
 #### Repo-Level Coding
 
