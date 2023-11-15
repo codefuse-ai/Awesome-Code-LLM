@@ -1,6 +1,6 @@
 # Awesome-Code-LLM
 
-This is the repo for our [survey]() - a comprehensive review of LLM researches for code. Wroks in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 4](#4-recommended-readings).
+This is the repo for our [survey](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Wroks in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 4](#4-recommended-readings).
 
 <p align='center'>
 <img src='imgs/overview.png' style='width: 80%; '>
@@ -19,11 +19,8 @@ This is the repo for our [survey]() - a comprehensive review of LLM researches f
    2.3 [General Pretraining on Code](#23-general-pretraining-on-code)
 
    - [Encoder](#encoder)
-
    - [Decoder](#decoder)
-
    - [Encoder-Decoder](#encoder-decoder)
-
    - [UniLM](#unilm)
 
    <!-- prettier ignore -->
@@ -40,12 +37,19 @@ This is the repo for our [survey]() - a comprehensive review of LLM researches f
 
    - [Program Synthesis](#program-synthesis)
    - [Code Translation](#code-translation)
+   - [Program Repair](#program-repair)
+   - [Code Summarization](#code-summarization)
+   - [Code Retrieval](#code-retrieval)
+   - [Type Inference](#type-inference)
+   - [Repo-Level Coding](#repo-level-coding)
 
 4. [Recommended Readings](#4-recommended-readings)
 
+5. [Citation](#citation)
+
 ## 1. Surveys
 
-We list five recent surveys on similar topics. While they are all about language models for code, the first two focus on NLP side, and the later three focus on SE side.
+We list six recent surveys on similar topics. While they are all about language models for code, the first two focus on NLP side, and the later four focus on SE side.
 
 1. "Large Language Models Meet NL2Code: A Survey", 2022-12, ACL 2023, [[paper](https://arxiv.org/abs/2212.09420)]
 
@@ -56,6 +60,8 @@ We list five recent surveys on similar topics. While they are all about language
 4. "Large Language Models for Software Engineering: A Systematic Literature Review", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.10620)]
 
 5. "Towards an Understanding of Large Language Models in Software Engineering Tasks", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.11396)]
+
+6. "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey", 2023-10, arXiv, [[paper](https://arxiv.org/abs/2310.17903)]
 
 ## 2. Models
 
@@ -217,51 +223,116 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 1. **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
 
-<p align='center'>
-<img src='imgs/benchmark1.png' style='width: 70%; '>
-</p>
-
 #### Program Synthesis
 
-1. **CONCODE**: "Mapping Language to Code in Programmatic Context", 2018-08, EMNLP 2018, [[paper](https://arxiv.org/abs/1808.09588)] [[data](https://github.com/sriniiyer/concode)]
-
-2. **APPS**: "Measuring Coding Challenge Competence With APPS", 2021-05, NeurIPS 2021, [[paper](https://arxiv.org/abs/2105.09938)] [[data](https://github.com/hendrycks/apps)]
-
-3. **HumanEval**: "Evaluating Large Language Models Trained on Code", 2021-07, arXiv, [[paper](https://arxiv.org/abs/2107.03374)] [[data](https://github.com/openai/human-eval)]
-
-4. **MBPP**, **MathQA-Python**: "Program Synthesis with Large Language Models", 2021-08, arXiv, [[paper](https://arxiv.org/abs/2108.07732)] [[MBPP](https://github.com/google-research/google-research/tree/master/mbpp)] [[MathQA-Python](https://github.com/google/trax/blob/master/trax/examples/MathQA_Python_generation_notebook.ipynb)]
-
-5. **AixBench**: "AixBench: A Code Generation Benchmark Dataset", 2022-06, arXiv, [[paper](https://arxiv.org/abs/2206.13179)] [[data](https://github.com/aixcoder-plugin/nl2code-dataset)]
-
-6. **MultiPL-E**: "MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation", 2022-08, IEEE Trans. Software Engineering 2023, [[paper](https://arxiv.org/abs/2208.08227)] [[data](https://github.com/nuprl/MultiPL-E)]
-
-7. **DS-1000**: "DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation", 2022-11, arXiv, [[paper](https://arxiv.org/abs/2211.11501)] [[data](https://github.com/xlang-ai/DS-1000)]
-
-8. **CoderEval**: "CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models", 2023-02, arXiv, [[paper](https://arxiv.org/abs/2302.00288)] [[data](https://github.com/CoderEval/CoderEval)]
-
-9. **HumanEval-X**: "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X", 2023-03, arXiv, [[paper](https://arxiv.org/abs/2303.17568)] [[data](https://hub.docker.com/r/codegeex/codegeex)]
-
-10. **HumanEval+**: "Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.01210)] [[data](https://github.com/evalplus/evalplus)]
-
-11. **HumanEvalPack**: "OctoPack: Instruction Tuning Code Large Language Models", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]
-
-12. **CodeApex**: "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models", 2023-09, arXiv, [[paper](https://arxiv.org/abs/2309.01940)] [[data](https://github.com/APEXLAB/CodeApex)]
+| Date    | Venue                            | Benchmark          | Size      | Language                        | Source                                                                                                                                                                                                                                                                                       |
+| ------- | -------------------------------- | ------------------ | --------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2018-08 | EMNLP 2018                       | CONCODE            | 104K      | Java                            | "Mapping Language to Code in Programmatic Context" [[paper](https://arxiv.org/abs/1808.09588)] [[data](https://github.com/sriniiyer/concode)]                                                                                                                                                |
+| 2021-05 | NeurIPS 2021                     | APPS               | 10000     | Python                          | "Measuring Coding Challenge Competence With APPS" [[paper](https://arxiv.org/abs/2105.09938)] [[data](https://github.com/hendrycks/apps)]                                                                                                                                                    |
+| 2021-07 | arXiv                            | HumanEval          | 164       | Python                          | "Evaluating Large Language Models Trained on Code" [[paper](https://arxiv.org/abs/2107.03374)] [[data](https://github.com/openai/human-eval)]                                                                                                                                                |
+| 2021-08 | arXiv                            | MBPP/MathQA-Python | 974/23914 | Python                          | "Program Synthesis with Large Language Models" [[paper](https://arxiv.org/abs/2108.07732)] [[MBPP](https://github.com/google-research/google-research/tree/master/mbpp)] [[MathQA-Python](https://github.com/google/trax/blob/master/trax/examples/MathQA_Python_generation_notebook.ipynb)] |
+| 2022-06 | arXiv                            | AixBench           | 336       | Java                            | "AixBench: A Code Generation Benchmark Dataset" [[paper](https://arxiv.org/abs/2206.13179)] [[data](https://github.com/aixcoder-plugin/nl2code-dataset)]                                                                                                                                     |
+| 2022-08 | IEEE Trans. Software Engineering | MultiPL-E          |           |                                 | "MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation", [[paper](https://arxiv.org/abs/2208.08227)] [[data](https://github.com/nuprl/MultiPL-E)]                                                                                                             |
+| 2022-11 | arXiv                            | DS-1000            | 1000      | Python                          | "DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation" [[paper](https://arxiv.org/abs/2211.11501)] [[data](https://github.com/xlang-ai/DS-1000)]                                                                                                                       |
+| 2023-02 | arXiv                            | CoderEval          | 460       | Python, Java                    | "CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models" [[paper](https://arxiv.org/abs/2302.00288)] [[data](https://github.com/CoderEval/CoderEval)]                                                                                                        |
+| 2023-03 | arXiv                            | HumanEval-X        | 820       | Python, C++, Java, JS, Go       | "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X" [[paper](https://arxiv.org/abs/2303.17568)] [[data](https://hub.docker.com/r/codegeex/codegeex)]                                                                                            |
+| 2023-05 | arXiv                            | HumanEval+         | 164       | Python                          | "Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation" [[paper](https://arxiv.org/abs/2305.01210)] [[data](https://github.com/evalplus/evalplus)]                                                                              |
+| 2023-08 | arXiv                            | HumanEvalPack      | 984       | Python, JS, Go, Java, C++, Rust | "OctoPack: Instruction Tuning Code Large Language Models" [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]                                                                                                                        |
+| 2023-09 | arXiv                            | CodeApex           | 476       | C++                             | "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models" [[paper](https://arxiv.org/abs/2309.01940)] [[data](https://github.com/APEXLAB/CodeApex)]                                                                                                                 |
 
 #### Code Translation
 
-1. **Transcoder GeeksforGeeks**: "Unsupervised Translation of Programming Languages", 2020-06, NeurIPS 2020, [[paper](https://arxiv.org/abs/2006.03511)] [[data](https://github.com/facebookresearch/TransCoder)]
+| Date    | Venue                                | Benchmark                | Size  | Language                          | Source                                                                                                                                                                                                          |
+| ------- | ------------------------------------ | ------------------------ | ----- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2020-06 | NeurIPS 2020                         | Transcoder GeeksforGeeks | 1.4K  | C++, Java, Python                 | "Unsupervised Translation of Programming Languages" [[paper](https://arxiv.org/abs/2006.03511)] [[data](https://github.com/facebookresearch/TransCoder)]                                                        |
+| 2021-02 | NeurIPS Datasets and Benchmarks 2021 | CodeTrans                | 11.8K | Java, C#                          | "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation" [[paper](https://arxiv.org/abs/2102.04664)] [[data](https://huggingface.co/datasets/code_x_glue_cc_code_to_code_trans)] |
+| 2021-08 | ACL 2023 Findings                    | Avatar                   | 9515  | Java, Python                      | "AVATAR: A Parallel Corpus for Java-Python Program Translation" [[paper](https://arxiv.org/abs/2108.11590)] [[data](https://github.com/wasiahmad/AVATAR)]                                                       |
+| 2022-06 | AAAI 2022                            | CoST                     | 132K  | C++, Java, Python, C#, JS, PHP, C | "Multilingual Code Snippets Training for Program Translation" [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21434)] [[data](https://github.com/reddy-lab-code-research/MuST-CoST)]                  |
+| 2022-06 | arXiv                                | XLCoST                   | 567K  | C++, Java, Python, C#, JS, PHP, C | "XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence" [[paper](https://arxiv.org/abs/2206.08474)] [[data](https://github.com/reddy-lab-code-research/XLCoST)]                                       |
+| 2023-03 | arXiv                                | HumanEval-X              | 1640  | Python, C++, Java, JS, Go         | "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X" [[paper](https://arxiv.org/abs/2303.17568)] [[data](https://github.com/THUDM/CodeGeeX)]                        |
+| 2023-08 | arXiv                                | G-TransEval              | 4000  | C++, Java, C#, JS, Python         | "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark" [[paper](https://arxiv.org/abs/2308.08961)] [[data](https://github.com/PolyEval/G-TransEval)]                                            |
 
-2. **CodeTrans**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[data](https://huggingface.co/datasets/code_x_glue_cc_code_to_code_trans)]
+#### Program Repair
 
-3. **Avatar**: "AVATAR: A Parallel Corpus for Java-Python Program Translation", 2021-08, ACL 2023 Findings, [[paper](https://arxiv.org/abs/2108.11590)] [[data](https://github.com/wasiahmad/AVATAR)]
+| Date    | Venue                            | Benchmark           | Size     | Language                        | Source                                                                                                                                                                                                                    |
+| ------- | -------------------------------- | ------------------- | -------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2014-07 | ISSTA 2014                       | Defects4J           | 357      | Java                            | "Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs" [[paper](https://dl.acm.org/doi/10.1145/2610384.2628055)] [[data](https://github.com/rjust/defects4j)]                  |
+| 2015-12 | IEEE Trans. Software Engineering | ManyBugs/IntroClass | 185/998  | C                               | "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs" [[paper](https://ieeexplore.ieee.org/document/7153570)] [[data](https://repairbenchmarks.cs.umass.edu/)]                                      |
+| 2016-11 | FSE 2016                         | BugAID              | 105K     | JS                              | "Discovering Bug Patterns in JavaScript" [[paper](https://dl.acm.org/doi/10.1145/2950290.2950308)] [[data](https://salt.ece.ubc.ca/software/bugaid/)]                                                                     |
+| 2017-02 | AAAI 2017                        | DeepFix             | 6971     | C                               | "DeepFix: Fixing Common C Language Errors by Deep Learning" [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/10742)] [[data](https://bitbucket.org/iiscseal/deepfix/src/master/)]                                |
+| 2017-05 | ICSE-C 2017                      | Codeflaws           | 3902     | C                               | "DeepFix: Fixing Common C Language Errors by Deep Learning" [[paper](https://dl.acm.org/doi/10.1109/ICSE-C.2017.76)] [[data](https://codeflaws.github.io/)]                                                               |
+| 2017-10 | SPLASH 2017                      | QuixBugs            | 80       | Java, Python                    | "QuixBugs: a multi-lingual program repair benchmark set based on the quixey challenge" [[paper](https://dl.acm.org/doi/10.1145/3135932.3135941)] [[data](https://github.com/jkoppel/QuixBugs)]                            |
+| 2018-12 | ACM Trans. Softw. Eng. Methodol. | BFP                 | 124K     | Java                            | "An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation" [[paper](https://arxiv.org/abs/1812.08693)] [[data](https://sites.google.com/view/learning-fixes)]                         |
+| 2019-01 | ICSE 2019                        | unnamed             | 21.8K \* | Java                            | "On Learning Meaningful Code Changes via Neural Machine Translation" [[paper](https://arxiv.org/abs/1901.09102)] [[data](https://sites.google.com/view/learning-codechanges)]                                             |
+| 2019-05 | MSR 2020                         | ManySStuBs4J        | 154K     | Java                            | "How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset" [[paper](https://arxiv.org/abs/1905.13334)] [[data](https://github.com/mast-group/mineSStuBs)]                                                       |
+| 2019-11 | ASE 2019                         | Refactory           | 1783     | Python                          | "Re-factoring based program repair applied to programming assignments" [[paper](https://dl.acm.org/doi/10.1109/ASE.2019.00044)] [[data](https://github.com/githubhuyang/refactory)]                                       |
+| 2020-07 | ISSTA 2020                       | CoCoNut             | 24M      | Java, Python, C, JS             | "CoCoNuT: combining context-aware neural translation models using ensemble for program repair" [[paper](https://dl.acm.org/doi/10.1145/3395363.3397369)] [[data](https://github.com/lin-tan/CoCoNut-Artifact)]            |
+| 2020-11 | ESEC/FSE 2020                    | BugsInPy            | 493      | Python                          | "BugsInPy: A Database of Existing Bugs in Python Programs to Enable Controlled Testing and Debugging Studies" [[paper](https://dl.acm.org/doi/abs/10.1145/3368089.3417943)] [[data](https://github.com/soarsmu/BugsInPy)] |
+| 2021-07 | ICML 2021                        | TFix                | 105K     | JS                              | "TFix: Learning to Fix Coding Errors with a Text-to-Text Transformer" [[paper](https://proceedings.mlr.press/v139/berabi21a.html)] [[data](https://github.com/eth-sri/TFix)]                                              |
+| 2022-11 | ESEC/FSE 2022                    | TypeBugs            | 93       | Python                          | "PyTER: Effective Program Repair for Python Type Errors" [[paper](https://dl.acm.org/doi/abs/10.1145/3540250.3549130)] [[data](https://github.com/kupl/PyTER)]                                                            |
+| 2023-08 | arXiv                            | HumanEvalPack       | 984      | Python, JS, Go, Java, C++, Rust | "OctoPack: Instruction Tuning Code Large Language Models" [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]                                                     |
 
-4. **CoST**: "Multilingual Code Snippets Training for Program Translation", 2022-06, AAAI 2022, [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21434)] [[data](https://github.com/reddy-lab-code-research/MuST-CoST)]
+- This is a code-change dataset, and only a subset there in concern bug fixing.
 
-5. **XLCoST**: "XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence", 2022-06, arXiv, [[paper](https://arxiv.org/abs/2206.08474)] [[data](https://github.com/reddy-lab-code-research/XLCoST)]
+#### Code Summarization
 
-6. **HumanEval-X**: "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X", 2023-03, arXiv, [[paper](https://arxiv.org/abs/2303.17568)] [[data](https://github.com/THUDM/CodeGeeX)]
+| Date    | Venue       | Benchmark     | Size    | Language                        | Source                                                                                                                                                                                                                             |
+| ------- | ----------- | ------------- | ------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2016-08 | ACL 2016    | CODE-NN       | 66K/32K | C#/SQL                          | "Summarizing Source Code using a Neural Attention Model" [[paper](https://aclanthology.org/P16-1195/)] [[data](https://github.com/sriniiyer/codenn)]                                                                               |
+| 2017-07 | IJCNLP 2017 | unnamed       | 150K    | Python                          | "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation" [[paper](https://arxiv.org/abs/1707.02275)] [[data](https://github.com/EdinburghNLP/code-docstring-corpus)] |
+| 2018-05 | ICPC 2018   | DeepCom       | 588K    | Java                            | "Deep code comment generation" [[paper](https://dl.acm.org/doi/10.1145/3196321.3196334)] [[data](https://github.com/xing-hu/DeepCom)]                                                                                              |
+| 2018-07 | IJCAI 2018  | TL-CodeSum    | 411K    | Java                            | "Summarizing Source Code with Transferred API Knowledge" [[paper](https://www.ijcai.org/proceedings/2018/314)] [[data](https://github.com/xing-hu/TL-CodeSum)]                                                                     |
+| 2019-09 | arxiv       | CodeSearchNet | 2.3M    | Go, JS, Python, PHP, Java, Ruby | "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search" [[paper](https://arxiv.org/abs/1909.09436)] [[data](https://github.com/github/CodeSearchNet)]                                                              |
+| 2023-08 | arXiv       | HumanEvalPack | 984     | Python, JS, Go, Java, C++, Rust | "OctoPack: Instruction Tuning Code Large Language Models" [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]                                                              |
 
-7. **G-TransEval**: "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.08961)] [[data](https://github.com/PolyEval/G-TransEval)]
+#### Code Retrieval
+
+| Date    | Venue                                | Benchmark            | Size      | Language                        | Source                                                                                                                                                                                                                                              |
+| ------- | ------------------------------------ | -------------------- | --------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2018-03 | WWW 2018                             | StaQC                | 148K/120K | Python/SQL                      | "StaQC: A Systematically Mined Question-Code Dataset from Stack Overflow" [[paper](https://arxiv.org/abs/1803.09371)] [[data](https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset)]                                                   |
+| 2018-05 | ICSE 2018                            | DeepCS               | 18.2M     | Java                            | "Deep Code Search" [[paper](https://dl.acm.org/doi/10.1145/3180155.3180167)] [[data](https://github.com/guxd/deep-code-search)]                                                                                                                     |
+| 2018-05 | MSR 2018                             | CoNaLa               | 600K/2.9K | Python                          | "Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow" [[paper](https://arxiv.org/abs/1805.08949)] [[data](https://conala-corpus.github.io/)]                                                                               |
+| 2019-08 | arXiv                                | unnamed              | 287       | Java                            | "Neural Code Search Evaluation Dataset" [[paper](https://arxiv.org/abs/1908.09804)] [[data](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset)]                                                                             |
+| 2019-09 | arXiv                                | CodeSearchNet        | 2.3M/99   | Go, PHP, JS, Python, Java, Ruby | "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search" [[paper](https://arxiv.org/abs/1909.09436)] [[data](https://github.com/github/CodeSearchNet)]                                                                               |
+| 2020-02 | SANER 2020                           | CosBench             | 52        | Java                            | "Are the Code Snippets What We Are Searching for? A Benchmark and an Empirical Study on Code Search with Natural-Language Queries" [[paper](https://ieeexplore.ieee.org/document/9054840)] [[data](https://github.com/BASE-LAB-SJTU/CosBench/wiki)] |
+| 2020-08 | arXiv                                | SO-DS                | 2.2K      | Python                          | "Neural Code Search Revisited: Enhancing Code Snippet Retrieval through Natural Language Intent" [[paper](https://arxiv.org/abs/2008.12193)] [[data](https://github.com/nokia/codesearch)]                                                          |
+| 2020-10 | ACM Trans. Knowl. Discov. Data       | FB-Java              | 249K      | Java                            | "Deep Graph Matching and Searching for Semantic Code Retrieval" [[paper](https://arxiv.org/abs/2010.12908)] [[data](https://github.com/ryderling/DGMS)]                                                                                             |
+| 2021-02 | NeurIPS Datasets and Benchmarks 2021 | AdvTest/WebQueryTest | 280K/1K   | Python                          | "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation" [[paper](https://arxiv.org/abs/2102.04664)] [[data]]                                                                                                        |
+| 2021-05 | ACL/IJCNLP 2021                      | CoSQA                | 21K       | Python                          | "CoSQA: 20,000+ Web Queries for Code Search and Question Answering" [[paper](https://arxiv.org/abs/2105.13239)] [[data](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/NL-code-search-WebQuery)]                                        |
+
+#### Type Inference
+
+| Date    | Venue         | Benchmark                    | Size      | Language   | Source                                                                                                                                                                                                                           |
+| ------- | ------------- | ---------------------------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2019-12 | ESEC/FSE 2020 | TypeWriter OSS               | 208K      | Python     | "TypeWriter: Neural Type Prediction with Search-based Validation" [[paper](https://arxiv.org/abs/1912.03768)] [[data](http://software-lab.org/projects/TypeWriter/data.tar.gz)]                                                  |
+| 2020-04 | PLDI 2020     | Typilus                      | 252K      | Python     | "Typilus: Neural Type Hints" [[paper](https://arxiv.org/abs/2004.10657)] [[data](https://github.com/typilus/typilus)]                                                                                                            |
+| 2020-04 | ICLR 2020     | LambdaNet                    | 300 \*    | TypeScript | "LambdaNet: Probabilistic Type Inference using Graph Neural Networks" [[paper](https://arxiv.org/abs/2005.02161)] [[data](https://github.com/MrVPlusOne/LambdaNet)]                                                              |
+| 2021-04 | MSR 2021      | ManyTypes4Py                 | 869K      | Python     | "ManyTypes4Py: A Benchmark Python Dataset for Machine Learning-based Type Inference" [[paper](https://arxiv.org/abs/2104.04706)] [[data](https://github.com/saltudelft/many-types-4-py-dataset)]                                 |
+| 2022-10 | MSR 2022      | ManyTypes4TypeScript         | 9.1M      | TypeScript | "ManyTypes4TypeScript: a comprehensive TypeScript dataset for sequence-based type inference" [[paper](https://dl.acm.org/doi/10.1145/3524842.3528507)] [[data](https://huggingface.co/datasets/kevinjesse/ManyTypes4TypeScript)] |
+| 2023-02 | ECOOP 2023    | TypeWeaver                   | 513 \*    | TypeScript | "Do Machine Learning Models Produce TypeScript Types That Type Check?" [[paper](https://arxiv.org/abs/2302.12163)] [[data](https://zenodo.org/records/7662708)]                                                                  |
+| 2023-03 | ICLR 2023     | BetterTypes4Py/InferTypes4Py | 608K/4.6K | Python     | "TypeT5: Seq2seq Type Inference using Static Analysis" [[paper](https://arxiv.org/abs/2303.09564)] [[data](https://github.com/utopia-group/TypeT5)]                                                                              |
+| 2023-05 | arXiv         | OpenTau                      | 744 \*    | TypeScript | "Type Prediction With Program Decomposition and Fill-in-the-Type Training" [[paper](https://arxiv.org/abs/2305.17145)] [[data](https://github.com/GammaTauAI/opentau)]                                                           |
+
+- These are project counts.
+
+#### Repo-Level Coding
+
+| Date    | Venue | Benchmark     | Size                   | Language                     | Source                                                                                                                                                                                                |
+| ------- | ----- | ------------- | ---------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2023-03 | arXiv | RepoEval      | 1600/1600/373 \*       | Python                       | "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation" [[paper](https://arxiv.org/abs/2303.12570)] [[data](https://github.com/microsoft/CodeT/tree/main/RepoCoder)] |
+| 2023-06 | arXiv | RepoBench     | 890K/9M/43K $^\dagger$ | Python, Java                 | "RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems" [[paper](https://arxiv.org/abs/2306.03091)] [[data](https://github.com/Leolty/repobench)]                                     |
+| 2023-06 | arXiv | Stack-Repo    | 816K                   | Java                         | "RepoFusion: Training Code Models to Understand Your Repository" [[paper](https://arxiv.org/abs/2306.10998)] [[data](https://huggingface.co/RepoFusion)]                                              |
+| 2023-09 | arXiv | CodePlan      | 645/21 $^\ddagger$     | C#/Python $^\ddagger$        | "CodePlan: Repository-level Coding using LLMs and Planning" [[paper](https://arxiv.org/abs/2309.12499)] [[data](https://aka.ms/CodePlan)] \*\*                                                        |
+| 2023-10 | arXiv | SWE-Bench     | 2294                   | Python                       | "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?" [[paper](https://arxiv.org/abs/2310.06770)] [[data](https://www.swebench.com/)]                                                    |
+| 2023-10 | arXiv | CrossCodeEval | 9928                   | Python, Java, TypeScript, C# | "CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion" [[paper](https://arxiv.org/abs/2310.11248)] [[data](https://crosscodeeval.github.io/)]                           |
+
+\*Line Completion/API Invocation Completion/Function Completion
+
+$^\dagger$ Retrieval/Completion/Pipeline
+
+$^\ddagger$ Migration/Temporal Edit
+
+\*\* This is the link given in the paper, but we are unable to access it at the time of writing.
 
 #### Other tasks are coming soon!
 
@@ -303,3 +374,18 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 | 2022-12 |      Self-Instruct       | [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)                                                                           | Instruction tuning using LLM-generated data                                                                                          |
 
 This list aims to provide the essential background for understanding current LLM technologies, and thus excludes more recent models such as [LLaMA](https://arxiv.org/abs/2302.13971), [GPT-4](https://arxiv.org/abs/2303.08774) or [PaLM 2](https://arxiv.org/abs/2305.10403). For comprehensive reviews on these more general topics, we refer to other sources such as [this paper](https://arxiv.org/abs/2303.18223) or these repositories: [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM), [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials), [Awesome Domain LLM](https://github.com/luban-agi/Awesome-Domain-LLM).
+
+## Citation
+
+If you find this repo or our survey helpful, please consider citing us:
+
+```
+@misc{zhang2023survey,
+      title={A Survey on Language Models for Code},
+      author={Ziyin Zhang and Chaoyu Chen and Bingchang Liu and Cong Liao and Zi Gong and Hang Yu and Jianguo Li and Rui Wang},
+      year={2023},
+      eprint={2311.07989},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
