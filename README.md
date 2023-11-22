@@ -277,6 +277,10 @@ $^\ddagger$ 10538 prompts for 1420 problems
 
 #### Program Repair
 
+- "Neural Program Repair: Systems, Challenges and Solutions", 2022-02, Internetware 2022, [[paper](https://arxiv.org/abs/2202.10868)]
+- "A Survey of Learning-based Automated Program Repair", 2023-01, arXiv, [[paper](https://arxiv.org/abs/2301.03270)]
+- "A Survey on Automated Program Repair Techniques", 2023-03, arXiv, [[paper](https://arxiv.org/abs/2303.18184)]
+
 | Date    | Venue                            | Benchmark           | Size      | Language                                                  | Source                                                                                                                                                                                                                    |
 | ------- | -------------------------------- | ------------------- | --------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2014-07 | ISSTA 2014                       | Defects4J           | 357       | Java                                                      | "Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs" [[paper](https://dl.acm.org/doi/10.1145/2610384.2628055)] [[data](https://github.com/rjust/defects4j)]                  |
@@ -308,6 +312,8 @@ $^\ddagger$ 10538 prompts for 1420 problems
 
 #### Code Summarization
 
+- "A Survey of Automatic Source Code Summarization", 2022-02, Symmetry, [[paper](https://www.mdpi.com/2073-8994/14/3/471)]
+
 | Date    | Venue       | Benchmark     | Size    | Language                        | Source                                                                                                                                                                                                                             |
 | ------- | ----------- | ------------- | ------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2016-08 | ACL 2016    | CODE-NN       | 66K/32K | C#/SQL                          | "Summarizing Source Code using a Neural Attention Model" [[paper](https://aclanthology.org/P16-1195/)] [[data](https://github.com/sriniiyer/codenn)]                                                                               |
@@ -320,17 +326,21 @@ $^\ddagger$ 10538 prompts for 1420 problems
 
 #### Defect/Vulnerability Detection
 
+- "Benchmarking Software Vulnerability Detection Techniques: A Survey", 2023-03, arXiv, [[paper](https://arxiv.org/abs/2303.16362)]
+
 | Date    | Venue                                 | Benchmark      | Size  | Language | Source                                                                                                                                                                                                                       |
 | ------- | ------------------------------------- | -------------- | ----- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2018-01 | NDSS 2018                             | CGD            | 62K   | C, C++   | "VulDeePecker: A Deep Learning-Based System for Vulnerability Detection" [[paper](https://arxiv.org/abs/1801.01681)] [[data](https://github.com/CGCL-codes/VulDeePecker)]                                                    |
+| 2018-04 | IEEE Trans. Ind. Informatics          | unnamed        | 32988 | C, C++   | "Cross-Project Transfer Representation Learning for Vulnerable Function Discovery" [[paper](https://ieeexplore.ieee.org/document/8329207)] [[data](https://github.com/DanielLin1986/TransferRepresentationLearning)]         |
 | 2018-07 | ICMLA 2018                            | Draper VDISC   | 12.8M | C, C++   | "Automated Vulnerability Detection in Source Code Using Deep Representation Learning" [[paper](https://arxiv.org/abs/1807.04320)] [[data](https://osf.io/d45bw/)]                                                            |
 | 2019-02 | MSR 2019                              | unnamed        | 624   | Java     | "A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software" [[paper](https://arxiv.org/abs/1902.02595)] [[data](https://github.com/SAP/project-kb/tree/main/MSR2019)]                                   |
 | 2019-09 | NeurIPS 2019                          | Devign         | 49K   | C        | "Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks" [[paper](https://arxiv.org/abs/1909.03496)] [[data](https://sites.google.com/view/devign)]            |
+| 2019-11 | IEEE Trans. Dependable Secur. Comput. | unnamed        | 170K  | C, C++   | "Software Vulnerability Discovery via Learning Multi-Domain Knowledge Bases" [[paper](https://ieeexplore.ieee.org/document/8906156)] [[data](https://github.com/DanielLin1986/RepresentationsLearningFromMulti_domain)]      |
 | 2019-12 | ICLR 2020                             | GREAT          | 2.8M  | Python   | "Global Relational Models of Source Code" [[paper](https://openreview.net/forum?id=B1lnbRNtwr)] [[data](https://zenodo.org/records/3954944)]                                                                                 |
 | 2020-01 | IEEE Trans. Dependable Secur. Comput. | MVD            | 182K  | C, C++   | "μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection" [[paper](https://arxiv.org/abs/2001.02334)] [[data](https://github.com/muVulDeePecker/muVulDeePecker)]                                  |
 | 2020-02 | ICICS 2019                            | unnamed        | 1471  | C        | "Deep Learning-Based Vulnerable Function Detection: A Benchmark" [[paper](https://link.springer.com/chapter/10.1007/978-3-030-41579-2_13)] [[data](https://github.com/DanielLin1986/Function-level-Vulnerability-Detection)] |
 | 2020-09 | IEEE Trans. Software Eng.             | ReVeal         | 18K   | C        | "Deep Learning based Vulnerability Detection: Are We There Yet?" [[paper](https://arxiv.org/abs/2009.07235)] [[data](https://bit.ly/3bX30ai)]                                                                                |
-| 2020-09 | MSR 2020                              | Big-Vul        | 3754  | C, C++   | "A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries" [[paper](https://dl.acm.org/doi/10.1145/3379597.3387501)] [[data](https://github.com/ZeoVan/MSR_20_Code_Vulnerability_CSV_Dataset)]                 |
+| 2020-09 | MSR 2020                              | Big-Vul        | 265K  | C, C++   | "A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries" [[paper](https://dl.acm.org/doi/10.1145/3379597.3387501)] [[data](https://github.com/ZeoVan/MSR_20_Code_Vulnerability_CSV_Dataset)]                 |
 | 2021-02 | ICSE (SEIP) 2021                      | D2A            | 1.3M  | C, C++   | "D2A: A Dataset Built for AI-Based Vulnerability Detection Methods Using Differential Analysis" [[paper](https://arxiv.org/abs/2102.07995)] [[data](https://github.com/ibm/D2A)]                                             |
 | 2021-07 | In PROMISE 2021                       | CVEfixes       | 5495  | 27       | "CVEfixes: Automated Collection of Vulnerabilities and Their Fixes from Open-Source Software" [[paper](https://arxiv.org/abs/2107.08760)] [[data](https://zenodo.org/records/7029359)]                                       |
 | 2021-08 | ESEC/FSE 2021                         | CrossVul       | 27476 | 40+      | "CrossVul: a cross-language vulnerability dataset with commit data" [[paper](https://dl.acm.org/doi/10.1145/3468264.3473122)] [[data](https://zenodo.org/records/4734050)]                                                   |
@@ -338,6 +348,9 @@ $^\ddagger$ 10538 prompts for 1420 problems
 | 2023-06 | arXiv                                 | VulnPatchPairs | 26K   | C        | "Limits of Machine Learning for Automatic Vulnerability Detection" [[paper](https://arxiv.org/abs/2306.17193)] [[data](https://github.com/niklasrisse/LimitsOfML4Vuln)]                                                      |
 
 #### Code Retrieval
+
+- "Code Search: A Survey of Techniques for Finding Code", 2022-04, ICSME 2021, [[paper](ACM Comput. Surv)]
+- "A Survey of Deep Code Search", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.05959)]
 
 | Date    | Venue                                | Benchmark            | Size      | Language                        | Source                                                                                                                                                                                                                                              |
 | ------- | ------------------------------------ | -------------------- | --------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -368,6 +381,8 @@ $^\ddagger$ 10538 prompts for 1420 problems
 \* These are project counts.
 
 #### Commit Message Generation
+
+- "On the Evaluation of Commit Message Generation Models: An Experimental Study", 2021-07, ICSME 2021, [[paper](https://arxiv.org/abs/2107.05373)]
 
 | Date    | Venue                            | Benchmark       | Size       | Language                        | Source                                                                                                                                                                                                        |
 | ------- | -------------------------------- | --------------- | ---------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
