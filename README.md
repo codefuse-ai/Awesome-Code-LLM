@@ -519,12 +519,15 @@ This list aims to provide the essential background for understanding current LLM
 If you find this repo or our survey helpful, please consider citing us:
 
 ```
-@misc{zhang2023survey,
-      title={A Survey on Language Models for Code},
+@article{zhang2023unifying,
+      title={Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code},
       author={Ziyin Zhang and Chaoyu Chen and Bingchang Liu and Cong Liao and Zi Gong and Hang Yu and Jianguo Li and Rui Wang},
       year={2023},
+      journal={CoRR},
+      volume={abs/2311.07989},
+      url={https://doi.org/10.48550/arXiv.2311.07989},
+      doi={10.48550/ARXIV.2311.07989},
       eprint={2311.07989},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      eprinttype={arXiv},
 }
 ```
