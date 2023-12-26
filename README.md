@@ -68,6 +68,8 @@ We list six recent surveys on similar topics. While they are all about language 
 
 6. "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey", 2023-10, arXiv, [[paper](https://arxiv.org/abs/2310.17903)]
 
+7. "Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code", 2023-11, arXiv, [[paper](https://arxiv.org/abs/2311.07989)]
+
 ## 2. Models
 
 ### 2.1 Off-the-Shelf LLM
