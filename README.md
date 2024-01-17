@@ -28,10 +28,12 @@ This is the repo for our [survey](https://arxiv.org/abs/2311.07989) - a comprehe
    2.4 [Instruction Fine-Tuning on Code](#24-instruction-fine-tuning-on-code)
 
    2.5 [Reinforcement Learning on Code](#25-reinforcement-learning-on-code)
+   
+   2.6 [Multilingual Natural Languages and Programming Languages](#26-multilingual-natural-languages-and-programming-languages)
 
-3. [Methods/Models for Downstream Tasks](#3-methodsmodels-for-downstream-tasks)
+4. [Methods/Models for Downstream Tasks](#3-methodsmodels-for-downstream-tasks)
 
-4. [Datasets](#4-datasets)
+5. [Datasets](#4-datasets)
 
    4.1 [Pretraining](#41-pretraining)
 
@@ -48,9 +50,9 @@ This is the repo for our [survey](https://arxiv.org/abs/2311.07989) - a comprehe
    - [Commit Message Generation](#commit-message-generation)
    - [Repo-Level Coding](#repo-level-coding)
 
-5. [Recommended Readings](#5-recommended-readings)
+6. [Recommended Readings](#5-recommended-readings)
 
-6. [Citation](#citation)
+7. [Citation](#citation)
 
 ## 1. Surveys
 
@@ -178,9 +180,11 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 7. **AlphaCode** (MLM + CLM): "Competition-Level Code Generation with AlphaCode", 2022-02, Science, [[paper](https://arxiv.org/abs/2203.07814)] [[arxiv](https://deepmind.google/discover/blog/competitive-programming-with-alphacode/)]
 
-8. **NatGen** (Code Naturalization): "NatGen: Generative pre-training by "Naturalizing" source code", 2022-06, ESEC/FSE 2022, [[paper](https://arxiv.org/abs/2206.07585)] [[repo](https://github.com/saikat107/NatGen)]
+8. **ERNIE-Code** (Span Corruption +  PTLM): "ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for Programming Languages", 2022-12, ACL 2023 (Findings), [[paper](https://aclanthology.org/2023.findings-acl.676.pdf)] [[repo](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-code)]
 
-9. **CodeT5+** (Span Corruption + CLM + Text-Code Contrastive Learning + Text-Code Translation): "CodeT5+: Open Code Large Language Models for Code Understanding and Generation", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.07922)] [[repo](https://github.com/salesforce/CodeT5)]
+9. **NatGen** (Code Naturalization): "NatGen: Generative pre-training by "Naturalizing" source code", 2022-06, ESEC/FSE 2022, [[paper](https://arxiv.org/abs/2206.07585)] [[repo](https://github.com/saikat107/NatGen)]
+
+10. **CodeT5+** (Span Corruption + CLM + Text-Code Contrastive Learning + Text-Code Translation): "CodeT5+: Open Code Large Language Models for Code Understanding and Generation", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.07922)] [[repo](https://github.com/salesforce/CodeT5)]
 
 #### UniLM
 
@@ -209,6 +213,12 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 3. **PPOCoder**: "Execution-based Code Generation using Deep Reinforcement Learning", 2023-01, TMLR 2023, [[paper](https://arxiv.org/abs/2301.13816)] [[repo](https://github.com/reddy-lab-code-research/PPOCoder)]
 
 4. **RLTF**: "RLTF: Reinforcement Learning from Unit Test Feedback", 2023-07, arXiv, [[paper](https://arxiv.org/abs/2307.04349)] [[repo](https://github.com/Zyq-scut/RLTF)]
+
+### 2.6 Multilingual Natural Languages and Programming Languages
+
+1. **ERNIE-Code**: "ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for Programming Languages", 2022-12, ACL 2023 (Findings), [[paper](https://aclanthology.org/2023.findings-acl.676.pdf)] [[repo](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-code)]
+
+2. **BLOOM**: "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model", 2022-11, arXiv, [[paper](https://arxiv.org/abs/2211.05100)] [[model](https://huggingface.co/models?search=bigscience/bloom)]
 
 ## 3. Methods/Models for Downstream Tasks
 
