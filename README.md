@@ -1,6 +1,6 @@
 # Awesome-Code-LLM
 
-This is the repo for our [survey](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 4](#4-recommended-readings).
+This is the repo for our survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 5](#5-recommended-readings).
 
 <p align='center'>
 <img src='imgs/overview.png' style='width: 80%; '>
@@ -29,13 +29,19 @@ This is the repo for our [survey](https://arxiv.org/abs/2311.07989) - a comprehe
 
    2.5 [Reinforcement Learning on Code](#25-reinforcement-learning-on-code)
 
-3. [Methods/Models for Downstream Tasks](#3-methodsmodels-for-downstream-tasks)
+3. [When Coding Meets Reasoning](#3-when-coding-meets-reasoning)
 
-4. [Datasets](#4-datasets)
+   3.1 [Coding for Reasoning](#31-coding-for-reasoning)
 
-   4.1 [Pretraining](#41-pretraining)
+   3.2 [Coding via Planning](#32-coding-via-planning)
 
-   4.2 [Benchmarks](#42-benchmarks)
+4. [Methods/Models for Downstream Tasks](#4-methodsmodels-for-downstream-tasks)
+
+5. [Datasets](#5-datasets)
+
+   5.1 [Pretraining](#51-pretraining)
+
+   5.2 [Benchmarks](#52-benchmarks)
 
    - [Program Synthesis](#program-synthesis)
    - [Text-to-SQL](#text-to-sql)
@@ -48,9 +54,9 @@ This is the repo for our [survey](https://arxiv.org/abs/2311.07989) - a comprehe
    - [Commit Message Generation](#commit-message-generation)
    - [Repo-Level Coding](#repo-level-coding)
 
-5. [Recommended Readings](#5-recommended-readings)
+6. [Recommended Readings](#6-recommended-readings)
 
-6. [Citation](#citation)
+7. [Citation](#citation)
 
 ## 1. Surveys
 
@@ -93,6 +99,20 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 9. **Baichuan 2**: "Baichuan 2: Open Large-scale Language Models", 2023-09, arXiv, [[paper](https://arxiv.org/abs/2309.10305)] [[repo](https://github.com/baichuan-inc/Baichuan2)]
 
 10. **Qwen**: "Qwen Technical Report", 2023-09, arXiv, [[paper](https://arxiv.org/abs/2309.16609)] [[repo](https://github.com/QwenLM/Qwen)]
+
+11. **Mistral**: "Mistral 7B", 2023-10, arXiv, [[paper](https://arxiv.org/abs/2310.06825)] [[repo](https://github.com/mistralai/mistral-src)]
+
+12. **Gemini**: "Gemini: A Family of Highly Capable Multimodal Models", 2023-12, arXiv, [[paper](https://arxiv.org/abs/2312.11805)]
+
+13. **Phi-2**: "Phi-2: The surprising power of small language models", 2023-12, arXiv, [[blog](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)]
+
+14. **YAYI2**: "YAYI 2: Multilingual Open-Source Large Language Models", 2023-12, arXiv, [[paper](https://arxiv.org/abs/2312.14862)] [[repo](https://github.com/wenge-research/YAYI2)]
+
+15. **DeepSeek**: "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.02954)] [[repo](https://github.com/deepseek-ai/DeepSeek-LLM)]
+
+16. **Mixtral**: "Mixtral of Experts", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.04088)] [[blod](https://mistral.ai/news/mixtral-of-experts/)]
+
+17. **DeepSeekMoE**: "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.06066)]
 
 ### 2.2 Existing LLM Further Trained on Code
 
@@ -210,7 +230,25 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 4. **RLTF**: "RLTF: Reinforcement Learning from Unit Test Feedback", 2023-07, arXiv, [[paper](https://arxiv.org/abs/2307.04349)] [[repo](https://github.com/Zyq-scut/RLTF)]
 
-## 3. Methods/Models for Downstream Tasks
+## 3. When Coding Meets Reasoning
+
+### 3.1 Coding for Reasoning
+
+1. **PAL**: "PAL: Program-aided Language Models", 2022-11, ICML 2023, [[paper](https://arxiv.org/abs/2211.10435)] [[repo](https://github.com/reasoning-machines/pal)]
+
+2. **PoT**: "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks", 2022-11, TMLR 2023, [[paper](https://arxiv.org/abs/2211.12588)] [[repo](https://github.com/wenhuchen/Program-of-Thoughts)]
+
+3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator", 2023-12, arXiv, [[paper](https://arxiv.org/abs/2312.04474)]
+
+### 3.2 Coding via Planning
+
+1. **Self-collaboration**: "Self-collaboration Code Generation via ChatGPT", 2023-04, arXiv, [[paper](https://arxiv.org/abs/2304.07590)]
+
+2. **ChatDev**: "Communicative Agents for Software Development", 2023-07, arXiv, [[paper](https://arxiv.org/abs/2307.07924)] [[repo](https://github.com/OpenBMB/ChatDev)]
+
+3. **MetaGPT**: "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.00352)] [[repo](https://github.com/geekan/MetaGPT)]
+
+## 4. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
 
@@ -222,9 +260,9 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 <img src='imgs/downstream-5.png' style='width: 100%; '>
 </p>
 
-## 4. Datasets
+## 5. Datasets
 
-### 4.1 Pretraining
+### 5.1 Pretraining
 
 1. **CodeSearchNet**: "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search", 2019-09, arXiv, [[paper](https://arxiv.org/abs/1909.09436)] [[repo](https://github.com/github/CodeSearchNet)] [[data](https://huggingface.co/datasets/code_search_net)]
 
@@ -236,7 +274,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 5. **ROOTS**: "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset", 2023-03, NeurIPS 2022 Datasets and Benchmarks Track, [[paper](https://arxiv.org/abs/2303.03915)] [[data](https://huggingface.co/datasets?search=bigscience-data/roots)]
 
-### 4.2 Benchmarks
+### 5.2 Benchmarks
 
 1. **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
 
@@ -475,7 +513,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 #### Other tasks are coming soon!
 
-## 5. Recommended Readings
+## 6. Recommended Readings
 
 30 papers as a primer on LLM.
 
