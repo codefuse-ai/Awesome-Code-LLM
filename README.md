@@ -180,7 +180,7 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 14. **CodeShell** (CLM), 2023-10, [[repo](https://github.com/WisdomShell/codeshell)]
 
-15. **DeepSeek Coder** (CLM), 2023-10, [[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
+15. **DeepSeek Coder** (CLM+FIM): "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.14196)][[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
 
 #### Encoder-Decoder
 
