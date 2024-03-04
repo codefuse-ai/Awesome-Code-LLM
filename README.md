@@ -110,9 +110,15 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 15. **DeepSeek**: "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.02954)] [[repo](https://github.com/deepseek-ai/DeepSeek-LLM)]
 
-16. **Mixtral**: "Mixtral of Experts", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.04088)] [[blod](https://mistral.ai/news/mixtral-of-experts/)]
+16. **Mixtral**: "Mixtral of Experts", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.04088)] [[blog](https://mistral.ai/news/mixtral-of-experts/)]
 
-17. **DeepSeekMoE**: "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.06066)]
+17. **DeepSeekMoE**: "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.12246)] [[repo](https://github.com/deepseek-ai/DeepSeek-MoE)]
+
+18. **Orion**: "Orion-14B: Open-source Multilingual Large Language Models", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.06066)] [[repo](https://github.com/OrionStarAI/Orion)]
+
+19. **OLMo**: "OLMo: Accelerating the Science of Language Models", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.00838)] [[repo](https://github.com/allenai/OLMo)]
+
+20. **Gemma**: "Gemma: Open Models Based on Gemini Research and Technology", 2024-02, [[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf)] [[blog](https://blog.google/technology/developers/gemma-open-models/)]
 
 ### 2.2 Existing LLM Further Trained on Code
 
@@ -149,6 +155,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 5. **DISCO** (MLM + Node Type MLM + Contrastive Learning): "Towards Learning (Dis)-Similarity of Source Code from Program Contrasts", 2021-q0, ACL 2022, [[paper](https://arxiv.org/abs/2110.03868)]
 
 6. **Code-MVP** (MLM + Type Inference + Contrastive Learning): "CODE-MVP: Learning to Represent Source Code from Multiple Views with Contrastive Pre-Training", 2022-05, NAACL 2022 Technical Track, [[paper](https://arxiv.org/abs/2205.02029)]
+
+7. **CodeSage** (MLM + Deobfuscation + Contrastive Learning): "Code Representation Learning At Scale", 2024-02, ICLR 2024, [[paper](https://arxiv.org/abs/2402.01935)]
 
 #### Decoder
 
@@ -201,6 +209,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 8. **NatGen** (Code Naturalization): "NatGen: Generative pre-training by "Naturalizing" source code", 2022-06, ESEC/FSE 2022, [[paper](https://arxiv.org/abs/2206.07585)] [[repo](https://github.com/saikat107/NatGen)]
 
 9. **CodeT5+** (Span Corruption + CLM + Text-Code Contrastive Learning + Text-Code Translation): "CodeT5+: Open Code Large Language Models for Code Understanding and Generation", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.07922)] [[repo](https://github.com/salesforce/CodeT5)]
+
+10. **AST-T5** (Span Corruption): "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.03003)]
 
 #### UniLM
 
