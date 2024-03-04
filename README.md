@@ -6,6 +6,16 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 <img src='imgs/overview.png' style='width: 80%; '>
 </p>
 
+## News
+
+🔥🔥 [2024/02] Google open-sourced [Gemma](https://blog.google/technology/developers/gemma-open-models/).
+
+🔥🔥 [2024/02] Amazon ICLR 2024 paper: [Code Representation Learning At Scale](https://arxiv.org/abs/2402.01935).
+
+🔥🔥 [2024/02] Allen Institute for AI released [OLMo](https://arxiv.org/abs/2402.00838).
+
+🔥🔥 [2024/01] [AST-T5: Structure-Aware Pretraining for Code Generation and Understanding](https://arxiv.org/abs/2401.03003) by Meta.
+
 ## Table of Contents
 
 1. [Surveys](#1-surveys)
