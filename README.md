@@ -8,13 +8,13 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥 [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
+
+🔥🔥 [2024/02] [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173).
+
 🔥🔥 [2024/02] Google open-sourced [Gemma](https://blog.google/technology/developers/gemma-open-models/).
 
 🔥🔥 [2024/02] Amazon ICLR 2024 paper: [Code Representation Learning At Scale](https://arxiv.org/abs/2402.01935).
-
-🔥🔥 [2024/02] Allen Institute for AI released [OLMo](https://arxiv.org/abs/2402.00838).
-
-🔥🔥 [2024/01] [AST-T5: Structure-Aware Pretraining for Code Generation and Understanding](https://arxiv.org/abs/2401.03003) by Meta.
 
 ## Table of Contents
 
@@ -46,6 +46,8 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    3.2 [Coding via Planning](#32-coding-via-planning)
 
 4. [Methods/Models for Downstream Tasks](#4-methodsmodels-for-downstream-tasks)
+
+   - [Compiler Optimization](#compiler-optimization)
 
 5. [Datasets](#5-datasets)
 
@@ -200,6 +202,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 15. **DeepSeek Coder** (CLM+FIM): "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.14196)][[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
 
+16. **StarCoder2** (CLM+FIM): "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)][[repo](https://github.com/bigcode-project/starcoder2)]
+
 #### Encoder-Decoder
 
 1. **PyMT5** (Span Corruption): "PyMT5: multi-mode translation of natural language and Python code with transformers", 2020-10, EMNLP 2020, [[paper](https://arxiv.org/abs/2010.03150)]
@@ -280,6 +284,14 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 <img src='imgs/downstream-5.png' style='width: 100%; '>
 </p>
 
+### Compiler Optimization
+
+- "Large Language Models for Compiler Optimization", 2023-09, [[paper](https://arxiv.org/abs/2309.07062)]
+
+- "Refining Decompiled C Code with Large Language Models", 2023-10, [[paper](https://arxiv.org/abs/2310.06530)]
+
+- "Priority Sampling of Large Language Models for Compilers", 2024-02, [[paper](https://arxiv.org/abs/2402.18734)]
+
 ## 5. Datasets
 
 ### 5.1 Pretraining
@@ -293,6 +305,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 4. **The Stack**: "The Stack: 3 TB of permissively licensed source code", 2022-11, arXiv, [[paper](https://arxiv.org/abs/2211.15533)] [[data](https://huggingface.co/datasets/bigcode/the-stack)]
 
 5. **ROOTS**: "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset", 2023-03, NeurIPS 2022 Datasets and Benchmarks Track, [[paper](https://arxiv.org/abs/2303.03915)] [[data](https://huggingface.co/datasets?search=bigscience-data/roots)]
+
+6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
 
 ### 5.2 Benchmarks
 
