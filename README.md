@@ -72,6 +72,8 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 7. [Citation](#citation)
 
+8. [Star History](#star-history)
+
 ## 1. Surveys
 
 We list six recent surveys on similar topics. While they are all about language models for code, the first two focus on NLP side, and the later four focus on SE side.
@@ -607,3 +609,7 @@ If you find this repo or our survey helpful, please consider citing us:
       eprinttype={arXiv},
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=codefuse-ai/Awesome-Code-LLM&type=Date)](https://star-history.com/#codefuse-ai/Awesome-Code-LLM&Date)
