@@ -8,6 +8,8 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥 [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
+
 🔥🔥 [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
 
 🔥🔥 [2024/02] [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173).
@@ -131,6 +133,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 19. **OLMo**: "OLMo: Accelerating the Science of Language Models", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.00838)] [[repo](https://github.com/allenai/OLMo)]
 
 20. **Gemma**: "Gemma: Open Models Based on Gemini Research and Technology", 2024-02, [[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf)] [[blog](https://blog.google/technology/developers/gemma-open-models/)]
+
+21. **Claude 3**: "The Claude 3 Model Family: Opus, Sonnet, Haiku", 2024-03, [[paper](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf)] [[blog](https://www.anthropic.com/news/claude-3-family)]
 
 ### 2.2 Existing LLM Further Trained on Code
 
