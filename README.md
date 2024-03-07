@@ -8,15 +8,17 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥 [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
+🔥🔥🔥 [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
-🔥🔥 [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
 
-🔥🔥 [2024/02] [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
 
-🔥🔥 [2024/02] Google open-sourced [Gemma](https://blog.google/technology/developers/gemma-open-models/).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173).
 
-🔥🔥 [2024/02] Amazon ICLR 2024 paper: [Code Representation Learning At Scale](https://arxiv.org/abs/2402.01935).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] Google open-sourced [Gemma](https://blog.google/technology/developers/gemma-open-models/).
+
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] Amazon ICLR 2024 paper: [Code Representation Learning At Scale](https://arxiv.org/abs/2402.01935).
 
 ## Table of Contents
 
@@ -50,6 +52,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 4. [Methods/Models for Downstream Tasks](#4-methodsmodels-for-downstream-tasks)
 
    - [Compiler Optimization](#compiler-optimization)
+   - [Frontend Development & Web Agents](#frontend-development--web-agents)
 
 5. [Datasets](#5-datasets)
 
@@ -297,6 +300,48 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Refining Decompiled C Code with Large Language Models", 2023-10, [[paper](https://arxiv.org/abs/2310.06530)]
 
 - "Priority Sampling of Large Language Models for Compilers", 2024-02, [[paper](https://arxiv.org/abs/2402.18734)]
+
+### Frontend Development & Web Agents
+
+- "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
+
+- "pix2code: Generating Code from a Graphical User Interface Screenshot", 2017-05, EICS 2018, [[paper](https://arxiv.org/abs/1705.07962)]
+
+- "Machine Learning-Based Prototyping of Graphical User Interfaces for Mobile Apps", 2018-02, TSE 2020, [[paper](https://arxiv.org/abs/1802.02312)]
+
+- "Automatic HTML Code Generation from Mock-Up Images Using Machine Learning Techniques", 2019-04, EBBT 2019, [[paper](https://ieeexplore.ieee.org/abstract/document/8741736)]
+
+- "Sketch2code: Generating a website from a paper mockup", 2019-05, [[paper](https://arxiv.org/abs/1905.13750)]
+
+- "HTLM: Hyper-Text Pre-Training and Prompting of Language Models", 2021-07, ICLR 2022, [[paper](https://arxiv.org/abs/2107.06955)]
+
+- "WebGPT: Browser-assisted question-answering with human feedback", 2021-12, [[paper](https://arxiv.org/abs/2112.09332)]
+
+- "A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility", 2022-02, ECCV 2022, [[paper](https://arxiv.org/abs/2202.02312)]
+
+- "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents", 2022-07, NeurIPS 2022, [[paper](https://arxiv.org/abs/2207.01206)]
+
+- "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding", 2022-10, ICML 2023, [[paper](https://arxiv.org/abs/2210.03347)]
+
+- "Understanding HTML with Large Language Models", 2022-10, EMNLP 2023 findings, [[paper](https://arxiv.org/abs/2210.03945)]
+
+- "Learning UI-to-Code Reverse Generator Using Visual Critic Without Rendering", 2023-05, [[paper](https://arxiv.org/abs/2305.14637)]
+
+- "Mind2Web: Towards a Generalist Agent for the Web", 2023-06, NeurIPS 2023, [[paper](https://arxiv.org/abs/2306.06070)]
+
+- "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis", 2023-07, ICLR 2024, [[paper](https://arxiv.org/abs/2307.12856)]
+
+- "CogAgent: A Visual Language Model for GUI Agents", 2023-12, [[paper](https://arxiv.org/abs/2312.08914)]
+
+- "GPT-4V(ision) is a Generalist Web Agent, if Grounded", 2024-01, [[paper](https://arxiv.org/abs/2401.01614)]
+
+- "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models", 2024-01, [[paper](https://arxiv.org/abs/2401.13919)]
+
+- "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue", 2024-02, [[paper](https://arxiv.org/abs/2402.05930)]
+
+- "OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web", 2024-02, [[paper](https://arxiv.org/abs/2402.17553)]
+
+- "Design2Code: How Far Are We From Automating Front-End Engineering?", 2024-03, [[paper](https://arxiv.org/abs/2403.03163)]
 
 ## 5. Datasets
 
