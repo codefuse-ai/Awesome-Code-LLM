@@ -315,7 +315,17 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "HTLM: Hyper-Text Pre-Training and Prompting of Language Models", 2021-07, ICLR 2022, [[paper](https://arxiv.org/abs/2107.06955)]
 
+- "MarkupLM: Pre-training of Text and Markup Language for Visually-rich Document Understanding", 2021-10, ACL 2022, [[paper](https://arxiv.org/abs/2110.08518)]
+
+- "WebKE: Knowledge Extraction from Semi-structured Web with Pre-trained Markup Language Model", 2021-10, CIKM 2021, [[paper](https://dl.acm.org/doi/abs/10.1145/3459637.3482491)]
+
 - "WebGPT: Browser-assisted question-answering with human feedback", 2021-12, [[paper](https://arxiv.org/abs/2112.09332)]
+
+- "CM3: A Causal Masked Multimodal Model of the Internet", 2022-01, [[paper](https://arxiv.org/abs/2201.07520)]
+
+- "DOM-LM: Learning Generalizable Representations for HTML Documents", 2022-01, [[paper](https://arxiv.org/abs/2201.10608)]
+
+- "WebFormer: The Web-page Transformer for Structure Information Extraction", 2022-02, WWW 2022, [[paper](https://arxiv.org/abs/2202.00217)]
 
 - "A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility", 2022-02, ECCV 2022, [[paper](https://arxiv.org/abs/2202.02312)]
 
@@ -324,6 +334,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding", 2022-10, ICML 2023, [[paper](https://arxiv.org/abs/2210.03347)]
 
 - "Understanding HTML with Large Language Models", 2022-10, EMNLP 2023 findings, [[paper](https://arxiv.org/abs/2210.03945)]
+
+- "WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics", 2023-01, CHI 2023, [[paper](https://arxiv.org/abs/2301.13280)]
 
 - "Learning UI-to-Code Reverse Generator Using Visual Critic Without Rendering", 2023-05, [[paper](https://arxiv.org/abs/2305.14637)]
 
