@@ -8,6 +8,8 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥🔥 [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
+
 🔥🔥🔥 [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
@@ -17,8 +19,6 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] Google open-sourced [Gemma](https://blog.google/technology/developers/gemma-open-models/).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] Amazon ICLR 2024 paper: [Code Representation Learning At Scale](https://arxiv.org/abs/2402.01935).
 
 ## Table of Contents
 
@@ -141,6 +141,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 21. **Claude 3**: "The Claude 3 Model Family: Opus, Sonnet, Haiku", 2024-03, [[paper](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf)] [[blog](https://www.anthropic.com/news/claude-3-family)]
 
+22. **Yi**: "Yi: Open Foundation Models by 01.AI", 2024-03, [[paper](https://arxiv.org/abs/2403.04652)] [[repo](https://github.com/01-ai/Yi)]
+
 ### 2.2 Existing LLM Further Trained on Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -228,7 +230,9 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 6. **SPT-Code** (Span Corruption + NSP + Method Name Prediction): "SPT-Code: Sequence-to-Sequence Pre-Training for Learning Source Code Representations", 2022-01, ICSE 2022 Technical Track, [[paper](https://arxiv.org/abs/2201.01549)]
 
 7. **AlphaCode** (MLM + CLM): "Competition-Level Code Generation with AlphaCode", 2022-02, Science, [[paper](https://arxiv.org/abs/2203.07814)] [[arxiv](https://deepmind.google/discover/blog/competitive-programming-with-alphacode/)]
+
 8. **NatGen** (Code Naturalization): "NatGen: Generative pre-training by "Naturalizing" source code", 2022-06, ESEC/FSE 2022, [[paper](https://arxiv.org/abs/2206.07585)] [[repo](https://github.com/saikat107/NatGen)]
+
 9. **ERNIE-Code** (Span Corruption + Pivot-based Translation LM): "ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for Programming Languages", 2022-12, ACL23 (Findings), [[paper](https://aclanthology.org/2023.findings-acl.676.pdf)][[repo](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-code)]
 
 10. **CodeT5+** (Span Corruption + CLM + Text-Code Contrastive Learning + Text-Code Translation): "CodeT5+: Open Code Large Language Models for Code Understanding and Generation", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.07922)] [[repo](https://github.com/salesforce/CodeT5)]
