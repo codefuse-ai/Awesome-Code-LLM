@@ -8,17 +8,17 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥🔥 [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
+🔥🔥🔥 [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
 
-🔥🔥🔥 [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
+🔥🔥🔥 [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
 
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/02] Google open-sourced [Gemma](https://blog.google/technology/developers/gemma-open-models/).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
 
 ## Table of Contents
 
@@ -53,6 +53,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
+   - [Decompilation](#decompilation)
 
 5. [Datasets](#5-datasets)
 
@@ -358,6 +359,30 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web", 2024-02, [[paper](https://arxiv.org/abs/2402.17553)]
 
 - "Design2Code: How Far Are We From Automating Front-End Engineering?", 2024-03, [[paper](https://arxiv.org/abs/2403.03163)]
+
+### Decompilation
+
+- "Using recurrent neural networks for decompilation", 2018-03, SANER 2018, [[paper](https://ieeexplore.ieee.org/document/8330222)]
+
+- "Evolving Exact Decompilation", 2018, [[paper](https://eschulte.github.io/data/bed.pdf)]
+
+- "Towards Neural Decompilation", 2019-05, [[paper](https://arxiv.org/abs/1905.08325)]
+
+- "Coda: An End-to-End Neural Program Decompiler", 2019-06, NeruIPS 2019, [[paper](https://arxiv.org/abs/1906.12029)]
+
+- "N-Bref : A High-fidelity Decompiler Exploiting Programming Structures", 2020-09, [[paper](https://openreview.net/forum?id=6GkL6qM3LV)]
+
+- "Neutron: an attention-based neural decompiler", 2021-03, Cybersecurity 2021, [[paper](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00070-0)]
+
+- "Beyond the C: Retargetable Decompilation using Neural Machine Translation", 2022-12, [[paper](https://arxiv.org/abs/2212.08950)]
+
+- "Boosting Neural Networks to Decompile Optimized Binaries", 2023-01, ACSAC 2022, [[paper](https://arxiv.org/abs/2301.00969)]
+
+- "SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly", 2023-05, [[paper](https://arxiv.org/abs/2305.12520)]
+
+- "Nova+: Generative Language Models for Binaries", 2023-11, [[paper](https://arxiv.org/abs/2311.13721)]
+
+- "LLM4Decompile: Decompiling Binary Code with Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.05286)]
 
 ## 5. Datasets
 
