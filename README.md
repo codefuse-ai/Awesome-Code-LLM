@@ -8,17 +8,17 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥🔥 [2024/03] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) by Meta: separate continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
+🔥🔥🔥 [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
+
+🔥🔥🔥 [2024/03] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) by Meta: separatelt continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
 
 🔥🔥🔥 [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
-
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Claude 3 is out, with 84.9 reported performance on HumanEval: [The Claude 3 Model Family](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
 
@@ -50,6 +50,8 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    3.1 [Coding for Reasoning](#31-coding-for-reasoning)
 
    3.2 [Coding via Planning](#32-coding-via-planning)
+
+   3.3 [Interactive Coding](#33-interactive-coding)
 
 4. [Methods/Models for Downstream Tasks](#4-methodsmodels-for-downstream-tasks)
 
@@ -272,6 +274,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 4. **RLTF**: "RLTF: Reinforcement Learning from Unit Test Feedback", 2023-07, arXiv, [[paper](https://arxiv.org/abs/2307.04349)] [[repo](https://github.com/Zyq-scut/RLTF)]
 
+5. **StepCoder**: "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback", 2024-02, [[paper](https://arxiv.org/abs/2402.01391)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -289,6 +293,28 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 2. **ChatDev**: "Communicative Agents for Software Development", 2023-07, arXiv, [[paper](https://arxiv.org/abs/2307.07924)] [[repo](https://github.com/OpenBMB/ChatDev)]
 
 3. **MetaGPT**: "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.00352)] [[repo](https://github.com/geekan/MetaGPT)]
+
+### 3.3 Interactive Coding
+
+- "Interactive Program Synthesis", 2017-03, [[paper](https://arxiv.org/abs/1703.03539)]
+
+- "Question selection for interactive program synthesis", 2020-06, PLDI 2020, [[paper](https://dl.acm.org/doi/10.1145/3385412.3386025)]
+
+- "Interactive Code Generation via Test-Driven User-Intent Formalization", 2022-08, [[paper](https://arxiv.org/abs/2208.05950)]
+
+- "Improving Code Generation by Training with Natural Language Feedback", 2023-03, TMLR, [[paper](https://arxiv.org/abs/2303.16749)]
+
+- "Self-Refine: Iterative Refinement with Self-Feedback", 2023-03, NeurIPS 2023, [[paper](https://arxiv.org/abs/2303.17651)]
+
+- "Teaching Large Language Models to Self-Debug", 2023-04, [[paper](https://arxiv.org/abs/2304.05128)]
+
+- "Self-Edit: Fault-Aware Code Editor for Code Generation", 2023-05, ACL 2023, [[paper](https://arxiv.org/abs/2305.04087)]
+
+- "LeTI: Learning to Generate from Textual Interactions", 2023-05, [[paper](https://arxiv.org/abs/2305.10314)]
+
+- "InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback", 2023-06, NeurIPS 2023, [[paper](https://arxiv.org/abs/2306.14898)]
+
+- "OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement", 2024-02, [[paper](https://arxiv.org/abs/2402.14658)]
 
 ## 4. Methods/Models for Downstream Tasks
 
@@ -372,7 +398,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Towards Neural Decompilation", 2019-05, [[paper](https://arxiv.org/abs/1905.08325)]
 
-- "Coda: An End-to-End Neural Program Decompiler", 2019-06, NeruIPS 2019, [[paper](https://arxiv.org/abs/1906.12029)]
+- "Coda: An End-to-End Neural Program Decompiler", 2019-06, NeurIPS 2019, [[paper](https://arxiv.org/abs/1906.12029)]
 
 - "N-Bref : A High-fidelity Decompiler Exploiting Programming Structures", 2020-09, [[paper](https://openreview.net/forum?id=6GkL6qM3LV)]
 
