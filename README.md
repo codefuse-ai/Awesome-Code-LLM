@@ -8,9 +8,11 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥🔥 [2024/03] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) by Meta: separate continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
+
 🔥🔥🔥 [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
 
-🔥🔥🔥 [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
 
@@ -157,6 +159,8 @@ These models are general-purpose LLMs further pretrained on code-related data.
 4. **PaLM 2 \*** (PaLM 2): "PaLM 2 Technical Report", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.10403)]
 
 5. **Code LLaMA** (LLaMA 2): "Code Llama: Open Foundation Models for Code", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.12950)] [[repo](https://github.com/facebookresearch/codellama)]
+
+6. **BTX** (LLaMA 2): "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM", 2024-03, [[paper](https://arxiv.org/abs/2403.07816)]
 
 ### 2.3 General Pretraining on Code
 
