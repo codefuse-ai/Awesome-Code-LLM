@@ -8,19 +8,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥🔥 [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
+
+🔥🔥🔥 [2024/03] [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059). Other works on repo-level coding can be found [here](#repository-level-coding).
+
+🔥🔥🔥 [2024/03] [Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset](https://arxiv.org/abs/2403.09029) by Hugging Face.
+
 🔥🔥🔥 [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
 
-🔥🔥🔥 [2024/03] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) by Meta: separatelt continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) by Meta: separatelt continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
 
-🔥🔥🔥 [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [compiler optimization](#compiler-optimization).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
 ## Table of Contents
 
@@ -55,6 +57,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 4. [Methods/Models for Downstream Tasks](#4-methodsmodels-for-downstream-tasks)
 
+   - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
    - [Decompilation](#decompilation)
@@ -328,6 +331,28 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 <img src='imgs/downstream-5.png' style='width: 100%; '>
 </p>
 
+### Repository-Level Coding
+
+- "Repository-Level Prompt Generation for Large Language Models of Code", 2022-06, ICML 2023, [[paper](https://arxiv.org/abs/2206.12839)]
+
+- "CoCoMIC: Code Completion By Jointly Modeling In-file and Cross-file Context", 2022-12, [[paper](https://arxiv.org/abs/2212.10007)]
+
+- "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation", 2023-03, EMNLP 2023, [[paper](https://arxiv.org/abs/2303.12570)]
+
+- "RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems", 2023-06, [[paper](https://arxiv.org/abs/2306.03091)]
+
+- "Guiding Language Models of Code with Global Context using Monitors", 2023-06, [[paper](https://arxiv.org/abs/2306.10763)]
+
+- "RepoFusion: Training Code Models to Understand Your Repository", 2023-06, [[paper](https://arxiv.org/abs/2306.10998)]
+
+- "CodePlan: Repository-level Coding using LLMs and Planning", 2023-09, [[paper](https://arxiv.org/abs/2306.10998)]
+
+- "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?", 2023-10, ICLR 2024, [[paper](https://arxiv.org/abs/2310.06770)]
+
+- "CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion", 2023-10, NeurIPS 2023, [[paper](https://arxiv.org/abs/2310.11248)]
+
+- "Repoformer: Selective Retrieval for Repository-Level Code Completion", 2024-03, [[paper](https://arxiv.org/abs/2403.10059)]
+
 ### Compiler Optimization
 
 - "Large Language Models for Compiler Optimization", 2023-09, [[paper](https://arxiv.org/abs/2309.07062)]
@@ -389,6 +414,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web", 2024-02, [[paper](https://arxiv.org/abs/2402.17553)]
 
 - "Design2Code: How Far Are We From Automating Front-End Engineering?", 2024-03, [[paper](https://arxiv.org/abs/2403.03163)]
+
+- "Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset", 2024-03, [[paper](https://arxiv.org/abs/2403.09029)]
 
 ### Decompilation
 
