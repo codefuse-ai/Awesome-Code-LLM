@@ -8,19 +8,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥🔥 [2024/03] Recent papers:
+
+- [IRCoder: Intermediate Representations Make Language Models Robust Multilingual Code Generators](https://arxiv.org/abs/2403.03894) from Technische Universität Darmstadt and Huawei
+
+- [Mastering Text, Code and Math Simultaneously via Fusing Highly Specialized Language Models](https://arxiv.org/abs/2403.08281) from Tsinghua University
+
+- [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) from UCLA and AWS. Other works on repo-level coding can be found [here](#repository-level-coding)
+
+- [Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset](https://arxiv.org/abs/2403.09029) from Hugging Face
+
+- [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) from Meta: separatelt continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
+
 🔥🔥🔥 [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
 
-🔥🔥🔥 [2024/03] [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059). Other works on repo-level coding can be found [here](#repository-level-coding).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
 
-🔥🔥🔥 [2024/03] [Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset](https://arxiv.org/abs/2403.09029) by Hugging Face.
-
-🔥🔥🔥 [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) by Meta: separatelt continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] [Gemini 1.5](https://arxiv.org/abs/2403.05530) is now on arXiv, with 71.9 reported performance on HumanEval. Not much detail is revealed about the model or training data except that it's a Mixture-of-Experts (MoE).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
@@ -32,7 +36,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    2.1 [Off-the-Shelf LLM](#21-off-the-shelf-llm)
 
-   2.2 [Existing LLM Further Trained on Code](#22-existing-llm-further-trained-on-code)
+   2.2 [Existing LLM Adapted to Code](#22-existing-llm-adapted-to-code)
 
    2.3 [General Pretraining on Code](#23-general-pretraining-on-code)
 
@@ -151,7 +155,7 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 22. **Yi**: "Yi: Open Foundation Models by 01.AI", 2024-03, [[paper](https://arxiv.org/abs/2403.04652)] [[repo](https://github.com/01-ai/Yi)]
 
-### 2.2 Existing LLM Further Trained on Code
+### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
 
@@ -166,6 +170,8 @@ These models are general-purpose LLMs further pretrained on code-related data.
 5. **Code LLaMA** (LLaMA 2): "Code Llama: Open Foundation Models for Code", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.12950)] [[repo](https://github.com/facebookresearch/codellama)]
 
 6. **BTX** (LLaMA 2): "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM", 2024-03, [[paper](https://arxiv.org/abs/2403.07816)]
+
+7. "Mastering Text, Code and Math Simultaneously via Fusing Highly Specialized Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.08281)]
 
 ### 2.3 General Pretraining on Code
 
