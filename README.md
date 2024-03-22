@@ -10,21 +10,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/03] Recent papers:
 
-- [CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences](https://arxiv.org/abs/2403.09032) from University of Montreal
+- 🔥🔥 [Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/abs/2403.13793) from Google DeepMind
 
-- [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974) from UC Berkeley, MIT, and Cornell
+- 🔥🔥 [LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models](https://arxiv.org/abs/2403.13372) from Beihang University
 
-- [Evaluation of LLMs on Syntax-Aware Code Fill-in-the-Middle Tasks](https://arxiv.org/abs/2403.04814) from UC Berkeley and Meta
+- 🔥🔥 [CONLINE: Complex Code Generation and Refinement with Online Searching and Correctness Testing](https://arxiv.org/abs/2403.13583) from Microsoft
 
-- [IRCoder: Intermediate Representations Make Language Models Robust Multilingual Code Generators](https://arxiv.org/abs/2403.03894) from Technische Universität Darmstadt and Huawei
+- 🔥🔥 [Exploring Language Model's Code Generation Ability with Auxiliary Functions](https://arxiv.org/abs/2403.10575)
 
-- [Mastering Text, Code and Math Simultaneously via Fusing Highly Specialized Language Models](https://arxiv.org/abs/2403.08281) from Tsinghua University
+- 🔥 [CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences](https://arxiv.org/abs/2403.09032) from University of Montreal
 
-- [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) from UCLA and AWS. Other works on repo-level coding can be found [here](#repository-level-coding)
+- 🔥 [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974) from UC Berkeley, MIT, and Cornell
 
-- [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) from Meta: separately continual-pretrain an LLM on different domains, and then merge these checkpoints into a single MoE.
+- 🔥 [Evaluation of LLMs on Syntax-Aware Code Fill-in-the-Middle Tasks](https://arxiv.org/abs/2403.04814) from UC Berkeley and Meta
 
-🔥🔥🔥 [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
+- 🔥 [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) from UCLA and AWS. Other works on repo-level coding can be found [here](#repository-level-coding)
+
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
 
