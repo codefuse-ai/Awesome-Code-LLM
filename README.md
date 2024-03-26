@@ -10,27 +10,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/03] Recent papers:
 
-- 🔥🔥 [Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/abs/2403.13793) from Google DeepMind
+- 🔥🔥 [Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/abs/2403.16792) from Huazhong University of Science and Technology
 
-- 🔥🔥 [LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models](https://arxiv.org/abs/2403.13372) from Beihang University
+- 🔥🔥 [Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study](https://arxiv.org/abs/2403.15185) from Delft University of Technology
 
-- 🔥🔥 [CONLINE: Complex Code Generation and Refinement with Online Searching and Correctness Testing](https://arxiv.org/abs/2403.13583) from Microsoft
+- 🔥 [Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/abs/2403.13793) from Google DeepMind
 
-- 🔥🔥 [Exploring Language Model's Code Generation Ability with Auxiliary Functions](https://arxiv.org/abs/2403.10575)
+- 🔥 [LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models](https://arxiv.org/abs/2403.13372) from Beihang University
 
-- 🔥 [CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences](https://arxiv.org/abs/2403.09032) from University of Montreal
+- 🔥 [CONLINE: Complex Code Generation and Refinement with Online Searching and Correctness Testing](https://arxiv.org/abs/2403.13583) from Microsoft
 
-- 🔥 [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974) from UC Berkeley, MIT, and Cornell
+- 🔥 [Exploring Language Model's Code Generation Ability with Auxiliary Functions](https://arxiv.org/abs/2403.10575)
 
-- 🔥 [Evaluation of LLMs on Syntax-Aware Code Fill-in-the-Middle Tasks](https://arxiv.org/abs/2403.04814) from UC Berkeley and Meta
-
-- 🔥 [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) from UCLA and AWS. Other works on repo-level coding can be found [here](#repository-level-coding)
+🔥🔥🔥 [2024/03] We are dedicating a new section to [low-reousrce, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are introducing yet another downstream task into our paper list: [neural decompilation](#decompilation).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
@@ -65,18 +61,20 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    3.3 [Interactive Coding](#33-interactive-coding)
 
-4. [Methods/Models for Downstream Tasks](#4-methodsmodels-for-downstream-tasks)
+4. [Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages)
+
+5. [Methods/Models for Downstream Tasks](#5-methodsmodels-for-downstream-tasks)
 
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
    - [Decompilation](#decompilation)
 
-5. [Datasets](#5-datasets)
+6. [Datasets](#6-datasets)
 
-   5.1 [Pretraining](#51-pretraining)
+   6.1 [Pretraining](#61-pretraining)
 
-   5.2 [Benchmarks](#52-benchmarks)
+   6.2 [Benchmarks](#62-benchmarks)
 
    - [Program Synthesis](#program-synthesis)
    - [Text-to-SQL](#text-to-sql)
@@ -89,13 +87,13 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Commit Message Generation](#commit-message-generation)
    - [Repo-Level Coding](#repo-level-coding)
 
-6. [Recommended Readings](#6-recommended-readings)
+7. [Recommended Readings](#6-recommended-readings)
 
-7. [Citation](#citation)
+8. [Citation](#citation)
 
-8. [Star History](#star-history)
+9. [Star History](#star-history)
 
-9. [Join Us](#join-us)
+10. [Join Us](#join-us)
 
 ## 1. Surveys
 
@@ -333,7 +331,33 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement", 2024-02, [[paper](https://arxiv.org/abs/2402.14658)]
 
-## 4. Methods/Models for Downstream Tasks
+- "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback", 2024-03, [[paper](https://arxiv.org/abs/2403.16792)]
+
+## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
+
+- "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages", 2022-04, ICPC 2022, [[paper](https://arxiv.org/abs/2204.09653)]
+
+- "Benchmarking Large Language Models for Automated Verilog RTL Code Generation", 2022-12, DATE 2023, [[paper](https://arxiv.org/abs/2212.11140)]
+
+- "The potential of LLMs for coding with low-resource and domain-specific programming languages", 2023-07, [[paper](https://arxiv.org/abs/2307.13018)]
+
+- "VeriGen: A Large Language Model for Verilog Code Generation", 2023-07, [[paper](https://arxiv.org/abs/2308.00708)]
+
+- "RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model", 2023-08, [[paper](https://arxiv.org/abs/2308.05345)]
+
+- "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs", 2023-08, [[paper](https://arxiv.org/abs/2308.09895)]
+
+- "VerilogEval: Evaluating Large Language Models for Verilog Code Generation", 2023-09, ICCAD 2023, [[paper](https://arxiv.org/abs/2309.07544)]
+
+- "RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models", 2023-11, [[paper](https://arxiv.org/abs/2311.16543)]
+
+- "Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis", 2023-12, [[paper](https://arxiv.org/abs/2312.01022)]
+
+- "RTLCoder: Outperforming GPT-3.5 in Design RTL Generation with Our Open-Source Dataset and Lightweight Solution", 2023-12, [[paper](https://arxiv.org/abs/2312.08617)]
+
+- "Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study", 2024-03, [[paper](https://arxiv.org/abs/2403.15185)]
+
+## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
 
@@ -455,9 +479,9 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM4Decompile: Decompiling Binary Code with Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.05286)]
 
-## 5. Datasets
+## 6. Datasets
 
-### 5.1 Pretraining
+### 6.1 Pretraining
 
 1. **CodeSearchNet**: "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search", 2019-09, arXiv, [[paper](https://arxiv.org/abs/1909.09436)] [[repo](https://github.com/github/CodeSearchNet)] [[data](https://huggingface.co/datasets/code_search_net)]
 
@@ -471,7 +495,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
 
-### 5.2 Benchmarks
+### 6.2 Benchmarks
 
 1. **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
 
@@ -710,7 +734,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 #### Other tasks are coming soon!
 
-## 6. Recommended Readings
+## 7. Recommended Readings
 
 30 papers as a primer on LLM.
 
