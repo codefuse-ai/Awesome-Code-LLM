@@ -10,17 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/03] Recent papers:
 
+- 🔥🔥 [CodeS: Natural Language to Code Repository via Multi-Layer Sketch](https://arxiv.org/abs/2403.16443) from Chinese Academy of Sciences, Peking University, and Huawei. Other works on repo-level coding can be found [here](#repository-level-coding).
+
+- 🔥🔥 [ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search](https://arxiv.org/abs/2403.16702) from Beihang University
+
+- 🔥🔥 [CodeShell Technical Report](https://arxiv.org/abs/2403.15747) from Peking University
+
 - 🔥🔥 [Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/abs/2403.16792) from Huazhong University of Science and Technology
 
 - 🔥🔥 [Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study](https://arxiv.org/abs/2403.15185) from Delft University of Technology
 
 - 🔥 [Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/abs/2403.13793) from Google DeepMind
 
-- 🔥 [LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models](https://arxiv.org/abs/2403.13372) from Beihang University
-
 - 🔥 [CONLINE: Complex Code Generation and Refinement with Online Searching and Correctness Testing](https://arxiv.org/abs/2403.13583) from Microsoft
 
-- 🔥 [Exploring Language Model's Code Generation Ability with Auxiliary Functions](https://arxiv.org/abs/2403.10575)
+🔥🔥🔥 [2024/03] Two surveys have been added [here](#1-surveys).
 
 🔥🔥🔥 [2024/03] We are dedicating a new section to [low-reousrce, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
 
@@ -110,6 +114,10 @@ We list six recent surveys on similar topics. While they are all about language 
 5. "Towards an Understanding of Large Language Models in Software Engineering Tasks", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.11396)]
 
 6. "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey", 2023-10, arXiv, [[paper](https://arxiv.org/abs/2310.17903)]
+
+7. "Deep Learning for Code Intelligence: Survey, Benchmark and Toolkit", 2023-12, [[paper](https://arxiv.org/abs/2401.00288)]
+
+8. "A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond", 2024-03, [[paper](https://arxiv.org/abs/2403.14734)]
 
 ## 2. Models
 
@@ -231,11 +239,11 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 13. **CodeFuse** (CLM): "CodeFuse-13B: A Pretrained Multi-lingual Code Large Language Model", 2023-10, arxiv, [[paper](https://arxiv.org/abs/2310.06266)] [[model](https://huggingface.co/codefuse-ai/CodeFuse-13B)]
 
-14. **CodeShell** (CLM), 2023-10, [[repo](https://github.com/WisdomShell/codeshell)]
+14. **DeepSeek Coder** (CLM+FIM): "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.14196)] [[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
 
-15. **DeepSeek Coder** (CLM+FIM): "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.14196)][[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
+15. **StarCoder2** (CLM+FIM): "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[repo](https://github.com/bigcode-project/starcoder2)]
 
-16. **StarCoder2** (CLM+FIM): "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)][[repo](https://github.com/bigcode-project/starcoder2)]
+16. **CodeShell** (CLM+FIM): "CodeShell Technical Report", 2024-03, [[paper](https://arxiv.org/abs/2403.15747)] [[repo](https://github.com/WisdomShell/codeshell)]
 
 #### Encoder-Decoder
 
@@ -389,7 +397,13 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion", 2023-10, NeurIPS 2023, [[paper](https://arxiv.org/abs/2310.11248)]
 
+- "A^3-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware", 2023-12, [[paper](https://arxiv.org/abs/2312.05772)]
+
+- "RepoHyper: Better Context Retrieval Is All You Need for Repository-Level Code Completion", 2024-03, [[paper](https://arxiv.org/abs/2403.06095)]
+
 - "Repoformer: Selective Retrieval for Repository-Level Code Completion", 2024-03, [[paper](https://arxiv.org/abs/2403.10059)]
+
+- "CodeS: Natural Language to Code Repository via Multi-Layer Sketch", 2024-03, [[paper](https://arxiv.org/abs/2403.16443)]
 
 ### Compiler Optimization
 
@@ -661,18 +675,19 @@ $^\diamond$ Machine/human prompts
 - "Code Search: A Survey of Techniques for Finding Code", 2022-04, ICSME 2021, [[paper](ACM Comput. Surv)]
 - "A Survey of Deep Code Search", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.05959)]
 
-| Date    | Venue                                | Benchmark            | Size      | Language                        | Source                                                                                                                                                                                                                                              |
-| ------- | ------------------------------------ | -------------------- | --------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2018-03 | WWW 2018                             | StaQC                | 148K/120K | Python/SQL                      | "StaQC: A Systematically Mined Question-Code Dataset from Stack Overflow" [[paper](https://arxiv.org/abs/1803.09371)] [[data](https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset)]                                                   |
-| 2018-05 | ICSE 2018                            | DeepCS               | 16.2M     | Java                            | "Deep Code Search" [[paper](https://dl.acm.org/doi/10.1145/3180155.3180167)] [[data](https://github.com/guxd/deep-code-search)]                                                                                                                     |
-| 2018-05 | MSR 2018                             | CoNaLa               | 600K/2.9K | Python                          | "Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow" [[paper](https://arxiv.org/abs/1805.08949)] [[data](https://conala-corpus.github.io/)]                                                                               |
-| 2019-08 | arXiv                                | unnamed              | 287       | Java                            | "Neural Code Search Evaluation Dataset" [[paper](https://arxiv.org/abs/1908.09804)] [[data](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset)]                                                                             |
-| 2019-09 | arXiv                                | CodeSearchNet        | 2.3M/99   | Go, PHP, JS, Python, Java, Ruby | "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search" [[paper](https://arxiv.org/abs/1909.09436)] [[data](https://github.com/github/CodeSearchNet)]                                                                               |
-| 2020-02 | SANER 2020                           | CosBench             | 52        | Java                            | "Are the Code Snippets What We Are Searching for? A Benchmark and an Empirical Study on Code Search with Natural-Language Queries" [[paper](https://ieeexplore.ieee.org/document/9054840)] [[data](https://github.com/BASE-LAB-SJTU/CosBench/wiki)] |
-| 2020-08 | arXiv                                | SO-DS                | 2.2K      | Python                          | "Neural Code Search Revisited: Enhancing Code Snippet Retrieval through Natural Language Intent" [[paper](https://arxiv.org/abs/2008.12193)] [[data](https://github.com/nokia/codesearch)]                                                          |
-| 2020-10 | ACM Trans. Knowl. Discov. Data       | FB-Java              | 249K      | Java                            | "Deep Graph Matching and Searching for Semantic Code Retrieval" [[paper](https://arxiv.org/abs/2010.12908)] [[data](https://github.com/ryderling/DGMS)]                                                                                             |
-| 2021-02 | NeurIPS Datasets and Benchmarks 2021 | AdvTest/WebQueryTest | 280K/1K   | Python                          | "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation" [[paper](https://arxiv.org/abs/2102.04664)] [[data]]                                                                                                        |
-| 2021-05 | ACL/IJCNLP 2021                      | CoSQA                | 21K       | Python                          | "CoSQA: 20,000+ Web Queries for Code Search and Question Answering" [[paper](https://arxiv.org/abs/2105.13239)] [[data](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/NL-code-search-WebQuery)]                                        |
+| Date    | Venue                                | Benchmark            | Size      | Language                                                | Source                                                                                                                                                                                                                                              |
+| ------- | ------------------------------------ | -------------------- | --------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2018-03 | WWW 2018                             | StaQC                | 148K/120K | Python/SQL                                              | "StaQC: A Systematically Mined Question-Code Dataset from Stack Overflow" [[paper](https://arxiv.org/abs/1803.09371)] [[data](https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset)]                                                   |
+| 2018-05 | ICSE 2018                            | DeepCS               | 16.2M     | Java                                                    | "Deep Code Search" [[paper](https://dl.acm.org/doi/10.1145/3180155.3180167)] [[data](https://github.com/guxd/deep-code-search)]                                                                                                                     |
+| 2018-05 | MSR 2018                             | CoNaLa               | 600K/2.9K | Python                                                  | "Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow" [[paper](https://arxiv.org/abs/1805.08949)] [[data](https://conala-corpus.github.io/)]                                                                               |
+| 2019-08 | arXiv                                | unnamed              | 287       | Java                                                    | "Neural Code Search Evaluation Dataset" [[paper](https://arxiv.org/abs/1908.09804)] [[data](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset)]                                                                             |
+| 2019-09 | arXiv                                | CodeSearchNet        | 2.3M/99   | Go, PHP, JS, Python, Java, Ruby                         | "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search" [[paper](https://arxiv.org/abs/1909.09436)] [[data](https://github.com/github/CodeSearchNet)]                                                                               |
+| 2020-02 | SANER 2020                           | CosBench             | 52        | Java                                                    | "Are the Code Snippets What We Are Searching for? A Benchmark and an Empirical Study on Code Search with Natural-Language Queries" [[paper](https://ieeexplore.ieee.org/document/9054840)] [[data](https://github.com/BASE-LAB-SJTU/CosBench/wiki)] |
+| 2020-08 | arXiv                                | SO-DS                | 2.2K      | Python                                                  | "Neural Code Search Revisited: Enhancing Code Snippet Retrieval through Natural Language Intent" [[paper](https://arxiv.org/abs/2008.12193)] [[data](https://github.com/nokia/codesearch)]                                                          |
+| 2020-10 | ACM Trans. Knowl. Discov. Data       | FB-Java              | 249K      | Java                                                    | "Deep Graph Matching and Searching for Semantic Code Retrieval" [[paper](https://arxiv.org/abs/2010.12908)] [[data](https://github.com/ryderling/DGMS)]                                                                                             |
+| 2021-02 | NeurIPS Datasets and Benchmarks 2021 | AdvTest/WebQueryTest | 280K/1K   | Python                                                  | "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation" [[paper](https://arxiv.org/abs/2102.04664)] [[data]]                                                                                                        |
+| 2021-05 | ACL/IJCNLP 2021                      | CoSQA                | 21K       | Python                                                  | "CoSQA: 20,000+ Web Queries for Code Search and Question Answering" [[paper](https://arxiv.org/abs/2105.13239)] [[data](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/NL-code-search-WebQuery)]                                        |
+| 2024-03 | arXiv                                | ProCQA               | 5.2M      | C, C++, Java, Python, Ruby, Lisp, JS, C#, Go, Rust, PHP | "ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search" [[paper](https://arxiv.org/abs/2403.16702)] [[data](https://github.com/jordane95/procqa)]                                                            |
 
 #### Type Inference
 
