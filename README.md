@@ -10,29 +10,31 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/03] Recent papers:
 
+- 🔥🔥 [Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation](https://arxiv.org/abs/2403.17214) from Queen’s University
+
+- 🔥🔥 [SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder](https://arxiv.org/abs/2403.16204) from Huawei and University of Alberta
+
+- 🔥🔥 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852) from Concordia University
+
 - 🔥🔥 [CodeS: Natural Language to Code Repository via Multi-Layer Sketch](https://arxiv.org/abs/2403.16443) from Chinese Academy of Sciences, Peking University, and Huawei. Other works on repo-level coding can be found [here](#repository-level-coding).
 
 - 🔥🔥 [ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search](https://arxiv.org/abs/2403.16702) from Beihang University
 
-- 🔥🔥 [CodeShell Technical Report](https://arxiv.org/abs/2403.15747) from Peking University
+- 🔥 [CodeShell Technical Report](https://arxiv.org/abs/2403.15747) from Peking University
 
-- 🔥🔥 [Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/abs/2403.16792) from Huazhong University of Science and Technology
+- 🔥 [Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/abs/2403.16792) from Huazhong University of Science and Technology
 
-- 🔥🔥 [Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study](https://arxiv.org/abs/2403.15185) from Delft University of Technology
+- 🔥 [Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study](https://arxiv.org/abs/2403.15185) from Delft University of Technology
 
-- 🔥 [Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/abs/2403.13793) from Google DeepMind
+🔥🔥🔥 [2024/04] [Code Translation](#code-translation) is here.
 
-- 🔥 [CONLINE: Complex Code Generation and Refinement with Online Searching and Correctness Testing](https://arxiv.org/abs/2403.13583) from Microsoft
+🔥🔥🔥 [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
 
-🔥🔥🔥 [2024/03] Two surveys have been added [here](#1-surveys).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Two surveys have been added [here](#1-surveys).
 
-🔥🔥🔥 [2024/03] We are dedicating a new section to [low-reousrce, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We included a new downstream task: [frontend development & web agents](#frontend-development--web-agents).
 
 ## Table of Contents
 
@@ -69,6 +71,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 5. [Methods/Models for Downstream Tasks](#5-methodsmodels-for-downstream-tasks)
 
+   - [Code Translation](#code-translation)
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
@@ -82,7 +85,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    - [Program Synthesis](#program-synthesis)
    - [Text-to-SQL](#text-to-sql)
-   - [Code Translation](#code-translation)
+   - [Code Translation](#code-translation-1)
    - [Program Repair](#program-repair)
    - [Code Summarization](#code-summarization)
    - [Defect/Vulnerability Detection](#defectvulnerability-detection)
@@ -317,6 +320,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 3. **MetaGPT**: "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.00352)] [[repo](https://github.com/geekan/MetaGPT)]
 
+4. **CONLINE**: "CONLINE: Complex Code Generation and Refinement with Online Searching and Correctness Testing", 2024-03, [[paper](https://arxiv.org/abs/2403.13583)]
+
+5. **LCG**: "When LLM-based Code Generation Meets the Software Development Process", 2024-03, [[paper](https://arxiv.org/abs/2403.15852)]
+
 ### 3.3 Interactive Coding
 
 - "Interactive Program Synthesis", 2017-03, [[paper](https://arxiv.org/abs/1703.03539)]
@@ -376,6 +383,34 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 <img src='imgs/downstream-4.png' style='width: 100%; '>
 <img src='imgs/downstream-5.png' style='width: 100%; '>
 </p>
+
+### Code Translation
+
+- "Tree-to-tree Neural Networks for Program Translation", 2018-02, NeurIPS 2018, [[paper](https://arxiv.org/abs/1802.03691)]
+
+- "Program Language Translation Using a Grammar-Driven Tree-to-Tree Model", 2018-07, [[paper](https://arxiv.org/abs/1807.01784)]
+
+- "Unsupervised Translation of Programming Languages", 2020-06, NeurIPS 2020, [[paper](https://arxiv.org/abs/2006.03511)]
+
+- "Leveraging Automated Unit Tests for Unsupervised Code Translation", 2021-10, ICLR 2022, [[paper](https://arxiv.org/abs/2110.06773)]
+
+- "Code Translation with Compiler Representations", 2022-06, ICLR 2023, [[paper](https://arxiv.org/abs/2207.03578)]
+
+- "Multilingual Code Snippets Training for Program Translation", 2022-06, AAAI 2022, [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21434)]
+
+- "BabelTower: Learning to Auto-parallelized Program Translation", 2022-07, ICML 2022, [[paper](https://proceedings.mlr.press/v162/wen22b.html)]
+
+- "Syntax and Domain Aware Model for Unsupervised Program Translation", 2023-02, ICSE 2023, [[paper](https://arxiv.org/abs/2302.03908)]
+
+- "CoTran: An LLM-based Code Translator using Reinforcement Learning with Feedback from Compiler and Symbolic Execution", 2023-06, [[paper](https://arxiv.org/abs/2306.06755)]
+
+- "Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code", 2023-08, ICSE 2024, [[paper](https://arxiv.org/abs/2308.03109)]
+
+- "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark", 2023-08, ASE 2023, [[paper](https://arxiv.org/abs/2308.08961)]
+
+- "Explain-then-Translate: An Analysis on Improving Program Translation with Self-generated Explanations", 2023-11, EMNLP Findings 2023, [[paper](https://arxiv.org/abs/2311.07070)]
+
+- "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation", 2024-03, [[paper](https://arxiv.org/abs/2403.17214)]
 
 ### Repository-Level Coding
 
