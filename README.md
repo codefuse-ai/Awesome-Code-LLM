@@ -16,25 +16,19 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 - 🔥🔥 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852) from Concordia University
 
-- 🔥🔥 [CodeS: Natural Language to Code Repository via Multi-Layer Sketch](https://arxiv.org/abs/2403.16443) from Chinese Academy of Sciences, Peking University, and Huawei. Other works on repo-level coding can be found [here](#repository-level-coding).
+- 🔥 [CodeS: Natural Language to Code Repository via Multi-Layer Sketch](https://arxiv.org/abs/2403.16443) from Chinese Academy of Sciences, Peking University, and Huawei. Other works on repo-level coding can be found [here](#repository-level-coding).
 
-- 🔥🔥 [ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search](https://arxiv.org/abs/2403.16702) from Beihang University
+- 🔥 [ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search](https://arxiv.org/abs/2403.16702) from Beihang University
 
-- 🔥 [CodeShell Technical Report](https://arxiv.org/abs/2403.15747) from Peking University
-
-- 🔥 [Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/abs/2403.16792) from Huazhong University of Science and Technology
-
-- 🔥 [Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study](https://arxiv.org/abs/2403.15185) from Delft University of Technology
+🔥🔥🔥 [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
 
 🔥🔥🔥 [2024/04] [Code Translation](#code-translation) is here.
 
-🔥🔥🔥 [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Two surveys have been added [here](#1-surveys).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are creating a new section for [interactive coding](#33-interactive-coding) and adding a recent paper on [RL for code](#25-reinforcement-learning-on-code).
 
 ## Table of Contents
 
@@ -72,6 +66,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 5. [Methods/Models for Downstream Tasks](#5-methodsmodels-for-downstream-tasks)
 
    - [Code Translation](#code-translation)
+   - [Malicious Code Detection](#malicious-code-detection)
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
@@ -411,6 +406,60 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Explain-then-Translate: An Analysis on Improving Program Translation with Self-generated Explanations", 2023-11, EMNLP Findings 2023, [[paper](https://arxiv.org/abs/2311.07070)]
 
 - "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation", 2024-03, [[paper](https://arxiv.org/abs/2403.17214)]
+
+### Malicious Code Detection
+
+- "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
+
+- "A Multimodal Deep Learning Method for Android Malware Detection Using Various Features", 2018-08, IEEE Trans. Inf. Forensics Secur. 2019, [[paper](https://ieeexplore.ieee.org/document/8443370)]
+
+- "Portable, Data-Driven Malware Detection using Language Processing and Machine Learning Techniques on Behavioral Analysis Reports", 2018-12, Digit. Investig. 2019, [[paper](https://arxiv.org/abs/1812.10327)]
+
+- "I-MAD: Interpretable Malware Detector Using Galaxy Transformer", 2019-09, Comput. Secur. 2021, [[paper](https://arxiv.org/abs/1909.06865)]
+
+- "Droidetec: Android Malware Detection and Malicious Code Localization through Deep Learning", 2020-02, [[paper](https://arxiv.org/abs/2002.03594)]
+
+- "Malicious Code Detection: Run Trace Output Analysis by LSTM", 2021-01, IEEE Access 2021, [[paper](https://arxiv.org/abs/2101.05646)]
+
+- "Intelligent malware detection based on graph convolutional network", 2021-08, J. Supercomput. 2021, [[paper](https://link.springer.com/article/10.1007/s11227-021-04020-y)]
+
+- "Malbert: A novel pre-training method for malware detection", 2021-09, Comput. Secur. 2021, [[paper](https://www.sciencedirect.com/science/article/pii/S0167404821002820)]
+
+- "Single-Shot Black-Box Adversarial Attacks Against Malware Detectors: A Causal Language Model Approach", 2021-12, ISI 2021, [[paper](https://arxiv.org/abs/2112.01724)]
+
+- "M2VMapper: Malware-to-Vulnerability mapping for Android using text processing", 2021-12, Expert Syst. Appl. 2022, [[paper](https://www.sciencedirect.com/science/article/pii/S0957417421016572)]
+
+- "Malware Detection and Prevention using Artificial Intelligence Techniques", 2021-12, IEEE BigData 2021, [[paper](https://arxiv.org/abs/2206.12770)]
+
+- "An Ensemble of Pre-trained Transformer Models For Imbalanced Multiclass Malware Classification", 2021-12, Comput. Secur. 2022, [[paper](https://arxiv.org/abs/2112.13236)]
+
+- "EfficientNet convolutional neural networks-based Android malware detection", 2022-01, Comput. Secur. 2022, [[paper](https://www.sciencedirect.com/science/article/pii/S0167404822000219)]
+
+- "Static Malware Detection Using Stacked BiLSTM and GPT-2", 2022-05, IEEE Access 2022, [[paper](https://ieeexplore.ieee.org/document/9785789)]
+
+- "APT Malicious Sample Organization Traceability Based on Text Transformer Model", 2022-07, PRML 2022, [[paper](https://ieeexplore.ieee.org/document/9882232)]
+
+- "Self-Supervised Vision Transformers for Malware Detection", 2022-08, IEEE Access 2022, [[paper](https://arxiv.org/abs/2208.07049)]
+
+- "A Survey of Recent Advances in Deep Learning Models for Detecting Malware in Desktop and Mobile Platforms", 2022-09, ACM Computing Surveys, [[paper](https://dl.acm.org/doi/abs/10.1145/3638240)]
+
+- "Malicious Source Code Detection Using Transformer", 2022-09, [[paper](https://arxiv.org/abs/2209.07957)]
+
+- "Flexible Android Malware Detection Model based on Generative Adversarial Networks with Code Tensor", 2022-10, CyberC 2022, [[paper](https://arxiv.org/abs/2210.14225)]
+
+- "MalBERTv2: Code Aware BERT-Based Model for Malware Identification", 2023-03, Big Data Cogn. Comput. 2023, [[paper](https://www.mdpi.com/2504-2289/7/2/60)]
+
+- "GPThreats-3: Is Automatic Malware Generation a Threat?", 2023-05, SPW 2023, [[paper](https://ieeexplore.ieee.org/abstract/document/10188649)]
+
+- "GitHub Copilot: A Threat to High School Security? Exploring GitHub Copilot's Proficiency in Generating Malware from Simple User Prompts", 2023-08, ETNCC 2023, [[paper](https://ieeexplore.ieee.org/abstract/document/10284976)]
+
+- "An Attacker’s Dream? Exploring the Capabilities of ChatGPT for Developing Malware", 2023-08, CSET 2023, [[paper](https://dl.acm.org/doi/abs/10.1145/3607505.3607513)]
+
+- "Malicious code detection in android: the role of sequence characteristics and disassembling methods", 2023-12, Int. J. Inf. Sec. 2023, [[paper](https://arxiv.org/abs/2312.01113)]
+
+- "Prompt Engineering-assisted Malware Dynamic Analysis Using GPT-4", 2023-12, [[paper](https://arxiv.org/abs/2312.08317)]
+
+- "Shifting the Lens: Detecting Malware in npm Ecosystem with Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.12196)]
 
 ### Repository-Level Coding
 
