@@ -10,25 +10,27 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/03] Recent papers:
 
-- 🔥🔥 [Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation](https://arxiv.org/abs/2403.17214) from Queen’s University
+- 🔥🔥 [Vulnerability Detection with Code Language Models: How Far Are We?](https://arxiv.org/abs/2403.18624)
 
-- 🔥🔥 [SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder](https://arxiv.org/abs/2403.16204) from Huawei and University of Alberta
+- 🔥🔥 [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](https://arxiv.org/abs/2403.17218) from Iowa State University
 
-- 🔥🔥 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852) from Concordia University
+- 🔥🔥 [Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers](https://arxiv.org/abs/2403.15600) from North Carolina State University
 
-- 🔥 [CodeS: Natural Language to Code Repository via Multi-Layer Sketch](https://arxiv.org/abs/2403.16443) from Chinese Academy of Sciences, Peking University, and Huawei. Other works on repo-level coding can be found [here](#repository-level-coding).
+- 🔥 [Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation](https://arxiv.org/abs/2403.17214) from Queen’s University
 
-- 🔥 [ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search](https://arxiv.org/abs/2403.16702) from Beihang University
+- 🔥 [SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder](https://arxiv.org/abs/2403.16204) from Huawei and University of Alberta
+
+- 🔥 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852) from Concordia University
+
+🔥🔥🔥 [2024/04] We have added more than 40 papers on [vulnerability detection](#vulnerability-detection) into this list, including those [analyzing the vulnerabilities of AI-generated code](#vulnerability-analysis-of-llm-generated-code).
 
 🔥🔥🔥 [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
 
-🔥🔥🔥 [2024/04] [Code Translation](#code-translation) is here.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Translation](#code-translation) is here.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Two surveys have been added [here](#1-surveys).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] X just open-sourced [Grok-1](https://github.com/xai-org/grok-1), with 314B parameters!
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Two surveys have been added [here](#1-surveys).
 
 ## Table of Contents
 
@@ -66,6 +68,8 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 5. [Methods/Models for Downstream Tasks](#5-methodsmodels-for-downstream-tasks)
 
    - [Code Translation](#code-translation)
+   - [Vulnerability Detection](#vulnerability-detection)
+     - [Vulnerability Analysis of AI-Generated Code](#vulnerability-analysis-of-llm-generated-code)
    - [Malicious Code Detection](#malicious-code-detection)
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
@@ -89,7 +93,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Commit Message Generation](#commit-message-generation)
    - [Repo-Level Coding](#repo-level-coding)
 
-7. [Recommended Readings](#6-recommended-readings)
+7. [Recommended Readings](#7-recommended-readings)
 
 8. [Citation](#citation)
 
@@ -406,6 +410,96 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Explain-then-Translate: An Analysis on Improving Program Translation with Self-generated Explanations", 2023-11, EMNLP Findings 2023, [[paper](https://arxiv.org/abs/2311.07070)]
 
 - "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation", 2024-03, [[paper](https://arxiv.org/abs/2403.17214)]
+
+### Vulnerability Detection
+
+- "VulDeePecker: A Deep Learning-Based System for Vulnerability Detection", 2018-01, NDSS 2018, [[paper](https://arxiv.org/abs/1801.01681)]
+
+- "DeepBugs: A Learning Approach to Name-based Bug Detection", 2018-04, Proc. ACM Program. Lang. [[paper](https://arxiv.org/abs/1805.11683)]
+
+- "Automated Vulnerability Detection in Source Code Using Deep Representation Learning", 2018-07, ICMLA 2018, [[paper](https://arxiv.org/abs/1807.04320)]
+
+- "SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities", 2018-07, IEEE TDSC, [[paper](https://arxiv.org/abs/1807.06756)]
+
+- "Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks", 2019-09, NeurIPS 2019, [[paper](https://arxiv.org/abs/1909.03496)]
+
+- "Improving bug detection via context-based code representation learning and attention-based neural networks", 2019-10, Proc. ACM Program. Lang., [[paper](https://dl.acm.org/doi/10.1145/3360588)]
+
+- "Global Relational Models of Source Code", 2019-12, ICLR 2020, [[paper](https://openreview.net/forum?id=B1lnbRNtwr)]
+
+- "VulDeeLocator: A Deep Learning-based Fine-grained Vulnerability Detector", 2020-01, IEEE TDSC, [[paper](https://arxiv.org/abs/2001.02350)]
+
+- "Deep Learning based Vulnerability Detection: Are We There Yet?", 2020-09, IEEE TSE, [[paper](https://arxiv.org/abs/2009.07235)]
+
+- "Security Vulnerability Detection Using Deep Learning Natural Language Processing", 2021-05, INFOCOM Workshops 2021, [[paper](https://arxiv.org/abs/2105.02388)]
+
+- "Self-Supervised Bug Detection and Repair", 2021-05, NeurIPS 2021, [[paper](https://arxiv.org/abs/2105.12787)]
+
+- "Vulnerability Detection with Fine-grained Interpretations", 2021-06, ESEC/SIGSOFT FSE 2021, [[paper](https://arxiv.org/abs/2106.10478)]
+
+- "ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection", 2021-10, ICSE Companion 2022, [[paper](https://arxiv.org/abs/2110.07317)]
+
+- "VUDENC: Vulnerability Detection with Deep Learning on a Natural Codebase for Python", 2022-01, Inf. Softw. Technol. [[paper](https://arxiv.org/abs/2201.08441)]
+
+- "Transformer-Based Language Models for Software Vulnerability Detection", 222-04, ACSAC 2022, [[paper](https://arxiv.org/abs/2204.03214)]
+
+- "LineVul: A Transformer-based Line-Level Vulnerability Prediction", 2022-05, MSR 2022, [[paper](https://ieeexplore.ieee.org/document/9796256)]
+
+- "VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection", 2022-05, IJCNN 2022, [[paper](https://arxiv.org/abs/2205.12424)]
+
+- "Open Science in Software Engineering: A Study on Deep Learning-Based Vulnerability Detection", 2022-09, IEEE Trans. Software Eng., [[paper](https://ieeexplore.ieee.org/document/9894099)]
+
+- "An Empirical Study of Deep Learning Models for Vulnerability Detection", 2022-12, ICSE 2023, [[paper](https://arxiv.org/abs/2212.08109)]
+
+- "CSGVD: A deep learning approach combining sequence and graph embedding for source code vulnerability detection", 2023-01, J. Syst. Softw., [[paper](https://www.sciencedirect.com/science/article/pii/S0164121223000183)]
+
+- "Benchmarking Software Vulnerability Detection Techniques: A Survey", 2023-03, [[paper](https://arxiv.org/abs/2303.16362)]
+
+- "Transformer-based Vulnerability Detection in Code at EditTime: Zero-shot, Few-shot, or Fine-tuning?", 2023-05, [[paper](https://arxiv.org/abs/2306.01754)]
+
+- "A Survey on Automated Software Vulnerability Detection Using Machine Learning and Deep Learning", 2023-06, [[paper](https://arxiv.org/abs/2306.11673)]
+
+- "Limits of Machine Learning for Automatic Vulnerability Detection", 2023-06, [[paper](https://arxiv.org/abs/2306.17193)]
+
+- "Evaluating Instruction-Tuned Large Language Models on Code Comprehension and Generation", 2023-08, [[paper](https://arxiv.org/abs/2308.01240)]
+
+- "Prompt-Enhanced Software Vulnerability Detection Using ChatGPT", 2023-08, [[paper](https://arxiv.org/abs/2308.12697)]
+
+- "Towards Causal Deep Learning for Vulnerability Detection", 2023-10, [[paper](https://arxiv.org/abs/2310.07958)]
+
+- "Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities", 2023-11, [[paper](https://arxiv.org/abs/2311.16169)]
+
+- "How Far Have We Gone in Vulnerability Detection Using Large Language Models", 2023-11, [[paper](https://arxiv.org/abs/2311.12420)]
+
+- "Can Large Language Models Identify And Reason About Security Vulnerabilities? Not Yet", 2023-12, [[paper](https://arxiv.org/abs/2312.12575)]
+
+- "LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning", 2024-01, [[paper](https://arxiv.org/abs/2401.16185)]
+
+- "Security Code Review by LLMs: A Deep Dive into Responses", 2024-01, [[paper](https://arxiv.org/abs/2401.16310)]
+
+- "Chain-of-Thought Prompting of Large Language Models for Discovering and Fixing Software Vulnerabilities", 2024-02, [[paper](https://arxiv.org/abs/2402.17230)]
+
+- "Multi-role Consensus through LLMs Discussions for Vulnerability Detection", 2024-03, [[paper](https://arxiv.org/abs/2403.14274)]
+
+- "A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection", 2024-03, [[paper](https://arxiv.org/abs/2403.17218)]
+
+- "Vulnerability Detection with Code Language Models: How Far Are We?", 2024-03, [[paper](https://arxiv.org/abs/2403.18624)]
+
+#### Vulnerability Analysis of LLM-Generated Code
+
+- "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
+
+- "Is GitHub's Copilot as Bad as Humans at Introducing Vulnerabilities in Code?", 2022.04, Empir. Softw. Eng. [[paper](https://arxiv.org/abs/2204.04741)]
+
+- "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants", 2022-08, USENIX Security Symposium 2023, [[paper](https://arxiv.org/abs/2208.09727)]
+
+- "Do Users Write More Insecure Code with AI Assistants?", 2022-11, CCS 2023, [[paper](https://arxiv.org/abs/2211.03622)]
+
+- "Large Language Models and Simple, Stupid Bugs", 2023-03, MSR 2023, [[paper](https://arxiv.org/abs/2303.11455)]
+
+- "Bugs in Large Language Models Generated Code: An Empirical Study", 2024-03, [[paper](https://arxiv.org/abs/2403.08937)]
+
+- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers", 2024-03, [[paper](https://arxiv.org/abs/2403.15600)]
 
 ### Malicious Code Detection
 
@@ -753,6 +847,7 @@ $^\diamond$ Machine/human prompts
 | 2023-04 | RAID 2023                    | DiverseVul     | 349K  | C, C++   | "DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection" [[paper](https://arxiv.org/abs/2304.00409)] [[data](https://github.com/wagner-group/diversevul)]                          |
 | 2023-06 | arXiv                        | VulnPatchPairs | 26K   | C        | "Limits of Machine Learning for Automatic Vulnerability Detection" [[paper](https://arxiv.org/abs/2306.17193)] [[data](https://github.com/niklasrisse/LimitsOfML4Vuln)]                                                      |
 | 2023-11 | arXiv                        | VulBench       | 455   | C        | "How Far Have We Gone in Vulnerability Detection Using Large Language Models" [[paper](https://arxiv.org/abs/2311.12420)] [[data](https://anonymous.4open.science/r/VulBench-EA6F/)]                                         |
+| 2024-03 | arXiv                        | PrimeVul       | 236K  | C/C++    | "Vulnerability Detection with Code Language Models: How Far Are We?" [[paper](https://arxiv.org/abs/2403.18624)]                                                                                                             |
 
 #### Code Retrieval
 
