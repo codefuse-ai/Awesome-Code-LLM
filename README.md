@@ -8,19 +8,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥🔥 [2024/03] Recent papers:
+🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [Vulnerability Detection with Code Language Models: How Far Are We?](https://arxiv.org/abs/2403.18624)
+- 🔥🔥 [Evaluating Large Language Models with Runtime Behavior of Program Execution](https://arxiv.org/abs/2403.16437) from Zhejiang University
 
-- 🔥🔥 [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](https://arxiv.org/abs/2403.17218) from Iowa State University
+- 🔥🔥 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927) from Fudan University
 
-- 🔥🔥 [Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers](https://arxiv.org/abs/2403.15600) from North Carolina State University
+- 🔥🔥 [ChatGPT Incorrectness Detection in Software Reviews](https://arxiv.org/abs/2403.16347) from University of Calgary
 
-- 🔥 [Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation](https://arxiv.org/abs/2403.17214) from Queen’s University
+- 🔥 [Vulnerability Detection with Code Language Models: How Far Are We?](https://arxiv.org/abs/2403.18624)
 
-- 🔥 [SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder](https://arxiv.org/abs/2403.16204) from Huawei and University of Alberta
+- 🔥 [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](https://arxiv.org/abs/2403.17218) from Iowa State University
 
-- 🔥 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852) from Concordia University
+- 🔥 [Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers](https://arxiv.org/abs/2403.15600) from North Carolina State University
+
+🔥🔥🔥 [2024/04] [Code Simulation](#32-code-simulation): can LLMs simulate the execution of code?
 
 🔥🔥🔥 [2024/04] We have added more than 40 papers on [vulnerability detection](#vulnerability-detection) into this list, including those [analyzing the vulnerabilities of AI-generated code](#vulnerability-analysis-of-llm-generated-code).
 
@@ -28,9 +30,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Translation](#code-translation) is here.
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] Two surveys have been added [here](#1-surveys).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
 
 ## Table of Contents
 
@@ -59,9 +59,11 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    3.1 [Coding for Reasoning](#31-coding-for-reasoning)
 
-   3.2 [Coding via Planning](#32-coding-via-planning)
+   3.2 [Code Simulation](#32-code-simulation)
 
-   3.3 [Interactive Coding](#33-interactive-coding)
+   3.3 [Coding via Planning](#33-coding-via-planning)
+
+   3.4 [Interactive Coding](#34-interactive-coding)
 
 4. [Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages)
 
@@ -69,7 +71,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    - [Code Translation](#code-translation)
    - [Vulnerability Detection](#vulnerability-detection)
-     - [Vulnerability Analysis of AI-Generated Code](#vulnerability-analysis-of-llm-generated-code)
+     - [Vulnerability/Error Analysis of AI-Generated Code](#vulnerabilityerror-analysis-of-llm-generated-code)
    - [Malicious Code Detection](#malicious-code-detection)
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
@@ -311,7 +313,19 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator", 2023-12, arXiv, [[paper](https://arxiv.org/abs/2312.04474)]
 
-### 3.2 Coding via Planning
+### 3.2 Code Simulation
+
+- "Code Simulation Challenges for Large Language Models", 2024-01, [[paper](https://arxiv.org/abs/2401.09074)]
+
+- "CodeMind: A Framework to Challenge Large Language Models for Code Reasoning", 2024-02, [[paper](https://arxiv.org/abs/2402.09664)]
+
+- "Executing Natural Language-Described Algorithms with Large Language Models: An Investigation", 2024-02, [[paper](https://arxiv.org/abs/2403.00795)]
+
+- "Can Language Models Pretend Solvers? Logic Code Simulation with LLMs", 2024-03, [[paper](https://arxiv.org/abs/2403.16097)]
+
+- "Evaluating Large Language Models with Runtime Behavior of Program Execution", 2024-03, [[paper](https://arxiv.org/abs/2403.16437)]
+
+### 3.3 Coding via Planning
 
 1. **Self-collaboration**: "Self-collaboration Code Generation via ChatGPT", 2023-04, arXiv, [[paper](https://arxiv.org/abs/2304.07590)]
 
@@ -323,7 +337,9 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 5. **LCG**: "When LLM-based Code Generation Meets the Software Development Process", 2024-03, [[paper](https://arxiv.org/abs/2403.15852)]
 
-### 3.3 Interactive Coding
+6. **MAGIS:**: "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution", 2024-03, [[paper](https://arxiv.org/abs/2403.17927)]
+
+### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis", 2017-03, [[paper](https://arxiv.org/abs/1703.03539)]
 
@@ -485,7 +501,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Vulnerability Detection with Code Language Models: How Far Are We?", 2024-03, [[paper](https://arxiv.org/abs/2403.18624)]
 
-#### Vulnerability Analysis of LLM-Generated Code
+#### Vulnerability/Error Analysis of LLM-Generated Code
 
 - "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
 
@@ -500,6 +516,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Bugs in Large Language Models Generated Code: An Empirical Study", 2024-03, [[paper](https://arxiv.org/abs/2403.08937)]
 
 - "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers", 2024-03, [[paper](https://arxiv.org/abs/2403.15600)]
+
+- "ChatGPT Incorrectness Detection in Software Reviews", 2024-03, [[paper](https://arxiv.org/abs/2403.16347)]
 
 ### Malicious Code Detection
 
