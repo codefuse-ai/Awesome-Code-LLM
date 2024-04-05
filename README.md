@@ -10,17 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [Evaluating Large Language Models with Runtime Behavior of Program Execution](https://arxiv.org/abs/2403.16437) from Zhejiang University
+- 🔥🔥 [Multitask-based Evaluation of Open-Source LLM on Software Vulnerability](https://arxiv.org/abs/2404.02056) from Zhejiang University
 
-- 🔥🔥 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927) from Fudan University
+- 🔥🔥 [Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization](https://arxiv.org/abs/2404.02183) from TsukushiAI
 
-- 🔥🔥 [ChatGPT Incorrectness Detection in Software Reviews](https://arxiv.org/abs/2403.16347) from University of Calgary
+- 🔥🔥 [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](https://arxiv.org/abs/2404.02575) from Yonsei University
 
-- 🔥 [Vulnerability Detection with Code Language Models: How Far Are We?](https://arxiv.org/abs/2403.18624)
+- 🔥🔥 [Poro 34B](https://arxiv.org/abs/2404.01856): an English-Finnish bilingual model trained for 1T tokens that reports 37.20 on HumanEval and 47.40 on MBPP
 
-- 🔥 [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](https://arxiv.org/abs/2403.17218) from Iowa State University
+- 🔥🔥 [HyperCLOVA X](https://arxiv.org/abs/2404.01954): an English-Korean bilingual model of undisclosed size that reports 55.49 on HumanEval and 33.41 on MBPP
 
-- 🔥 [Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers](https://arxiv.org/abs/2403.15600) from North Carolina State University
+- 🔥 [Evaluating Large Language Models with Runtime Behavior of Program Execution](https://arxiv.org/abs/2403.16437) from Zhejiang University
+
+- 🔥 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927) from Fudan University
+
+- 🔥 [ChatGPT Incorrectness Detection in Software Reviews](https://arxiv.org/abs/2403.16347) from University of Calgary
 
 🔥🔥🔥 [2024/04] [Code Simulation](#32-code-simulation): can LLMs simulate the execution of code?
 
@@ -173,6 +177,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 22. **Yi**: "Yi: Open Foundation Models by 01.AI", 2024-03, [[paper](https://arxiv.org/abs/2403.04652)] [[repo](https://github.com/01-ai/Yi)]
 
+23. **Poro**: "Poro 34B and the Blessing of Multilinguality", 2024-04, [[paper](https://arxiv.org/abs/2404.01856)] [[model](https://huggingface.co/LumiOpen/Poro-34B)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -313,6 +319,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator", 2023-12, arXiv, [[paper](https://arxiv.org/abs/2312.04474)]
 
+4. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models", 2024-04, [[paper](https://arxiv.org/abs/2404.02575)]
+
 ### 3.2 Code Simulation
 
 - "Code Simulation Challenges for Large Language Models", 2024-01, [[paper](https://arxiv.org/abs/2401.09074)]
@@ -337,7 +345,11 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 5. **LCG**: "When LLM-based Code Generation Meets the Software Development Process", 2024-03, [[paper](https://arxiv.org/abs/2403.15852)]
 
-6. **MAGIS:**: "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution", 2024-03, [[paper](https://arxiv.org/abs/2403.17927)]
+6. **RepairAgent**: "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair", 2024-03, [[paper](https://arxiv.org/abs/2403.17134)]
+
+7. **MAGIS:**: "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution", 2024-03, [[paper](https://arxiv.org/abs/2403.17927)]
+
+8. **SoA**: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization", 2024-04, [[paper](https://arxiv.org/abs/2404.02183)]
 
 ### 3.4 Interactive Coding
 
@@ -500,6 +512,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection", 2024-03, [[paper](https://arxiv.org/abs/2403.17218)]
 
 - "Vulnerability Detection with Code Language Models: How Far Are We?", 2024-03, [[paper](https://arxiv.org/abs/2403.18624)]
+
+- "Multitask-based Evaluation of Open-Source LLM on Software Vulnerability", 2024-04, [[paper](https://arxiv.org/abs/2404.02056)]
 
 #### Vulnerability/Error Analysis of LLM-Generated Code
 
