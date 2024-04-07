@@ -1,6 +1,6 @@
 # Awesome-Code-LLM
 
-This is the repo for our survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 7](#7-recommended-readings).
+This is the repo for our survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 8](#8-recommended-readings).
 
 <p align='center'>
 <img src='imgs/overview.png' style='width: 80%; '>
@@ -10,31 +10,35 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [Multitask-based Evaluation of Open-Source LLM on Software Vulnerability](https://arxiv.org/abs/2404.02056) from Zhejiang University
+- 🔥🔥 [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) from Zhipu AI and Tsinghua University
 
-- 🔥🔥 [Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization](https://arxiv.org/abs/2404.02183) from TsukushiAI
+- 🔥🔥 [Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap](https://arxiv.org/abs/2404.02525) from Singapore Management University and Yangzhou University
 
-- 🔥🔥 [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](https://arxiv.org/abs/2404.02575) from Yonsei University
+- 🔥🔥 [Activation Steering for Robust Type Prediction in CodeLLMs](https://arxiv.org/abs/2404.01903) from Northeastern University
 
-- 🔥🔥 [Poro 34B](https://arxiv.org/abs/2404.01856): an English-Finnish bilingual model trained for 1T tokens that reports 37.20 on HumanEval and 47.40 on MBPP
+- 🔥🔥 [Syntactic Robustness for LLM-based Code Generation](https://arxiv.org/abs/2404.01535) from UC Santa Barbara
 
-- 🔥🔥 [HyperCLOVA X](https://arxiv.org/abs/2404.01954): an English-Korean bilingual model of undisclosed size that reports 55.49 on HumanEval and 33.41 on MBPP
+- 🔥🔥 [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) from Beihang University
 
-- 🔥 [Evaluating Large Language Models with Runtime Behavior of Program Execution](https://arxiv.org/abs/2403.16437) from Zhejiang University
+- 🔥 [Multitask-based Evaluation of Open-Source LLM on Software Vulnerability](https://arxiv.org/abs/2404.02056) from Zhejiang University
 
-- 🔥 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927) from Fudan University
+- 🔥 [Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization](https://arxiv.org/abs/2404.02183) from TsukushiAI
 
-- 🔥 [ChatGPT Incorrectness Detection in Software Reviews](https://arxiv.org/abs/2403.16347) from University of Calgary
+- 🔥 [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](https://arxiv.org/abs/2404.02575) from Yonsei University
 
-🔥🔥🔥 [2024/04] [Code Simulation](#32-code-simulation): can LLMs simulate the execution of code?
+- 🔥 [Poro 34B](https://arxiv.org/abs/2404.01856): an English-Finnish bilingual model trained for 1T tokens that reports 37.20 on HumanEval and 47.40 on MBPP
 
-🔥🔥🔥 [2024/04] We have added more than 40 papers on [vulnerability detection](#vulnerability-detection) into this list, including those [analyzing the vulnerabilities of AI-generated code](#vulnerability-analysis-of-llm-generated-code).
+- 🔥 [HyperCLOVA X](https://arxiv.org/abs/2404.01954): an English-Korean bilingual model of undisclosed size that reports 55.49 on HumanEval and 33.41 on MBPP
 
-🔥🔥🔥 [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
+🔥🔥🔥 [2024/04] We are moving works analyzing AI-generated code to a [separate section](#6-analysis-of-ai-generated-code).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Translation](#code-translation) is here.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Simulation](#32-code-simulation): can LLMs simulate the execution of code?
 
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/03] We are dedicating a new section to [low-resource, low-level, and domain-specific languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages). The literature is especially abundant on Verilog.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] We have added more than 40 papers on [vulnerability detection](#vulnerability-detection) into this list, including those [analyzing the vulnerabilities of AI-generated code](#vulnerability-analysis-of-llm-generated-code).
+
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
+
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Translation](#code-translation) is here.
 
 ## Table of Contents
 
@@ -75,18 +79,20 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    - [Code Translation](#code-translation)
    - [Vulnerability Detection](#vulnerability-detection)
-     - [Vulnerability/Error Analysis of AI-Generated Code](#vulnerabilityerror-analysis-of-llm-generated-code)
+   - [Type Prediction](#type-prediction)
    - [Malicious Code Detection](#malicious-code-detection)
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
    - [Decompilation](#decompilation)
 
-6. [Datasets](#6-datasets)
+6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
 
-   6.1 [Pretraining](#61-pretraining)
+7. [Datasets](#7-datasets)
 
-   6.2 [Benchmarks](#62-benchmarks)
+   7.1 [Pretraining](#71-pretraining)
+
+   7.2 [Benchmarks](#72-benchmarks)
 
    - [Program Synthesis](#program-synthesis)
    - [Text-to-SQL](#text-to-sql)
@@ -99,13 +105,13 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Commit Message Generation](#commit-message-generation)
    - [Repo-Level Coding](#repo-level-coding)
 
-7. [Recommended Readings](#7-recommended-readings)
+8. [Recommended Readings](#8-recommended-readings)
 
-8. [Citation](#citation)
+9. [Citation](#citation)
 
-9. [Star History](#star-history)
+10. [Star History](#star-history)
 
-10. [Join Us](#join-us)
+11. [Join Us](#join-us)
 
 ## 1. Surveys
 
@@ -515,23 +521,21 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Multitask-based Evaluation of Open-Source LLM on Software Vulnerability", 2024-04, [[paper](https://arxiv.org/abs/2404.02056)]
 
-#### Vulnerability/Error Analysis of LLM-Generated Code
+- "Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap", 2024-04, [[paper](https://arxiv.org/abs/2404.02525)]
 
-- "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
+### Type Prediction
 
-- "Is GitHub's Copilot as Bad as Humans at Introducing Vulnerabilities in Code?", 2022.04, Empir. Softw. Eng. [[paper](https://arxiv.org/abs/2204.04741)]
+- "Learning type annotation: is big data enough?", 2021-08, ESEC/FSE 2021, [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
 
-- "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants", 2022-08, USENIX Security Symposium 2023, [[paper](https://arxiv.org/abs/2208.09727)]
+- "Do Machine Learning Models Produce TypeScript Types That Type Check?", 2023-02, ECOOP 2023, [[paper](https://arxiv.org/abs/2302.12163)]
 
-- "Do Users Write More Insecure Code with AI Assistants?", 2022-11, CCS 2023, [[paper](https://arxiv.org/abs/2211.03622)]
+- "TypeT5: Seq2seq Type Inference using Static Analysis", 2023-03, ICLR 2023, [[paper](https://arxiv.org/abs/2303.09564)]
 
-- "Large Language Models and Simple, Stupid Bugs", 2023-03, MSR 2023, [[paper](https://arxiv.org/abs/2303.11455)]
+- "Type Prediction With Program Decomposition and Fill-in-the-Type Training", 2023-05, [[paper](https://arxiv.org/abs/2305.17145)]
 
-- "Bugs in Large Language Models Generated Code: An Empirical Study", 2024-03, [[paper](https://arxiv.org/abs/2403.08937)]
+- "Generative Type Inference for Python", 2023-07, ASE 2023, [[paper](https://arxiv.org/abs/2307.09163)]
 
-- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers", 2024-03, [[paper](https://arxiv.org/abs/2403.15600)]
-
-- "ChatGPT Incorrectness Detection in Software Reviews", 2024-03, [[paper](https://arxiv.org/abs/2403.16347)]
+- "Activation Steering for Robust Type Prediction in CodeLLMs", 2024-04, [[paper](https://arxiv.org/abs/2404.01903)]
 
 ### Malicious Code Detection
 
@@ -665,6 +669,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis", 2023-07, ICLR 2024, [[paper](https://arxiv.org/abs/2307.12856)]
 
+- "WebArena: A Realistic Web Environment for Building Autonomous Agents", 2023-07, [[paper](https://arxiv.org/abs/2307.13854)]
+
 - "CogAgent: A Visual Language Model for GUI Agents", 2023-12, [[paper](https://arxiv.org/abs/2312.08914)]
 
 - "GPT-4V(ision) is a Generalist Web Agent, if Grounded", 2024-01, [[paper](https://arxiv.org/abs/2401.01614)]
@@ -678,6 +684,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Design2Code: How Far Are We From Automating Front-End Engineering?", 2024-03, [[paper](https://arxiv.org/abs/2403.03163)]
 
 - "Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset", 2024-03, [[paper](https://arxiv.org/abs/2403.09029)]
+
+- "AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent", 2024-04, [[paper](https://arxiv.org/abs/2404.03648)]
 
 ### Decompilation
 
@@ -703,9 +711,37 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM4Decompile: Decompiling Binary Code with Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.05286)]
 
-## 6. Datasets
+## 6. Analysis of AI-Generated Code
 
-### 6.1 Pretraining
+- "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
+
+- "Is GitHub's Copilot as Bad as Humans at Introducing Vulnerabilities in Code?", 2022-04, Empir. Softw. Eng. [[paper](https://arxiv.org/abs/2204.04741)]
+
+- "An Empirical Evaluation of GitHub Copilot's Code Suggestions", 2022-05, MSR 2022, [[paper](https://ieeexplore.ieee.org/document/9796235)]
+
+- "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants", 2022-08, USENIX Security Symposium 2023, [[paper](https://arxiv.org/abs/2208.09727)]
+
+- "Do Users Write More Insecure Code with AI Assistants?", 2022-11, CCS 2023, [[paper](https://arxiv.org/abs/2211.03622)]
+
+- "Large Language Models and Simple, Stupid Bugs", 2023-03, MSR 2023, [[paper](https://arxiv.org/abs/2303.11455)]
+
+- "Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT", 2023-04, [[paper](https://arxiv.org/abs/2304.10778)]
+
+- "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT", 2023-08, [[paper](https://arxiv.org/abs/2308.04838)]
+
+- "Bugs in Large Language Models Generated Code: An Empirical Study", 2024-03, [[paper](https://arxiv.org/abs/2403.08937)]
+
+- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers", 2024-03, [[paper](https://arxiv.org/abs/2403.15600)]
+
+- "ChatGPT Incorrectness Detection in Software Reviews", 2024-03, [[paper](https://arxiv.org/abs/2403.16347)]
+
+- "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation", 2024-04, [[paper](https://arxiv.org/abs/2404.00971)]
+
+- "Syntactic Robustness for LLM-based Code Generation", 2024-04, [[paper](https://arxiv.org/abs/2404.01535)]
+
+## 7. Datasets
+
+### 7.1 Pretraining
 
 1. **CodeSearchNet**: "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search", 2019-09, arXiv, [[paper](https://arxiv.org/abs/1909.09436)] [[repo](https://github.com/github/CodeSearchNet)] [[data](https://huggingface.co/datasets/code_search_net)]
 
@@ -719,7 +755,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
 
-### 6.2 Benchmarks
+### 7.2 Benchmarks
 
 1. **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
 
@@ -960,7 +996,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 #### Other tasks are coming soon!
 
-## 7. Recommended Readings
+## 8. Recommended Readings
 
 30 papers as a primer on LLM.
 
