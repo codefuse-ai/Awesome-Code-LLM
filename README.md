@@ -1,6 +1,6 @@
 # Awesome-Code-LLM
 
-This is the repo for our survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 8](#8-recommended-readings).
+This is the repo for our survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 9](#9-recommended-readings).
 
 <p align='center'>
 <img src='imgs/overview.png' style='width: 80%; '>
@@ -10,25 +10,25 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) from Zhipu AI and Tsinghua University
+- 🔥🔥 [Mixture-of-Depths: Dynamically allocating compute in transformer-based language models](https://arxiv.org/abs/2404.02258) from DeepMind. (This is not exactly about code LLM, but our starting point is to provide a unified perspective for NLP and SE communities.)
 
-- 🔥🔥 [Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap](https://arxiv.org/abs/2404.02525) from Singapore Management University and Yangzhou University
+- 🔥🔥 [The RealHumanEval: Evaluating Large Language Models' Abilities to Support Programmers](https://arxiv.org/abs/2404.02806) from MIT, CMU, and IBM
 
-- 🔥🔥 [Activation Steering for Robust Type Prediction in CodeLLMs](https://arxiv.org/abs/2404.01903) from Northeastern University
+- 🔥🔥 [Testing the Effect of Code Documentation on Large Language Model Code Understanding](https://arxiv.org/abs/2404.03114) from The MITRE Corporation
 
-- 🔥🔥 [Syntactic Robustness for LLM-based Code Generation](https://arxiv.org/abs/2404.01535) from UC Santa Barbara
+- 🔥🔥 [Pros and Cons! Evaluating ChatGPT on Software Vulnerability](https://arxiv.org/abs/2404.03994) from Zhejiang University
 
-- 🔥🔥 [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) from Beihang University
+- 🔥 [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) from Zhipu AI and Tsinghua University
 
-- 🔥 [Multitask-based Evaluation of Open-Source LLM on Software Vulnerability](https://arxiv.org/abs/2404.02056) from Zhejiang University
+- 🔥 [Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap](https://arxiv.org/abs/2404.02525) from Singapore Management University and Yangzhou University
 
-- 🔥 [Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization](https://arxiv.org/abs/2404.02183) from TsukushiAI
+- 🔥 [Activation Steering for Robust Type Prediction in CodeLLMs](https://arxiv.org/abs/2404.01903) from Northeastern University
 
-- 🔥 [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](https://arxiv.org/abs/2404.02575) from Yonsei University
+- 🔥 [Syntactic Robustness for LLM-based Code Generation](https://arxiv.org/abs/2404.01535) from UC Santa Barbara
 
-- 🔥 [Poro 34B](https://arxiv.org/abs/2404.01856): an English-Finnish bilingual model trained for 1T tokens that reports 37.20 on HumanEval and 47.40 on MBPP
+- 🔥 [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) from Beihang University
 
-- 🔥 [HyperCLOVA X](https://arxiv.org/abs/2404.01954): an English-Korean bilingual model of undisclosed size that reports 55.49 on HumanEval and 33.41 on MBPP
+🔥🔥🔥 [2024/04] [Test Generation using LLM](#test-generation).
 
 🔥🔥🔥 [2024/04] We are moving works analyzing AI-generated code to a [separate section](#6-analysis-of-ai-generated-code).
 
@@ -36,7 +36,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] We have added more than 40 papers on [vulnerability detection](#vulnerability-detection) into this list, including those [analyzing the vulnerabilities of AI-generated code](#vulnerability-analysis-of-llm-generated-code).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Translation](#code-translation) is here.
 
@@ -85,14 +85,17 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
    - [Decompilation](#decompilation)
+   - [Test Generation](#test-generation)
 
 6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
 
-7. [Datasets](#7-datasets)
+7. [User-LLM Interaction](#7-user-llm-interaction)
 
-   7.1 [Pretraining](#71-pretraining)
+8. [Datasets](#8-datasets)
 
-   7.2 [Benchmarks](#72-benchmarks)
+   8.1 [Pretraining](#81-pretraining)
+
+   8.2 [Benchmarks](#82-benchmarks)
 
    - [Program Synthesis](#program-synthesis)
    - [Text-to-SQL](#text-to-sql)
@@ -105,13 +108,13 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Commit Message Generation](#commit-message-generation)
    - [Repo-Level Coding](#repo-level-coding)
 
-8. [Recommended Readings](#8-recommended-readings)
+9. [Recommended Readings](#9-recommended-readings)
 
-9. [Citation](#citation)
+10. [Citation](#citation)
 
-10. [Star History](#star-history)
+11. [Star History](#star-history)
 
-11. [Join Us](#join-us)
+12. [Join Us](#join-us)
 
 ## 1. Surveys
 
@@ -301,7 +304,13 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 3. **OctoCoder** (StarCoder) / **OctoGeeX** (CodeGeeX2): "OctoPack: Instruction Tuning Code Large Language Models", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.07124)] [[repo](https://github.com/bigcode-project/octopack)]
 
-4. **MFTCoder** (Code LLaMA): "MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning", 2023-11, arXiv, [[paper](https://arxiv.org/abs/2311.02303)] [[repo](https://github.com/codefuse-ai/MFTCoder)]
+4. **MFTCoder**: "MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning", 2023-11, arXiv, [[paper](https://arxiv.org/abs/2311.02303)] [[repo](https://github.com/codefuse-ai/MFTCoder)]
+
+5. **WaveCoder**: "WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation", 2023-12, [[paper](https://arxiv.org/abs/2312.14187)]
+
+6. **Astraios**: "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models", 2024-01, [[paper](https://arxiv.org/abs/2401.00788)]
+
+7. **CCT**: "Code Comparison Tuning for Code Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.19121)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -523,6 +532,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap", 2024-04, [[paper](https://arxiv.org/abs/2404.02525)]
 
+- "Pros and Cons! Evaluating ChatGPT on Software Vulnerability", 2024-04, [[paper](https://arxiv.org/abs/2404.03994)]
+
 ### Type Prediction
 
 - "Learning type annotation: is big data enough?", 2021-08, ESEC/FSE 2021, [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
@@ -711,6 +722,44 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM4Decompile: Decompiling Binary Code with Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.05286)]
 
+### Test Generation
+
+- "Unit Test Case Generation with Transformers and Focal Context", 2020-09, AST@ICSE 2022, [[paper](https://arxiv.org/abs/2009.05617)]
+
+- "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers", 2020-09, [[paper](https://arxiv.org/abs/2009.05634)]
+
+- "TOGA: A Neural Method for Test Oracle Generation", 2021-09, ICSE 2022, [[paper](https://arxiv.org/abs/2109.09262)]
+
+- "An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation", 2023-02, IEEE TSE, [[paper](https://arxiv.org/abs/2302.06527)]
+
+- "A3Test: Assertion-Augmented Automated Test Case Generation", 2023-02, [[paper](https://arxiv.org/abs/2302.10352)]
+
+- "Learning Deep Semantics for Test Completion", 2023-02, ICSE 2023, [[paper](https://arxiv.org/abs/2302.10166)]
+
+- "Using Large Language Models to Generate JUnit Tests: An Empirical Study", 2023-04, EASE 2024, [[paper](https://arxiv.org/abs/2305.00418)]
+
+- "CodaMosa: Escaping Coverage Plateaus in Test Generation with Pre-Trained Large Language Models", 2023-05, ICSE 2023, [[paper](https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00085)]
+
+- "No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation", 2023-05, [[paper](https://arxiv.org/abs/2305.04207)]
+
+- "ChatUniTest: a ChatGPT-based automated unit test generation tool", 2023-05, [[paper](https://arxiv.org/abs/2305.04764)]
+
+- "ChatGPT vs SBST: A Comparative Assessment of Unit Test Suite Generation", 2023-07, [[paper](https://arxiv.org/abs/2307.00588)]
+
+- "Can Large Language Models Write Good Property-Based Tests?", 2023-07, [[paper](https://arxiv.org/abs/2307.04346)]
+
+- "Domain Adaptation for Deep Unit Test Case Generation", 2023-08, [[paper](https://arxiv.org/abs/2308.08033)]
+
+- "Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing", 2023-08, [[paper](https://arxiv.org/abs/2308.16557)]
+
+- "How well does LLM generate security tests?", 2023-10, [[paper](https://arxiv.org/abs/2310.00710)]
+
+- "Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation", 2023-10, [[paper](https://arxiv.org/abs/2310.02368)]
+
+- "An initial investigation of ChatGPT unit test generation capability", 2023-10, SAST 2023, [[paper](https://dl.acm.org/doi/abs/10.1145/3624032.3624035)]
+
+- "CoverUp: Coverage-Guided LLM-Based Test Generation", 2024-03, [[paper](https://arxiv.org/abs/2403.16218)]
+
 ## 6. Analysis of AI-Generated Code
 
 - "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
@@ -739,9 +788,17 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Syntactic Robustness for LLM-based Code Generation", 2024-04, [[paper](https://arxiv.org/abs/2404.01535)]
 
-## 7. Datasets
+- "Testing the Effect of Code Documentation on Large Language Model Code Understanding", 2024-04, [[paper](https://arxiv.org/abs/2404.03114)]
 
-### 7.1 Pretraining
+## 7. User-LLM Interaction
+
+- "The RealHumanEval: Evaluating Large Language Models' Abilities to Support Programmers", 2024-04, [[paper](https://arxiv.org/abs/2404.02806)]
+
+More papers in this section are coming soon.
+
+## 8. Datasets
+
+### 8.1 Pretraining
 
 1. **CodeSearchNet**: "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search", 2019-09, arXiv, [[paper](https://arxiv.org/abs/1909.09436)] [[repo](https://github.com/github/CodeSearchNet)] [[data](https://huggingface.co/datasets/code_search_net)]
 
@@ -755,7 +812,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
 
-### 7.2 Benchmarks
+### 8.2 Benchmarks
 
 1. **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
 
@@ -996,7 +1053,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 #### Other tasks are coming soon!
 
-## 8. Recommended Readings
+## 9. Recommended Readings
 
 30 papers as a primer on LLM.
 
@@ -1033,7 +1090,7 @@ $^\ddagger$ Migration/Temporal Edit
 | 2022-11 |          BLOOM           | [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100)                                                                                    | The largest open-source LLM, trained on 46 languages, with detailed discussion about training and evaluation                         |
 | 2022-12 |      Self-Instruct       | [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)                                                                           | Instruction tuning using LLM-generated data                                                                                          |
 
-This list aims to provide the essential background for understanding current LLM technologies, and thus excludes more recent models such as [LLaMA](https://arxiv.org/abs/2302.13971), [GPT-4](https://arxiv.org/abs/2303.08774) or [PaLM 2](https://arxiv.org/abs/2305.10403). For comprehensive reviews on these more general topics, we refer to other sources such as [this paper](https://arxiv.org/abs/2303.18223) or these repositories: [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM), [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials). And for specific domains: [Awesome Domain LLM](https://github.com/luban-agi/Awesome-Domain-LLM), [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning#awesome-tool-learning), [Awesome-LLM-MT](https://github.com/hsing-wang/Awesome-LLM-MT).
+This list aims to provide the essential background for understanding current LLM technologies, and thus excludes more recent models such as [LLaMA](https://arxiv.org/abs/2302.13971), [GPT-4](https://arxiv.org/abs/2303.08774) or [PaLM 2](https://arxiv.org/abs/2305.10403). For comprehensive reviews on these more general topics, we refer to other sources such as [this paper](https://arxiv.org/abs/2303.18223) or these repositories: [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM), [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials). And for LLM applications in other specific domains: [Awesome Domain LLM](https://github.com/luban-agi/Awesome-Domain-LLM), [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning#awesome-tool-learning), [Awesome-LLM-MT](https://github.com/hsing-wang/Awesome-LLM-MT), [Awesome Education LLM](https://github.com/Geralt-Targaryen/Awesome-Education-LLM).
 
 ## Citation
 
