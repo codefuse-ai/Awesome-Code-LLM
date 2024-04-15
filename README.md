@@ -10,27 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413) from MIT
+- 🔥🔥 [DeVAIC: A Tool for Security Assessment of AI-generated Code](https://arxiv.org/abs/2404.07548) from University of Naples Federico II
 
-- 🔥🔥 [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://arxiv.org/abs/2404.07503) from DeepMind
+- 🔥🔥 [A Multi-Expert Large Language Model Architecture for Verilog Code Generation](https://arxiv.org/abs/2404.08029) from University of South Florida
 
-- 🔥🔥 [Structure-aware Fine-tuning for Code Pre-trained Models](https://arxiv.org/abs/2404.07471) from ECNU
+- 🔥🔥 [Analyzing the Performance of Large Language Models on Code Summarization](https://arxiv.org/abs/2404.08018) from UIUC
 
-- 🔥🔥 [WILBUR: Adaptive In-Context Learning for Robust and Accurate Web Agents](https://arxiv.org/abs/2404.05902) from UC Berkeley
+- 🔥 [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413) from MIT
 
-- 🔥🔥 [The Fact Selection Problem in LLM-Based Program Repair](https://arxiv.org/abs/2404.05520) from University College London
+- 🔥 [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://arxiv.org/abs/2404.07503) from DeepMind
 
-- 🔥 [Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective](https://arxiv.org/abs/2404.07549) from Beijing Jiaotong University and Tencent
+- 🔥 [Structure-aware Fine-tuning for Code Pre-trained Models](https://arxiv.org/abs/2404.07471) from ECNU
 
-- 🔥 [BISCUIT: Scaffolding LLM-Generated Code with Ephemeral UIs in Computational Notebooks](https://arxiv.org/abs/2404.07387) from Apple
+- 🔥 [WILBUR: Adaptive In-Context Learning for Robust and Accurate Web Agents](https://arxiv.org/abs/2404.05902) from UC Berkeley
 
-- 🔥 [AutoCodeRover: Autonomous Program Improvement](https://arxiv.org/abs/2404.05427) from National University of Singapore
-
-- 🔥 [VISION2UI: A Real-World Dataset with Layout for Code Generation from UI Designs](https://arxiv.org/abs/2404.06369) from Huazhong University of Science and Technology
-
-- 🔥 [Unlocking Adaptive User Experience with Generative AI](https://arxiv.org/abs/2404.05442) from Monash University
-
-- 🔥 [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395) from Tsinghua University
+- 🔥 [The Fact Selection Problem in LLM-Based Program Repair](https://arxiv.org/abs/2404.05520) from University College London
 
 🔥🔥🔥 [2024/04] [Code Summarization](#code-summarization).
 
@@ -407,27 +401,29 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
-- "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages", 2022-04, ICPC 2022, [[paper](https://arxiv.org/abs/2204.09653)]
+- "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
 
-- "Benchmarking Large Language Models for Automated Verilog RTL Code Generation", 2022-12, DATE 2023, [[paper](https://arxiv.org/abs/2212.11140)]
+- "Benchmarking Large Language Models for Automated Verilog RTL Code Generation" [2022-12] [DATE 2023] [[paper](https://arxiv.org/abs/2212.11140)]
 
-- "The potential of LLMs for coding with low-resource and domain-specific programming languages", 2023-07, [[paper](https://arxiv.org/abs/2307.13018)]
+- "The potential of LLMs for coding with low-resource and domain-specific programming languages" [2023-07] [[paper](https://arxiv.org/abs/2307.13018)]
 
-- "VeriGen: A Large Language Model for Verilog Code Generation", 2023-07, [[paper](https://arxiv.org/abs/2308.00708)]
+- "VeriGen: A Large Language Model for Verilog Code Generation" [2023-07] [[paper](https://arxiv.org/abs/2308.00708)]
 
-- "RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model", 2023-08, [[paper](https://arxiv.org/abs/2308.05345)]
+- "RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model" [2023-08] [[paper](https://arxiv.org/abs/2308.05345)]
 
-- "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs", 2023-08, [[paper](https://arxiv.org/abs/2308.09895)]
+- "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs" [2023-08] [[paper](https://arxiv.org/abs/2308.09895)]
 
-- "VerilogEval: Evaluating Large Language Models for Verilog Code Generation", 2023-09, ICCAD 2023, [[paper](https://arxiv.org/abs/2309.07544)]
+- "VerilogEval: Evaluating Large Language Models for Verilog Code Generation" [2023-09] [ICCAD 2023] [[paper](https://arxiv.org/abs/2309.07544)]
 
-- "RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models", 2023-11, [[paper](https://arxiv.org/abs/2311.16543)]
+- "RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models" [2023-11] [[paper](https://arxiv.org/abs/2311.16543)]
 
-- "Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis", 2023-12, [[paper](https://arxiv.org/abs/2312.01022)]
+- "Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis" [2023-12] [[paper](https://arxiv.org/abs/2312.01022)]
 
-- "RTLCoder: Outperforming GPT-3.5 in Design RTL Generation with Our Open-Source Dataset and Lightweight Solution", 2023-12, [[paper](https://arxiv.org/abs/2312.08617)]
+- "RTLCoder: Outperforming GPT-3.5 in Design RTL Generation with Our Open-Source Dataset and Lightweight Solution" [2023-12] [[paper](https://arxiv.org/abs/2312.08617)]
 
-- "Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study", 2024-03, [[paper](https://arxiv.org/abs/2403.15185)]
+- "Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study" [2024-03] [[paper](https://arxiv.org/abs/2403.15185)]
+
+- "A Multi-Expert Large Language Model Architecture for Verilog Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08029)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -496,6 +492,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Distilled GPT for Source Code Summarization" [2023-08] [ASE] [[paper](https://arxiv.org/abs/2308.14731)]
 
 - "CSA-Trans: Code Structure Aware Transformer for AST" [2024-04] [[paper](https://arxiv.org/abs/2404.05767)]
+
+- "Analyzing the Performance of Large Language Models on Code Summarization" [2024-04] [[paper](https://arxiv.org/abs/2404.08018)]
 
 ### Program Repair
 
@@ -873,6 +871,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "On Evaluating the Efficiency of Source Code Generated by LLMs" [2024-04] [[paper](https://arxiv.org/abs/2404.06041)]
 
+- "DeVAIC: A Tool for Security Assessment of AI-generated Code" [2024-04] [[paper](https://arxiv.org/abs/2404.07548)]
+
 ## 7. User-LLM Interaction
 
 - "The RealHumanEval: Evaluating Large Language Models' Abilities to Support Programmers" [2024-04] [[paper](https://arxiv.org/abs/2404.02806)]
@@ -901,7 +901,13 @@ More papers in this section are coming soon.
 
 ### 8.2 Benchmarks
 
-1. **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
+#### Integrated Benchmarks
+
+- **CodeXGLUE**: "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation" [2021-02] [NeurIPS Datasets and Benchmarks 2021] [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)] [[data](https://huggingface.co/datasets?search=code_x_glue)]
+
+- **CodefuseEval**: "CodeFuse-13B: A Pretrained Multi-lingual Code Large Language Model" [2023-10] [[paper](https://arxiv.org/abs/2310.06266)] [[repo](https://github.com/codefuse-ai/codefuse-evaluation)]
+
+- **CodeEditorBench**: "CodeEditorBench: Evaluating Code Editing Capability of Large Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.03543)] [[repo](https://github.com/CodeEditorBench/CodeEditorBench)]
 
 #### Program Synthesis
 
@@ -1128,6 +1134,7 @@ $^\diamond$ Machine/human prompts
 | 2023-09 | arXiv        | CodePlan      | 645/21 $^\ddagger$     | C#/Python $^\ddagger$        | "CodePlan: Repository-level Coding using LLMs and Planning" [[paper](https://arxiv.org/abs/2309.12499)] [[data](https://aka.ms/CodePlan)] \*\*                                                        |
 | 2023-10 | arXiv        | SWE-Bench     | 2294                   | Python                       | "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?" [[paper](https://arxiv.org/abs/2310.06770)] [[data](https://www.swebench.com/)]                                                    |
 | 2023-10 | arXiv        | CrossCodeEval | 9928                   | Python, Java, TypeScript, C# | "CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion" [[paper](https://arxiv.org/abs/2310.11248)] [[data](https://crosscodeeval.github.io/)]                           |
+| 2024-03 | arXiv        | EvoCodeBench  | 275                    | Python                       | "EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories" [[paper](https://arxiv.org/abs/2404.00599)] [[data](https://github.com/seketeam/EvoCodeBench)]        |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
