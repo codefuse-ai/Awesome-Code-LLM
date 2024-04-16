@@ -10,31 +10,31 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [DeVAIC: A Tool for Security Assessment of AI-generated Code](https://arxiv.org/abs/2404.07548) from University of Naples Federico II
+- 🔥🔥 [Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs](https://arxiv.org/abs/2404.08148) from UT Austin
 
 - 🔥🔥 [A Multi-Expert Large Language Model Architecture for Verilog Code Generation](https://arxiv.org/abs/2404.08029) from University of South Florida
 
 - 🔥🔥 [Analyzing the Performance of Large Language Models on Code Summarization](https://arxiv.org/abs/2404.08018) from UIUC
 
+- 🔥 [DeVAIC: A Tool for Security Assessment of AI-generated Code](https://arxiv.org/abs/2404.07548) from University of Naples Federico II
+
 - 🔥 [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413) from MIT
 
 - 🔥 [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://arxiv.org/abs/2404.07503) from DeepMind
 
-- 🔥 [Structure-aware Fine-tuning for Code Pre-trained Models](https://arxiv.org/abs/2404.07471) from ECNU
+🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
-- 🔥 [WILBUR: Adaptive In-Context Learning for Robust and Accurate Web Agents](https://arxiv.org/abs/2404.05902) from UC Berkeley
+- addition of recent models and related works on downstream tasks
+- addidiont of two new tasks: decompilation and malware detection
+- addition of section 2.1.7 Code LLMs for Low-Resource, Low-Level, and Domain-Specific Languages
+- rewriting of section 7.1 LLMs Extended with Coding Tools
+- addition of section 7.3 Analysis of LLM-Generated Code
 
-- 🔥 [The Fact Selection Problem in LLM-Based Program Repair](https://arxiv.org/abs/2404.05520) from University College London
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Summarization](#code-summarization).
 
-🔥🔥🔥 [2024/04] [Code Summarization](#code-summarization).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Test Generation using LLM](#test-generation).
 
-🔥🔥🔥 [2024/04] [Test Generation using LLM](#test-generation).
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] We are moving works analyzing AI-generated code to a [separate section](#6-analysis-of-ai-generated-code).
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Simulation](#32-code-simulation): can LLMs simulate the execution of code?
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] We have added more than 40 papers on [vulnerability detection](#vulnerability-detection) into this list, including those [analyzing the vulnerabilities of AI-generated code](#vulnerability-analysis-of-llm-generated-code).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] We are moving works analyzing AI-generated code to a [separate section](#6-analysis-of-ai-generated-code).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
 
@@ -442,6 +442,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "The Larger the Better? Improved LLM Code-Generation via Budget Reallocation" [2024-03] [[paper](https://arxiv.org/abs/2404.00725)]
 
 - "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective" [2024-04] [[paper](https://arxiv.org/abs/2404.07549)]
+
+- "Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs" [2024-04] [[paper](https://arxiv.org/abs/2404.08148)]
 
 ### Code Translation
 
