@@ -10,25 +10,33 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs](https://arxiv.org/abs/2404.08148) from UT Austin
+- 🔥🔥 [CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation](https://arxiv.org/abs/2404.08806) from Texas A&M University
 
-- 🔥🔥 [A Multi-Expert Large Language Model Architecture for Verilog Code Generation](https://arxiv.org/abs/2404.08029) from University of South Florida
+- 🔥🔥 [Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension](https://arxiv.org/abs/2404.08885) from Microsoft
 
-- 🔥🔥 [Analyzing the Performance of Large Language Models on Code Summarization](https://arxiv.org/abs/2404.08018) from UIUC
+- 🔥🔥 [Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance](https://arxiv.org/abs/2404.08817) from University of Luxembourg
 
-- 🔥 [DeVAIC: A Tool for Security Assessment of AI-generated Code](https://arxiv.org/abs/2404.07548) from University of Naples Federico II
+- 🔥🔥 [Test Code Generation for Telecom Software Systems using Two-Stage Generative Model](https://arxiv.org/abs/2404.09249) from Global AI Accelerator
 
-- 🔥 [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413) from MIT
+- 🔥🔥 [Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937) from The Hong Kong University of Science and Technology
 
-- 🔥 [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://arxiv.org/abs/2404.07503) from DeepMind
+- 🔥🔥 [CodeGemma: Open Code Models Based on Gemma](https://storage.googleapis.com/deepmind-media/gemma/codegemma_report.pdf) from Google
+
+- 🔥 [Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs](https://arxiv.org/abs/2404.08148) from UT Austin
+
+- 🔥 [A Multi-Expert Large Language Model Architecture for Verilog Code Generation](https://arxiv.org/abs/2404.08029) from University of South Florida
+
+- 🔥 [Analyzing the Performance of Large Language Models on Code Summarization](https://arxiv.org/abs/2404.08018) from UIUC
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
 - addition of recent models and related works on downstream tasks
-- addidiont of two new tasks: decompilation and malware detection
+- addition of two new tasks: decompilation and malware detection
 - addition of section 2.1.7 Code LLMs for Low-Resource, Low-Level, and Domain-Specific Languages
 - rewriting of section 7.1 LLMs Extended with Coding Tools
 - addition of section 7.3 Analysis of LLM-Generated Code
+
+🔥🔥🔥 [2024/04] [Code Similarity](#code-similarity-clone-detection-code-search).
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Summarization](#code-summarization).
 
@@ -79,6 +87,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Code Translation](#code-translation)
    - [Code Summarization](#code-summarization)
    - [Program Repair](#program-repair)
+   - [Code Similarity (Clone Detection, Code Search)](#code-similarity-clone-detection-code-search)
    - [Vulnerability Detection](#vulnerability-detection)
    - [Type Prediction](#type-prediction)
    - [Malicious Code Detection](#malicious-code-detection)
@@ -195,19 +204,21 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 These models are general-purpose LLMs further pretrained on code-related data.
 
-1. **Codex** (GPT-3): "Evaluating Large Language Models Trained on Code", 2021-07, arXiv, [[paper](https://arxiv.org/abs/2107.03374)]
+- **Codex** (GPT-3): "Evaluating Large Language Models Trained on Code" [2021-07] [[paper](https://arxiv.org/abs/2107.03374)]
 
-2. **PaLM Coder** (PaLM): "PaLM: Scaling Language Modeling with Pathways", 2022-04, arXiv, [[paper](https://arxiv.org/abs/2204.02311)]
+- **PaLM Coder** (PaLM): "PaLM: Scaling Language Modeling with Pathways" [2022-04] [JMLR] [[paper](https://arxiv.org/abs/2204.02311)]
 
-3. **Minerva** (PaLM): "Solving Quantitative Reasoning Problems with Language Models", 2022-06, arXiv, [[paper](https://arxiv.org/abs/2206.14858)]
+- **Minerva** (PaLM): "Solving Quantitative Reasoning Problems with Language Models" [2022-06] [[paper](https://arxiv.org/abs/2206.14858)]
 
-4. **PaLM 2 \*** (PaLM 2): "PaLM 2 Technical Report", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.10403)]
+- **PaLM 2 \*** (PaLM 2): "PaLM 2 Technical Report" [2023-05] [[paper](https://arxiv.org/abs/2305.10403)]
 
-5. **Code LLaMA** (LLaMA 2): "Code Llama: Open Foundation Models for Code", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.12950)] [[repo](https://github.com/facebookresearch/codellama)]
+- **Code LLaMA** (LLaMA 2): "Code Llama: Open Foundation Models for Code" [2023-08] [[paper](https://arxiv.org/abs/2308.12950)] [[repo](https://github.com/facebookresearch/codellama)]
 
-6. **BTX** (LLaMA 2): "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM", 2024-03, [[paper](https://arxiv.org/abs/2403.07816)]
+- **BTX** (LLaMA 2): "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM" [2024-03] [[paper](https://arxiv.org/abs/2403.07816)]
 
-7. "Mastering Text, Code and Math Simultaneously via Fusing Highly Specialized Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.08281)]
+- "Mastering Text, Code and Math Simultaneously via Fusing Highly Specialized Language Models" [2024-03] [[paper](https://arxiv.org/abs/2403.08281)]
+
+- "CodeGemma: Open Code Models Based on Gemma" [2024-04] [[paper](https://storage.googleapis.com/deepmind-media/gemma/codegemma_report.pdf)] [[model](https://huggingface.co/models?search=google/codegemma)]
 
 ### 2.3 General Pretraining on Code
 
@@ -425,6 +436,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "A Multi-Expert Large Language Model Architecture for Verilog Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08029)]
 
+- "CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08806)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -528,6 +541,16 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Domain Knowledge Matters: Improving Prompts with Fix Templates for Repairing Python Type Errors" [2023-06] [ICSE 2024] [[paper](https://arxiv.org/abs/2306.01394)]
 
 - "The Fact Selection Problem in LLM-Based Program Repair" [2024-04] [[paper](https://arxiv.org/abs/2404.05520)]
+
+### Code Similarity (Clone Detection, Code Search)
+
+- "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
+
+- "REINFOREST: Reinforcing Semantic Code Similarity for Cross-Lingual Code Search Models" [2023-05] [[paper](https://arxiv.org/abs/2305.03843)]
+
+- "Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance" [2024-04] [[paper](https://arxiv.org/abs/2404.08817)]
+
+- "Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension" [2024-04] [[paper](https://arxiv.org/abs/2404.08885)]
 
 ### Vulnerability Detection
 
@@ -803,43 +826,45 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ### Test Generation
 
-- "Unit Test Case Generation with Transformers and Focal Context", 2020-09, AST@ICSE 2022, [[paper](https://arxiv.org/abs/2009.05617)]
+- "Unit Test Case Generation with Transformers and Focal Context" [2020-09] [AST@ICSE 2022] [[paper](https://arxiv.org/abs/2009.05617)]
 
-- "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers", 2020-09, [[paper](https://arxiv.org/abs/2009.05634)]
+- "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
 
-- "TOGA: A Neural Method for Test Oracle Generation", 2021-09, ICSE 2022, [[paper](https://arxiv.org/abs/2109.09262)]
+- "TOGA: A Neural Method for Test Oracle Generation" [2021-09] [ICSE 2022] [[paper](https://arxiv.org/abs/2109.09262)]
 
-- "An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation", 2023-02, IEEE TSE, [[paper](https://arxiv.org/abs/2302.06527)]
+- "An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation" [2023-02] [IEEE TSE] [[paper](https://arxiv.org/abs/2302.06527)]
 
-- "A3Test: Assertion-Augmented Automated Test Case Generation", 2023-02, [[paper](https://arxiv.org/abs/2302.10352)]
+- "A3Test: Assertion-Augmented Automated Test Case Generation" [2023-02] [[paper](https://arxiv.org/abs/2302.10352)]
 
-- "Learning Deep Semantics for Test Completion", 2023-02, ICSE 2023, [[paper](https://arxiv.org/abs/2302.10166)]
+- "Learning Deep Semantics for Test Completion" [2023-02] [ICSE 2023] [[paper](https://arxiv.org/abs/2302.10166)]
 
-- "Using Large Language Models to Generate JUnit Tests: An Empirical Study", 2023-04, EASE 2024, [[paper](https://arxiv.org/abs/2305.00418)]
+- "Using Large Language Models to Generate JUnit Tests: An Empirical Study" [2023-04] [EASE 2024] [[paper](https://arxiv.org/abs/2305.00418)]
 
-- "CodaMosa: Escaping Coverage Plateaus in Test Generation with Pre-Trained Large Language Models", 2023-05, ICSE 2023, [[paper](https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00085)]
+- "CodaMosa: Escaping Coverage Plateaus in Test Generation with Pre-Trained Large Language Models" [2023-05] [ICSE 2023] [[paper](https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00085)]
 
-- "No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation", 2023-05, [[paper](https://arxiv.org/abs/2305.04207)]
+- "No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation" [2023-05] [[paper](https://arxiv.org/abs/2305.04207)]
 
-- "ChatUniTest: a ChatGPT-based automated unit test generation tool", 2023-05, [[paper](https://arxiv.org/abs/2305.04764)]
+- "ChatUniTest: a ChatGPT-based automated unit test generation tool" [2023-05] [[paper](https://arxiv.org/abs/2305.04764)]
 
-- "ChatGPT vs SBST: A Comparative Assessment of Unit Test Suite Generation", 2023-07, [[paper](https://arxiv.org/abs/2307.00588)]
+- "ChatGPT vs SBST: A Comparative Assessment of Unit Test Suite Generation" [2023-07] [[paper](https://arxiv.org/abs/2307.00588)]
 
-- "Can Large Language Models Write Good Property-Based Tests?", 2023-07, [[paper](https://arxiv.org/abs/2307.04346)]
+- "Can Large Language Models Write Good Property-Based Tests?" [2023-07] [[paper](https://arxiv.org/abs/2307.04346)]
 
-- "Domain Adaptation for Deep Unit Test Case Generation", 2023-08, [[paper](https://arxiv.org/abs/2308.08033)]
+- "Domain Adaptation for Deep Unit Test Case Generation" [2023-08] [[paper](https://arxiv.org/abs/2308.08033)]
 
-- "Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing", 2023-08, [[paper](https://arxiv.org/abs/2308.16557)]
+- "Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing" [2023-08] [[paper](https://arxiv.org/abs/2308.16557)]
 
-- "How well does LLM generate security tests?", 2023-10, [[paper](https://arxiv.org/abs/2310.00710)]
+- "How well does LLM generate security tests?" [2023-10] [[paper](https://arxiv.org/abs/2310.00710)]
 
-- "Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation", 2023-10, [[paper](https://arxiv.org/abs/2310.02368)]
+- "Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation" [2023-10] [[paper](https://arxiv.org/abs/2310.02368)]
 
-- "An initial investigation of ChatGPT unit test generation capability", 2023-10, SAST 2023, [[paper](https://dl.acm.org/doi/abs/10.1145/3624032.3624035)]
+- "An initial investigation of ChatGPT unit test generation capability" [2023-10] [SAST 2023] [[paper](https://dl.acm.org/doi/abs/10.1145/3624032.3624035)]
 
-- "CoverUp: Coverage-Guided LLM-Based Test Generation", 2024-03, [[paper](https://arxiv.org/abs/2403.16218)]
+- "CoverUp: Coverage-Guided LLM-Based Test Generation" [2024-03] [[paper](https://arxiv.org/abs/2403.16218)]
 
-- "Enhancing LLM-based Test Generation for Hard-to-Cover Branches via Program Analysis", 2024-04, [[paper](https://arxiv.org/abs/2404.04966)]
+- "Enhancing LLM-based Test Generation for Hard-to-Cover Branches via Program Analysis" [2024-04] [[paper](https://arxiv.org/abs/2404.04966)]
+
+- "Test Code Generation for Telecom Software Systems using Two-Stage Generative Model" [2024-04] [[paper](https://arxiv.org/abs/2404.09249)]
 
 ## 6. Analysis of AI-Generated Code
 
