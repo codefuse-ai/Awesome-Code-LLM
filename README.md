@@ -10,23 +10,27 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation](https://arxiv.org/abs/2404.08806) from Texas A&M University
+- 🔥🔥 [CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/)
 
-- 🔥🔥 [Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension](https://arxiv.org/abs/2404.08885) from Microsoft
+- 🔥🔥 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09952) from Universidad de Buenos Aires
 
-- 🔥🔥 [Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance](https://arxiv.org/abs/2404.08817) from University of Luxembourg
+- 🔥🔥 [MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems](https://arxiv.org/abs/2404.09486) from National University of Singapore
 
-- 🔥🔥 [Test Code Generation for Telecom Software Systems using Two-Stage Generative Model](https://arxiv.org/abs/2404.09249) from Global AI Accelerator
+- 🔥🔥 [LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09384) from Northeastern University
 
-- 🔥🔥 [Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937) from The Hong Kong University of Science and Technology
+- 🔥🔥 [LLM-based Test-driven Interactive Code Generation: User Study and Empirical Evaluation](https://arxiv.org/abs/2404.10100) from Microsoft
 
-- 🔥🔥 [CodeGemma: Open Code Models Based on Gemma](https://storage.googleapis.com/deepmind-media/gemma/codegemma_report.pdf) from Google
+- 🔥 [CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation](https://arxiv.org/abs/2404.08806) from Texas A&M University
 
-- 🔥 [Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs](https://arxiv.org/abs/2404.08148) from UT Austin
+- 🔥 [Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension](https://arxiv.org/abs/2404.08885) from Microsoft
 
-- 🔥 [A Multi-Expert Large Language Model Architecture for Verilog Code Generation](https://arxiv.org/abs/2404.08029) from University of South Florida
+- 🔥 [Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance](https://arxiv.org/abs/2404.08817) from University of Luxembourg
 
-- 🔥 [Analyzing the Performance of Large Language Models on Code Summarization](https://arxiv.org/abs/2404.08018) from UIUC
+- 🔥 [Test Code Generation for Telecom Software Systems using Two-Stage Generative Model](https://arxiv.org/abs/2404.09249) from Global AI Accelerator
+
+- 🔥 [Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937) from The Hong Kong University of Science and Technology
+
+- 🔥 [CodeGemma: Open Code Models Based on Gemma](https://storage.googleapis.com/deepmind-media/gemma/codegemma_report.pdf) from Google
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
@@ -96,6 +100,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
    - [Decompilation](#decompilation)
    - [Test Generation](#test-generation)
+   - [Mutation Testing](#mutation-testing)
 
 6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
 
@@ -128,23 +133,25 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## 1. Surveys
 
-We list several recent surveys on similar topics. While they are all about language models for code, 1-2 focus on NLP side; 3-6 focus on SE side; 7-8 are released after ours.
+We list several recent surveys on similar topics. While they are all about language models for code, 1-2 focus on NLP side; 3-6 focus on SE side; 7-9 are released after ours.
 
-1. "Large Language Models Meet NL2Code: A Survey", 2022-12, ACL 2023, [[paper](https://arxiv.org/abs/2212.09420)]
+1. "Large Language Models Meet NL2Code: A Survey" [2022-12] [ACL 2023] [[paper](https://arxiv.org/abs/2212.09420)]
 
-2. "A Survey on Pretrained Language Models for Neural Code Intelligence", 2022-12, arXiv, [[paper](https://arxiv.org/abs/2212.10079)]
+2. "A Survey on Pretrained Language Models for Neural Code Intelligence" [2022-12] [[paper](https://arxiv.org/abs/2212.10079)]
 
-3. "An Empirical Comparison of Pre-Trained Models of Source Code", 2023-02, ICSE 2023, [[paper](https://arxiv.org/abs/2302.04026)]
+3. "An Empirical Comparison of Pre-Trained Models of Source Code" [2023-02] [ICSE 2023] [[paper](https://arxiv.org/abs/2302.04026)]
 
-4. "Large Language Models for Software Engineering: A Systematic Literature Review", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.10620)]
+4. "Large Language Models for Software Engineering: A Systematic Literature Review" [2023-08] [[paper](https://arxiv.org/abs/2308.10620)]
 
-5. "Towards an Understanding of Large Language Models in Software Engineering Tasks", 2023-08, arXiv, [[paper](https://arxiv.org/abs/2308.11396)]
+5. "Towards an Understanding of Large Language Models in Software Engineering Tasks" [2023-08] [[paper](https://arxiv.org/abs/2308.11396)]
 
-6. "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey", 2023-10, arXiv, [[paper](https://arxiv.org/abs/2310.17903)]
+6. "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey" [2023-10] [[paper](https://arxiv.org/abs/2310.17903)]
 
-7. "Deep Learning for Code Intelligence: Survey, Benchmark and Toolkit", 2023-12, [[paper](https://arxiv.org/abs/2401.00288)]
+7. "Deep Learning for Code Intelligence: Survey, Benchmark and Toolkit" [2023-12] [[paper](https://arxiv.org/abs/2401.00288)]
 
-8. "A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond", 2024-03, [[paper](https://arxiv.org/abs/2403.14734)]
+8. "A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond" [2024-03] [[paper](https://arxiv.org/abs/2403.14734)]
+
+9. "Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches" [2024-04] [[paper](https://arxiv.org/abs/2404.09384)]
 
 ## 2. Models
 
@@ -246,37 +253,39 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 #### Decoder
 
-1. **GPT-C** (CLM): "IntelliCode Compose: Code Generation Using Transformer", 2020-05, ESEC/FSE 2020, [[paper](https://arxiv.org/abs/2005.08025)]
+1. **GPT-C** (CLM): "IntelliCode Compose: Code Generation Using Transformer" [2020-05] [ESEC/FSE 2020] [[paper](https://arxiv.org/abs/2005.08025)]
 
-2. **CodeGPT** (CLM): "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation", 2021-02, NeurIPS Datasets and Benchmarks 2021, [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)]
+2. **CodeGPT** (CLM): "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation" [2021-02] [NeurIPS Datasets and Benchmarks 2021] [[paper](https://arxiv.org/abs/2102.04664)] [[repo](https://github.com/microsoft/CodeXGLUE)]
 
-3. **CodeParrot** (CLM), 2021-12, [[blog](https://huggingface.co/blog/codeparrot)]
+3. **CodeParrot** (CLM) [2021-12] [[blog](https://huggingface.co/blog/codeparrot)]
 
-4. **PolyCoder** (CLM): "A Systematic Evaluation of Large Language Models of Code", 2022-02, - DL4C@ICLR 2022, [[paper](https://arxiv.org/abs/2202.13169)] [[repo](https://github.com/VHellendoorn/Code-LMs)]
+4. **PolyCoder** (CLM): "A Systematic Evaluation of Large Language Models of Code" [2022-02] [DL4C@ICLR 2022] [[paper](https://arxiv.org/abs/2202.13169)] [[repo](https://github.com/VHellendoorn/Code-LMs)]
 
-5. **CodeGen** (CLM): "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis", 2022-03, ICLR 2023, [[paper](https://arxiv.org/abs/2203.13474)] [[repo](https://github.com/salesforce/CodeGen)]
+5. **CodeGen** (CLM): "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis" [2022-03] [ICLR 2023] [[paper](https://arxiv.org/abs/2203.13474)] [[repo](https://github.com/salesforce/CodeGen)]
 
-6. **InCoder** (Causal Masking): "InCoder: A Generative Model for Code Infilling and Synthesis", 2022-04, ICLR 2023, [[paper](https://arxiv.org/abs/2204.05999)] [[repo](https://github.com/dpfried/incoder)]
+6. **InCoder** (Causal Masking): "InCoder: A Generative Model for Code Infilling and Synthesis" [2022-04] [ICLR 2023] [[paper](https://arxiv.org/abs/2204.05999)] [[repo](https://github.com/dpfried/incoder)]
 
-7. **PyCodeGPT** (CLM): "CERT: Continual Pre-Training on Sketches for Library-Oriented Code Generation", 2022-06, IJCAI-ECAI 2022, [[paper](https://arxiv.org/abs/2206.06888)] [[repo](https://github.com/microsoft/PyCodeGPT)]
+7. **PyCodeGPT** (CLM): "CERT: Continual Pre-Training on Sketches for Library-Oriented Code Generation" [2022-06] [IJCAI-ECAI 2022] [[paper](https://arxiv.org/abs/2206.06888)] [[repo](https://github.com/microsoft/PyCodeGPT)]
 
-8. **PanGu-Coder** (CLM): "PanGu-Coder: Program Synthesis with Function-Level Language Modeling", 2022-07, arxiv, [[paper](https://arxiv.org/abs/2207.11280)]
+8. **PanGu-Coder** (CLM): "PanGu-Coder: Program Synthesis with Function-Level Language Modeling" [2022-07] [[paper](https://arxiv.org/abs/2207.11280)]
 
-9. **SantaCoder** (FIM): "SantaCoder: don't reach for the stars!", 2023-01, arXiv, [[paper](https://arxiv.org/abs/2301.03988)] [[model](https://huggingface.co/bigcode/santacoder)]
+9. **SantaCoder** (FIM): "SantaCoder: don't reach for the stars!" [2023-01] [[paper](https://arxiv.org/abs/2301.03988)] [[model](https://huggingface.co/bigcode/santacoder)]
 
-10. **CodeGeeX** (CLM): "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X", 2023-03, arxiv, [[paper](https://arxiv.org/abs/2303.17568)] [[repo](https://github.com/THUDM/CodeGeeX)]
+10. **CodeGeeX** (CLM): "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X" [2023-03] [[paper](https://arxiv.org/abs/2303.17568)] [[repo](https://github.com/THUDM/CodeGeeX)]
 
-11. **StarCoder** (FIM): "StarCoder: may the source be with you!", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.06161)] [[model](https://huggingface.co/bigcode/starcoder)]
+11. **StarCoder** (FIM): "StarCoder: may the source be with you!" [2023-05] [[paper](https://arxiv.org/abs/2305.06161)] [[model](https://huggingface.co/bigcode/starcoder)]
 
-12. **Phi-1** (CLM): "Textbooks Are All You Need", 2023-06, arxiv, [[paper](https://arxiv.org/abs/2306.11644)] [[model](https://huggingface.co/microsoft/phi-1)]
+12. **Phi-1** (CLM): "Textbooks Are All You Need" [2023-06] [[paper](https://arxiv.org/abs/2306.11644)] [[model](https://huggingface.co/microsoft/phi-1)]
 
-13. **CodeFuse** (CLM): "CodeFuse-13B: A Pretrained Multi-lingual Code Large Language Model", 2023-10, arxiv, [[paper](https://arxiv.org/abs/2310.06266)] [[model](https://huggingface.co/codefuse-ai/CodeFuse-13B)]
+13. **CodeFuse** (CLM): "CodeFuse-13B: A Pretrained Multi-lingual Code Large Language Model" [2023-10] [[paper](https://arxiv.org/abs/2310.06266)] [[model](https://huggingface.co/codefuse-ai/CodeFuse-13B)]
 
-14. **DeepSeek Coder** (CLM+FIM): "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.14196)] [[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
+14. **DeepSeek Coder** (CLM+FIM): "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence" [2024-01] [[paper](https://arxiv.org/abs/2401.14196)] [[repo](https://github.com/deepseek-ai/DeepSeek-Coder)]
 
-15. **StarCoder2** (CLM+FIM): "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[repo](https://github.com/bigcode-project/starcoder2)]
+15. **StarCoder2** (CLM+FIM): "StarCoder 2 and The Stack v2: The Next Generation" [2024-02] [[paper](https://arxiv.org/abs/2402.19173)] [[repo](https://github.com/bigcode-project/starcoder2)]
 
-16. **CodeShell** (CLM+FIM): "CodeShell Technical Report", 2024-03, [[paper](https://arxiv.org/abs/2403.15747)] [[repo](https://github.com/WisdomShell/codeshell)]
+16. **CodeShell** (CLM+FIM): "CodeShell Technical Report" [2024-03] [[paper](https://arxiv.org/abs/2403.15747)] [[repo](https://github.com/WisdomShell/codeshell)]
+
+17. **CodeQwen1.5** [2024-04] [[blog](https://qwenlm.github.io/blog/codeqwen1.5/)]
 
 #### Encoder-Decoder
 
@@ -409,6 +418,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback" [2024-03] [[paper](https://arxiv.org/abs/2403.16792)]
 
 - "CYCLE: Learning to Self-Refine the Code Generation" [2024-03] [[paper](https://arxiv.org/abs/2403.18746)]
+
+- "LLM-based Test-driven Interactive Code Generation: User Study and Empirical Evaluation" [2024-04] [[paper](https://arxiv.org/abs/2404.10100)]
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
@@ -866,6 +877,14 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Test Code Generation for Telecom Software Systems using Two-Stage Generative Model" [2024-04] [[paper](https://arxiv.org/abs/2404.09249)]
 
+### Mutation Testing
+
+- "μBERT: Mutation Testing using Pre-Trained Language Models" [2022-03] [[paper](https://arxiv.org/abs/2203.03289)]
+
+- "Efficient Mutation Testing via Pre-Trained Language Models" [2023-01] [[paper](https://arxiv.org/abs/2301.03543)]
+
+- "LLMorpheus: Mutation Testing using Large Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.09952)]
+
 ## 6. Analysis of AI-Generated Code
 
 - "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
@@ -968,6 +987,7 @@ More papers in this section are coming soon.
 | 2023-09 | arXiv                            | CodeApex               | 476                  | C++                                                                              | "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models" [[paper](https://arxiv.org/abs/2309.01940)] [[data](https://github.com/APEXLAB/CodeApex)]                                                                                                                 |
 | 2023-09 | arXiv                            | VerilogEval            | 8645/156 $^\diamond$ | Verilog                                                                          | "VerilogEval: Evaluating Large Language Models for Verilog Code Generation" [[paper](https://arxiv.org/abs/2309.07544)] [[data](https://github.com/NVlabs/verilog-eval)]                                                                                                                     |
 | 2023-11 | arXiv                            | ML-Bench               | 10040                | Bash                                                                             | "ML-Bench: Large Language Models Leverage Open-source Libraries for Machine Learning Tasks" [[paper](https://arxiv.org/abs/2311.09835)] [[data](https://ml-bench.github.io/)]                                                                                                                |
+| 2024-04 | arXiv                            | MMCode                 | 3548                 | Python                                                                           | "MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems" [[paper](https://arxiv.org/abs/2404.09486)] [[data](https://github.com/happylkx/MMCode)]                                                                                                 |
 
 \* Automatically mined/human-annotated
 
