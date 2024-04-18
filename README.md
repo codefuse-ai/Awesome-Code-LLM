@@ -12,11 +12,11 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 - 🔥🔥 [CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/)
 
-- 🔥🔥 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09952) from Universidad de Buenos Aires
+- 🔥🔥 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09384) from Universidad de Buenos Aires
 
 - 🔥🔥 [MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems](https://arxiv.org/abs/2404.09486) from National University of Singapore
 
-- 🔥🔥 [LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09384) from Northeastern University
+- 🔥🔥 [LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09952) from Northeastern University
 
 - 🔥🔥 [LLM-based Test-driven Interactive Code Generation: User Study and Empirical Evaluation](https://arxiv.org/abs/2404.10100) from Microsoft
 
@@ -471,31 +471,33 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ### Code Translation
 
-- "Tree-to-tree Neural Networks for Program Translation", 2018-02, NeurIPS 2018, [[paper](https://arxiv.org/abs/1802.03691)]
+- "Tree-to-tree Neural Networks for Program Translation" [2018-02] [NeurIPS 2018] [[paper](https://arxiv.org/abs/1802.03691)]
 
-- "Program Language Translation Using a Grammar-Driven Tree-to-Tree Model", 2018-07, [[paper](https://arxiv.org/abs/1807.01784)]
+- "Program Language Translation Using a Grammar-Driven Tree-to-Tree Model" [2018-07] [[paper](https://arxiv.org/abs/1807.01784)]
 
-- "Unsupervised Translation of Programming Languages", 2020-06, NeurIPS 2020, [[paper](https://arxiv.org/abs/2006.03511)]
+- "Unsupervised Translation of Programming Languages" [2020-06] [NeurIPS 2020] [[paper](https://arxiv.org/abs/2006.03511)]
 
-- "Leveraging Automated Unit Tests for Unsupervised Code Translation", 2021-10, ICLR 2022, [[paper](https://arxiv.org/abs/2110.06773)]
+- "Leveraging Automated Unit Tests for Unsupervised Code Translation" [2021-10] [ICLR 2022] [paper](https://arxiv.org/abs/2110.06773)]
 
-- "Code Translation with Compiler Representations", 2022-06, ICLR 2023, [[paper](https://arxiv.org/abs/2207.03578)]
+- "Code Translation with Compiler Representations" [2022-06] [ICLR 2023] [[paper](https://arxiv.org/abs/2207.03578)]
 
-- "Multilingual Code Snippets Training for Program Translation", 2022-06, AAAI 2022, [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21434)]
+- "Multilingual Code Snippets Training for Program Translation" [2022-06] [AAAI 2022] [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21434)]
 
-- "BabelTower: Learning to Auto-parallelized Program Translation", 2022-07, ICML 2022, [[paper](https://proceedings.mlr.press/v162/wen22b.html)]
+- "BabelTower: Learning to Auto-parallelized Program Translation" [2022-07] [ICML 2022] [[paper](https://proceedings.mlr.press/v162/wen22b.html)]
 
-- "Syntax and Domain Aware Model for Unsupervised Program Translation", 2023-02, ICSE 2023, [[paper](https://arxiv.org/abs/2302.03908)]
+- "Syntax and Domain Aware Model for Unsupervised Program Translation" [2023-02] [ICSE 2023] [[paper](https://arxiv.org/abs/2302.03908)]
 
-- "CoTran: An LLM-based Code Translator using Reinforcement Learning with Feedback from Compiler and Symbolic Execution", 2023-06, [[paper](https://arxiv.org/abs/2306.06755)]
+- "CoTran: An LLM-based Code Translator using Reinforcement Learning with Feedback from Compiler and Symbolic Execution" [2023-06] [[paper](https://arxiv.org/abs/2306.06755)]
 
-- "Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code", 2023-08, ICSE 2024, [[paper](https://arxiv.org/abs/2308.03109)]
+- "Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code" [2023-08] [ICSE 2024] [[paper](https://arxiv.org/abs/2308.03109)]
 
 - "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark", 2023-08, ASE 2023, [[paper](https://arxiv.org/abs/2308.08961)]
 
-- "Explain-then-Translate: An Analysis on Improving Program Translation with Self-generated Explanations", 2023-11, EMNLP Findings 2023, [[paper](https://arxiv.org/abs/2311.07070)]
+- "Program Translation via Code Distillation" [2023-10] [EMNLP 2023] [[paper](https://arxiv.org/abs/2310.11476)]
 
-- "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation", 2024-03, [[paper](https://arxiv.org/abs/2403.17214)]
+- "Explain-then-Translate: An Analysis on Improving Program Translation with Self-generated Explanations" [2023-11] [EMNLP Findings 2023] [[paper](https://arxiv.org/abs/2311.07070)]
+
+- "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation" [2024-03] [[paper](https://arxiv.org/abs/2403.17214)]
 
 ### Code Summarization
 
