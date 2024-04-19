@@ -10,27 +10,27 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/)
+- 🔥🔥 [LLaMA 3](https://ai.meta.com/blog/meta-llama-3/) is here. The 8B and 70B models have a vocabulary of 128K tokens and a context window of 8192 tokens. They are trained on 15T tokens (of which 5% is non-English). The 80B model reports 81.7 on HumanEval.
 
-- 🔥🔥 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09384) from Universidad de Buenos Aires
+- 🔥🔥 [A Deep Dive into Large Language Models for Automated Bug Localization and Repair](https://arxiv.org/abs/2404.11595) from University of Virginia and Amazon
 
-- 🔥🔥 [MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems](https://arxiv.org/abs/2404.09486) from National University of Singapore
+- 🔥🔥 [An Empirical Evaluation of Pre-trained Large Language Models for Repairing Declarative Formal Specifications](https://arxiv.org/abs/2404.11050) from University of Wisconsin-Madison
 
-- 🔥🔥 [LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09952) from Northeastern University
+- 🔥🔥 [Can Language Models Solve Olympiad Programming?](https://arxiv.org/abs/2404.10952) from Princeton University
 
-- 🔥🔥 [LLM-based Test-driven Interactive Code Generation: User Study and Empirical Evaluation](https://arxiv.org/abs/2404.10100) from Microsoft
+- 🔥🔥 [LLM-Powered Test Case Generation for Detecting Tricky Bugs](https://arxiv.org/abs/2404.10304) from Peking University
 
-- 🔥 [CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation](https://arxiv.org/abs/2404.08806) from Texas A&M University
+- 🔥🔥 [Quality Assessment of Prompts Used in Code Generation](https://arxiv.org/abs/2404.10155) from University of Notre Dame
 
-- 🔥 [Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension](https://arxiv.org/abs/2404.08885) from Microsoft
+- 🔥 [CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/)
 
-- 🔥 [Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance](https://arxiv.org/abs/2404.08817) from University of Luxembourg
+- 🔥 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09384) from Universidad de Buenos Aires
 
-- 🔥 [Test Code Generation for Telecom Software Systems using Two-Stage Generative Model](https://arxiv.org/abs/2404.09249) from Global AI Accelerator
+- 🔥 [MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems](https://arxiv.org/abs/2404.09486) from National University of Singapore
 
-- 🔥 [Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937) from The Hong Kong University of Science and Technology
+- 🔥 [LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09952) from Northeastern University
 
-- 🔥 [CodeGemma: Open Code Models Based on Gemma](https://storage.googleapis.com/deepmind-media/gemma/codegemma_report.pdf) from Google
+- 🔥 [LLM-based Test-driven Interactive Code Generation: User Study and Empirical Evaluation](https://arxiv.org/abs/2404.10100) from Microsoft
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
@@ -133,7 +133,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## 1. Surveys
 
-We list several recent surveys on similar topics. While they are all about language models for code, 1-2 focus on NLP side; 3-6 focus on SE side; 7-9 are released after ours.
+We list several recent surveys on similar topics. While they are all about language models for code, 1-2 focus on NLP side; 3-6 focus on SE side; 7-10 are released after ours.
 
 1. "Large Language Models Meet NL2Code: A Survey" [2022-12] [ACL 2023] [[paper](https://arxiv.org/abs/2212.09420)]
 
@@ -147,11 +147,13 @@ We list several recent surveys on similar topics. While they are all about langu
 
 6. "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey" [2023-10] [[paper](https://arxiv.org/abs/2310.17903)]
 
-7. "Deep Learning for Code Intelligence: Survey, Benchmark and Toolkit" [2023-12] [[paper](https://arxiv.org/abs/2401.00288)]
+7. "A Survey on Large Language Models for Software Engineering" [2023-12] [[paper](https://arxiv.org/abs/2312.15223)]
 
-8. "A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond" [2024-03] [[paper](https://arxiv.org/abs/2403.14734)]
+8. "Deep Learning for Code Intelligence: Survey, Benchmark and Toolkit" [2023-12] [[paper](https://arxiv.org/abs/2401.00288)]
 
-9. "Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches" [2024-04] [[paper](https://arxiv.org/abs/2404.09384)]
+9. "A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond" [2024-03] [[paper](https://arxiv.org/abs/2403.14734)]
+
+10. "Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches" [2024-04] [[paper](https://arxiv.org/abs/2404.09384)]
 
 ## 2. Models
 
@@ -206,6 +208,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 23. **Poro**: "Poro 34B and the Blessing of Multilinguality" [2024-04] [[paper](https://arxiv.org/abs/2404.01856)] [[model](https://huggingface.co/LumiOpen/Poro-34B)]
 
 24. **JetMoE**: "JetMoE: Reaching Llama2 Performance with 0.1M Dollars" [2024-04] [[paper](https://arxiv.org/abs/2404.07413)] [[repo](https://github.com/myshell-ai/JetMoE)]
+
+25. **LLaMA 3** [2024-04] [[blog](https://ai.meta.com/blog/meta-llama-3/)] [[repo]](https://github.com/meta-llama/llama3)
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -423,31 +427,33 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
-- "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
+- [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
 
-- "Benchmarking Large Language Models for Automated Verilog RTL Code Generation" [2022-12] [DATE 2023] [[paper](https://arxiv.org/abs/2212.11140)]
+- [**Verilog**] "Benchmarking Large Language Models for Automated Verilog RTL Code Generation" [2022-12] [DATE 2023] [[paper](https://arxiv.org/abs/2212.11140)]
 
-- "The potential of LLMs for coding with low-resource and domain-specific programming languages" [2023-07] [[paper](https://arxiv.org/abs/2307.13018)]
+- [**Hansl**] "The potential of LLMs for coding with low-resource and domain-specific programming languages" [2023-07] [[paper](https://arxiv.org/abs/2307.13018)]
 
-- "VeriGen: A Large Language Model for Verilog Code Generation" [2023-07] [[paper](https://arxiv.org/abs/2308.00708)]
+- [**Verilog**] "VeriGen: A Large Language Model for Verilog Code Generation" [2023-07] [[paper](https://arxiv.org/abs/2308.00708)]
 
-- "RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model" [2023-08] [[paper](https://arxiv.org/abs/2308.05345)]
+- [**Verilog**] "RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model" [2023-08] [[paper](https://arxiv.org/abs/2308.05345)]
 
-- "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs" [2023-08] [[paper](https://arxiv.org/abs/2308.09895)]
+- [**Racket, OCaml, Lua, R, Julia**] "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs" [2023-08] [[paper](https://arxiv.org/abs/2308.09895)]
 
-- "VerilogEval: Evaluating Large Language Models for Verilog Code Generation" [2023-09] [ICCAD 2023] [[paper](https://arxiv.org/abs/2309.07544)]
+- [**Verilog**] "VerilogEval: Evaluating Large Language Models for Verilog Code Generation" [2023-09] [ICCAD 2023] [[paper](https://arxiv.org/abs/2309.07544)]
 
-- "RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models" [2023-11] [[paper](https://arxiv.org/abs/2311.16543)]
+- [**Verilog**] "RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models" [2023-11] [[paper](https://arxiv.org/abs/2311.16543)]
 
-- "Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis" [2023-12] [[paper](https://arxiv.org/abs/2312.01022)]
+- [**Verilog**] "Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis" [2023-12] [[paper](https://arxiv.org/abs/2312.01022)]
 
-- "RTLCoder: Outperforming GPT-3.5 in Design RTL Generation with Our Open-Source Dataset and Lightweight Solution" [2023-12] [[paper](https://arxiv.org/abs/2312.08617)]
+- [**Verilog**] "RTLCoder: Outperforming GPT-3.5 in Design RTL Generation with Our Open-Source Dataset and Lightweight Solution" [2023-12] [[paper](https://arxiv.org/abs/2312.08617)]
 
-- "Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study" [2024-03] [[paper](https://arxiv.org/abs/2403.15185)]
+- [**Haskell**] "Investigating the Performance of Language Models for Completing Code in Functional Programming Languages: a Haskell Case Study" [2024-03] [[paper](https://arxiv.org/abs/2403.15185)]
 
-- "A Multi-Expert Large Language Model Architecture for Verilog Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08029)]
+- [**Verilog**] "A Multi-Expert Large Language Model Architecture for Verilog Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08029)]
 
-- "CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08806)]
+- [**Verilog**] "CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.08806)]
+
+- [**Alloy**] "An Empirical Evaluation of Pre-trained Large Language Models for Repairing Declarative Formal Specifications" [2024-04] [[paper](https://arxiv.org/abs/2404.11050)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -468,6 +474,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective" [2024-04] [[paper](https://arxiv.org/abs/2404.07549)]
 
 - "Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs" [2024-04] [[paper](https://arxiv.org/abs/2404.08148)]
+
+- "Quality Assessment of Prompts Used in Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.10155)]
 
 ### Code Translation
 
@@ -554,6 +562,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Domain Knowledge Matters: Improving Prompts with Fix Templates for Repairing Python Type Errors" [2023-06] [ICSE 2024] [[paper](https://arxiv.org/abs/2306.01394)]
 
 - "The Fact Selection Problem in LLM-Based Program Repair" [2024-04] [[paper](https://arxiv.org/abs/2404.05520)]
+
+- "A Deep Dive into Large Language Models for Automated Bug Localization and Repair" [2024-04] [[paper](https://arxiv.org/abs/2404.11595)]
 
 ### Code Similarity (Clone Detection, Code Search)
 
@@ -879,6 +889,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Test Code Generation for Telecom Software Systems using Two-Stage Generative Model" [2024-04] [[paper](https://arxiv.org/abs/2404.09249)]
 
+- "LLM-Powered Test Case Generation for Detecting Tricky Bugs" [2024-04] [[paper](https://arxiv.org/abs/2404.10304)]
+
 ### Mutation Testing
 
 - "μBERT: Mutation Testing using Pre-Trained Language Models" [2022-03] [[paper](https://arxiv.org/abs/2203.03289)]
@@ -990,6 +1002,7 @@ More papers in this section are coming soon.
 | 2023-09 | arXiv                            | VerilogEval            | 8645/156 $^\diamond$ | Verilog                                                                          | "VerilogEval: Evaluating Large Language Models for Verilog Code Generation" [[paper](https://arxiv.org/abs/2309.07544)] [[data](https://github.com/NVlabs/verilog-eval)]                                                                                                                     |
 | 2023-11 | arXiv                            | ML-Bench               | 10040                | Bash                                                                             | "ML-Bench: Large Language Models Leverage Open-source Libraries for Machine Learning Tasks" [[paper](https://arxiv.org/abs/2311.09835)] [[data](https://ml-bench.github.io/)]                                                                                                                |
 | 2024-04 | arXiv                            | MMCode                 | 3548                 | Python                                                                           | "MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems" [[paper](https://arxiv.org/abs/2404.09486)] [[data](https://github.com/happylkx/MMCode)]                                                                                                 |
+| 2024-04 | arXiv                            | USACO                  | 307                  | Python                                                                           | "Can Language Models Solve Olympiad Programming?" [[paper](https://arxiv.org/abs/2404.10952)] [[data](https://github.com/princeton-nlp/USACO)]                                                                                                                                               |
 
 \* Automatically mined/human-annotated
 
