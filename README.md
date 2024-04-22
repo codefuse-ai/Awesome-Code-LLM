@@ -10,27 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [LLaMA 3](https://ai.meta.com/blog/meta-llama-3/) is here. The 8B and 70B models have a vocabulary of 128K tokens and a context window of 8192 tokens. They are trained on 15T tokens (of which 5% is non-English). The 80B model reports 81.7 on HumanEval.
+- 🔥🔥 [Generating Test Scenarios from NL Requirements using Retrieval-Augmented LLMs: An Industrial Study](https://arxiv.org/abs/2404.12772) from Monash University
 
-- 🔥🔥 [A Deep Dive into Large Language Models for Automated Bug Localization and Repair](https://arxiv.org/abs/2404.11595) from University of Virginia and Amazon
+- 🔥🔥 [Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs](https://arxiv.org/abs/2404.12636) from Yanshan University
 
-- 🔥🔥 [An Empirical Evaluation of Pre-trained Large Language Models for Repairing Declarative Formal Specifications](https://arxiv.org/abs/2404.11050) from University of Wisconsin-Madison
+- 🔥🔥 [Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models](https://arxiv.org/abs/2404.12387)
 
-- 🔥🔥 [Can Language Models Solve Olympiad Programming?](https://arxiv.org/abs/2404.10952) from Princeton University
+- 🔥🔥 [How far are AI-powered programming assistants from meeting developers' needs?](https://arxiv.org/abs/2404.12000) from Beihang University
 
-- 🔥🔥 [LLM-Powered Test Case Generation for Detecting Tricky Bugs](https://arxiv.org/abs/2404.10304) from Peking University
+- 🔥 [LLaMA 3](https://ai.meta.com/blog/meta-llama-3/) is here. The 8B and 70B models have a vocabulary of 128K tokens and a context window of 8192 tokens. They are trained on 15T tokens (of which 5% is non-English). The 80B model reports 81.7 on HumanEval.
 
-- 🔥🔥 [Quality Assessment of Prompts Used in Code Generation](https://arxiv.org/abs/2404.10155) from University of Notre Dame
+- 🔥 [A Deep Dive into Large Language Models for Automated Bug Localization and Repair](https://arxiv.org/abs/2404.11595) from University of Virginia and Amazon
 
-- 🔥 [CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/)
+- 🔥 [An Empirical Evaluation of Pre-trained Large Language Models for Repairing Declarative Formal Specifications](https://arxiv.org/abs/2404.11050) from University of Wisconsin-Madison
 
-- 🔥 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09384) from Universidad de Buenos Aires
-
-- 🔥 [MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems](https://arxiv.org/abs/2404.09486) from National University of Singapore
-
-- 🔥 [LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09952) from Northeastern University
-
-- 🔥 [LLM-based Test-driven Interactive Code Generation: User Study and Empirical Evaluation](https://arxiv.org/abs/2404.10100) from Microsoft
+- 🔥 [Can Language Models Solve Olympiad Programming?](https://arxiv.org/abs/2404.10952) from Princeton University
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
@@ -209,7 +203,9 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 24. **JetMoE**: "JetMoE: Reaching Llama2 Performance with 0.1M Dollars" [2024-04] [[paper](https://arxiv.org/abs/2404.07413)] [[repo](https://github.com/myshell-ai/JetMoE)]
 
-25. **LLaMA 3** [2024-04] [[blog](https://ai.meta.com/blog/meta-llama-3/)] [[repo]](https://github.com/meta-llama/llama3)
+25. **LLaMA 3** [2024-04] [[blog](https://ai.meta.com/blog/meta-llama-3/)] [[repo](https://github.com/meta-llama/llama3)]
+
+26. **Reka Core** [2024-04] [[paper](https://arxiv.org/abs/2404.12387)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -561,9 +557,15 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Domain Knowledge Matters: Improving Prompts with Fix Templates for Repairing Python Type Errors" [2023-06] [ICSE 2024] [[paper](https://arxiv.org/abs/2306.01394)]
 
+- "RepairLLaMA: Efficient Representations and Fine-Tuned Adapters for Program Repair" [2023-12] [[paper](https://arxiv.org/abs/2312.15698)]
+
 - "The Fact Selection Problem in LLM-Based Program Repair" [2024-04] [[paper](https://arxiv.org/abs/2404.05520)]
 
+- "Aligning LLMs for FL-free Program Repair" [2024-04] [[paper](https://arxiv.org/abs/2404.08877)]
+
 - "A Deep Dive into Large Language Models for Automated Bug Localization and Repair" [2024-04] [[paper](https://arxiv.org/abs/2404.11595)]
+
+- "Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs" [2024-04] [[paper](https://arxiv.org/abs/2404.12636)]
 
 ### Code Similarity (Clone Detection, Code Search)
 
@@ -890,6 +892,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Test Code Generation for Telecom Software Systems using Two-Stage Generative Model" [2024-04] [[paper](https://arxiv.org/abs/2404.09249)]
 
 - "LLM-Powered Test Case Generation for Detecting Tricky Bugs" [2024-04] [[paper](https://arxiv.org/abs/2404.10304)]
+
+- "Generating Test Scenarios from NL Requirements using Retrieval-Augmented LLMs: An Industrial Study" [2024-04] [[paper](https://arxiv.org/abs/2404.12772)]
 
 ### Mutation Testing
 
