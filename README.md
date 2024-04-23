@@ -10,21 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [Generating Test Scenarios from NL Requirements using Retrieval-Augmented LLMs: An Industrial Study](https://arxiv.org/abs/2404.12772) from Monash University
+- 🔥🔥 [LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency](https://arxiv.org/abs/2404.12872) from Nanyang Technological University and DAMA Academy
 
-- 🔥🔥 [Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs](https://arxiv.org/abs/2404.12636) from Yanshan University
+- 🔥🔥 [How Far Can We Go with Practical Function-Level Program Repair?](https://arxiv.org/abs/2404.12833) from Southern University of Science and Technology
 
-- 🔥🔥 [Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models](https://arxiv.org/abs/2404.12387)
+- 🔥🔥 [AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation](https://arxiv.org/abs/2404.12753) from Fudan University
 
-- 🔥🔥 [How far are AI-powered programming assistants from meeting developers' needs?](https://arxiv.org/abs/2404.12000) from Beihang University
+- 🔥 [Generating Test Scenarios from NL Requirements using Retrieval-Augmented LLMs: An Industrial Study](https://arxiv.org/abs/2404.12772) from Monash University
+
+- 🔥 [Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs](https://arxiv.org/abs/2404.12636) from Yanshan University
+
+- 🔥 [Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models](https://arxiv.org/abs/2404.12387)
+
+- 🔥 [How far are AI-powered programming assistants from meeting developers' needs?](https://arxiv.org/abs/2404.12000) from Beihang University
 
 - 🔥 [LLaMA 3](https://ai.meta.com/blog/meta-llama-3/) is here. The 8B and 70B models have a vocabulary of 128K tokens and a context window of 8192 tokens. They are trained on 15T tokens (of which 5% is non-English). The 80B model reports 81.7 on HumanEval.
-
-- 🔥 [A Deep Dive into Large Language Models for Automated Bug Localization and Repair](https://arxiv.org/abs/2404.11595) from University of Virginia and Amazon
-
-- 🔥 [An Empirical Evaluation of Pre-trained Large Language Models for Repairing Declarative Formal Specifications](https://arxiv.org/abs/2404.11050) from University of Wisconsin-Madison
-
-- 🔥 [Can Language Models Solve Olympiad Programming?](https://arxiv.org/abs/2404.10952) from Princeton University
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
@@ -92,6 +92,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Repository-Level Coding](#repository-level-coding)
    - [Compiler Optimization](#compiler-optimization)
    - [Frontend Development & Web Agents](#frontend-development--web-agents)
+   - [Text-To-SQL](#text-to-sql)
    - [Decompilation](#decompilation)
    - [Test Generation](#test-generation)
    - [Mutation Testing](#mutation-testing)
@@ -107,7 +108,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    8.2 [Benchmarks](#82-benchmarks)
 
    - [Program Synthesis](#program-synthesis)
-   - [Text-to-SQL](#text-to-sql)
+   - [Text-to-SQL](#text-to-sql-1)
    - [Code Translation](#code-translation-1)
    - [Program Repair](#program-repair-1)
    - [Code Summarization](#code-summarization-1)
@@ -567,6 +568,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs" [2024-04] [[paper](https://arxiv.org/abs/2404.12636)]
 
+- "How Far Can We Go with Practical Function-Level Program Repair?" [2024-04] [[paper](https://arxiv.org/abs/2404.12833)]
+
 ### Code Similarity (Clone Detection, Code Search)
 
 - "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
@@ -825,29 +828,61 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "VISION2UI: A Real-World Dataset with Layout for Code Generation from UI Designs" [2024-04] [[paper](https://arxiv.org/abs/2404.06369)]
 
+- "AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.12753)]
+
+### Text-To-SQL
+
+- "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
+
+- "CodexDB: Generating Code for Processing SQL Queries using GPT-3 Codex" [2022-04] [[paper](https://arxiv.org/abs/2204.08941)]
+
+- "T5QL: Taming language models for SQL generation" [2022-09] [[paper](https://arxiv.org/abs/2209.10254)]
+
+- "Towards Generalizable and Robust Text-to-SQL Parsing" [2022-10] [EMNLP Findings 2022] [[paper](https://arxiv.org/abs/2210.12674)]
+
+- "XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing" [2022-10] [EMNLP Findings 2022] [[paper](https://arxiv.org/abs/2210.13693)]
+
+- "A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability" [2023-03] [[paper](https://arxiv.org/abs/2303.13547)]
+
+- "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction" [2023-04] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2304.11015)]
+
+- "How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings" [2023-05] [[paper](https://arxiv.org/abs/2305.11853)]
+
+- "Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies" [2023-05] [[paper](https://arxiv.org/abs/2305.12586)]
+
+- "SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL" [2023-05] [[paper](https://arxiv.org/abs/2306.00739)]
+
+- "Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain" [2023-07] [ICONIP 2023] [[paper](https://arxiv.org/abs/2307.05074)]
+
+- "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation" [2023-08] [[paper](https://arxiv.org/abs/2308.15363)]
+
+- "SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder" [2024-03] [[paper](https://arxiv.org/abs/2403.16204)]
+
+- "LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency" [2024-04] [[paper](https://arxiv.org/abs/2404.12872)]
+
 ### Decompilation
 
-- "Using recurrent neural networks for decompilation", 2018-03, SANER 2018, [[paper](https://ieeexplore.ieee.org/document/8330222)]
+- "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
 
-- "Evolving Exact Decompilation", 2018, [[paper](https://eschulte.github.io/data/bed.pdf)]
+- "Evolving Exact Decompilation" [2018] [[paper](https://eschulte.github.io/data/bed.pdf)]
 
-- "Towards Neural Decompilation", 2019-05, [[paper](https://arxiv.org/abs/1905.08325)]
+- "Towards Neural Decompilation" [2019-05] [[paper](https://arxiv.org/abs/1905.08325)]
 
-- "Coda: An End-to-End Neural Program Decompiler", 2019-06, NeurIPS 2019, [[paper](https://arxiv.org/abs/1906.12029)]
+- "Coda: An End-to-End Neural Program Decompiler" [2019-06] [NeurIPS 2019] [[paper](https://arxiv.org/abs/1906.12029)]
 
-- "N-Bref : A High-fidelity Decompiler Exploiting Programming Structures", 2020-09, [[paper](https://openreview.net/forum?id=6GkL6qM3LV)]
+- "N-Bref : A High-fidelity Decompiler Exploiting Programming Structures" [2020-09] [[paper](https://openreview.net/forum?id=6GkL6qM3LV)]
 
-- "Neutron: an attention-based neural decompiler", 2021-03, Cybersecurity 2021, [[paper](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00070-0)]
+- "Neutron: an attention-based neural decompiler" [2021-03] [Cybersecurity 2021] [[paper](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00070-0)]
 
-- "Beyond the C: Retargetable Decompilation using Neural Machine Translation", 2022-12, [[paper](https://arxiv.org/abs/2212.08950)]
+- "Beyond the C: Retargetable Decompilation using Neural Machine Translation" [2022-12] [[paper](https://arxiv.org/abs/2212.08950)]
 
-- "Boosting Neural Networks to Decompile Optimized Binaries", 2023-01, ACSAC 2022, [[paper](https://arxiv.org/abs/2301.00969)]
+- "Boosting Neural Networks to Decompile Optimized Binaries" [2023-01] [ACSAC 2022] [[paper](https://arxiv.org/abs/2301.00969)]
 
-- "SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly", 2023-05, [[paper](https://arxiv.org/abs/2305.12520)]
+- "SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly" [2023-05] [[paper](https://arxiv.org/abs/2305.12520)]
 
-- "Nova+: Generative Language Models for Binaries", 2023-11, [[paper](https://arxiv.org/abs/2311.13721)]
+- "Nova+: Generative Language Models for Binaries" [2023-11] [[paper](https://arxiv.org/abs/2311.13721)]
 
-- "LLM4Decompile: Decompiling Binary Code with Large Language Models", 2024-03, [[paper](https://arxiv.org/abs/2403.05286)]
+- "LLM4Decompile: Decompiling Binary Code with Large Language Models" [2024-03] [[paper](https://arxiv.org/abs/2403.05286)]
 
 ### Test Generation
 
@@ -905,27 +940,27 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ## 6. Analysis of AI-Generated Code
 
-- "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion", 2021-08, USENIX Security Symposium 2021, [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
+- "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion" [2021-08] [USENIX Security Symposium 2021] [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
 
-- "Is GitHub's Copilot as Bad as Humans at Introducing Vulnerabilities in Code?", 2022-04, Empir. Softw. Eng. [[paper](https://arxiv.org/abs/2204.04741)]
+- "Is GitHub's Copilot as Bad as Humans at Introducing Vulnerabilities in Code?" [2022-04] [Empir. Softw. Eng.] [[paper](https://arxiv.org/abs/2204.04741)]
 
-- "An Empirical Evaluation of GitHub Copilot's Code Suggestions", 2022-05, MSR 2022, [[paper](https://ieeexplore.ieee.org/document/9796235)]
+- "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
 
-- "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants", 2022-08, USENIX Security Symposium 2023, [[paper](https://arxiv.org/abs/2208.09727)]
+- "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants" [2022-08] [USENIX Security Symposium 2023] [[paper](https://arxiv.org/abs/2208.09727)]
 
-- "Do Users Write More Insecure Code with AI Assistants?", 2022-11, CCS 2023, [[paper](https://arxiv.org/abs/2211.03622)]
+- "Do Users Write More Insecure Code with AI Assistants?" [2022-1] [CCS 2023] [[paper](https://arxiv.org/abs/2211.03622)]
 
-- "Large Language Models and Simple, Stupid Bugs", 2023-03, MSR 2023, [[paper](https://arxiv.org/abs/2303.11455)]
+- "Large Language Models and Simple, Stupid Bugs" [2023-03] [MSR 2023] [[paper](https://arxiv.org/abs/2303.11455)]
 
-- "Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT", 2023-04, [[paper](https://arxiv.org/abs/2304.10778)]
+- "Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT" [2023-04] [[paper](https://arxiv.org/abs/2304.10778)]
 
-- "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT", 2023-08, [[paper](https://arxiv.org/abs/2308.04838)]
+- "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT" [2023-08] [[paper](https://arxiv.org/abs/2308.04838)]
 
-- "Bugs in Large Language Models Generated Code: An Empirical Study", 2024-03, [[paper](https://arxiv.org/abs/2403.08937)]
+- "Bugs in Large Language Models Generated Code: An Empirical Study" [2024-03] [[paper](https://arxiv.org/abs/2403.08937)]
 
-- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers", 2024-03, [[paper](https://arxiv.org/abs/2403.15600)]
+- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers" [2024-03] [[paper](https://arxiv.org/abs/2403.15600)]
 
-- "ChatGPT Incorrectness Detection in Software Reviews", 2024-03, [[paper](https://arxiv.org/abs/2403.16347)]
+- "ChatGPT Incorrectness Detection in Software Reviews" [2024-03] [[paper](https://arxiv.org/abs/2403.16347)]
 
 - "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.00971)]
 
@@ -939,29 +974,49 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ## 7. User-LLM Interaction
 
+- "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models" [2022-04] [CHI EA 2022] [[paper](https://dl.acm.org/doi/abs/10.1145/3491101.3519665)]
+
+- "Grounded Copilot: How Programmers Interact with Code-Generating Models" [2022-06] [OOPSLA 2023] [[paper](https://arxiv.org/abs/2206.15000)]
+
+- "Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming" [2022-10] [[paper](https://arxiv.org/abs/2210.14306)]
+
+- "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot" [2023-02] [[paper](https://arxiv.org/abs/2302.06590)]
+
+- "The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development" [2023-02] [IUI 2023] [[paper](https://arxiv.org/abs/2302.07080)]
+
+- ""It's Weird That it Knows What I Want": Usability and Interactions with Copilot for Novice Programmers" [2023-04] [ACM TCHI] [[paper](https://arxiv.org/abs/2304.02491)]
+
+- "DevGPT: Studying Developer-ChatGPT Conversations" [2023-08] [[paper](https://arxiv.org/abs/2309.03914)]
+
+- "How Do Analysts Understand and Verify AI-Assisted Data Analyses?" [2023-09] [[paper](https://arxiv.org/abs/2309.10947)]
+
+- "How Novices Use LLM-Based Code Generators to Solve CS1 Coding Tasks in a Self-Paced Learning Environment" [2023-09] [Koli Calling 2023] [[paper](https://arxiv.org/abs/2309.14049)]
+
+- "Conversational Challenges in AI-Powered Data Science: Obstacles, Needs, and Design Opportunities" [2023-10] [[paper](https://arxiv.org/abs/2310.16164)]
+
 - "The RealHumanEval: Evaluating Large Language Models' Abilities to Support Programmers" [2024-04] [[paper](https://arxiv.org/abs/2404.02806)]
 
 - "Unlocking Adaptive User Experience with Generative AI" [2024-04] [[paper](https://arxiv.org/abs/2404.05442)]
 
 - "BISCUIT: Scaffolding LLM-Generated Code with Ephemeral UIs in Computational Notebooks" [2024-04] [[paper](https://arxiv.org/abs/2404.07387)]
 
-More papers in this section are coming soon.
+- "How far are AI-powered programming assistants from meeting developers' needs?" [2024-04] [[paper](https://arxiv.org/abs/2404.12000)]
 
 ## 8. Datasets
 
 ### 8.1 Pretraining
 
-1. **CodeSearchNet**: "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search", 2019-09, arXiv, [[paper](https://arxiv.org/abs/1909.09436)] [[repo](https://github.com/github/CodeSearchNet)] [[data](https://huggingface.co/datasets/code_search_net)]
+1. **CodeSearchNet**: "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search" [2019-09] [[paper](https://arxiv.org/abs/1909.09436)] [[repo](https://github.com/github/CodeSearchNet)] [[data](https://huggingface.co/datasets/code_search_net)]
 
-2. **The Pile**: "The Pile: An 800GB Dataset of Diverse Text for Language Modeling", 2020-12, arXiv, [[paper](https://arxiv.org/abs/2101.00027)] [[data](https://pile.eleuther.ai/)]
+2. **The Pile**: "The Pile: An 800GB Dataset of Diverse Text for Language Modeling" [2020-12], [[paper](https://arxiv.org/abs/2101.00027)] [[data](https://pile.eleuther.ai/)]
 
 3. **CodeParrot**, 2022-02, [[data](https://huggingface.co/datasets/codeparrot/github-code)]
 
-4. **The Stack**: "The Stack: 3 TB of permissively licensed source code", 2022-11, arXiv, [[paper](https://arxiv.org/abs/2211.15533)] [[data](https://huggingface.co/datasets/bigcode/the-stack)]
+4. **The Stack**: "The Stack: 3 TB of permissively licensed source code" [2022-11] [[paper](https://arxiv.org/abs/2211.15533)] [[data](https://huggingface.co/datasets/bigcode/the-stack)]
 
-5. **ROOTS**: "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset", 2023-03, NeurIPS 2022 Datasets and Benchmarks Track, [[paper](https://arxiv.org/abs/2303.03915)] [[data](https://huggingface.co/datasets?search=bigscience-data/roots)]
+5. **ROOTS**: "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset" [2023-03] [NeurIPS 2022 Datasets and Benchmarks Track] [[paper](https://arxiv.org/abs/2303.03915)] [[data](https://huggingface.co/datasets?search=bigscience-data/roots)]
 
-6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation", 2024-02, arXiv, [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
+6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation" [2024-02] [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
 
 ### 8.2 Benchmarks
 
@@ -1040,6 +1095,7 @@ $^\diamond$ Machine/human prompts
 | 2021-09 | EMNLP               | Spider-DK        | 535        |          | "Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization" [[paper](https://arxiv.org/abs/2109.05157)] [[data](https://github.com/ygan/Spider-DK)]                                  |
 | 2022-05 | NAACL 2022 Findings | Spider-SS/CG     | 8034/45599 |          | "Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment" [[paper](https://arxiv.org/abs/2205.02054)] [[data](https://github.com/ygan/SpiderSS-SpiderCG)]             |
 | 2023-05 | arXiv               | BIRD             | 12751      |          | "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs" [[paper](https://arxiv.org/abs/2305.03111)] [[data](https://bird-bench.github.io/)]           |
+| 2023-06 | ACL 2023            | XSemPLR          | 24.4K      |          | "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations" [[paper](https://arxiv.org/abs/2306.04085)] [[data](https://github.com/psunlpgroup/XSemPLR)]          |
 
 #### Code Translation
 
