@@ -1368,7 +1368,7 @@ If you find this repo or our survey helpful, please consider citing us:
 
 ## Join US
 
-We are the Risk Intelligence team within the Platform Technology Business Group at Ant Group, dedicated to the intelligentization of Ant Group's platform engineering. Established for over three years, our team has played a pivotal role in supporting the intelligent operation and maintenance of Ant Group's cloud computing infrastructure. Our mission is to build algorithm services and platforms with a wide user base through world-class technological innovation and impact, supporting the implementation of internal and external products and businesses.
+We are the AI Native team within the Platform Technology Business Group at Ant Group, dedicated to the intelligentization of Ant Group's platform engineering. Established for over three years, our team has played a pivotal role in supporting the intelligent operation and maintenance of Ant Group's cloud computing infrastructure. Our mission is to build algorithm services and platforms with a wide user base through world-class technological innovation and impact, supporting the implementation of internal and external products and businesses.
 Embracing an innovation-driven ethos, our team not only supports business implementation but also propels technological influence. Over the past three years, we have published more than 20 papers at top conferences like ICLR, NeurIPS, KDD, and ACL. Our innovative business outcomes have earned us two Ant Technology's highest T-Star awards and one SuperMA award from Ant Group. Our open-source project CodeFuse has received 4K stars as of February 2024, and our models have been downloaded over 1.5 million times on Huggingface and Modelscope.
 
 **We are on the lookout for top talents to join our vibrant team! If you're eager to develop your career in an environment filled with energy, innovation, and a culture of excellence, we welcome you to explore our career opportunities for both campus and experienced hires. Join us and be a part of creating the next milestone in the industry.**
@@ -1377,7 +1377,7 @@ Embracing an innovation-driven ethos, our team not only supports business implem
 
 **Experienced Hires**: https://talent.antgroup.com/off-campus-position?positionId=1933830
 
-我们是平台技术事业群风险智能团队，负责蚂蚁蚂蚁集团平台工程的智能化，团队成立 3 年多以来，支持了蚂蚁集团云计算基础设施智能化运维的升级改造。团队的 Mission 是，通过世界级的技术创新和影响，构建有广泛用户的算法服务和平台，支撑内外部产品和业务落地。团队秉承创新基因，在支撑业务落地的同时，推动技术影响。3 年以来在 ICLR、NeurIPS、KDD、ACL 等顶会发表论文 20 余篇，创新业务结果获得两次蚂蚁技术最高奖 T-Star，1 次蚂蚁集团最高奖 SuperMA。开源项目 CodeFuse 获得 4K 点赞(2024 年 2 月)，Huggingface 和 modelscope 上模型累积下载量超过 150 万次。
+我们是平台技术事业群AI Native团队，负责蚂蚁蚂蚁集团平台工程的智能化，团队成立 3 年多以来，支持了蚂蚁集团云计算基础设施智能化运维的升级改造。团队的 Mission 是，通过世界级的技术创新和影响，构建有广泛用户的算法服务和平台，支撑内外部产品和业务落地。团队秉承创新基因，在支撑业务落地的同时，推动技术影响。3 年以来在 ICLR、NeurIPS、KDD、ACL 等顶会发表论文 20 余篇，创新业务结果获得两次蚂蚁技术最高奖 T-Star，1 次蚂蚁集团最高奖 SuperMA。开源项目 CodeFuse 获得 4K 点赞(2024 年 2 月)，Huggingface 和 modelscope 上模型累积下载量超过 150 万次。
 
 **我们正在寻找行业中的佼佼者加入我们的团队！如果您希望在一个充满活力、创新和卓越文化的环境中发展您的职业生涯，欢迎您查看我们的社招&校招机会，加入我们，一起创造下一个行业里程碑。**
 
