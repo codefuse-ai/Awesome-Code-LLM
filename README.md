@@ -10,25 +10,33 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 Microsoft jsut released [Phi-3](https://arxiv.org/abs/2404.14219)! The 3.8B model - trained on 3.3T tokens - reports 58.5 on HumanEval.
+- 🔥🔥 [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://arxiv.org/abs/2404.15247) from UIUC
 
-- 🔥🔥 [Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach](https://arxiv.org/abs/2404.14296) from Huazhong University of Science and Technology
+- 🔥🔥 [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](https://arxiv.org/abs/2404.15236) from CMU
 
-- 🔥🔥 [Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation](https://arxiv.org/abs/2404.14370) from University of Szeged
+- 🔥🔥 [Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond](https://arxiv.org/abs/2404.14824) from Shandong University
 
-- 🔥🔥 [Large Language Models as Test Case Generators: Performance Evaluation and Enhancement](https://arxiv.org/abs/2404.13340) from Beihang University
+- 🔥🔥 [NExT: Teaching Large Language Models to Reason about Code Execution](https://arxiv.org/abs/2404.14662) from DeepMind
 
-- 🔥🔥 [LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency](https://arxiv.org/abs/2404.12872) from Nanyang Technological University and DAMA Academy
+- 🔥🔥 [Exploring and Unleashing the Power of Large Language Models in Automated Code Translation](https://arxiv.org/abs/2404.14646) from Shandong University
 
-- 🔥🔥 [How Far Can We Go with Practical Function-Level Program Repair?](https://arxiv.org/abs/2404.12833) from Southern University of Science and Technology
+- 🔥🔥 [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/abs/2404.14619) from Apple
 
-- 🔥🔥 [AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation](https://arxiv.org/abs/2404.12753) from Fudan University
+- 🔥🔥 [LLMs in Web-Development: Evaluating LLM-Generated PHP code unveiling vulnerabilities and limitations](https://arxiv.org/abs/2404.14459) from University of Oslo
 
-- 🔥 [Generating Test Scenarios from NL Requirements using Retrieval-Augmented LLMs: An Industrial Study](https://arxiv.org/abs/2404.12772) from Monash University
+- 🔥🔥 [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208) from OpenAI
 
-- 🔥 [Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs](https://arxiv.org/abs/2404.12636) from Yanshan University
+- 🔥 Microsoft jsut released [Phi-3](https://arxiv.org/abs/2404.14219)! The 3.8B model - trained on 3.3T tokens - reports 58.5 on HumanEval.
 
-- 🔥 [How far are AI-powered programming assistants from meeting developers' needs?](https://arxiv.org/abs/2404.12000) from Beihang University
+- 🔥 [Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach](https://arxiv.org/abs/2404.14296) from Huazhong University of Science and Technology
+
+- 🔥 [Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation](https://arxiv.org/abs/2404.14370) from University of Szeged
+
+- 🔥 [Large Language Models as Test Case Generators: Performance Evaluation and Enhancement](https://arxiv.org/abs/2404.13340) from Beihang University
+
+- 🔥 [LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency](https://arxiv.org/abs/2404.12872) from Nanyang Technological University and DAMA Academy
+
+- 🔥 [How Far Can We Go with Practical Function-Level Program Repair?](https://arxiv.org/abs/2404.12833) from Southern University of Science and Technology
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
@@ -42,9 +50,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Code Summarization](#code-summarization).
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Test Generation using LLM](#test-generation).
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] We are moving works analyzing AI-generated code to a [separate section](#6-analysis-of-ai-generated-code).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] [Test Generation using LLM](#test-generation).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/04] In response to feedback from the community, we collected 26 papers for a new downstream task: [malicious code detection](#malicious-code-detection).
 
@@ -100,6 +106,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Decompilation](#decompilation)
    - [Test Generation](#test-generation)
    - [Mutation Testing](#mutation-testing)
+   - [Commit Message Generation](#commit-message-generation)
 
 6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
 
@@ -119,7 +126,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Defect/Vulnerability Detection](#defectvulnerability-detection)
    - [Code Retrieval](#code-retrieval)
    - [Type Inference](#type-inference)
-   - [Commit Message Generation](#commit-message-generation)
+   - [Commit Message Generation](#commit-message-generation-1)
    - [Repo-Level Coding](#repo-level-coding)
 
 9. [Recommended Readings](#9-recommended-readings)
@@ -213,6 +220,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 26. **Reka Core**: "Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.12387)]
 
 27. **Phi-3**: "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone" [2024-04] [[paper](https://arxiv.org/abs/2404.14219)]
+
+28. **OpenELM**: "OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework" [2024-04] [[paper](https://arxiv.org/abs/2404.14619)] [[repo](https://github.com/apple/corenet/tree/main/projects/openelm)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -344,6 +353,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 8. **SAT**: "Structure-aware Fine-tuning for Code Pre-trained Models" [2024-04] [[paper](https://arxiv.org/abs/2404.07471)]
 
+9. **XFT**: "XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts" [2024-04] [[paper](https://arxiv.org/abs/2404.15247)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback", 2022-03, ACL 2022, [[paper](https://arxiv.org/abs/2203.05132)]
@@ -360,25 +371,27 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 ### 3.1 Coding for Reasoning
 
-1. **PAL**: "PAL: Program-aided Language Models", 2022-11, ICML 2023, [[paper](https://arxiv.org/abs/2211.10435)] [[repo](https://github.com/reasoning-machines/pal)]
+1. **PAL**: "PAL: Program-aided Language Models" [2022-11] [ICML 2023] [[paper](https://arxiv.org/abs/2211.10435)] [[repo](https://github.com/reasoning-machines/pal)]
 
-2. **PoT**: "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks", 2022-11, TMLR 2023, [[paper](https://arxiv.org/abs/2211.12588)] [[repo](https://github.com/wenhuchen/Program-of-Thoughts)]
+2. **PoT**: "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks" [2022-11] [TMLR 2023] [[paper](https://arxiv.org/abs/2211.12588)] [[repo](https://github.com/wenhuchen/Program-of-Thoughts)]
 
-3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator", 2023-12, arXiv, [[paper](https://arxiv.org/abs/2312.04474)]
+3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator" [2023-12] [[paper](https://arxiv.org/abs/2312.04474)]
 
-4. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models", 2024-04, [[paper](https://arxiv.org/abs/2404.02575)]
+4. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.02575)]
 
 ### 3.2 Code Simulation
 
-- "Code Simulation Challenges for Large Language Models", 2024-01, [[paper](https://arxiv.org/abs/2401.09074)]
+- "Code Simulation Challenges for Large Language Models" [2024-01] [[paper](https://arxiv.org/abs/2401.09074)]
 
-- "CodeMind: A Framework to Challenge Large Language Models for Code Reasoning", 2024-02, [[paper](https://arxiv.org/abs/2402.09664)]
+- "CodeMind: A Framework to Challenge Large Language Models for Code Reasoning" [2024-02] [[paper](https://arxiv.org/abs/2402.09664)]
 
-- "Executing Natural Language-Described Algorithms with Large Language Models: An Investigation", 2024-02, [[paper](https://arxiv.org/abs/2403.00795)]
+- "Executing Natural Language-Described Algorithms with Large Language Models: An Investigation" [2024-02] [[paper](https://arxiv.org/abs/2403.00795)]
 
-- "Can Language Models Pretend Solvers? Logic Code Simulation with LLMs", 2024-03, [[paper](https://arxiv.org/abs/2403.16097)]
+- "Can Language Models Pretend Solvers? Logic Code Simulation with LLMs" [2024-03] [[paper](https://arxiv.org/abs/2403.16097)]
 
-- "Evaluating Large Language Models with Runtime Behavior of Program Execution", 2024-03, [[paper](https://arxiv.org/abs/2403.16437)]
+- "Evaluating Large Language Models with Runtime Behavior of Program Execution" [2024-03] [[paper](https://arxiv.org/abs/2403.16437)]
+
+- "NExT: Teaching Large Language Models to Reason about Code Execution" [2024-04] [[paper](https://arxiv.org/abs/2404.14662)]
 
 ### 3.3 Coding via Planning
 
@@ -512,6 +525,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation" [2024-03] [[paper](https://arxiv.org/abs/2403.17214)]
 
+- "Exploring and Unleashing the Power of Large Language Models in Automated Code Translation" [2024-04] [[paper](https://arxiv.org/abs/2404.14646)]
+
 ### Code Summarization
 
 - "A Transformer-based Approach for Source Code Summarization" [2020-05] [ACL 2020] [[paper](https://arxiv.org/abs/2005.00653)]
@@ -577,6 +592,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Multi-Objective Fine-Tuning for Enhanced Program Repair with LLMs" [2024-04] [[paper](https://arxiv.org/abs/2404.12636)]
 
 - "How Far Can We Go with Practical Function-Level Program Repair?" [2024-04] [[paper](https://arxiv.org/abs/2404.12833)]
+
+- "Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.15236)]
 
 ### Code Similarity (Clone Detection, Code Search)
 
@@ -948,6 +965,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLMorpheus: Mutation Testing using Large Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.09952)]
 
+### Commit Message Generation
+
+- "Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond" [2024-04] [[paper](https://arxiv.org/abs/2404.14824)]
+
 ## 6. Analysis of AI-Generated Code
 
 - "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion" [2021-08] [USENIX Security Symposium 2021] [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
@@ -983,6 +1004,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "DeVAIC: A Tool for Security Assessment of AI-generated Code" [2024-04] [[paper](https://arxiv.org/abs/2404.07548)]
 
 - "Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach" [2024-04] [[paper](https://arxiv.org/abs/2404.14296)]
+
+- "LLMs in Web-Development: Evaluating LLM-Generated PHP code unveiling vulnerabilities and limitations" [2024-04] [[paper](https://arxiv.org/abs/2404.14459)]
 
 ## 7. User-LLM Interaction
 
