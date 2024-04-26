@@ -10,33 +10,29 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/04] Recent papers:
 
-- 🔥🔥 [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://arxiv.org/abs/2404.15247) from UIUC
+- 🔥🔥 [ProbGate at EHRSQL 2024: Enhancing SQL Query Generation Accuracy through Probabilistic Threshold Filtering and Error Handling](https://arxiv.org/abs/2404.16659) from KAIST
 
-- 🔥🔥 [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](https://arxiv.org/abs/2404.15236) from CMU
+- 🔥🔥 [CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code](https://arxiv.org/abs/2404.15639) from Huazhong University of Science and Technology
 
-- 🔥🔥 [Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond](https://arxiv.org/abs/2404.14824) from Shandong University
+- 🔥🔥 [VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection](https://arxiv.org/abs/2404.15596) from Harbin Institute of Technology
 
-- 🔥🔥 [NExT: Teaching Large Language Models to Reason about Code Execution](https://arxiv.org/abs/2404.14662) from DeepMind
+- 🔥🔥 [Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice](https://arxiv.org/abs/2404.14901) from University of Gothenburg
 
-- 🔥🔥 [Exploring and Unleashing the Power of Large Language Models in Automated Code Translation](https://arxiv.org/abs/2404.14646) from Shandong University
+- 🔥 [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://arxiv.org/abs/2404.15247) from UIUC
 
-- 🔥🔥 [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/abs/2404.14619) from Apple
+- 🔥 [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](https://arxiv.org/abs/2404.15236) from CMU
 
-- 🔥🔥 [LLMs in Web-Development: Evaluating LLM-Generated PHP code unveiling vulnerabilities and limitations](https://arxiv.org/abs/2404.14459) from University of Oslo
+- 🔥 [Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond](https://arxiv.org/abs/2404.14824) from Shandong University
 
-- 🔥🔥 [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208) from OpenAI
+- 🔥 [NExT: Teaching Large Language Models to Reason about Code Execution](https://arxiv.org/abs/2404.14662) from DeepMind
 
-- 🔥 Microsoft jsut released [Phi-3](https://arxiv.org/abs/2404.14219)! The 3.8B model - trained on 3.3T tokens - reports 58.5 on HumanEval.
+- 🔥 [Exploring and Unleashing the Power of Large Language Models in Automated Code Translation](https://arxiv.org/abs/2404.14646) from Shandong University
 
-- 🔥 [Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach](https://arxiv.org/abs/2404.14296) from Huazhong University of Science and Technology
+- 🔥 [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/abs/2404.14619) from Apple
 
-- 🔥 [Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation](https://arxiv.org/abs/2404.14370) from University of Szeged
+- 🔥 [LLMs in Web-Development: Evaluating LLM-Generated PHP code unveiling vulnerabilities and limitations](https://arxiv.org/abs/2404.14459) from University of Oslo
 
-- 🔥 [Large Language Models as Test Case Generators: Performance Evaluation and Enhancement](https://arxiv.org/abs/2404.13340) from Beihang University
-
-- 🔥 [LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency](https://arxiv.org/abs/2404.12872) from Nanyang Technological University and DAMA Academy
-
-- 🔥 [How Far Can We Go with Practical Function-Level Program Repair?](https://arxiv.org/abs/2404.12833) from Southern University of Science and Technology
+- 🔥 [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208) from OpenAI
 
 🔥🔥🔥 [2024/04] We have just made a major update to our paper on arXiv, which should be available by Wednesday April 17th. Changes include:
 
@@ -109,6 +105,11 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Commit Message Generation](#commit-message-generation)
 
 6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
+
+   - [Vulnerabilities](#vulnerabilities)
+   - [Correctness](#correctness)
+   - [AI-Generated Code Detection](#ai-generated-code-detection)
+   - [Others](#others)
 
 7. [User-LLM Interaction](#7-user-llm-interaction)
 
@@ -353,7 +354,7 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 8. **SAT**: "Structure-aware Fine-tuning for Code Pre-trained Models" [2024-04] [[paper](https://arxiv.org/abs/2404.07471)]
 
-9. **XFT**: "XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts" [2024-04] [[paper](https://arxiv.org/abs/2404.15247)]
+9. **XFT**: "XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts" [2024-04] [[paper](https://arxiv.org/abs/2404.15247)] [[repo](https://github.com/ise-uiuc/xft)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -377,7 +378,9 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator" [2023-12] [[paper](https://arxiv.org/abs/2312.04474)]
 
-4. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.02575)]
+4. **FlowMind**: "FlowMind: Automatic Workflow Generation with LLMs" [2024-03] [[paper](https://arxiv.org/abs/2404.13050)]
+
+5. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.02575)]
 
 ### 3.2 Code Simulation
 
@@ -607,83 +610,85 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ### Vulnerability Detection
 
-- "VulDeePecker: A Deep Learning-Based System for Vulnerability Detection", 2018-01, NDSS 2018, [[paper](https://arxiv.org/abs/1801.01681)]
+- "VulDeePecker: A Deep Learning-Based System for Vulnerability Detection" [2018-01] [NDSS 2018] [[paper](https://arxiv.org/abs/1801.01681)]
 
-- "DeepBugs: A Learning Approach to Name-based Bug Detection", 2018-04, Proc. ACM Program. Lang. [[paper](https://arxiv.org/abs/1805.11683)]
+- "DeepBugs: A Learning Approach to Name-based Bug Detection" [2018-04] [Proc. ACM Program. Lang.] [[paper](https://arxiv.org/abs/1805.11683)]
 
-- "Automated Vulnerability Detection in Source Code Using Deep Representation Learning", 2018-07, ICMLA 2018, [[paper](https://arxiv.org/abs/1807.04320)]
+- "Automated Vulnerability Detection in Source Code Using Deep Representation Learning" [2018-07] [ICMLA 2018] [[paper](https://arxiv.org/abs/1807.04320)]
 
-- "SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities", 2018-07, IEEE TDSC, [[paper](https://arxiv.org/abs/1807.06756)]
+- "SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities" [2018-07] [IEEE TDSC] [[paper](https://arxiv.org/abs/1807.06756)]
 
-- "Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks", 2019-09, NeurIPS 2019, [[paper](https://arxiv.org/abs/1909.03496)]
+- "Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks" [2019-09] [NeurIPS 2019] [[paper](https://arxiv.org/abs/1909.03496)]
 
-- "Improving bug detection via context-based code representation learning and attention-based neural networks", 2019-10, Proc. ACM Program. Lang., [[paper](https://dl.acm.org/doi/10.1145/3360588)]
+- "Improving bug detection via context-based code representation learning and attention-based neural networks" [2019-10] [Proc. ACM Program. Lang.] [[paper](https://dl.acm.org/doi/10.1145/3360588)]
 
-- "Global Relational Models of Source Code", 2019-12, ICLR 2020, [[paper](https://openreview.net/forum?id=B1lnbRNtwr)]
+- "Global Relational Models of Source Code" [2019-12] [ICLR 2020] [[paper](https://openreview.net/forum?id=B1lnbRNtwr)]
 
-- "VulDeeLocator: A Deep Learning-based Fine-grained Vulnerability Detector", 2020-01, IEEE TDSC, [[paper](https://arxiv.org/abs/2001.02350)]
+- "VulDeeLocator: A Deep Learning-based Fine-grained Vulnerability Detector" [2020-01] [IEEE TDSC] [[paper](https://arxiv.org/abs/2001.02350)]
 
-- "Deep Learning based Vulnerability Detection: Are We There Yet?", 2020-09, IEEE TSE, [[paper](https://arxiv.org/abs/2009.07235)]
+- "Deep Learning based Vulnerability Detection: Are We There Yet?" [2020-09] [IEEE TSE] [[paper](https://arxiv.org/abs/2009.07235)]
 
-- "Security Vulnerability Detection Using Deep Learning Natural Language Processing", 2021-05, INFOCOM Workshops 2021, [[paper](https://arxiv.org/abs/2105.02388)]
+- "Security Vulnerability Detection Using Deep Learning Natural Language Processing" [2021-05] [INFOCOM Workshops 2021] [[paper](https://arxiv.org/abs/2105.02388)]
 
-- "Self-Supervised Bug Detection and Repair", 2021-05, NeurIPS 2021, [[paper](https://arxiv.org/abs/2105.12787)]
+- "Self-Supervised Bug Detection and Repair" [2021-05] [NeurIPS 2021] [[paper](https://arxiv.org/abs/2105.12787)]
 
-- "Vulnerability Detection with Fine-grained Interpretations", 2021-06, ESEC/SIGSOFT FSE 2021, [[paper](https://arxiv.org/abs/2106.10478)]
+- "Vulnerability Detection with Fine-grained Interpretations" [2021-06] [ESEC/SIGSOFT FSE 2021] [[paper](https://arxiv.org/abs/2106.10478)]
 
-- "ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection", 2021-10, ICSE Companion 2022, [[paper](https://arxiv.org/abs/2110.07317)]
+- "ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection" [2021-10] [ICSE Companion 2022] [[paper](https://arxiv.org/abs/2110.07317)]
 
-- "VUDENC: Vulnerability Detection with Deep Learning on a Natural Codebase for Python", 2022-01, Inf. Softw. Technol. [[paper](https://arxiv.org/abs/2201.08441)]
+- "VUDENC: Vulnerability Detection with Deep Learning on a Natural Codebase for Python" [2022-01] [Inf. Softw. Technol] [[paper](https://arxiv.org/abs/2201.08441)]
 
-- "Transformer-Based Language Models for Software Vulnerability Detection", 222-04, ACSAC 2022, [[paper](https://arxiv.org/abs/2204.03214)]
+- "Transformer-Based Language Models for Software Vulnerability Detection" [222-04] [ACSAC 2022] [[paper](https://arxiv.org/abs/2204.03214)]
 
-- "LineVul: A Transformer-based Line-Level Vulnerability Prediction", 2022-05, MSR 2022, [[paper](https://ieeexplore.ieee.org/document/9796256)]
+- "LineVul: A Transformer-based Line-Level Vulnerability Prediction" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796256)]
 
-- "VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection", 2022-05, IJCNN 2022, [[paper](https://arxiv.org/abs/2205.12424)]
+- "VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection" [2022-05] [IJCNN 2022] [[paper](https://arxiv.org/abs/2205.12424)]
 
-- "Open Science in Software Engineering: A Study on Deep Learning-Based Vulnerability Detection", 2022-09, IEEE Trans. Software Eng., [[paper](https://ieeexplore.ieee.org/document/9894099)]
+- "Open Science in Software Engineering: A Study on Deep Learning-Based Vulnerability Detection" [2022-09] [IEEE TSE] [[paper](https://ieeexplore.ieee.org/document/9894099)]
 
-- "An Empirical Study of Deep Learning Models for Vulnerability Detection", 2022-12, ICSE 2023, [[paper](https://arxiv.org/abs/2212.08109)]
+- "An Empirical Study of Deep Learning Models for Vulnerability Detection" [2022-12] [ICSE 2023] [[paper](https://arxiv.org/abs/2212.08109)]
 
-- "CSGVD: A deep learning approach combining sequence and graph embedding for source code vulnerability detection", 2023-01, J. Syst. Softw., [[paper](https://www.sciencedirect.com/science/article/pii/S0164121223000183)]
+- "CSGVD: A deep learning approach combining sequence and graph embedding for source code vulnerability detection" [2023-01] [J. Syst. Softw.] [[paper](https://www.sciencedirect.com/science/article/pii/S0164121223000183)]
 
-- "Benchmarking Software Vulnerability Detection Techniques: A Survey", 2023-03, [[paper](https://arxiv.org/abs/2303.16362)]
+- "Benchmarking Software Vulnerability Detection Techniques: A Survey" [2023-03] [[paper](https://arxiv.org/abs/2303.16362)]
 
-- "Transformer-based Vulnerability Detection in Code at EditTime: Zero-shot, Few-shot, or Fine-tuning?", 2023-05, [[paper](https://arxiv.org/abs/2306.01754)]
+- "Transformer-based Vulnerability Detection in Code at EditTime: Zero-shot, Few-shot, or Fine-tuning?" [2023-05] [[paper](https://arxiv.org/abs/2306.01754)]
 
-- "A Survey on Automated Software Vulnerability Detection Using Machine Learning and Deep Learning", 2023-06, [[paper](https://arxiv.org/abs/2306.11673)]
+- "A Survey on Automated Software Vulnerability Detection Using Machine Learning and Deep Learning" [2023-06] [[paper](https://arxiv.org/abs/2306.11673)]
 
-- "Limits of Machine Learning for Automatic Vulnerability Detection", 2023-06, [[paper](https://arxiv.org/abs/2306.17193)]
+- "Limits of Machine Learning for Automatic Vulnerability Detection" [2023-06] [[paper](https://arxiv.org/abs/2306.17193)]
 
-- "Evaluating Instruction-Tuned Large Language Models on Code Comprehension and Generation", 2023-08, [[paper](https://arxiv.org/abs/2308.01240)]
+- "Evaluating Instruction-Tuned Large Language Models on Code Comprehension and Generation" [2023-08] [[paper](https://arxiv.org/abs/2308.01240)]
 
-- "Prompt-Enhanced Software Vulnerability Detection Using ChatGPT", 2023-08, [[paper](https://arxiv.org/abs/2308.12697)]
+- "Prompt-Enhanced Software Vulnerability Detection Using ChatGPT" [2023-08] [[paper](https://arxiv.org/abs/2308.12697)]
 
-- "Towards Causal Deep Learning for Vulnerability Detection", 2023-10, [[paper](https://arxiv.org/abs/2310.07958)]
+- "Towards Causal Deep Learning for Vulnerability Detection" [2023-10] [[paper](https://arxiv.org/abs/2310.07958)]
 
-- "Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities", 2023-11, [[paper](https://arxiv.org/abs/2311.16169)]
+- "Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities" [2023-11] [[paper](https://arxiv.org/abs/2311.16169)]
 
-- "How Far Have We Gone in Vulnerability Detection Using Large Language Models", 2023-11, [[paper](https://arxiv.org/abs/2311.12420)]
+- "How Far Have We Gone in Vulnerability Detection Using Large Language Models" [2023-11] [[paper](https://arxiv.org/abs/2311.12420)]
 
-- "Can Large Language Models Identify And Reason About Security Vulnerabilities? Not Yet", 2023-12, [[paper](https://arxiv.org/abs/2312.12575)]
+- "Can Large Language Models Identify And Reason About Security Vulnerabilities? Not Yet" [2023-12] [[paper](https://arxiv.org/abs/2312.12575)]
 
-- "LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning", 2024-01, [[paper](https://arxiv.org/abs/2401.16185)]
+- "LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning" [2024-01] [[paper](https://arxiv.org/abs/2401.16185)]
 
-- "Security Code Review by LLMs: A Deep Dive into Responses", 2024-01, [[paper](https://arxiv.org/abs/2401.16310)]
+- "Security Code Review by LLMs: A Deep Dive into Responses" [2024-01] [[paper](https://arxiv.org/abs/2401.16310)]
 
-- "Chain-of-Thought Prompting of Large Language Models for Discovering and Fixing Software Vulnerabilities", 2024-02, [[paper](https://arxiv.org/abs/2402.17230)]
+- "Chain-of-Thought Prompting of Large Language Models for Discovering and Fixing Software Vulnerabilities" [2024-02] [[paper](https://arxiv.org/abs/2402.17230)]
 
-- "Multi-role Consensus through LLMs Discussions for Vulnerability Detection", 2024-03, [[paper](https://arxiv.org/abs/2403.14274)]
+- "Multi-role Consensus through LLMs Discussions for Vulnerability Detection" [2024-03] [[paper](https://arxiv.org/abs/2403.14274)]
 
-- "A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection", 2024-03, [[paper](https://arxiv.org/abs/2403.17218)]
+- "A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection" [2024-03] [[paper](https://arxiv.org/abs/2403.17218)]
 
-- "Vulnerability Detection with Code Language Models: How Far Are We?", 2024-03, [[paper](https://arxiv.org/abs/2403.18624)]
+- "Vulnerability Detection with Code Language Models: How Far Are We?" [2024-03] [[paper](https://arxiv.org/abs/2403.18624)]
 
-- "Multitask-based Evaluation of Open-Source LLM on Software Vulnerability", 2024-04, [[paper](https://arxiv.org/abs/2404.02056)]
+- "Multitask-based Evaluation of Open-Source LLM on Software Vulnerability" [2024-04] [[paper](https://arxiv.org/abs/2404.02056)]
 
-- "Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap", 2024-04, [[paper](https://arxiv.org/abs/2404.02525)]
+- "Large Language Model for Vulnerability Detection and Repair: Literature Review and Roadmap" [2024-04] [[paper](https://arxiv.org/abs/2404.02525)]
 
-- "Pros and Cons! Evaluating ChatGPT on Software Vulnerability", 2024-04, [[paper](https://arxiv.org/abs/2404.03994)]
+- "Pros and Cons! Evaluating ChatGPT on Software Vulnerability" [2024-04] [[paper](https://arxiv.org/abs/2404.03994)]
+
+- "VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection" [2024-04] [[paper](https://arxiv.org/abs/2404.15596)]
 
 ### Type Prediction
 
@@ -885,6 +890,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency" [2024-04] [[paper](https://arxiv.org/abs/2404.12872)]
 
+- "Dubo-SQL: Diverse Retrieval-Augmented Generation and Fine Tuning for Text-to-SQL" [2024-04] [[paper](https://arxiv.org/abs/2404.12560)]
+
+- "EPI-SQL: Enhancing Text-to-SQL Translation with Error-Prevention Instructions" [2024-04] [[paper](https://arxiv.org/abs/2404.14453)]
+
+- "ProbGate at EHRSQL 2024: Enhancing SQL Query Generation Accuracy through Probabilistic Threshold Filtering and Error Handling" [2024-04] [[paper](https://arxiv.org/abs/2404.16659)]
+
 ### Decompilation
 
 - "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
@@ -971,15 +982,25 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ## 6. Analysis of AI-Generated Code
 
+### Vulnerabilities
+
 - "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion" [2021-08] [USENIX Security Symposium 2021] [[paper](https://www.usenix.org/conference/usenixsecurity21/presentation/schuster)]
 
 - "Is GitHub's Copilot as Bad as Humans at Introducing Vulnerabilities in Code?" [2022-04] [Empir. Softw. Eng.] [[paper](https://arxiv.org/abs/2204.04741)]
 
-- "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
-
 - "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants" [2022-08] [USENIX Security Symposium 2023] [[paper](https://arxiv.org/abs/2208.09727)]
 
 - "Do Users Write More Insecure Code with AI Assistants?" [2022-1] [CCS 2023] [[paper](https://arxiv.org/abs/2211.03622)]
+
+- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers" [2024-03] [[paper](https://arxiv.org/abs/2403.15600)]
+
+- "DeVAIC: A Tool for Security Assessment of AI-generated Code" [2024-04] [[paper](https://arxiv.org/abs/2404.07548)]
+
+- "LLMs in Web-Development: Evaluating LLM-Generated PHP code unveiling vulnerabilities and limitations" [2024-04] [[paper](https://arxiv.org/abs/2404.14459)]
+
+### Correctness
+
+- "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
 
 - "Large Language Models and Simple, Stupid Bugs" [2023-03] [MSR 2023] [[paper](https://arxiv.org/abs/2303.11455)]
 
@@ -989,9 +1010,15 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Bugs in Large Language Models Generated Code: An Empirical Study" [2024-03] [[paper](https://arxiv.org/abs/2403.08937)]
 
-- "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers" [2024-03] [[paper](https://arxiv.org/abs/2403.15600)]
-
 - "ChatGPT Incorrectness Detection in Software Reviews" [2024-03] [[paper](https://arxiv.org/abs/2403.16347)]
+
+### AI-Generated Code Detection
+
+- "Zero-Shot Detection of Machine-Generated Codes" [2023-10] [[paper](https://arxiv.org/abs/2310.05103)]
+
+- "CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code" [2024-04] [[paper](https://arxiv.org/abs/2404.15639)]
+
+### Others
 
 - "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.00971)]
 
@@ -1001,11 +1028,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "On Evaluating the Efficiency of Source Code Generated by LLMs" [2024-04] [[paper](https://arxiv.org/abs/2404.06041)]
 
-- "DeVAIC: A Tool for Security Assessment of AI-generated Code" [2024-04] [[paper](https://arxiv.org/abs/2404.07548)]
-
 - "Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach" [2024-04] [[paper](https://arxiv.org/abs/2404.14296)]
-
-- "LLMs in Web-Development: Evaluating LLM-Generated PHP code unveiling vulnerabilities and limitations" [2024-04] [[paper](https://arxiv.org/abs/2404.14459)]
 
 ## 7. User-LLM Interaction
 
@@ -1036,6 +1059,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "BISCUIT: Scaffolding LLM-Generated Code with Ephemeral UIs in Computational Notebooks" [2024-04] [[paper](https://arxiv.org/abs/2404.07387)]
 
 - "How far are AI-powered programming assistants from meeting developers' needs?" [2024-04] [[paper](https://arxiv.org/abs/2404.12000)]
+
+- "Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice" [2024-04] [[paper](https://arxiv.org/abs/2404.14901)]
 
 ## 8. Datasets
 
@@ -1377,7 +1402,7 @@ Embracing an innovation-driven ethos, our team not only supports business implem
 
 **Experienced Hires**: https://talent.antgroup.com/off-campus-position?positionId=1933830
 
-我们是平台技术事业群AI Native团队，负责蚂蚁蚂蚁集团平台工程的智能化，团队成立 3 年多以来，支持了蚂蚁集团云计算基础设施智能化运维的升级改造。团队的 Mission 是，通过世界级的技术创新和影响，构建有广泛用户的算法服务和平台，支撑内外部产品和业务落地。团队秉承创新基因，在支撑业务落地的同时，推动技术影响。3 年以来在 ICLR、NeurIPS、KDD、ACL 等顶会发表论文 20 余篇，创新业务结果获得两次蚂蚁技术最高奖 T-Star，1 次蚂蚁集团最高奖 SuperMA。开源项目 CodeFuse 获得 4K 点赞(2024 年 2 月)，Huggingface 和 modelscope 上模型累积下载量超过 150 万次。
+我们是平台技术事业群 AI Native 团队，负责蚂蚁蚂蚁集团平台工程的智能化，团队成立 3 年多以来，支持了蚂蚁集团云计算基础设施智能化运维的升级改造。团队的 Mission 是，通过世界级的技术创新和影响，构建有广泛用户的算法服务和平台，支撑内外部产品和业务落地。团队秉承创新基因，在支撑业务落地的同时，推动技术影响。3 年以来在 ICLR、NeurIPS、KDD、ACL 等顶会发表论文 20 余篇，创新业务结果获得两次蚂蚁技术最高奖 T-Star，1 次蚂蚁集团最高奖 SuperMA。开源项目 CodeFuse 获得 4K 点赞(2024 年 2 月)，Huggingface 和 modelscope 上模型累积下载量超过 150 万次。
 
 **我们正在寻找行业中的佼佼者加入我们的团队！如果您希望在一个充满活力、创新和卓越文化的环境中发展您的职业生涯，欢迎您查看我们的社招&校招机会，加入我们，一起创造下一个行业里程碑。**
 
