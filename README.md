@@ -1125,6 +1125,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice" [2024-04] [[paper](https://arxiv.org/abs/2404.14901)]
 
+- "amplified.dev: a living document that begins to sketch a vision for a future where developers are amplified, not automated" [2024-05] [[paper](https://amplified.dev)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
