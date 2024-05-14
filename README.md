@@ -10,27 +10,29 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/05] Latest papers:
 
-- 🔥🔥 [NAVRepair: Node-type Aware C/C++ Code Vulnerability Repair](https://arxiv.org/abs/2405.04994) from Harbin Institute of Technology.
+- 🔥🔥 [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/abs/2405.07990) from The University of Hong Kong.
 
-- 🔥🔥 [Contextual API Completion for Unseen Repositories Using LLMs](https://arxiv.org/abs/2405.04600) from University of British Columbia.
+- 🔥🔥 [Prompt-based Code Completion via Multi-Retrieval Augmented Generation](https://arxiv.org/abs/2405.07530) from Southern University of Science and Technology.
 
-- 🔥🔥 [Codexity: Secure AI-assisted Code Generation](https://arxiv.org/abs/2405.03927) from National University of Singapore.
+- 🔥🔥 [MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation](https://arxiv.org/abs/2405.07467) from Dunamu.
 
-- 🔥🔥 [MARE: Multi-Agents Collaboration Framework for Requirements Engineering](https://arxiv.org/abs/2405.03256) from Peking University.
+- 🔥🔥 [CoRE: LLM as Interpreter for Natural Language Programming, Pseudo-Code Programming, and Flow Programming of AI Agents](https://arxiv.org/abs/2405.06907) from Rutgers University.
 
-- 🔥🔥 [DeepSeek-V2](https://arxiv.org/abs/2405.04434).
+- 🔥🔥 [MEIC: Re-thinking RTL Debug Automation using LLMs](https://arxiv.org/abs/2405.06840) from Southeast University.
 
-- 🔥 [NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and Natural User Prompts](https://arxiv.org/abs/2405.04520) from Zhipu.AI.
+- 🔥🔥 [Open-SQL Framework: Enhancing Text-to-SQL on Open-source Large Language Models](https://arxiv.org/abs/2405.06674) from Shenzhen University.
 
-- 🔥 [Granite Code Models: A Family of Open Foundation Models for Code Intelligence](https://arxiv.org/abs/2405.04324) from IBM.
+- 🔥🔥 [Automated Program Repair: Emerging trends pose and expose problems for benchmarks](https://arxiv.org/abs/2405.05455) from Arizona State University.
 
-- 🔥 [Refining Joint Text and Source Code Embeddings for Retrieval Task with Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2405.04126) from Innopolis University.
+- 🔥 [NAVRepair: Node-type Aware C/C++ Code Vulnerability Repair](https://arxiv.org/abs/2405.04994) from Harbin Institute of Technology.
 
-- 🔥 [TOGLL: Correct and Strong Test Oracle Generation with LLMs](https://arxiv.org/abs/2405.03786) from University of Virginia.
+- 🔥 [Contextual API Completion for Unseen Repositories Using LLMs](https://arxiv.org/abs/2405.04600) from University of British Columbia.
 
-- 🔥 [Large Language Models Synergize with Automated Machine Learning](https://arxiv.org/abs/2405.03727) from University of Tokyo.
+- 🔥 [Codexity: Secure AI-assisted Code Generation](https://arxiv.org/abs/2405.03927) from National University of Singapore.
 
-- 🔥 [Evaluating LLMs for Hardware Design and Test](https://arxiv.org/abs/2405.02326) from NYU.
+- 🔥 [MARE: Multi-Agents Collaboration Framework for Requirements Engineering](https://arxiv.org/abs/2405.03256) from Peking University.
+
+- 🔥 [DeepSeek-V2](https://arxiv.org/abs/2405.04434).
 
 🔥🔥🔥 [2024/05] We have just restructed the downstream tasks (see table of contents below) and added a new task: [requirement engineering](#requirement-engineering).
 
@@ -398,11 +400,17 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 2. **PoT**: "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks" [2022-11] [TMLR 2023] [[paper](https://arxiv.org/abs/2211.12588)] [[repo](https://github.com/wenhuchen/Program-of-Thoughts)]
 
-3. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator" [2023-12] [[paper](https://arxiv.org/abs/2312.04474)]
+3. **MathCoder**: "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning" [[paper](https://arxiv.org/abs/2310.03731)]
 
-4. **FlowMind**: "FlowMind: Automatic Workflow Generation with LLMs" [2024-03] [[paper](https://arxiv.org/abs/2404.13050)]
+4. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator" [2023-12] [[paper](https://arxiv.org/abs/2312.04474)]
 
-5. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.02575)]
+5. **FlowMind**: "FlowMind: Automatic Workflow Generation with LLMs" [2024-03] [[paper](https://arxiv.org/abs/2404.13050)]
+
+6. **Think-and-Execute**: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.02575)]
+
+7. **CoRE**: "CoRE: LLM as Interpreter for Natural Language Programming, Pseudo-Code Programming, and Flow Programming of AI Agents" [2024-05] [[paper](https://arxiv.org/abs/2405.06907)]
+
+8. **MuMath-Code**: "MuMath-Code: Combining Tool-Use Large Language Models with Multi-perspective Data Augmentation for Mathematical Reasoning" [2024-05] [[paper](https://arxiv.org/abs/2405.07551)]
 
 ### 3.2 Code Simulation
 
@@ -502,6 +510,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**Kotlin, Swift, and Rust**] "Software Vulnerability Prediction in Low-Resource Languages: An Empirical Study of CodeBERT and ChatGPT" [2024-04] [[paper](https://arxiv.org/abs/2404.17110)]
 
+- [**Verilog**] "MEIC: Re-thinking RTL Debug Automation using LLMs" [2024-05] [[paper](https://arxiv.org/abs/2405.06840)]
+
+- [**Bash**] "Tackling Execution-Based Evaluation for NL2Bash" [2024-05] [[paper](https://arxiv.org/abs/2405.06807)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -529,6 +541,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
 
 - "Large Language Models Synergize with Automated Machine Learning" [2024-05] [[paper](https://arxiv.org/abs/2405.03727)]
+
+- "Prompt-based Code Completion via Multi-Retrieval Augmented Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.07530)]
 
 ### Code Translation
 
@@ -639,6 +653,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "A Systematic Literature Review on Large Language Models for Automated Program Repair" [2024-05] [[paper](https://arxiv.org/abs/2405.01466)]
 
 - "NAVRepair: Node-type Aware C/C++ Code Vulnerability Repair" [2024-05] [[paper](https://arxiv.org/abs/2405.04994)]
+
+- "Automated Program Repair: Emerging trends pose and expose problems for benchmarks" [2024-05] [[paper](https://arxiv.org/abs/2405.05455)]
 
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
@@ -801,6 +817,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ProbGate at EHRSQL 2024: Enhancing SQL Query Generation Accuracy through Probabilistic Threshold Filtering and Error Handling" [2024-04] [[paper](https://arxiv.org/abs/2404.16659)]
 
 - "CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions" [2024-05] [[paper](https://arxiv.org/abs/2405.02712)]
+
+- "Open-SQL Framework: Enhancing Text-to-SQL on Open-source Large Language Models" [2024-05] [[paper](https://arxiv.org/abs/2405.06674)]
+
+- "MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.07467)]
 
 ### Test Generation
 
@@ -1194,6 +1214,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Sketch Then Generate: Providing Incremental User Feedback and Guiding LLM Code Generation through Language-Oriented Code Sketches" [2024-05] [[paper](https://arxiv.org/abs/2405.03998)]
 
+- "Using AI Assistants in Software Development: A Qualitative Study on Security Practices and Concerns" [2024-05] [[paper](https://arxiv.org/abs/2405.06371)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -1258,6 +1280,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-04 | LREC-COLING 2024                 | PECC                   | 2396                 | Python                                                                           | "PECC: Problem Extraction and Coding Challenges" [[paper](https://arxiv.org/abs/2404.18766)] [[data](https://github.com/HallerPatrick/pecc)]                                                                                                                                                 |
 | 2024-04 | arXiv                            | CodeGuard+             | 23                   | Python, C                                                                        | "Constrained Decoding for Secure Code Generation" [[paper](https://arxiv.org/abs/2405.00218)] [[data](https://github.com/Dynamite321/CodeGuardPlus)]                                                                                                                                         |
 | 2024-05 | arXiv                            | NaturalCodeBench       | 402                  | Python, Java                                                                     | "NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and Natural User Prompts" [[paper](https://arxiv.org/abs/2405.04520)] [[data](github)]                                                                                                                                 |
+| 2024-05 | arXiv                            | Plot2Code              | 132                  | Python                                                                           | "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots" [[paper](https://arxiv.org/abs/2405.07990)] [[data](https://huggingface.co/datasets/TencentARC/Plot2Code)]                                                  |
 
 \* Automatically mined/human-annotated
 
