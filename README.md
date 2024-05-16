@@ -10,29 +10,27 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/05] Latest papers:
 
-- 🔥🔥 [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/abs/2405.07990) from The University of Hong Kong.
+- 🔥🔥 [Typhon: Automatic Recommendation of Relevant Code Cells in Jupyter Notebooks](https://arxiv.org/abs/2405.09075) from Mahidol University.
 
-- 🔥🔥 [Prompt-based Code Completion via Multi-Retrieval Augmented Generation](https://arxiv.org/abs/2405.07530) from Southern University of Science and Technology.
+- 🔥🔥 [Automated Repair of AI Code with Large Language Models and Formal Verification](https://arxiv.org/abs/2405.08848) from The University of Manchester.
 
-- 🔥🔥 [MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation](https://arxiv.org/abs/2405.07467) from Dunamu.
+- 🔥🔥 [Full Line Code Completion: Bringing AI to Desktop](https://arxiv.org/abs/2405.08704) from JetBrains.
 
-- 🔥🔥 [CoRE: LLM as Interpreter for Natural Language Programming, Pseudo-Code Programming, and Flow Programming of AI Agents](https://arxiv.org/abs/2405.06907) from Rutgers University.
+- 🔥🔥 [LogoMotion: Visually Grounded Code Generation for Content-Aware Animation](https://arxiv.org/abs/2405.07065) from Columbia University.
 
-- 🔥🔥 [MEIC: Re-thinking RTL Debug Automation using LLMs](https://arxiv.org/abs/2405.06840) from Southeast University.
+- 🔥 [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/abs/2405.07990) from The University of Hong Kong.
 
-- 🔥🔥 [Open-SQL Framework: Enhancing Text-to-SQL on Open-source Large Language Models](https://arxiv.org/abs/2405.06674) from Shenzhen University.
+- 🔥 [Prompt-based Code Completion via Multi-Retrieval Augmented Generation](https://arxiv.org/abs/2405.07530) from Southern University of Science and Technology.
 
-- 🔥🔥 [Automated Program Repair: Emerging trends pose and expose problems for benchmarks](https://arxiv.org/abs/2405.05455) from Arizona State University.
+- 🔥 [MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation](https://arxiv.org/abs/2405.07467) from Dunamu.
 
-- 🔥 [NAVRepair: Node-type Aware C/C++ Code Vulnerability Repair](https://arxiv.org/abs/2405.04994) from Harbin Institute of Technology.
+- 🔥 [CoRE: LLM as Interpreter for Natural Language Programming, Pseudo-Code Programming, and Flow Programming of AI Agents](https://arxiv.org/abs/2405.06907) from Rutgers University.
 
-- 🔥 [Contextual API Completion for Unseen Repositories Using LLMs](https://arxiv.org/abs/2405.04600) from University of British Columbia.
+- 🔥 [MEIC: Re-thinking RTL Debug Automation using LLMs](https://arxiv.org/abs/2405.06840) from Southeast University.
 
-- 🔥 [Codexity: Secure AI-assisted Code Generation](https://arxiv.org/abs/2405.03927) from National University of Singapore.
+- 🔥 [Open-SQL Framework: Enhancing Text-to-SQL on Open-source Large Language Models](https://arxiv.org/abs/2405.06674) from Shenzhen University.
 
-- 🔥 [MARE: Multi-Agents Collaboration Framework for Requirements Engineering](https://arxiv.org/abs/2405.03256) from Peking University.
-
-- 🔥 [DeepSeek-V2](https://arxiv.org/abs/2405.04434).
+- 🔥 [Automated Program Repair: Emerging trends pose and expose problems for benchmarks](https://arxiv.org/abs/2405.05455) from Arizona State University.
 
 🔥🔥🔥 [2024/05] We have just restructed the downstream tasks (see table of contents below) and added a new task: [requirement engineering](#requirement-engineering).
 
@@ -656,6 +654,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Automated Program Repair: Emerging trends pose and expose problems for benchmarks" [2024-05] [[paper](https://arxiv.org/abs/2405.05455)]
 
+- "Automated Repair of AI Code with Large Language Models and Formal Verification" [2024-05] [[paper](https://arxiv.org/abs/2405.08848)]
+
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
 - "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
@@ -667,6 +667,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension" [2024-04] [[paper](https://arxiv.org/abs/2404.08885)]
 
 - "Refining Joint Text and Source Code Embeddings for Retrieval Task with Parameter-Efficient Fine-Tuning" [2024-05] [[paper](https://arxiv.org/abs/2405.04126)]
+
+- "Typhon: Automatic Recommendation of Relevant Code Cells in Jupyter Notebooks" [2024-05] [[paper](https://arxiv.org/abs/2405.09075)]
 
 ### Type Prediction
 
@@ -780,6 +782,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.12753)]
 
+- "LogoMotion: Visually Grounded Code Generation for Content-Aware Animation" [2024-05] [[paper](https://arxiv.org/abs/2405.07065)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -821,6 +825,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Open-SQL Framework: Enhancing Text-to-SQL on Open-source Large Language Models" [2024-05] [[paper](https://arxiv.org/abs/2405.06674)]
 
 - "MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.07467)]
+
+- "PromptMind Team at EHRSQL-2024: Improving Reliability of SQL Generation using Ensemble LLMs" [2024-05] [[paper](https://arxiv.org/abs/2405.08839)]
 
 ### Test Generation
 
@@ -1215,6 +1221,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Sketch Then Generate: Providing Incremental User Feedback and Guiding LLM Code Generation through Language-Oriented Code Sketches" [2024-05] [[paper](https://arxiv.org/abs/2405.03998)]
 
 - "Using AI Assistants in Software Development: A Qualitative Study on Security Practices and Concerns" [2024-05] [[paper](https://arxiv.org/abs/2405.06371)]
+
+- "Full Line Code Completion: Bringing AI to Desktop" [2024-05] [[paper](https://arxiv.org/abs/2405.08704)]
 
 ## 8. Datasets
 
