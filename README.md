@@ -10,27 +10,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/05] Latest papers:
 
-- 🔥🔥 [Typhon: Automatic Recommendation of Relevant Code Cells in Jupyter Notebooks](https://arxiv.org/abs/2405.09075) from Mahidol University.
+- 🔥🔥 [DocuMint: Docstring Generation for Python using Small Language Models](https://arxiv.org/abs/2405.10243) from University of Tennessee.
 
-- 🔥🔥 [Automated Repair of AI Code with Large Language Models and Formal Verification](https://arxiv.org/abs/2405.08848) from The University of Manchester.
+- 🔥🔥 [Natural Language Processing for Requirements Traceability](https://arxiv.org/abs/2405.10845) from McGill University.
 
-- 🔥🔥 [Full Line Code Completion: Bringing AI to Desktop](https://arxiv.org/abs/2405.08704) from JetBrains.
+- 🔥🔥 [MarkLLM: An Open-Source Toolkit for LLM Watermarking](https://arxiv.org/abs/2405.10051) from Tsinghua University and Shanghai Jiao Tong University.
 
-- 🔥🔥 [LogoMotion: Visually Grounded Code Generation for Content-Aware Animation](https://arxiv.org/abs/2405.07065) from Columbia University.
+- 🔥🔥 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673) from Columbia University.
 
-- 🔥 [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/abs/2405.07990) from The University of Hong Kong.
+- 🔥🔥 [Leveraging Large Language Models for Automated Web-Form-Test Generation: An Empirical Study](https://arxiv.org/abs/2405.09965) from Macau University of Science and Technology.
 
-- 🔥 [Prompt-based Code Completion via Multi-Retrieval Augmented Generation](https://arxiv.org/abs/2405.07530) from Southern University of Science and Technology.
+- 🔥 [Typhon: Automatic Recommendation of Relevant Code Cells in Jupyter Notebooks](https://arxiv.org/abs/2405.09075) from Mahidol University.
 
-- 🔥 [MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation](https://arxiv.org/abs/2405.07467) from Dunamu.
+- 🔥 [Automated Repair of AI Code with Large Language Models and Formal Verification](https://arxiv.org/abs/2405.08848) from The University of Manchester.
 
-- 🔥 [CoRE: LLM as Interpreter for Natural Language Programming, Pseudo-Code Programming, and Flow Programming of AI Agents](https://arxiv.org/abs/2405.06907) from Rutgers University.
+- 🔥 [Full Line Code Completion: Bringing AI to Desktop](https://arxiv.org/abs/2405.08704) from JetBrains.
 
-- 🔥 [MEIC: Re-thinking RTL Debug Automation using LLMs](https://arxiv.org/abs/2405.06840) from Southeast University.
-
-- 🔥 [Open-SQL Framework: Enhancing Text-to-SQL on Open-source Large Language Models](https://arxiv.org/abs/2405.06674) from Shenzhen University.
-
-- 🔥 [Automated Program Repair: Emerging trends pose and expose problems for benchmarks](https://arxiv.org/abs/2405.05455) from Arizona State University.
+- 🔥 [LogoMotion: Visually Grounded Code Generation for Content-Aware Animation](https://arxiv.org/abs/2405.07065) from Columbia University.
 
 🔥🔥🔥 [2024/05] We have just restructed the downstream tasks (see table of contents below) and added a new task: [requirement engineering](#requirement-engineering).
 
@@ -602,6 +598,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing Trust in LLM-Generated Code Summaries with Calibrated Confidence Scores" [2024-04] [[paper](https://arxiv.org/abs/2404.19318)]
 
+- "DocuMint: Docstring Generation for Python using Small Language Models" [2024-05] [[paper](https://arxiv.org/abs/2405.10243)] [[repo](https://github.com/Docu-Mint/DocuMint)]
+
 ### Program Repair
 
 - "DeepDebug: Fixing Python Bugs Using Stack Traces, Backtranslation, and Code Skeletons" [2021-05] [[paper](https://arxiv.org/abs/2105.09352)]
@@ -878,6 +876,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "TOGLL: Correct and Strong Test Oracle Generation with LLMs" [2024-05] [[paper](https://arxiv.org/abs/2405.03786)]
 
+- "Leveraging Large Language Models for Automated Web-Form-Test Generation: An Empirical Study" [2024-05] [[paper](https://arxiv.org/abs/2405.09965)]
+
 ### Mutation Testing
 
 - "μBERT: Mutation Testing using Pre-Trained Language Models" [2022-03] [[paper](https://arxiv.org/abs/2203.03289)]
@@ -1111,6 +1111,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Enhancing Legal Compliance and Regulation Analysis with Large Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.17522)]
 
 - "MARE: Multi-Agents Collaboration Framework for Requirements Engineering" [2024-05] [[paper](https://arxiv.org/abs/2405.03256)]
+
+- "Natural Language Processing for Requirements Traceability" [2024-05] [[paper](https://arxiv.org/abs/2405.10845)]
 
 ## 6. Analysis of AI-Generated Code
 
