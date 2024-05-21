@@ -16,9 +16,9 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 - 🔥🔥 [Measuring Impacts of Poisoning on Model Parameters and Embeddings for Large Language Models of Code](https://arxiv.org/abs/2405.11466) from University of Houston.
 
-- 🔥🔥 [MHPP: Exploring the Capabilities and Limitations of Language Models Beyond Basic Code Generation](https://arxiv.org/abs/2405.11466) from University of Edinburgh, University of Hong Kong, and Harbin Institute of Technology.
+- 🔥🔥 [MHPP: Exploring the Capabilities and Limitations of Language Models Beyond Basic Code Generation](https://arxiv.org/abs/2405.11430) from University of Edinburgh, University of Hong Kong, and Harbin Institute of Technology.
 
-- 🔥🔥 [MapCoder: Multi-Agent Code Generation for Competitive Problem Solving](https://arxiv.org/abs/2405.11430) from Bangladesh University of Engineering and Technology.
+- 🔥🔥 [MapCoder: Multi-Agent Code Generation for Competitive Problem Solving](https://arxiv.org/abs/2405.11403) from Bangladesh University of Engineering and Technology.
 
 - 🔥🔥 [Natural Is The Best: Model-Agnostic Code Simplification for Pre-trained Large Language Models](https://arxiv.org/abs/2405.11196) from Central University of Finance and Economics.
 
