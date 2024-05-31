@@ -8,37 +8,33 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥🔥 [2024/05/29] Latest papers:
+🔥🔥🔥 [2024/05/31] Latest papers:
 
-- 🔥🔥 [Code Repair with LLMs gives an Exploration-Exploitation Tradeoff](https://arxiv.org/abs/2405.17503) from Cornell University.
+- 🔥🔥 [Divide-and-Conquer Meets Consensus: Unleashing the Power of Functions in Code Generation](https://arxiv.org/abs/2405.20092) from Harbin Institute of Technology.
 
-- 🔥🔥 [LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) from University of Pennsylvania.
+- 🔥🔥 [DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories](https://arxiv.org/abs/2405.19856) from Peking University.
 
-- 🔥🔥 [ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation](https://arxiv.org/abs/2405.17057) from Shanghai Jiao Tong University.
+- 🔥🔥 [From Symbolic Tasks to Code Generation: Diversification Yields Better Task Performers](https://arxiv.org/abs/2405.19787) from UIUC.
 
-- 🔥🔥 [CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/abs/2405.16755) from Stanford University.
+- 🔥🔥 [Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion](https://arxiv.org/abs/2405.19782) from Nanjing University.
 
-- 🔥🔥 [Learning to Reason via Program Generation, Emulation, and Search](https://arxiv.org/abs/2405.16337) from Johns Hopkins University and University of Michigan.
+- 🔥🔥 [AlchemistCoder: Harmonizing and Eliciting Code Capability by Hindsight Tuning on Multi-source Data](https://arxiv.org/abs/2405.19265) from Tongji University and Shanghai AI Lab.
 
-- 🔥🔥 [Uncovering LLM-Generated Code: A Zero-Shot Synthetic Code Detector via Code Rewriting](https://arxiv.org/abs/2405.16133) from Zhejiang University.
+- 🔥🔥 [Training LLMs to Better Self-Debug and Explain Code](https://arxiv.org/abs/2405.18649) from AWS AI Lab.
 
-- 🔥🔥 [A Study on Developer Behaviors for Validating and Repairing LLM-Generated Code Using Eye Tracking and IDE Actions](https://arxiv.org/abs/2405.16081) from University of Notre Dame.
+- 🔥 [Code Repair with LLMs gives an Exploration-Exploitation Tradeoff](https://arxiv.org/abs/2405.17503) from Cornell University.
 
-- 🔥🔥 [Model Cascading for Code: Reducing Inference Costs with Model Cascading for LLM Based Code Generation](https://arxiv.org/abs/2405.15842) from New York University.
+- 🔥 [LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) from University of Pennsylvania.
 
-- 🔥🔥 [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) from Princeton University.
+- 🔥 [ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation](https://arxiv.org/abs/2405.17057) from Shanghai Jiao Tong University.
 
-- 🔥 [Optimizing Large Language Models for OpenAPI Code Completion](https://arxiv.org/abs/2405.15729) from Kaunas University of Technology.
+- 🔥 [CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/abs/2405.16755) from Stanford University.
 
-- 🔥 [A Case Study of LLM for Automated Vulnerability Repair: Assessing Impact of Reasoning and Patch Validation Feedback](https://arxiv.org/abs/2405.15690) from North Carolina State University.
+- 🔥 [Uncovering LLM-Generated Code: A Zero-Shot Synthetic Code Detector via Code Rewriting](https://arxiv.org/abs/2405.16133) from Zhejiang University.
 
-- 🔥 [Harnessing Large Language Models for Software Vulnerability Detection: A Comprehensive Benchmarking Study](https://arxiv.org/abs/2405.15614) from Tallinn University of Technology.
+- 🔥 [Model Cascading for Code: Reducing Inference Costs with Model Cascading for LLM Based Code Generation](https://arxiv.org/abs/2405.15842) from New York University.
 
-- 🔥 [SOAP: Enhancing Efficiency of Generated Code via Self-Optimization](https://arxiv.org/abs/2405.15189) from The University of Hong Kong.
-
-- 🔥 [AutoCoder: Enhancing Code Large Language Model with AIEV-Instruct](https://arxiv.org/abs/2405.14906) from University of Connecticut.
-
-- 🔥 [Evaluating AI-generated code for C++, Fortran, Go, Java, Julia, Matlab, Python, R, and Rust](https://arxiv.org/abs/2405.13101) from Louisiana State University.
+- 🔥 [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) from Princeton University.
 
 🔥🔥🔥 [2024/05] [Code Reasoning benchmarks](#code-reasoning)!
 
@@ -242,9 +238,11 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 29. **Tele-FLM**: "Tele-FLM Technical Report" [2024-04] [[paper](https://arxiv.org/abs/2404.16645)] [[model](https://huggingface.co/CofeAI/Tele-FLM)]
 
-30. **DeepSeek-V2**: "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model" [2024-05] [[paper](https://arxiv.org/abs/2405.04434)]
+30. **DeepSeek-V2**: "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model" [2024-05] [[paper](https://arxiv.org/abs/2405.04434)] [[repo](https://github.com/deepseek-ai/DeepSeek-V2)]
 
-31. **GECKO**: "GECKO: Generative Language Model for English, Code and Korean" [2024-05] [[paper](https://arxiv.org/abs/2405.15640)]
+31. **GECKO**: "GECKO: Generative Language Model for English, Code and Korean" [2024-05] [[paper](https://arxiv.org/abs/2405.15640)] [[model](https://huggingface.co/kifai/GECKO-7B)]
+
+32. **MAP-Neo**: "MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series" [2024-05] [[paper](https://arxiv.org/abs/2405.19327)] [[repo](https://github.com/multimodal-art-projection/MAP-NEO)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -390,6 +388,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 13. **AIEV-Instruct**: "AutoCoder: Enhancing Code Large Language Model with AIEV-Instruct" [2024-05] [[paper](https://arxiv.org/abs/2405.14906)]
 
+14. **AlchemistCoder**: "AlchemistCoder: Harmonizing and Eliciting Code Capability by Hindsight Tuning on Multi-source Data" [2024-05] [[paper](https://arxiv.org/abs/2405.19265)]
+
+15. "From Symbolic Tasks to Code Generation: Diversification Yields Better Task Performers" [2024-05] [[paper](https://arxiv.org/abs/2405.19787)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -474,6 +476,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 13. "Fight Fire with Fire: How Much Can We Trust ChatGPT on Source Code-Related Tasks?" [2024-05] [[paper](https://arxiv.org/abs/2405.12641)]
 
+14. **FunCoder**: "Divide-and-Conquer Meets Consensus: Unleashing the Power of Functions in Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.20092)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -509,6 +513,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "Code Repair with LLMs gives an Exploration-Exploitation Tradeoff" [2024-05] [[paper](https://arxiv.org/abs/2405.17503)]
 
 - "ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.17057)]
+
+- "Training LLMs to Better Self-Debug and Explain Code" [2024-05] [[paper](https://arxiv.org/abs/2405.18649)]
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
@@ -654,6 +660,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Natural Is The Best: Model-Agnostic Code Simplification for Pre-trained Large Language Models" [2024-05] [[paper](https://arxiv.org/abs/2405.11196)]
 
+- "Large Language Models for Code Summarization" [2024-05] [[paper](https://arxiv.org/abs/2405.19032)]
+
 ### Program Repair
 
 - "DeepDebug: Fixing Python Bugs Using Stack Traces, Backtranslation, and Code Skeletons" [2021-05] [[paper](https://arxiv.org/abs/2105.09352)]
@@ -771,6 +779,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Class-Level Code Generation from Natural Language Using Iterative, Tool-Enhanced Reasoning over Repository" [2024-04] [[paper](https://arxiv.org/abs/2405.01573)]
 
 - "Contextual API Completion for Unseen Repositories Using LLMs" [2024-05] [[paper](https://arxiv.org/abs/2405.04600)]
+
+- "Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion" [2024-05] [[paper](https://arxiv.org/abs/2405.19782)]
 
 ### Frontend Development & Web Agents
 
@@ -1322,6 +1332,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "A Study on Developer Behaviors for Validating and Repairing LLM-Generated Code Using Eye Tracking and IDE Actions" [2024-05] [[paper](https://arxiv.org/abs/2405.16081)]
 
+- "Analyzing Chat Protocols of Novice Programmers Solving Introductory Programming Tasks with ChatGPT" [2024-05] [[paper](https://arxiv.org/abs/2405.19132)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -1589,10 +1601,11 @@ $^\diamond$ Machine/human prompts
 | 2023-06 | ICLR 2024    | RepoBench     | 890K/9M/43K $^\dagger$ | Python, Java                 | "RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems" [[paper](https://arxiv.org/abs/2306.03091)] [[data](https://github.com/Leolty/repobench)]                                     |
 | 2023-06 | NeurIPS 2023 | PragmaticCode | 880 \*\*               | Java                         | "Guiding Language Models of Code with Global Context using Monitors" [[paper](https://arxiv.org/abs/2306.10763)] [[data](https://github.com/microsoft/monitors4codegen)]                              |
 | 2023-06 | arXiv        | Stack-Repo    | 816K                   | Java                         | "RepoFusion: Training Code Models to Understand Your Repository" [[paper](https://arxiv.org/abs/2306.10998)] [[data](https://huggingface.co/RepoFusion)]                                              |
-| 2023-09 | arXiv        | CodePlan      | 645/21 $^\ddagger$     | C#/Python $^\ddagger$        | "CodePlan: Repository-level Coding using LLMs and Planning" [[paper](https://arxiv.org/abs/2309.12499)] [[data](https://aka.ms/CodePlan)] \*\*                                                        |
+| 2023-09 | arXiv        | CodePlan      | 645/21 $^\ddagger$     | C#/Python $^\ddagger$        | "CodePlan: Repository-level Coding using LLMs and Planning" [[paper](https://arxiv.org/abs/2309.12499)] [[data](https://aka.ms/CodePlan)]                                                             |
 | 2023-10 | arXiv        | SWE-Bench     | 2294                   | Python                       | "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?" [[paper](https://arxiv.org/abs/2310.06770)] [[data](https://www.swebench.com/)]                                                    |
 | 2023-10 | arXiv        | CrossCodeEval | 9928                   | Python, Java, TypeScript, C# | "CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion" [[paper](https://arxiv.org/abs/2310.11248)] [[data](https://crosscodeeval.github.io/)]                           |
 | 2024-03 | arXiv        | EvoCodeBench  | 275                    | Python                       | "EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories" [[paper](https://arxiv.org/abs/2404.00599)] [[data](https://github.com/seketeam/EvoCodeBench)]        |
+| 2024-05 | arXiv        | DevEval       | 1874                   | Python                       | "DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories" [[paper](https://arxiv.org/abs/2405.19856)] [[data](https://github.com/seketeam/DevEval)]         |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
@@ -1601,8 +1614,6 @@ $^\dagger$ Retrieval/Completion/Pipeline
 \*\* File count
 
 $^\ddagger$ Migration/Temporal Edit
-
-\*\* This is the link given in the paper, but we are unable to access it at the time of writing.
 
 #### Other tasks are coming soon!
 
