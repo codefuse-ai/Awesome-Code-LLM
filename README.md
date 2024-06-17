@@ -18,7 +18,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 - 🔥🔥 [An Exploratory Study on Using Large Language Models for Mutation Testing](https://arxiv.org/abs/2406.09843) from Beijing Jiaotong University.
 
-- 🔥🔥 [How and Why LLMs Use Deprecated APIs in Code Completion? An Empirical Study](https://arxiv.org/abs/2406.09843) from Nanyang Technological University.
+- 🔥🔥 [How and Why LLMs Use Deprecated APIs in Code Completion? An Empirical Study](https://arxiv.org/abs/2406.09834) from Nanyang Technological University.
 
 - 🔥🔥 [Towards Effectively Detecting and Explaining Vulnerabilities Using Large Language Models](https://arxiv.org/abs/2406.09701) from Zhejiang University.
 
