@@ -10,43 +10,25 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
-🔥🔥🔥 [2024/06/19] Latest papers:
+🔥🔥🔥 [2024/06/24] Latest papers:
 
-- 🔥🔥 [Unmasking Database Vulnerabilities: Zero-Knowledge Schema Inference Attacks in Text-to-SQL Systems](https://arxiv.org/abs/2406.14545) from The University of Texas at San Antonio.
+- 🔥🔥 [Bug In the Code Stack: Can LLMs Find Bugs in Large Python Code Stacks](https://arxiv.org/abs/2406.15325) from University of Waterloo.
 
-- 🔥🔥 [CodeRAG-Bench: Can Retrieval Augment Code Generation?](https://arxiv.org/abs/2406.14497) from CMU and UW.
+- 🔥🔥 [DistiLRR: Transferring Code Repair for Low-Resource Programming Languages](https://arxiv.org/abs/2406.14867) from UCSB.
 
-- 🔥🔥 [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314) from Google Research.
+- 🔥🔥 [Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution](https://arxiv.org/abs/2406.14836) from KAIST.
 
-- 🔥🔥 [Can LLMs Reason in the Wild with Programs?](https://arxiv.org/abs/2406.13764) from Georgia Institute of Technology.
+- 🔥🔥 [Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models](https://arxiv.org/abs/2406.14712) from IBM Research.
 
-- 🔥🔥 [SQLFixAgent: Towards Semantic-Accurate SQL Generation via Multi-Agent Collaboration](https://arxiv.org/abs/2406.13408) from Soochow University.
+- 🔥 [Unmasking Database Vulnerabilities: Zero-Knowledge Schema Inference Attacks in Text-to-SQL Systems](https://arxiv.org/abs/2406.14545) from The University of Texas at San Antonio.
 
-- 🔥🔥 [Code Agents are State of the Art Software Testers](https://arxiv.org/abs/2406.12952) from ETH Zurich.
+- 🔥 [CodeRAG-Bench: Can Retrieval Augment Code Generation?](https://arxiv.org/abs/2406.14497) from CMU and UW.
 
-- 🔥🔥 [Can AI Beat Undergraduates in Entry-level Java Assignments? Benchmarking Large Language Models on JavaBench](https://arxiv.org/abs/2406.12902) from The Hong Kong University of Science and Technology.
+- 🔥 [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314) from Google Research.
 
-- 🔥🔥 [Code-Optimise: Self-Generated Preference Data for Correctness and Efficiency](https://arxiv.org/abs/2406.12502) from Huawei.
+- 🔥 [Can AI Beat Undergraduates in Entry-level Java Assignments? Benchmarking Large Language Models on JavaBench](https://arxiv.org/abs/2406.12902) from The Hong Kong University of Science and Technology.
 
-- 🔥🔥 [Toward Exploring the Code Understanding Capabilities of Pre-trained Code Generation Models](https://arxiv.org/abs/2406.12326) from International Digital Economy Academy.
-
-- 🔥🔥 [CodeNav: Beyond tool-use to using real-world codebases with LLM agents](https://arxiv.org/abs/2406.12276) from Allen Institute for AI.
-
-- 🔥 [DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence](https://arxiv.org/abs/2406.11931) from DeepSeek-AI.
-
-- 🔥 [ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools](https://arxiv.org/abs/2406.12793) from Zhipu AI.
-
-- 🔥 [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704) from NVIDIA.
-
-- 🔥 [Iterative or Innovative? A Problem-Oriented Perspective for Code Optimization](https://arxiv.org/abs/2406.11935) from Zhejiang University.
-
-- 🔥 [Should AI Optimize Your Code? A Comparative Study of Current Large Language Models Versus Classical Optimizing Compilers](https://arxiv.org/abs/2406.12146) from University of Delaware.
-
-- 🔥 [Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging](https://arxiv.org/abs/2406.11709) from UIUC.
-
-- 🔥 [MASAI: Modular Architecture for Software-engineering AI Agents](https://arxiv.org/abs/2406.11638) from Microsoft Research India.
-
-- 🔥 [We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs](https://arxiv.org/abs/2406.10279) from University of Texas at San Antonio.
+- 🔥 [Code-Optimise: Self-Generated Preference Data for Correctness and Efficiency](https://arxiv.org/abs/2406.12502) from Huawei.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/05] [Code Reasoning benchmarks](#code-reasoning-and-qa)!
 
@@ -625,6 +607,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - **Ansible YAML, Bash**: "DocCGen: Document-based Controlled Code Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.11925)]
 
+- **Qiskit** "Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models" [2024-06] [[paper](https://arxiv.org/abs/2406.14712)]
+
+- **Perl, Golang, Swift** "DistiLRR: Transferring Code Repair for Low-Resource Programming Languages" [2024-06] [[paper](https://arxiv.org/abs/2406.14867)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -734,6 +720,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Large Language Models for Code Summarization" [2024-05] [[paper](https://arxiv.org/abs/2405.19032)]
 
 - "Exploring the Efficacy of Large Language Models (GPT-4) in Binary Reverse Engineering" [2024-06] [[paper](https://arxiv.org/abs/2406.06637)]
+
+- "Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution" [2024-06] [[paper](https://arxiv.org/abs/2406.14836)]
 
 ### Program Repair
 
@@ -1196,6 +1184,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Towards Effectively Detecting and Explaining Vulnerabilities Using Large Language Models" [2024-06] [[paper](https://arxiv.org/abs/2406.09701)]
 
 - "Vul-RAG: Enhancing LLM-based Vulnerability Detection via Knowledge-level RAG" [2024-06] [[paper](https://arxiv.org/abs/2406.11147)]
+
+- "Bug In the Code Stack: Can LLMs Find Bugs in Large Python Code Stacks" [2024-06] [[paper](https://arxiv.org/abs/2406.15325)]
 
 ### Malicious Code Detection
 
