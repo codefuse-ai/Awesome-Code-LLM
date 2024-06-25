@@ -10,25 +10,25 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
-🔥🔥🔥 [2024/06/24] Latest papers:
+🔥🔥🔥 [2024/06/25] Latest papers:
 
-- 🔥🔥 [Bug In the Code Stack: Can LLMs Find Bugs in Large Python Code Stacks](https://arxiv.org/abs/2406.15325) from University of Waterloo.
+- 🔥🔥 [RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale](https://arxiv.org/abs/2406.16801) from Qurrent AI.
 
-- 🔥🔥 [DistiLRR: Transferring Code Repair for Low-Resource Programming Languages](https://arxiv.org/abs/2406.14867) from UCSB.
+- 🔥🔥 [UniCoder: Scaling Code Large Language Model via Universal Code](https://arxiv.org/abs/2406.16441) from Beihang University.
 
-- 🔥🔥 [Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution](https://arxiv.org/abs/2406.14836) from KAIST.
+- 🔥🔥 [Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach](https://arxiv.org/abs/2406.16386) from The Chinese University of Hong Kong.
 
-- 🔥🔥 [Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models](https://arxiv.org/abs/2406.14712) from IBM Research.
+- 🔥🔥 [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) from Monash University.
 
-- 🔥 [Unmasking Database Vulnerabilities: Zero-Knowledge Schema Inference Attacks in Text-to-SQL Systems](https://arxiv.org/abs/2406.14545) from The University of Texas at San Antonio.
+- 🔥🔥 [CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation](https://arxiv.org/abs/2406.15743) from Zhejiang University.
 
-- 🔥 [CodeRAG-Bench: Can Retrieval Augment Code Generation?](https://arxiv.org/abs/2406.14497) from CMU and UW.
+- 🔥 [Bug In the Code Stack: Can LLMs Find Bugs in Large Python Code Stacks](https://arxiv.org/abs/2406.15325) from University of Waterloo.
 
-- 🔥 [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314) from Google Research.
+- 🔥 [DistiLRR: Transferring Code Repair for Low-Resource Programming Languages](https://arxiv.org/abs/2406.14867) from UCSB.
 
-- 🔥 [Can AI Beat Undergraduates in Entry-level Java Assignments? Benchmarking Large Language Models on JavaBench](https://arxiv.org/abs/2406.12902) from The Hong Kong University of Science and Technology.
+- 🔥 [Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution](https://arxiv.org/abs/2406.14836) from KAIST.
 
-- 🔥 [Code-Optimise: Self-Generated Preference Data for Correctness and Efficiency](https://arxiv.org/abs/2406.12502) from Huawei.
+- 🔥 [Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models](https://arxiv.org/abs/2406.14712) from IBM Research.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/05] [Code Reasoning benchmarks](#code-reasoning-and-qa)!
 
@@ -416,6 +416,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 20. "Unlock the Correlation between Supervised Fine-Tuning and Reinforcement Learning in Training Code Large Language Models" [2024-06] [[paper](https://arxiv.org/abs/2406.10305)]
 
 21. **Code-Optimise**: "Code-Optimise: Self-Generated Preference Data for Correctness and Efficiency" [2024-06] [[paper](https://arxiv.org/abs/2406.12502)]
+
+22. **UniCoder**: "UniCoder: Scaling Code Large Language Model via Universal Code" [2024-06] [[paper](https://arxiv.org/abs/2406.16441)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -941,6 +943,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Identifying User Goals from UI Trajectories" [2024-06] [[paper](https://arxiv.org/abs/2406.14314)]
 
+- "Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach" [2024-06] [[paper](https://arxiv.org/abs/2406.16386)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -1062,6 +1066,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Mokav: Execution-driven Differential Testing with LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.10375)]
 
 - "Code Agents are State of the Art Software Testers" [2024-06] [[paper](https://arxiv.org/abs/2406.12952)]
+
+- "CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.15743)]
 
 ### Oracle Generation
 
@@ -1578,6 +1584,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-06 | arXiv                            | AICoderEval            | 492                  | Python                                                                           | "AICoderEval: Improving AI Domain Code Generation of Large Language Models" [[paper](https://arxiv.org/abs/2406.04712)] [[data](https://huggingface.co/datasets/vixuowis/AICoderEval)]                                                                                                       |
 | 2024-06 | arXiv                            | VersiCode              | 98,692               | Python                                                                           | "VersiCode: Towards Version-controllable Code Generation" [[paper](https://arxiv.org/abs/2406.07411)] [[data](https://github.com/wutong8023/VersiCode)]                                                                                                                                      |
 | 2024-06 | IEEE AITest 2024                 | ScenEval               | 12,864               | Java                                                                             | "ScenEval: A Benchmark for Scenario-Based Evaluation of Code Generation" [[paper](https://arxiv.org/abs/2406.12635)]                                                                                                                                                                         |
+| 2024-06 | arXiv                            | BigCodeBench           | 1,140                | Python                                                                           | "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions" [[paper](https://arxiv.org/abs/2406.15877)] [[data](https://github.com/bigcode-project/bigcodebench)]                                                                                      |
 
 \* Automatically mined/human-annotated
 
@@ -1802,6 +1809,7 @@ $^\diamond$ Machine/human prompts
 | 2024-06 | arXiv        | JavaBench     | 389                    | Java                         | "Can AI Beat Undergraduates in Entry-level Java Assignments? Benchmarking Large Language Models on JavaBench" [[paper](https://arxiv.org/abs/2406.12902)] [[data](https://github.com/java-bench/JavaBench)] |
 | 2024-06 | arXiv        | HumanEvo      | 200/200                | Python/Java                  | "Towards more realistic evaluation of LLM-based code generation: an experimental study and beyond" [[paper](https://arxiv.org/abs/2406.06918)] [[data](https://github.com/DeepSoftwareAnalytics/EvoEval)]   |
 | 2024-06 | arXiv        | RepoExec      | 355                    | Python                       | "REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark" [[paper](https://arxiv.org/abs/2406.11927)]                                                                               |
+| 2024-06 | arXiv        | RES-Q         | 100                    | Python, JavaScript           | "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale" [[paper](https://arxiv.org/abs/2406.16801)] [[data](https://github.com/Qurrent-AI/RES-Q)]                             |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
