@@ -10,29 +10,27 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
-🔥🔥🔥 [2024/06/25] Latest papers:
+🔥🔥🔥 [2024/06/26] Latest papers:
 
-- 🔥🔥 [RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale](https://arxiv.org/abs/2406.16801) from Qurrent AI.
+- 🔥🔥 [Leveraging Large Language Models for Software Model Completion: Results from Industrial and Public Datasets](https://arxiv.org/abs/2406.17651) from Siemens AG and Saarland University.
 
-- 🔥🔥 [UniCoder: Scaling Code Large Language Model via Universal Code](https://arxiv.org/abs/2406.16441) from Beihang University.
+- 🔥🔥 [Aligning Programming Language and Natural Language: Exploring Design Choices in Multi-Modal Transformer-Based Embedding for Bug Localization](https://arxiv.org/abs/2406.17615) from University of Waterloo.
 
-- 🔥🔥 [Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach](https://arxiv.org/abs/2406.16386) from The Chinese University of Hong Kong.
+- 🔥🔥 [MPCODER: Multi-user Personalized Code Generator with Explicit and Implicit Style Representation Learning](https://arxiv.org/abs/2406.17255) from Zhejiang University.
 
-- 🔥🔥 [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) from Monash University.
+- 🔥 [RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale](https://arxiv.org/abs/2406.16801) from Qurrent AI.
 
-- 🔥🔥 [CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation](https://arxiv.org/abs/2406.15743) from Zhejiang University.
+- 🔥 [UniCoder: Scaling Code Large Language Model via Universal Code](https://arxiv.org/abs/2406.16441) from Beihang University.
 
-- 🔥 [Bug In the Code Stack: Can LLMs Find Bugs in Large Python Code Stacks](https://arxiv.org/abs/2406.15325) from University of Waterloo.
+- 🔥 [Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach](https://arxiv.org/abs/2406.16386) from The Chinese University of Hong Kong.
 
-- 🔥 [DistiLRR: Transferring Code Repair for Low-Resource Programming Languages](https://arxiv.org/abs/2406.14867) from UCSB.
+- 🔥 [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) from Monash University.
 
-- 🔥 [Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution](https://arxiv.org/abs/2406.14836) from KAIST.
+- 🔥 [CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation](https://arxiv.org/abs/2406.15743) from Zhejiang University.
 
-- 🔥 [Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models](https://arxiv.org/abs/2406.14712) from IBM Research.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] [Software Modeling](#software-modeling)
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/05] [Code Reasoning benchmarks](#code-reasoning-and-qa)!
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/05] We have just restructed the downstream tasks (see table of contents below) and added a new task: [requirement engineering](#requirement-engineering).
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/05] [Code Reasoning benchmarks](#code-reasoning-and-qa)!
 
 ## Table of Contents
 
@@ -101,6 +99,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    - Requirement
 
+     - [Software Modeling](#software-modeling)
      - [Requirement Engineering](#requirement-engineering)
 
 6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
@@ -143,7 +142,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## 1. Surveys
 
-We list several recent surveys on similar topics. While they are all about language models for code, 1-2 focus on NLP side; 3-6 focus on SE side; 7-12 are released after ours.
+We list several recent surveys on similar topics. While they are all about language models for code, 1-2 focus on NLP side; 3-6 focus on SE side; 7-11 are released after ours.
 
 1. "Large Language Models Meet NL2Code: A Survey" [2022-12] [ACL 2023] [[paper](https://arxiv.org/abs/2212.09420)]
 
@@ -166,8 +165,6 @@ We list several recent surveys on similar topics. While they are all about langu
 10. "Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches" [2024-04] [[paper](https://arxiv.org/abs/2404.09384)]
 
 11. "Automatic Programming: Large Language Models and Beyond" [2024-05] [[paper](https://arxiv.org/abs/2405.02213)]
-
-12. "A Survey on Large Language Models for Code Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.00515)]
 
 ## 2. Models
 
@@ -645,11 +642,15 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Model Cascading for Code: Reducing Inference Costs with Model Cascading for LLM Based Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.15842)]
 
+- "A Survey on Large Language Models for Code Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.00515)]
+
 - "A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model" [2024-06] [[papaer](https://arxiv.org/abs/2406.10263)]
 
 - "Is Programming by Example solved by LLMs?" [2024-06] [[paper](https://arxiv.org/abs/2406.08316)]
 
 - "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review" [2024-06] [[paper](https://arxiv.org/abs/2406.12655)]
+
+- "MPCODER: Multi-user Personalized Code Generator with Explicit and Implicit Style Representation Learning" [2024-06] [[paper](https://arxiv.org/abs/2406.17255)]
 
 ### Code Translation
 
@@ -798,6 +799,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Typhon: Automatic Recommendation of Relevant Code Cells in Jupyter Notebooks" [2024-05] [[paper](https://arxiv.org/abs/2405.09075)]
 
 - "Toward Exploring the Code Understanding Capabilities of Pre-trained Code Generation Models" [2024-06] [[paper](https://arxiv.org/abs/2406.12326)]
+
+- "Aligning Programming Language and Natural Language: Exploring Design Choices in Multi-Modal Transformer-Based Embedding for Bug Localization" [2024-06] [[paper](https://arxiv.org/abs/2406.17615)]
 
 ### Type Prediction
 
@@ -970,6 +973,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain" [2023-07] [ICONIP 2023] [[paper](https://arxiv.org/abs/2307.05074)]
 
 - "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation" [2023-08] [[paper](https://arxiv.org/abs/2308.15363)]
+
+- "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL" [2023-12] [[paper](https://arxiv.org/abs/2312.11242)]
 
 - "SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder" [2024-03] [[paper](https://arxiv.org/abs/2403.16204)]
 
@@ -1334,6 +1339,16 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ULog: Unsupervised Log Parsing with Large Language Models through Log Contrastive Units" [2024-06] [[paper](https://arxiv.org/abs/2406.07174)]
 
 - "Anomaly Detection on Unstable Logs with GPT Models" [2024-06] [[paper](https://arxiv.org/abs/2406.07467)]
+
+### Software Modeling
+
+- "Towards using Few-Shot Prompt Learning for Automating Model Completion" [2022-12] [[paper](https://arxiv.org/abs/2212.03404)]
+
+- "Model Generation from Requirements with LLMs: an Exploratory Study" [2024-04] [[paper](https://arxiv.org/abs/2404.06371)]
+
+- "How LLMs Aid in UML Modeling: An Exploratory Study with Novice Analysts" [2024-04] [[paper](https://arxiv.org/abs/2404.17739)]
+
+- "Leveraging Large Language Models for Software Model Completion: Results from Industrial and Public Datasets" [2024-06] [[paper](https://arxiv.org/abs/2406.17651)]
 
 ### Requirement Engineering
 
