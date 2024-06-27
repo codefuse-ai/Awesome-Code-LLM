@@ -10,23 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
-🔥🔥🔥 [2024/06/26] Latest papers:
+🔥🔥🔥 [2024/06/27] Latest papers:
 
-- 🔥🔥 [Leveraging Large Language Models for Software Model Completion: Results from Industrial and Public Datasets](https://arxiv.org/abs/2406.17651) from Siemens AG and Saarland University.
+- 🔥🔥 [MALSIGHT: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization](https://arxiv.org/abs/2406.18379) from Beijing University of Posts and Telecommunications.
 
-- 🔥🔥 [Aligning Programming Language and Natural Language: Exploring Design Choices in Multi-Modal Transformer-Based Embedding for Bug Localization](https://arxiv.org/abs/2406.17615) from University of Waterloo.
+- 🔥🔥 [Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs](https://arxiv.org/abs/2406.18294) from Chinese Academy of Sciences.
 
-- 🔥🔥 [MPCODER: Multi-user Personalized Code Generator with Explicit and Implicit Style Representation Learning](https://arxiv.org/abs/2406.17255) from Zhejiang University.
+- 🔥🔥 [An Empirical Study of Unit Test Generation with Large Language Models](https://arxiv.org/abs/2406.18181) from Tianjin University.
 
-- 🔥 [RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale](https://arxiv.org/abs/2406.16801) from Qurrent AI.
+- 🔥🔥 [Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects](https://arxiv.org/abs/2406.17910) from Cisco Systems Inc.
 
-- 🔥 [UniCoder: Scaling Code Large Language Model via Universal Code](https://arxiv.org/abs/2406.16441) from Beihang University.
+- 🔥 [Leveraging Large Language Models for Software Model Completion: Results from Industrial and Public Datasets](https://arxiv.org/abs/2406.17651) from Siemens AG and Saarland University.
 
-- 🔥 [Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach](https://arxiv.org/abs/2406.16386) from The Chinese University of Hong Kong.
+- 🔥 [Aligning Programming Language and Natural Language: Exploring Design Choices in Multi-Modal Transformer-Based Embedding for Bug Localization](https://arxiv.org/abs/2406.17615) from University of Waterloo.
 
-- 🔥 [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) from Monash University.
-
-- 🔥 [CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation](https://arxiv.org/abs/2406.15743) from Zhejiang University.
+- 🔥 [MPCODER: Multi-user Personalized Code Generator with Explicit and Implicit Style Representation Learning](https://arxiv.org/abs/2406.17255) from Zhejiang University.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] [Software Modeling](#software-modeling)
 
@@ -726,6 +724,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution" [2024-06] [[paper](https://arxiv.org/abs/2406.14836)]
 
+- "MALSIGHT: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization" [2024-06] [[paper](https://arxiv.org/abs/2406.18379)]
+
 ### Program Repair
 
 - "DeepDebug: Fixing Python Bugs Using Stack Traces, Backtranslation, and Code Skeletons" [2021-05] [[paper](https://arxiv.org/abs/2105.09352)]
@@ -867,6 +867,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.07003)]
 
 - "STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis" [2024-06] [[paper](https://arxiv.org/abs/2406.10018)]
+
+- "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.18294)]
 
 ### Frontend Development & Web Agents
 
@@ -1073,6 +1075,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Code Agents are State of the Art Software Testers" [2024-06] [[paper](https://arxiv.org/abs/2406.12952)]
 
 - "CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.15743)]
+
+- "An Empirical Study of Unit Test Generation with Large Language Models" [2024-06] [[paper](https://arxiv.org/abs/2406.18181)]
 
 ### Oracle Generation
 
@@ -1525,6 +1529,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Using AI-Based Coding Assistants in Practice: State of Affairs, Perceptions, and Ways Forward" [2024-06] [[paper](https://arxiv.org/abs/2406.07765)]
 
 - "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging" [2024-06] [[paper](https://arxiv.org/abs/2406.11709)]
+
+- "Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects" [2024-06] [[paper](https://arxiv.org/abs/2406.17910)]
 
 ## 8. Datasets
 
