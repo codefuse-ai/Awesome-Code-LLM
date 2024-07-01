@@ -8,27 +8,33 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥🔥 [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
+🔥🔥🔥 [2024/07/01] Latest papers:
 
-🔥🔥🔥 [2024/06/27] Latest papers:
+- 🔥🔥 [Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs](https://arxiv.org/abs/2406.20098) from MBZUAI.
 
-- 🔥🔥 [MALSIGHT: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization](https://arxiv.org/abs/2406.18379) from Beijing University of Posts and Telecommunications.
+- 🔥🔥 [Applying RLAIF for Code Generation with API-usage in Lightweight LLMs](https://arxiv.org/abs/2406.20060) from Apple.
 
-- 🔥🔥 [Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs](https://arxiv.org/abs/2406.18294) from Chinese Academy of Sciences.
+- 🔥🔥 [YuLan: An Open-source Large Language Model](https://arxiv.org/abs/2406.19853) from Renmin University of China.
 
-- 🔥🔥 [An Empirical Study of Unit Test Generation with Large Language Models](https://arxiv.org/abs/2406.18181) from Tianjin University.
+- 🔥🔥 [NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations](https://arxiv.org/abs/2406.19783) from Zhejiang University.
 
-- 🔥🔥 [Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects](https://arxiv.org/abs/2406.17910) from Cisco Systems Inc.
+- 🔥🔥 [Where Are Large Language Models for Code Generation on GitHub?](https://arxiv.org/abs/2406.19544) from Zhejiang University.
 
-- 🔥 [Leveraging Large Language Models for Software Model Completion: Results from Industrial and Public Datasets](https://arxiv.org/abs/2406.17651) from Siemens AG and Saarland University.
+- 🔥🔥 [LiveBench: A Challenging, Contamination-Free LLM Benchmark](https://arxiv.org/abs/2406.19314) from Abacus.AI.
 
-- 🔥 [Aligning Programming Language and Natural Language: Exploring Design Choices in Multi-Modal Transformer-Based Embedding for Bug Localization](https://arxiv.org/abs/2406.17615) from University of Waterloo.
+- 🔥🔥 [AssertionBench: A Benchmark to Evaluate Large-Language Models for Assertion Generation](https://arxiv.org/abs/2406.18627) from UIUC.
 
-- 🔥 [MPCODER: Multi-user Personalized Code Generator with Explicit and Implicit Style Representation Learning](https://arxiv.org/abs/2406.17255) from Zhejiang University.
+- 🔥 [MALSIGHT: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization](https://arxiv.org/abs/2406.18379) from Beijing University of Posts and Telecommunications.
 
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] [Software Modeling](#software-modeling)
+- 🔥 [Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs](https://arxiv.org/abs/2406.18294) from Chinese Academy of Sciences.
 
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/05] [Code Reasoning benchmarks](#code-reasoning-and-qa)!
+- 🔥 [An Empirical Study of Unit Test Generation with Large Language Models](https://arxiv.org/abs/2406.18181) from Tianjin University.
+
+- 🔥 [Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects](https://arxiv.org/abs/2406.17910) from Cisco Systems Inc.
+
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
+
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] [Software Modeling](#software-modeling)
 
 ## Table of Contents
 
@@ -117,6 +123,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
    8.2 [Benchmarks](#82-benchmarks)
 
+   - [Integrated Benchmarks](#integrated-benchmarks)
    - [Program Synthesis](#program-synthesis)
    - [Visually Grounded Program Synthesis](#visually-grounded-program-synthesis)
    - [Code Reasoning and QA](#code-reasoning-and-qa)
@@ -247,6 +254,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 38. **Nemotron-4**: "Nemotron-4 340B Technical Report" [2024-06] [[paper](https://arxiv.org/abs/2406.11704)]
 
 39. **ChatGLM**: "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools" [2024-06] [[paper](https://arxiv.org/abs/2406.12793)]
+
+40. **YuLan**: "YuLan: An Open-source Large Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.19853)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -432,6 +441,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 8. "Measuring memorization in RLHF for code completion" [2024-06] [[paper](https://arxiv.org/abs/2406.11715)]
 
+9. "Applying RLAIF for Code Generation with API-usage in Lightweight LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.20060)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -600,13 +611,15 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming" [2024-06] [[paper](https://arxiv.org/abs/2406.09891)]
 
-- **Logo**: "Program Synthesis Benchmark for Visual Programming in XLogoOnline Environment" [2024-06] [[paper](https://arxiv.org/abs/2406.11334)]
+- [**Logo**] "Program Synthesis Benchmark for Visual Programming in XLogoOnline Environment" [2024-06] [[paper](https://arxiv.org/abs/2406.11334)]
 
-- **Ansible YAML, Bash**: "DocCGen: Document-based Controlled Code Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.11925)]
+- [**Ansible YAML, Bash**] "DocCGen: Document-based Controlled Code Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.11925)]
 
-- **Qiskit** "Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models" [2024-06] [[paper](https://arxiv.org/abs/2406.14712)]
+- [**Qiskit**] "Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models" [2024-06] [[paper](https://arxiv.org/abs/2406.14712)]
 
-- **Perl, Golang, Swift** "DistiLRR: Transferring Code Repair for Low-Resource Programming Languages" [2024-06] [[paper](https://arxiv.org/abs/2406.14867)]
+- [**Perl, Golang, Swift**] "DistiLRR: Transferring Code Repair for Low-Resource Programming Languages" [2024-06] [[paper](https://arxiv.org/abs/2406.14867)]
+
+- [**Verilog**] "AssertionBench: A Benchmark to Evaluate Large-Language Models for Assertion Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.18627)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -949,6 +962,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Identifying User Goals from UI Trajectories" [2024-06] [[paper](https://arxiv.org/abs/2406.14314)]
 
 - "Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach" [2024-06] [[paper](https://arxiv.org/abs/2406.16386)]
+
+- "Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.20098)]
 
 ### Text-To-SQL
 
@@ -1472,6 +1487,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "A Critical Study of What Code-LLMs (Do Not) Learn" [2024-06] [[paper](https://arxiv.org/abs/2406.11930)]
 
+- "Where Are Large Language Models for Code Generation on GitHub?" [2024-06] [[paper](https://arxiv.org/abs/2406.19544)]
+
+- "NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations" [2024-06] [[paper](https://arxiv.org/abs/2406.19783)]
+
 ## 7. User-LLM Interaction
 
 - "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models" [2022-04] [CHI EA 2022] [[paper](https://dl.acm.org/doi/abs/10.1145/3491101.3519665)]
@@ -1561,6 +1580,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - **Long Code Arena**: "Long Code Arena: a Set of Benchmarks for Long-Context Code Models" [2024-06] [[paper](https://arxiv.org/abs/2406.11612)] [[repo](https://github.com/JetBrains-Research/lca-baselines)]
 
 - **CodeRAG-Bench**: "CodeRAG-Bench: Can Retrieval Augment Code Generation?" [2024-06] [[paper](https://arxiv.org/abs/2406.14497)] [[repo](https://github.com/code-rag-bench/code-rag-bench)]
+
+- **LiveBench**: "LiveBench: A Challenging, Contamination-Free LLM Benchmark" [2024-06] [[paper](https://arxiv.org/abs/2406.19314)] [[repo](https://github.com/livebench/livebench)]
 
 #### Program Synthesis
 
