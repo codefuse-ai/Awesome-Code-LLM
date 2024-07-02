@@ -10,27 +10,25 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/07/01] Latest papers:
 
-- 🔥🔥 [Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs](https://arxiv.org/abs/2406.20098) from MBZUAI.
+- 🔥🔥 [Agentless: Demystifying LLM-based Software Engineering Agents](https://arxiv.org/abs/2407.01489) from UIUC.
 
-- 🔥🔥 [Applying RLAIF for Code Generation with API-usage in Lightweight LLMs](https://arxiv.org/abs/2406.20060) from Apple.
+- 🔥🔥 [Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models](https://arxiv.org/abs/2407.00456) from Sun Yat-sen University.
 
-- 🔥🔥 [YuLan: An Open-source Large Language Model](https://arxiv.org/abs/2406.19853) from Renmin University of China.
+- 🔥🔥 [Brevity is the soul of wit: Pruning long files for code generation](https://arxiv.org/abs/2407.00434) from UCL.
 
-- 🔥🔥 [NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations](https://arxiv.org/abs/2406.19783) from Zhejiang University.
+- 🔥🔥 [Large-scale, Independent and Comprehensive study of the power of LLMs for test case generation](https://arxiv.org/abs/2407.00225) from University of Luxembourg.
 
-- 🔥🔥 [Where Are Large Language Models for Code Generation on GitHub?](https://arxiv.org/abs/2406.19544) from Zhejiang University.
+- 🔥🔥 [LLM Critics Help Catch LLM Bugs](https://arxiv.org/abs/2407.00215) from OpenAI.
 
-- 🔥🔥 [LiveBench: A Challenging, Contamination-Free LLM Benchmark](https://arxiv.org/abs/2406.19314) from Abacus.AI.
+- 🔥 [Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs](https://arxiv.org/abs/2406.20098) from MBZUAI.
 
-- 🔥🔥 [AssertionBench: A Benchmark to Evaluate Large-Language Models for Assertion Generation](https://arxiv.org/abs/2406.18627) from UIUC.
+- 🔥 [Applying RLAIF for Code Generation with API-usage in Lightweight LLMs](https://arxiv.org/abs/2406.20060) from Apple.
 
-- 🔥 [MALSIGHT: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization](https://arxiv.org/abs/2406.18379) from Beijing University of Posts and Telecommunications.
+- 🔥 [NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations](https://arxiv.org/abs/2406.19783) from Zhejiang University.
 
-- 🔥 [Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs](https://arxiv.org/abs/2406.18294) from Chinese Academy of Sciences.
+- 🔥 [Where Are Large Language Models for Code Generation on GitHub?](https://arxiv.org/abs/2406.19544) from Zhejiang University.
 
-- 🔥 [An Empirical Study of Unit Test Generation with Large Language Models](https://arxiv.org/abs/2406.18181) from Tianjin University.
-
-- 🔥 [Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects](https://arxiv.org/abs/2406.17910) from Cisco Systems Inc.
+- 🔥 [LiveBench: A Challenging, Contamination-Free LLM Benchmark](https://arxiv.org/abs/2406.19314) from Abacus.AI.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
@@ -422,6 +420,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 21. **Code-Optimise**: "Code-Optimise: Self-Generated Preference Data for Correctness and Efficiency" [2024-06] [[paper](https://arxiv.org/abs/2406.12502)]
 
 22. **UniCoder**: "UniCoder: Scaling Code Large Language Model via Universal Code" [2024-06] [[paper](https://arxiv.org/abs/2406.16441)]
+
+23. "Brevity is the soul of wit: Pruning long files for code generation" [2024-06] [[paper](https://arxiv.org/abs/2407.00434)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -883,6 +883,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.18294)]
 
+- "Agentless: Demystifying LLM-based Software Engineering Agents" [2024-07] [[paper](https://arxiv.org/abs/2407.01489)]
+
 ### Frontend Development & Web Agents
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -1092,6 +1094,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CasModaTest: A Cascaded and Model-agnostic Self-directed Framework for Unit Test Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.15743)]
 
 - "An Empirical Study of Unit Test Generation with Large Language Models" [2024-06] [[paper](https://arxiv.org/abs/2406.18181)]
+
+- "Large-scale, Independent and Comprehensive study of the power of LLMs for test case generation" [2024-06] [[paper](https://arxiv.org/abs/2407.00225)]
 
 ### Oracle Generation
 
@@ -1331,6 +1335,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "AI-Assisted Assessment of Coding Practices in Modern Code Review" [2024-05] [[paper](https://arxiv.org/abs/2405.13565)]
 
+- "LLM Critics Help Catch LLM Bugs" [2024-06] [[paper](https://arxiv.org/abs/2407.00215)]
+
 ### Log Analysis
 
 - "LogStamp: Automatic Online Log Parsing Based on Sequence Labelling" [2022-08] [[paper](https://arxiv.org/abs/2208.10282)]
@@ -1490,6 +1496,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Where Are Large Language Models for Code Generation on GitHub?" [2024-06] [[paper](https://arxiv.org/abs/2406.19544)]
 
 - "NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations" [2024-06] [[paper](https://arxiv.org/abs/2406.19783)]
+
+- "Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models" [2024-06] [[paper](https://arxiv.org/abs/2407.00456)]
 
 ## 7. User-LLM Interaction
 
