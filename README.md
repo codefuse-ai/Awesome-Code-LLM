@@ -8,41 +8,37 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
-🔥🔥🔥 [2024/07/01] Latest papers:
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/07] We have compiled 118 papers from June 2024 in one [WeChat article](https://mp.weixin.qq.com/s/LM5imirdOsOCinaFP3NZjg).
 
-- 🔥🔥 [Gemma 2: Improving Open Language Models at a Practical Size](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf) from DeepMind.
+🔥🔥🔥 [2024/07/08] Latest papers:
 
-- 🔥🔥 [Let the Code LLM Edit Itself When You Edit the Code](https://arxiv.org/abs/2407.03157) from ByteDance.
+- 🔥🔥 [DotaMath: Decomposition of Thought with Code Assistance and Self-correction for Mathematical Reasoning](https://arxiv.org/abs/2407.04078) from Qwen Team.
 
-- 🔥🔥 [CoIR: A Comprehensive Benchmark for Code Information Retrieval Models](https://arxiv.org/abs/2407.02883) from Huawei.
+- 🔥🔥 [ALPINE: An adaptive language-agnostic pruning method for language models for code](https://arxiv.org/abs/2407.04147) from Dalhouise University.
 
-- 🔥🔥 [Exploring the Capabilities of LLMs for Code Change Related Tasks](https://arxiv.org/abs/2407.02824) from Zhejiang University.
+- 🔥🔥 [Narrow Transformer: Starcoder-Based Java-LM For Desktop](https://arxiv.org/abs/2407.03941) from Infosys Limited.
 
-- 🔥🔥 [A Comparative Study of DSL Code Generation: Fine-Tuning vs. Optimized Retrieval Augmentation](https://arxiv.org/abs/2407.02742) from Microsoft.
+- 🔥🔥 [AutoBench: Automatic Testbench Generation and Evaluation Using LLMs for HDL Design](https://arxiv.org/abs/2407.03891) from Technical University of Munich.
 
-- 🔥🔥 [Supporting Cross-language Cross-project Bug Localization Using Pre-trained Language Models](https://arxiv.org/abs/2407.02732) from Oracle Labs.
+- 🔥🔥 [Augmenting LLMs to Repair Obsolete Test Cases with Static Collector and Neural Reranker](https://arxiv.org/abs/2407.03625) from Chinese Academy of Sciences.
 
-- 🔥🔥 [INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness](https://arxiv.org/abs/2407.02518) from Salesforce Research.
+- 🔥🔥 [An Empirical Study on Capability of Large Language Models in Understanding Code Semantics](https://arxiv.org/abs/2407.03611) from VNU University of Engineering and Technology.
 
-- 🔥🔥 [Assessing the Code Clone Detection Capability of Large Language Models](https://arxiv.org/abs/2407.02402) from University of Galway.
+- 🔥🔥 [ConCodeEval: Evaluating Large Language Models for Code Constraints in Domain-Specific Languages](https://arxiv.org/abs/2407.03387) from IBM Research.
 
-- 🔥🔥 [Is Your AI-Generated Code Really Secure? Evaluating Large Language Models on Secure Code Generation with CodeSecEval](https://arxiv.org/abs/2407.02395) from South China University of Technology.
+- 🔥🔥 [Meta Large Language Model Compiler: Foundation Models of Compiler Optimization](https://arxiv.org/abs/2407.02524) from Meta.
 
-- 🔥🔥 [ESALE: Enhancing Code-Summary Alignment Learning for Source Code Summarization](https://arxiv.org/abs/2407.01646) from Nanjing University.
+- 🔥 [Gemma 2: Improving Open Language Models at a Practical Size](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf) from DeepMind.
 
-- 🔥🔥 [LASSI: An LLM-based Automated Self-Correcting Pipeline for Translating Parallel Scientific Codes](https://arxiv.org/abs/2407.01638) from University of Illinois Chicago.
+- 🔥 [CoIR: A Comprehensive Benchmark for Code Information Retrieval Models](https://arxiv.org/abs/2407.02883) from Huawei.
 
-- 🔥 [Agentless: Demystifying LLM-based Software Engineering Agents](https://arxiv.org/abs/2407.01489) from UIUC.
+- 🔥 [Supporting Cross-language Cross-project Bug Localization Using Pre-trained Language Models](https://arxiv.org/abs/2407.02732) from Oracle Labs.
 
-- 🔥 [Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models](https://arxiv.org/abs/2407.00456) from Sun Yat-sen University.
+- 🔥 [INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness](https://arxiv.org/abs/2407.02518) from Salesforce Research.
 
-- 🔥 [Brevity is the soul of wit: Pruning long files for code generation](https://arxiv.org/abs/2407.00434) from UCL.
+- 🔥 [Is Your AI-Generated Code Really Secure? Evaluating Large Language Models on Secure Code Generation with CodeSecEval](https://arxiv.org/abs/2407.02395) from South China University of Technology.
 
-- 🔥 [Large-scale, Independent and Comprehensive study of the power of LLMs for test case generation](https://arxiv.org/abs/2407.00225) from University of Luxembourg.
-
-- 🔥 [LLM Critics Help Catch LLM Bugs](https://arxiv.org/abs/2407.00215) from OpenAI.
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled all the papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled 90 papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] [Software Modeling](#software-modeling)
 
@@ -122,6 +118,7 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
    - [Correctness](#correctness)
    - [Hallucination](#hallucination)
    - [Efficiency](#efficiency)
+   - [Robustness](#robustness)
    - [AI-Generated Code Detection](#ai-generated-code-detection)
    - [Others](#others)
 
@@ -357,6 +354,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 18. **Granite**: "Granite Code Models: A Family of Open Foundation Models for Code Intelligence" [2024-05] [[paper](https://arxiv.org/abs/2405.04324)]
 
+19. **NT-Java**: "Narrow Transformer: Starcoder-Based Java-LM For Desktop" [2024-07] [[paper](https://arxiv.org/abs/2407.03941)]
+
 #### Encoder-Decoder
 
 1. **PyMT5** (Span Corruption): "PyMT5: multi-mode translation of natural language and Python code with transformers", 2020-10, EMNLP 2020, [[paper](https://arxiv.org/abs/2010.03150)]
@@ -484,6 +483,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 11. "Arithmetic Reasoning with LLM: Prolog Generation & Permutation" [2024-05] [[paper](https://arxiv.org/abs/2405.17893)]
 
 12. "Can LLMs Reason in the Wild with Programs?" [2024-06] [[paper](https://arxiv.org/abs/2406.13764)]
+
+13. **DotaMath**: "DotaMath: Decomposition of Thought with Code Assistance and Self-correction for Mathematical Reasoning" [2024-07] [[paper](https://arxiv.org/abs/2407.04078)]
 
 ### 3.2 Code Simulation
 
@@ -638,6 +639,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Verilog**] "AssertionBench: A Benchmark to Evaluate Large-Language Models for Assertion Generation" [2024-06] [[paper](https://arxiv.org/abs/2406.18627)]
 
 - "A Comparative Study of DSL Code Generation: Fine-Tuning vs. Optimized Retrieval Augmentation" [2024-07] [[paper](https://arxiv.org/abs/2407.02742)]
+
+- [**Json, XLM, YAML**] "ConCodeEval: Evaluating Large Language Models for Code Constraints in Domain-Specific Languages" [2024-07] [[paper](https://arxiv.org/abs/2407.03387)]
+
+- [**Verilog**] "AutoBench: Automatic Testbench Generation and Evaluation Using LLMs for HDL Design" [2024-07] [[paper](https://arxiv.org/abs/2407.03891)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1123,6 +1128,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Large-scale, Independent and Comprehensive study of the power of LLMs for test case generation" [2024-06] [[paper](https://arxiv.org/abs/2407.00225)]
 
+- "Augmenting LLMs to Repair Obsolete Test Cases with Static Collector and Neural Reranker" [2024-07] [[paper](https://arxiv.org/abs/2407.03625)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -1249,6 +1256,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Supporting Cross-language Cross-project Bug Localization Using Pre-trained Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.02732)]
 
+- "ALPINE: An adaptive language-agnostic pruning method for language models for code" [2024-07] [[paper](https://arxiv.org/abs/2407.04147)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -1318,6 +1327,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Should AI Optimize Your Code? A Comparative Study of Current Large Language Models Versus Classical Optimizing Compilers" [2024-06] [[paper](https://arxiv.org/abs/2406.12146)]
 
 - "Iterative or Innovative? A Problem-Oriented Perspective for Code Optimization" [2024-06] [[paper](https://arxiv.org/abs/2406.11935)]
+
+- "Meta Large Language Model Compiler: Foundation Models of Compiler Optimization" [2024-06] [[paper](https://arxiv.org/abs/2407.02524)]
 
 ### Decompilation
 
@@ -1495,6 +1506,16 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark" [2024-06] [[paper](https://arxiv.org/abs/2406.06647)]
 
+### Robustness
+
+- "Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain" [2023-10] [[paper](https://arxiv.org/abs/2310.14053)]
+
+- "Syntactic Robustness for LLM-based Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.01535)]
+
+- "NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations" [2024-06] [[paper](https://arxiv.org/abs/2406.19783)]
+
+- "An Empirical Study on Capability of Large Language Models in Understanding Code Semantics" [2024-07] [[paper](https://arxiv.org/abs/2407.03611)]
+
 ### AI-Generated Code Detection
 
 - "Zero-Shot Detection of Machine-Generated Codes" [2023-10] [[paper](https://arxiv.org/abs/2310.05103)]
@@ -1506,10 +1527,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Uncovering LLM-Generated Code: A Zero-Shot Synthetic Code Detector via Code Rewriting" [2024-05] [[paper](https://arxiv.org/abs/2405.16133)]
 
 ### Others
-
-- "Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain" [2023-10] [[paper](https://arxiv.org/abs/2310.14053)]
-
-- "Syntactic Robustness for LLM-based Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.01535)]
 
 - "Testing the Effect of Code Documentation on Large Language Model Code Understanding" [2024-04] [[paper](https://arxiv.org/abs/2404.03114)]
 
@@ -1526,8 +1543,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "A Critical Study of What Code-LLMs (Do Not) Learn" [2024-06] [[paper](https://arxiv.org/abs/2406.11930)]
 
 - "Where Are Large Language Models for Code Generation on GitHub?" [2024-06] [[paper](https://arxiv.org/abs/2406.19544)]
-
-- "NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations" [2024-06] [[paper](https://arxiv.org/abs/2406.19783)]
 
 - "Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models" [2024-06] [[paper](https://arxiv.org/abs/2407.00456)]
 
