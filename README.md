@@ -10,29 +10,33 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/07] We have compiled 118 papers from June 2024 in one [WeChat article](https://mp.weixin.qq.com/s/LM5imirdOsOCinaFP3NZjg).
 
-🔥🔥🔥 [2024/07/17] Latest papers:
+🔥🔥🔥 [2024/07/19] Latest papers:
+
+- 🔥🔥 [Scaling Granite Code Models to 128K Context](https://arxiv.org/abs/2407.13739) from IBM Research.
+
+- 🔥🔥 [AI-Assisted SQL Authoring at Industry Scale](https://arxiv.org/abs/2407.13280) from Meta.
+
+- 🔥🔥 [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168) from UIUC.
+
+- 🔥🔥 [Case2Code: Learning Inductive Reasoning with Synthetic Data](https://arxiv.org/abs/2407.12504) from Fudan University.
+
+- 🔥🔥 [ITERTL: An Iterative Framework for Fine-tuning LLMs for RTL Code Generation](https://arxiv.org/abs/2407.12022) from Chinese Academy of Sciences.
+
+- 🔥🔥 [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) from Chinese Information Processing Laboratory.
 
 - 🔥🔥 [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671)
 
-- 🔥🔥 [Revisiting the Impact of Pursuing Modularity for Code Generation](https://arxiv.org/abs/2407.11406) from Hanyang University.
+- 🔥🔥 [CIBench: Evaluating Your LLMs with a Code Interpreter Plugin](https://arxiv.org/abs/2407.10499) from Shanghai Artificial Intelligence Laboratory.
 
-- 🔥🔥 [MaPPing Your Model: Assessing the Impact of Adversarial Attacks on LLM-based Programming Assistants](https://arxiv.org/abs/2407.11072) from University of Oregon.
+- 🔥🔥 [The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class Reduced Engagement but Increased Adopters Exam Performances](https://arxiv.org/abs/2407.09975) from Stanford University.
 
-- 🔥🔥 [NoviCode: Generating Programs from Natural Language Utterances by Novices](https://arxiv.org/abs/2407.10626) from Bar-Ilan University.
+- 🔥 [Revisiting the Impact of Pursuing Modularity for Code Generation](https://arxiv.org/abs/2407.11406) from Hanyang University.
 
-- 🔥🔥 [CodeV: Empowering LLMs for Verilog Generation through Multi-Level Summarization](https://arxiv.org/abs/2407.10424) from Chinese Academy of Science.
+- 🔥 [Curriculum Learning for Small Code Language Models](https://arxiv.org/abs/2407.10194) from ESI and NYUAD.
 
-- 🔥🔥 [Curriculum Learning for Small Code Language Models](https://arxiv.org/abs/2407.10194) from ESI and NYUAD.
+- 🔥 [Uncovering Weaknesses in Neural Code Generation](https://arxiv.org/abs/2407.09793) from Beihang University.
 
-- 🔥🔥 [Uncovering Weaknesses in Neural Code Generation](https://arxiv.org/abs/2407.09793) from Beihang University.
-
-- 🔥🔥 [On Mitigating Code LLM Hallucinations with API Documentation](https://arxiv.org/abs/2407.09726) from Amazon Web Services.
-
-- 🔥 [H2O-Danube3 Technical Report](https://arxiv.org/abs/2407.09276) from H2O.ai.
-
-- 🔥 [Benchmarking Language Model Creativity: A Case Study on Code Generation](https://arxiv.org/abs/2407.09007) from Johns Hopkins University.
-
-- 🔥 [DeepCodeProbe: Towards Understanding What Models Trained on Code Learn](https://arxiv.org/abs/2407.08890) from Polytechnique Montreal.
+- 🔥 [On Mitigating Code LLM Hallucinations with API Documentation](https://arxiv.org/abs/2407.09726) from Amazon Web Services.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled 90 papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
@@ -352,7 +356,7 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 17. **CodeQwen1.5** [2024-04] [[blog](https://qwenlm.github.io/blog/codeqwen1.5/)]
 
-18. **Granite**: "Granite Code Models: A Family of Open Foundation Models for Code Intelligence" [2024-05] [[paper](https://arxiv.org/abs/2405.04324)]
+18. **Granite**: "Granite Code Models: A Family of Open Foundation Models for Code Intelligence" [2024-05] [[paper](https://arxiv.org/abs/2405.04324)] "Scaling Granite Code Models to 128K Context" [2024-07] [[paper](https://arxiv.org/abs/2407.13739)]
 
 19. **NT-Java**: "Narrow Transformer: Starcoder-Based Java-LM For Desktop" [2024-07] [[paper](https://arxiv.org/abs/2407.03941)]
 
@@ -493,6 +497,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 12. "Can LLMs Reason in the Wild with Programs?" [2024-06] [[paper](https://arxiv.org/abs/2406.13764)]
 
 13. **DotaMath**: "DotaMath: Decomposition of Thought with Code Assistance and Self-correction for Mathematical Reasoning" [2024-07] [[paper](https://arxiv.org/abs/2407.04078)]
+
+14. **CIBench**: "CIBench: Evaluating Your LLMs with a Code Interpreter Plugin" [2024-07] [[paper](https://arxiv.org/abs/2407.10499)]
 
 ### 3.2 Code Simulation
 
@@ -653,6 +659,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Verilog**] "AutoBench: Automatic Testbench Generation and Evaluation Using LLMs for HDL Design" [2024-07] [[paper](https://arxiv.org/abs/2407.03891)]
 
 - [**Verilog**] "CodeV: Empowering LLMs for Verilog Generation through Multi-Level Summarization" [2024-07] [[paper](https://arxiv.org/abs/2407.10424)]
+
+- [**Verilog**] "ITERTL: An Iterative Framework for Fine-tuning LLMs for RTL Code Generation" [2024-07] [[paper](https://arxiv.org/abs/2407.12022)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1093,6 +1101,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ESM+: Modern Insights into Perspective on Text-to-SQL Evaluation in the Age of Large Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.07313)]
 
 - "RB-SQL: A Retrieval-based LLM Framework for Text-to-SQL" [2024-07] [[paper](https://arxiv.org/abs/2407.08273)]
+
+- "AI-Assisted SQL Authoring at Industry Scale" [2024-07] [[paper](https://arxiv.org/abs/2407.13280)]
 
 ### Test Generation
 
@@ -1606,6 +1616,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Benchmarking Language Model Creativity: A Case Study on Code Generation" [2024-07] [[paper](https://arxiv.org/abs/2407.09007)]
 
+- "Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.11470)]
+
 ## 7. User-LLM Interaction
 
 - "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models" [2022-04] [CHI EA 2022] [[paper](https://dl.acm.org/doi/abs/10.1145/3491101.3519665)]
@@ -1637,6 +1649,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "How far are AI-powered programming assistants from meeting developers' needs?" [2024-04] [[paper](https://arxiv.org/abs/2404.12000)]
 
 - "Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice" [2024-04] [[paper](https://arxiv.org/abs/2404.14901)]
+
+- "The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class Reduced Engagement but Increased Adopters Exam Performances" [2024-04] [[paper](https://arxiv.org/abs/2407.09975)]
 
 - "amplified.dev: a living document that begins to sketch a vision for a future where developers are amplified, not automated" [2024-05] [[paper](https://amplified.dev)]
 
@@ -1749,6 +1763,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-07 | arXiv                            | CodeUpdateArena        | 670                  | Python                                                                           | "CodeUpdateArena: Benchmarking Knowledge Editing on API Updates" [[paper](https://arxiv.org/abs/2407.06249)] [[data](https://github.com/leo-liuzy/CodeUpdateArena)]                                                                                                                          |
 | 2024-07 | arXiv                            | LBPP                   | 161                  | Python                                                                           | "On Leakage of Code Generation Evaluation Datasets" [[paper](https://arxiv.org/abs/2407.07565)] [[data](https://huggingface.co/datasets/CohereForAI/lbpp)]                                                                                                                                   |
 | 2024-07 | arXiv                            | NoviCode               | 150                  | Python                                                                           | "NoviCode: Generating Programs from Natural Language Utterances by Novices" [[paper](https://arxiv.org/abs/2407.10626)] [[data](https://github.com/BIU-NLP/novicode)]                                                                                                                        |
+| 2024-07 | arXiv                            | Case2Code              | 1.3M                 | Python                                                                           | "Case2Code: Learning Inductive Reasoning with Synthetic Data" [[paper](https://arxiv.org/abs/2407.12504)] [[data](https://github.com/choosewhatulike/case2code)]                                                                                                                             |
+| 2024-07 | arXiv                            | SciCode                | 338                  | Python                                                                           | "SciCode: A Research Coding Benchmark Curated by Scientists" [[paper](https://arxiv.org/abs/2407.13168)] [[data](https://github.com/scicode-bench/SciCode)]                                                                                                                                  |
 
 \* Automatically mined/human-annotated
 
