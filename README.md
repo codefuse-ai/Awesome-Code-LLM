@@ -10,33 +10,29 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/07] We have compiled 118 papers from June 2024 in one [WeChat article](https://mp.weixin.qq.com/s/LM5imirdOsOCinaFP3NZjg).
 
-🔥🔥🔥 [2024/07/19] Latest papers:
+🔥🔥🔥 [2024/07/23] Latest papers:
 
-- 🔥🔥 [Scaling Granite Code Models to 128K Context](https://arxiv.org/abs/2407.13739) from IBM Research.
+- 🔥🔥 [A Survey on Employing Large Language Models for Text-to-SQL Tasks](https://arxiv.org/abs/2407.15186) from Peking University.
 
-- 🔥🔥 [AI-Assisted SQL Authoring at Industry Scale](https://arxiv.org/abs/2407.13280) from Meta.
+- 🔥🔥 [I Need Help! Evaluating LLM's Ability to Ask for Users' Support: A Case Study on Text-to-SQL Generation](https://arxiv.org/abs/2407.14767) from Appier AI Research.
 
-- 🔥🔥 [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168) from UIUC.
+- 🔥🔥 [SQLfuse: Enhancing Text-to-SQL Performance through Comprehensive LLM Synergy](https://arxiv.org/abs/2407.14568) from Ant Group.
 
-- 🔥🔥 [Case2Code: Learning Inductive Reasoning with Synthetic Data](https://arxiv.org/abs/2407.12504) from Fudan University.
+- 🔥🔥 [ALLaM: Large Language Models for Arabic and English](https://arxiv.org/abs/2407.15390) from Saudi Data and AI Authority.
 
-- 🔥🔥 [ITERTL: An Iterative Framework for Fine-tuning LLMs for RTL Code Generation](https://arxiv.org/abs/2407.12022) from Chinese Academy of Sciences.
+- 🔥🔥 [SCoPE: Evaluating LLMs for Software Vulnerability Detection](https://arxiv.org/abs/2407.14372) from Porto School of Engineering.
 
-- 🔥🔥 [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) from Chinese Information Processing Laboratory.
+- 🔥🔥 [Beyond Code Generation: Assessing Code LLM Maturity with Postconditions](https://arxiv.org/abs/2407.14118) from Nanjing University.
 
-- 🔥🔥 [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671)
+- 🔥🔥 [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044) from CMU.
 
-- 🔥🔥 [CIBench: Evaluating Your LLMs with a Code Interpreter Plugin](https://arxiv.org/abs/2407.10499) from Shanghai Artificial Intelligence Laboratory.
+- 🔥 [AI-Assisted SQL Authoring at Industry Scale](https://arxiv.org/abs/2407.13280) from Meta.
 
-- 🔥🔥 [The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class Reduced Engagement but Increased Adopters Exam Performances](https://arxiv.org/abs/2407.09975) from Stanford University.
+- 🔥 [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168) from UIUC.
 
-- 🔥 [Revisiting the Impact of Pursuing Modularity for Code Generation](https://arxiv.org/abs/2407.11406) from Hanyang University.
+- 🔥 [Case2Code: Learning Inductive Reasoning with Synthetic Data](https://arxiv.org/abs/2407.12504) from Fudan University.
 
-- 🔥 [Curriculum Learning for Small Code Language Models](https://arxiv.org/abs/2407.10194) from ESI and NYUAD.
-
-- 🔥 [Uncovering Weaknesses in Neural Code Generation](https://arxiv.org/abs/2407.09793) from Beihang University.
-
-- 🔥 [On Mitigating Code LLM Hallucinations with API Documentation](https://arxiv.org/abs/2407.09726) from Amazon Web Services.
+- 🔥 [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) from Chinese Information Processing Laboratory.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled 90 papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
@@ -269,6 +265,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 42. **H2O-Danube3**: "H2O-Danube3 Technical Report" [2024-07] [[paper](https://arxiv.org/abs/2407.09276)]
 
 43. **Qwen2**: "Qwen2 Technical Report" [2024-07] [[paper](https://arxiv.org/abs/2407.10671)]
+
+44. **ALLaM**: "ALLaM: Large Language Models for Arabic and English" [2024-07] [[paper](https://arxiv.org/abs/2407.15390)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -593,6 +591,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "Training LLMs to Better Self-Debug and Explain Code" [2024-05] [[paper](https://arxiv.org/abs/2405.18649)]
 
 - "Requirements are All You Need: From Requirements to Code with LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.10101)]
+
+- "I Need Help! Evaluating LLM's Ability to Ask for Users' Support: A Case Study on Text-to-SQL Generation" [2024-07] [[paper](https://arxiv.org/abs/2407.14767)]
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
@@ -1104,6 +1104,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "AI-Assisted SQL Authoring at Industry Scale" [2024-07] [[paper](https://arxiv.org/abs/2407.13280)]
 
+- "SQLfuse: Enhancing Text-to-SQL Performance through Comprehensive LLM Synergy" [2024-07] [[paper](https://arxiv.org/abs/2407.14568)]
+
+- "A Survey on Employing Large Language Models for Text-to-SQL Tasks" [2024-07] [[paper](https://arxiv.org/abs/2407.15186)]
+
 ### Test Generation
 
 - "Unit Test Case Generation with Transformers and Focal Context" [2020-09] [AST@ICSE 2022] [[paper](https://arxiv.org/abs/2009.05617)]
@@ -1179,6 +1183,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "TOGLL: Correct and Strong Test Oracle Generation with LLMs" [2024-05] [[paper](https://arxiv.org/abs/2405.03786)]
 
 - "Test Oracle Automation in the era of LLMs" [2024-05] [[paper](https://arxiv.org/abs/2405.12766)]
+
+- "Beyond Code Generation: Assessing Code LLM Maturity with Postconditions" [2024-07] [[paper](https://arxiv.org/abs/2407.14118)]
 
 ### Mutation Testing
 
@@ -1297,6 +1303,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Supporting Cross-language Cross-project Bug Localization Using Pre-trained Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.02732)]
 
 - "ALPINE: An adaptive language-agnostic pruning method for language models for code" [2024-07] [[paper](https://arxiv.org/abs/2407.04147)]
+
+- "SCoPE: Evaluating LLMs for Software Vulnerability Detection" [2024-07] [[paper](https://arxiv.org/abs/2407.14372)]
 
 ### Malicious Code Detection
 
@@ -1565,6 +1573,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "From Effectiveness to Efficiency: Comparative Evaluation of Code Generated by LCGMs for Bilingual Programming Questions" [2024-06] [[paper](https://arxiv.org/abs/2406.00602)]
 
 - "How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark" [2024-06] [[paper](https://arxiv.org/abs/2406.06647)]
+
+- "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?" [2024-07] [[paper](https://arxiv.org/abs/2407.14044)]
 
 ### Robustness
 
