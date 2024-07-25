@@ -8,31 +8,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 ## News
 
+🔥🔥🔥 [2024/07/25] Latest papers:
+
+- 🔥🔥 [SelfPiCo: Self-Guided Partial Code Execution with LLMs](https://arxiv.org/abs/2407.16974) from Zhejiang University.
+
+- 🔥🔥 [PyBench: Evaluating LLM Agent on various real-world coding tasks](https://arxiv.org/abs/2407.16732) from Renmin University of China.
+
+- 🔥🔥 [OriGen:Enhancing RTL Code Generation with Code-to-Code Augmentation and Self-Reflection](https://arxiv.org/abs/2407.16237) from Peking University.
+
+- 🔥🔥 [Comparison of Static Application Security Testing Tools and Large Language Models for Repo-level Vulnerability Detection](https://arxiv.org/abs/2407.16235) from Singapore Management University.
+
+- 🔥 [A Survey on Employing Large Language Models for Text-to-SQL Tasks](https://arxiv.org/abs/2407.15186) from Peking University.
+
+- 🔥 [SQLfuse: Enhancing Text-to-SQL Performance through Comprehensive LLM Synergy](https://arxiv.org/abs/2407.14568) from Ant Group.
+
+- 🔥 [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044) from CMU.
+
 🔥🔥🔥 [2024/07] We have compiled 118 papers from June 2024 in one [WeChat article](https://mp.weixin.qq.com/s/LM5imirdOsOCinaFP3NZjg).
-
-🔥🔥🔥 [2024/07/23] Latest papers:
-
-- 🔥🔥 [A Survey on Employing Large Language Models for Text-to-SQL Tasks](https://arxiv.org/abs/2407.15186) from Peking University.
-
-- 🔥🔥 [I Need Help! Evaluating LLM's Ability to Ask for Users' Support: A Case Study on Text-to-SQL Generation](https://arxiv.org/abs/2407.14767) from Appier AI Research.
-
-- 🔥🔥 [SQLfuse: Enhancing Text-to-SQL Performance through Comprehensive LLM Synergy](https://arxiv.org/abs/2407.14568) from Ant Group.
-
-- 🔥🔥 [ALLaM: Large Language Models for Arabic and English](https://arxiv.org/abs/2407.15390) from Saudi Data and AI Authority.
-
-- 🔥🔥 [SCoPE: Evaluating LLMs for Software Vulnerability Detection](https://arxiv.org/abs/2407.14372) from Porto School of Engineering.
-
-- 🔥🔥 [Beyond Code Generation: Assessing Code LLM Maturity with Postconditions](https://arxiv.org/abs/2407.14118) from Nanjing University.
-
-- 🔥🔥 [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044) from CMU.
-
-- 🔥 [AI-Assisted SQL Authoring at Industry Scale](https://arxiv.org/abs/2407.13280) from Meta.
-
-- 🔥 [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168) from UIUC.
-
-- 🔥 [Case2Code: Learning Inductive Reasoning with Synthetic Data](https://arxiv.org/abs/2407.12504) from Fudan University.
-
-- 🔥 [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) from Chinese Information Processing Laboratory.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/06] We have compiled 90 papers from May 2024 in one [WeChat article](https://mp.weixin.qq.com/s/QqtbOVOsb46lIFmJ7aFdcQ).
 
@@ -360,33 +352,33 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 #### Encoder-Decoder
 
-1. **PyMT5** (Span Corruption): "PyMT5: multi-mode translation of natural language and Python code with transformers", 2020-10, EMNLP 2020, [[paper](https://arxiv.org/abs/2010.03150)]
+1. **PyMT5** (Span Corruption): "PyMT5: multi-mode translation of natural language and Python code with transformers" [2020-10] [EMNLP 2020] [[paper](https://arxiv.org/abs/2010.03150)]
 
-2. **Mastropaolo et al.** (MLM + Deobfuscation): "DOBF: A Deobfuscation Pre-Training Objective for Programming Languages", 2021-02, ICSE 2021, [[paper](https://arxiv.org/abs/2102.02017)] [[repo](https://github.com/antonio-mastropaolo/TransferLearning4Code)]
+2. **Mastropaolo et al.** (MLM + Deobfuscation): "DOBF: A Deobfuscation Pre-Training Objective for Programming Languages" [2021-02] [ICSE 2021] [[paper](https://arxiv.org/abs/2102.02017)] [[repo](https://github.com/antonio-mastropaolo/TransferLearning4Code)]
 
-3. **DOBF** (Span Corruption): "Studying the Usage of Text-To-Text Transfer Transformer to Support Code-Related Tasks", 2021-02, NeurIPS 2021, [[paper](https://arxiv.org/abs/2102.07492)] [[repo](https://github.com/facebookresearch/CodeGen/blob/main/docs/dobf.md)]
+3. **DOBF** (Span Corruption): "Studying the Usage of Text-To-Text Transfer Transformer to Support Code-Related Tasks" [2021-02] [NeurIPS 2021] [[paper](https://arxiv.org/abs/2102.07492)] [[repo](https://github.com/facebookresearch/CodeGen/blob/main/docs/dobf.md)]
 
-4. **PLBART** (DAE): "Unified Pre-training for Program Understanding and Generation", 2021-03, NAACL 2021, [[paper](https://arxiv.org/abs/2103.06333)] [[repo](https://github.com/wasiahmad/PLBART)]
+4. **PLBART** (DAE): "Unified Pre-training for Program Understanding and Generation" [2021-03] [NAACL 2021] [[paper](https://arxiv.org/abs/2103.06333)] [[repo](https://github.com/wasiahmad/PLBART)]
 
-5. **CodeT5** (Span Corruption + Identifier Tagging + Masked Identifier Prediction + Text2Code + Code2Text): "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation", 2021-09, EMNLP 2021, [[paper](https://arxiv.org/abs/2109.00859)] [[repo](https://github.com/salesforce/CodeT5)]
+5. **CodeT5** (Span Corruption + Identifier Tagging + Masked Identifier Prediction + Text2Code + Code2Text): "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.00859)] [[repo](https://github.com/salesforce/CodeT5)]
 
-6. **SPT-Code** (Span Corruption + NSP + Method Name Prediction): "SPT-Code: Sequence-to-Sequence Pre-Training for Learning Source Code Representations", 2022-01, ICSE 2022 Technical Track, [[paper](https://arxiv.org/abs/2201.01549)]
+6. **SPT-Code** (Span Corruption + NSP + Method Name Prediction): "SPT-Code: Sequence-to-Sequence Pre-Training for Learning Source Code Representations" [2022-01] [ICSE 2022 Technical Track] [[paper](https://arxiv.org/abs/2201.01549)]
 
-7. **AlphaCode** (MLM + CLM): "Competition-Level Code Generation with AlphaCode", 2022-02, Science, [[paper](https://arxiv.org/abs/2203.07814)] [[arxiv](https://deepmind.google/discover/blog/competitive-programming-with-alphacode/)]
+7. **AlphaCode** (MLM + CLM): "Competition-Level Code Generation with AlphaCode" [2022-02] [Science] [[paper](https://arxiv.org/abs/2203.07814)] [[blog](https://deepmind.google/discover/blog/competitive-programming-with-alphacode/)]
 
-8. **NatGen** (Code Naturalization): "NatGen: Generative pre-training by "Naturalizing" source code", 2022-06, ESEC/FSE 2022, [[paper](https://arxiv.org/abs/2206.07585)] [[repo](https://github.com/saikat107/NatGen)]
+8. **NatGen** (Code Naturalization): "NatGen: Generative pre-training by "Naturalizing" source code" [2022-06] [ESEC/FSE 2022] [[paper](https://arxiv.org/abs/2206.07585)] [[repo](https://github.com/saikat107/NatGen)]
 
-9. **ERNIE-Code** (Span Corruption + Pivot-based Translation LM): "ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for Programming Languages", 2022-12, ACL23 (Findings), [[paper](https://aclanthology.org/2023.findings-acl.676.pdf)][[repo](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-code)]
+9. **ERNIE-Code** (Span Corruption + Pivot-based Translation LM): "ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for Programming Languages" [2022-12] [ACL23 (Findings)] [[paper](https://aclanthology.org/2023.findings-acl.676.pdf)][[repo](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-code)]
 
-10. **CodeT5+** (Span Corruption + CLM + Text-Code Contrastive Learning + Text-Code Translation): "CodeT5+: Open Code Large Language Models for Code Understanding and Generation", 2023-05, arXiv, [[paper](https://arxiv.org/abs/2305.07922)] [[repo](https://github.com/salesforce/CodeT5)]
+10. **CodeT5+** (Span Corruption + CLM + Text-Code Contrastive Learning + Text-Code Translation): "CodeT5+: Open Code Large Language Models for Code Understanding and Generation" [2023-05] [EMNLP 2023] [[paper](https://arxiv.org/abs/2305.07922)] [[repo](https://github.com/salesforce/CodeT5)]
 
-11. **AST-T5** (Span Corruption): "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding", 2024-01, arXiv, [[paper](https://arxiv.org/abs/2401.03003)]
+11. **AST-T5** (Span Corruption): "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding" [2024-01] [ICML 2024] [[paper](https://arxiv.org/abs/2401.03003)]
 
 #### UniLM
 
-1. **CugLM** (MLM + NSP + CLM): "Multi-task Learning based Pre-trained Language Model for Code Completion", 2020-12, ASE 2020, [[paper](https://arxiv.org/abs/2012.14631)]
+1. **CugLM** (MLM + NSP + CLM): "Multi-task Learning based Pre-trained Language Model for Code Completion" [2020-12] [ASE 2020] [[paper](https://arxiv.org/abs/2012.14631)]
 
-2. **UniXcoder** (MLM + NSP + CLM + Span Corruption + Contrastive Learning + Code2Text): "UniXcoder: Unified Cross-Modal Pre-training for Code Representation", 2022-03, ACL 2022, [[paper](https://arxiv.org/abs/2203.03850)] [[repo](https://github.com/microsoft/CodeBERT)]
+2. **UniXcoder** (MLM + NSP + CLM + Span Corruption + Contrastive Learning + Code2Text): "UniXcoder: Unified Cross-Modal Pre-training for Code Representation" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.03850)] [[repo](https://github.com/microsoft/CodeBERT)]
 
 ### 2.4 (Instruction) Fine-Tuning on Code
 
@@ -478,7 +470,7 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 4. **MathCoder**: "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning" [2023-10] [ICLR 2024] [[paper](https://arxiv.org/abs/2310.03731)]
 
-5. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator" [2023-12] [[paper](https://arxiv.org/abs/2312.04474)]
+5. **CoC**: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator" [2023-12] [ICML 2024] [[paper](https://arxiv.org/abs/2312.04474)]
 
 6. **FlowMind**: "FlowMind: Automatic Workflow Generation with LLMs" [2024-03] [[paper](https://arxiv.org/abs/2404.13050)]
 
@@ -498,6 +490,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 14. **CIBench**: "CIBench: Evaluating Your LLMs with a Code Interpreter Plugin" [2024-07] [[paper](https://arxiv.org/abs/2407.10499)]
 
+15. **PyBench**: "PyBench: Evaluating LLM Agent on various real-world coding tasks" [2024-07] [[paper](https://arxiv.org/abs/2407.16732)]
+
 ### 3.2 Code Simulation
 
 - "Code Simulation Challenges for Large Language Models" [2024-01] [[paper](https://arxiv.org/abs/2401.09074)]
@@ -510,7 +504,9 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Evaluating Large Language Models with Runtime Behavior of Program Execution" [2024-03] [[paper](https://arxiv.org/abs/2403.16437)]
 
-- "NExT: Teaching Large Language Models to Reason about Code Execution" [2024-04] [[paper](https://arxiv.org/abs/2404.14662)]
+- "NExT: Teaching Large Language Models to Reason about Code Execution" [2024-04] [ICML 2024] [[paper](https://arxiv.org/abs/2404.14662)]
+
+- "SelfPiCo: Self-Guided Partial Code Execution with LLMs" [2024-07] [[paper](https://arxiv.org/abs/2407.16974)]
 
 ### 3.3 Code Agents
 
@@ -661,6 +657,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Verilog**] "CodeV: Empowering LLMs for Verilog Generation through Multi-Level Summarization" [2024-07] [[paper](https://arxiv.org/abs/2407.10424)]
 
 - [**Verilog**] "ITERTL: An Iterative Framework for Fine-tuning LLMs for RTL Code Generation" [2024-07] [[paper](https://arxiv.org/abs/2407.12022)]
+
+- [**Verilog**] "OriGen:Enhancing RTL Code Generation with Code-to-Code Augmentation and Self-Reflection" [2024-07] [[paper](https://arxiv.org/abs/2407.16237)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -914,7 +912,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "RepoHyper: Better Context Retrieval Is All You Need for Repository-Level Code Completion" [2024-03] [[paper](https://arxiv.org/abs/2403.06095)]
 
-- "Repoformer: Selective Retrieval for Repository-Level Code Completion" [2024-03] [[paper](https://arxiv.org/abs/2403.10059)]
+- "Repoformer: Selective Retrieval for Repository-Level Code Completion" [2024-03] [ICML 2024] [[paper](https://arxiv.org/abs/2403.10059)]
 
 - "CodeS: Natural Language to Code Repository via Multi-Layer Sketch" [2024-03] [[paper](https://arxiv.org/abs/2403.16443)]
 
@@ -1305,6 +1303,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ALPINE: An adaptive language-agnostic pruning method for language models for code" [2024-07] [[paper](https://arxiv.org/abs/2407.04147)]
 
 - "SCoPE: Evaluating LLMs for Software Vulnerability Detection" [2024-07] [[paper](https://arxiv.org/abs/2407.14372)]
+
+- "Comparison of Static Application Security Testing Tools and Large Language Models for Repo-level Vulnerability Detection" [2024-07] [[paper](https://arxiv.org/abs/2407.16235)]
 
 ### Malicious Code Detection
 
@@ -1799,7 +1799,7 @@ $^\diamond$ Machine/human prompts
 | 2021-09 | EMNLP Findings 2021 | CodeQA    | 120K/70K | Java/Python                         | "CodeQA: A Question Answering Dataset for Source Code Comprehension" [[paper](https://arxiv.org/abs/2109.08365)] [[data](https://github.com/jadecxliu/CodeQA)]                                                           |
 | 2022-10 | NAACL 2022          | CS1QA     | 9237     | Python                              | "CS1QA: A Dataset for Assisting Code-based Question Answering in an Introductory Programming Course" [[paper](https://arxiv.org/abs/2210.14494)] [[data](https://github.com/cyoon47/CS1QA)]                              |
 | 2023-09 | arXiv               | CodeApex  | 250      | C++                                 | "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models" [[paper](https://arxiv.org/abs/2309.01940)] [[data](https://github.com/APEXLAB/CodeApex)]                                             |
-| 2024-01 | arXiv               | CRUXEval  | 800      | Python                              | "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution" [[paper](https://arxiv.org/abs/2401.03065)] [[data](https://github.com/facebookresearch/cruxeval)]                                               |
+| 2024-01 | ICML 2024           | CRUXEval  | 800      | Python                              | "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution" [[paper](https://arxiv.org/abs/2401.03065)] [[data](https://github.com/facebookresearch/cruxeval)]                                               |
 | 2024-05 | arXiv               | PythonIO  | 2650     | Python                              | "Multiple-Choice Questions are Efficient and Robust LLM Evaluators" [[paper](https://arxiv.org/abs/2405.11966)] [[data](https://github.com/Geralt-Targaryen/MC-Evaluation)]                                              |
 | 2024-05 | arXiv               | StaCCQA   | 270K     | Python                              | "Aligning LLMs through Multi-perspective User Preference Ranking-based Feedback for Programming Question Answering" [[paper](https://arxiv.org/abs/2406.00037)] [[data](https://anonymous.4open.science/r/PETCoQA-810A)] |
 | 2024-06 | arXiv               | RepoQA    | 500      | Python, C++, Java, Rust, TypeScript | "RepoQA: Evaluating Long Context Code Understanding" [[paper](https://arxiv.org/abs/2406.06025)] [[data](https://github.com/evalplus/repoqa)]                                                                            |
