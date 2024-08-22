@@ -10,15 +10,21 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/08/21] ACL 2024 papers (both main conference and findings) have been added. Just search for the keyword "ACL 2024" in this page.
 
-🔥🔥🔥 [2024/08/18] Latest papers:
+🔥🔥🔥 [2024/08/22] Latest papers:
 
-- 🔥🔥 [MAG-SQL: Multi-Agent Generative Approach with Soft Schema Linking and Iterative Sub-SQL Refinement for Text-to-SQL](https://arxiv.org/abs/2408.07930) from Tsinghua University.
+- 🔥🔥 [Leveraging Large Language Models for Enhancing the Understandability of Generated Unit Tests](https://arxiv.org/abs/2408.11710) from Delft University of Technology.
 
-- 🔥🔥 [A System for Automated Unit Test Generation Using Large Language Models and Assessment of Generated Test Suites](https://arxiv.org/abs/2408.07846) from Polytechnic University of Bari.
+- 🔥🔥 [To Code, or Not To Code? Exploring Impact of Code in Pre-training](https://arxiv.org/abs/2408.10914) from Cohere For AI.
 
-- 🔥🔥 [The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models](https://arxiv.org/abs/2408.07702) from Distyl AI.
+- 🔥🔥 [Optimizing Large Language Model Hyperparameters for Code Generation](https://arxiv.org/abs/2408.10577) from Monash University.
 
-- 🔥🔥 ["You still have to study" -- On the Security of LLM generated code](https://arxiv.org/abs/2408.07106) from Offenburg University of Applied Sciences
+- 🔥🔥 [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/abs/2408.10495) from Beihang University.
+
+- 🔥🔥 [Bridging the Language Gap: Enhancing Multilingual Prompt-Based Code Generation in LLMs via Zero-Shot Cross-Lingual Transfer](https://arxiv.org/abs/2408.09701) from University of Texas at Austin
+
+- 🔥🔥 [DAC: Decomposed Automation Correction for Text-to-SQL](https://arxiv.org/abs/2408.08779) from Harbin Institute of Technology.
+
+- 🔥🔥 [API-guided Dataset Synthesis to Finetune Large Code Models](https://arxiv.org/abs/2408.08343) from The Hong Kong University of Science and Technology.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/08] We have compiled 117 papers from July 2024 in one [WeChat article](https://mp.weixin.qq.com/s/UKvFD7cL-qVmvm7_MO1uQA).
 
@@ -259,6 +265,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 46. **AFM**: "Apple Intelligence Foundation Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.21075)]
 
+47. "To Code, or Not To Code? Exploring Impact of Code in Pre-training" [2024-08] [[paper](https://arxiv.org/abs/2408.10914)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -446,6 +454,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 30. "Curriculum Learning for Small Code Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.10194)]
 
 31. **Genetic-Instruct**: "Genetic Instruct: Scaling up Synthetic Generation of Coding Instructions for Large Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.21077)]
+
+32. **DataScope**: "API-guided Dataset Synthesis to Finetune Large Code Models" [2024-08] [[paper](https://arxiv.org/abs/2408.08343)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -693,6 +703,12 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**Verilog**] "AutoVCoder: A Systematic Framework for Automated Verilog Code Generation using LLMs" [2024-07] [[paper](https://arxiv.org/abs/2407.18333)]
 
+- [**RPA**] "Plan with Code: Comparing approaches for robust NL to DSL generation" [2024-08] [[paper](https://arxiv.org/abs/2408.08335)]
+
+- [**Verilog**] "VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool" [2024-08] [[paper](https://arxiv.org/abs/2408.08927)]
+
+- [**Verilog**] "Revisiting VerilogEval: Newer LLMs, In-Context Learning, and Specification-to-RTL Tasks" [2024-08] [[paper](https://arxiv.org/abs/2408.11053)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -760,6 +776,14 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Top Pass: Improve Code Generation by Pass@k-Maximized Code Ranking" [2024-08] [[paper](https://arxiv.org/abs/2408.05715)]
 
 - "Fine-tuning Language Models for Joint Rewriting and Completion of Code with Potential Bugs" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.938/)]
+
+- "Selective Prompt Anchoring for Code Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.09121)]
+
+- "Bridging the Language Gap: Enhancing Multilingual Prompt-Based Code Generation in LLMs via Zero-Shot Cross-Lingual Transfer" [2024-08] [[paper](https://arxiv.org/abs/2408.09701)]
+
+- "Optimizing Large Language Model Hyperparameters for Code Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.10577)]
+
+- "EPiC: Cost-effective Search-based Prompt Engineering of LLMs for Code Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.11198)]
 
 ### Code Translation
 
@@ -849,6 +873,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Natural Language Outlines for Code: Literate Programming in the LLM Era" [2024-08] [[paper](https://arxiv.org/abs/2408.04820)]
 
+- "Context-aware Code Summary Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.09006)]
+
 ### Program Repair
 
 - "DeepDebug: Fixing Python Bugs Using Stack Traces, Backtranslation, and Code Skeletons" [2021-05] [[paper](https://arxiv.org/abs/2105.09352)]
@@ -913,6 +939,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "RePair: Automated Program Repair with Process-based Feedback" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.973/)]
 
+- "MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair" [2024-08] [[paper](https://arxiv.org/abs/2408.09568)]
+
+- "RePair: Automated Program Repair with Process-based Feedback" [2024-08] [[paper](https://arxiv.org/abs/2408.11296)]
+
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
 - "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
@@ -942,6 +972,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Coding-PTMs: How to Find Optimal Code Pre-trained Models for Code Embedding in Vulnerability Detection?" [2024-08] [[paper](https://arxiv.org/abs/2408.04863)]
 
 - "You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search" [2024-08] [[paper](https://arxiv.org/abs/2408.05542)]
+
+- "Improving Source Code Similarity Detection Through GraphCodeBERT and Integration of Additional Features" [2024-08] [[paper](https://arxiv.org/abs/2408.08903)]
+
+- "LLM Agents Improve Semantic Code Search" [2024-08] [[paper](https://arxiv.org/abs/2408.11058)]
 
 ### Type Prediction
 
@@ -1203,6 +1237,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing Text-to-SQL Parsing through Question Rewriting and Execution-Guided Refinement" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.120/)]
 
+- "DAC: Decomposed Automation Correction for Text-to-SQL" [2024-08] [[paper](https://arxiv.org/abs/2408.08779)]
+
+- "Interactive-T2S: Multi-Turn Interactions for Text-to-SQL with Large Language Models" [2024-08] [[paper](https://arxiv.org/abs/2408.11062)]
+
 ### Test Generation
 
 - "Unit Test Case Generation with Transformers and Focal Context" [2020-09] [AST@ICSE 2022] [[paper](https://arxiv.org/abs/2009.05617)]
@@ -1272,6 +1310,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "An LLM-based Readability Measurement for Unit Tests' Context-aware Inputs" [2024-07] [[paper](https://arxiv.org/abs/2407.21369)]
 
 - "A System for Automated Unit Test Generation Using Large Language Models and Assessment of Generated Test Suites" [2024-08] [[paper](https://arxiv.org/abs/2408.07846)]
+
+- "Leveraging Large Language Models for Enhancing the Understandability of Generated Unit Tests" [2024-08] [[paper](https://arxiv.org/abs/2408.11710)]
 
 ### Oracle Generation
 
@@ -1424,6 +1464,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Large Language Models for Secure Code Assessment: A Multi-Language Empirical Study" [2024-08] [[paper](https://arxiv.org/abs/2408.06428)]
 
 - "VulCatch: Enhancing Binary Vulnerability Detection through CodeT5 Decompilation and KAN Advanced Feature Extraction" [2024-08] [[paper](https://arxiv.org/abs/2408.07181)]
+
+- "Impact of Large Language Models of Code on Fault Localization" [2024-08] [[paper](https://arxiv.org/abs/2408.09657)]
 
 ### Malicious Code Detection
 
@@ -1613,6 +1655,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Multilingual Crowd-Based Requirements Engineering Using Large Language Models" [2024-08] [[paper](https://arxiv.org/abs/2408.06505)]
 
+- "From Specifications to Prompts: On the Future of Generative LLMs in Requirements Engineering" [2024-08] [[paper](https://arxiv.org/abs/2408.09127)]
+
+- "Leveraging LLMs for the Quality Assurance of Software Requirements" [2024-08] [[paper](https://arxiv.org/abs/2408.10886)]
+
 ## 6. Analysis of AI-Generated Code
 
 ### Security and Vulnerabilities
@@ -1659,6 +1705,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - ""You still have to study" -- On the Security of LLM generated code" [2024-08] [[paper](https://arxiv.org/abs/2408.07106)]
 
+- "How Well Do Large Language Models Serve as End-to-End Secure Code Producers?" [2024-08] [[paper](https://arxiv.org/abs/2408.10495)]
+
+- "While GitHub Copilot Excels at Coding, Does It Ensure Responsible Output?" [2024-08] [[paper](https://arxiv.org/abs/2408.11006)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -1696,6 +1746,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Code Hallucination" [2024-07] [[paper](https://arxiv.org/abs/2407.04831)]
 
 - "On Mitigating Code LLM Hallucinations with API Documentation" [2024-07] [[paper](https://arxiv.org/abs/2407.09726)]
+
+- "CodeMirage: Hallucinations in Code Generated by Large Language Models" [2024-08] [[paper](https://arxiv.org/abs/2408.08333)]
 
 ### Efficiency
 
@@ -2081,6 +2133,7 @@ $^\diamond$ Machine/human prompts
 | 2023-11 | arXiv                        | VulBench       | 455   | C        | "How Far Have We Gone in Vulnerability Detection Using Large Language Models" [[paper](https://arxiv.org/abs/2311.12420)] [[data](https://anonymous.4open.science/r/VulBench-EA6F/)]                                         |
 | 2024-03 | arXiv                        | PrimeVul       | 236K  | C/C++    | "Vulnerability Detection with Code Language Models: How Far Are We?" [[paper](https://arxiv.org/abs/2403.18624)]                                                                                                             |
 | 2024-06 | arXiv                        | VulDetectBench | 1000  | C/C++    | "VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models" [[paper](https://arxiv.org/abs/2406.07595)] [[data](https://github.com/Sweetaroo/VulDetectBench)]                     |
+| 2024-08 | arXiv                        | CodeJudge-Eval | 1860  | Python   | "CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?" [[paper](https://arxiv.org/abs/2408.10718)] [[data](https://github.com/CodeLLM-Research/CodeJudge-Eval)]                                   |
 
 #### Code Retrieval
 
@@ -2102,6 +2155,7 @@ $^\diamond$ Machine/human prompts
 | 2024-03 | arXiv                                | ProCQA               | 5.2M      | C, C++, Java, Python, Ruby, Lisp, JS, C#, Go, Rust, PHP | "ProCQA: A Large-scale Community-based Programming Question Answering Dataset for Code Search" [[paper](https://arxiv.org/abs/2403.16702)] [[data](https://github.com/jordane95/procqa)]                                                            |
 | 2024-06 | arXiv                                | CoSQA+               | 109K      | Python                                                  | "CoSQA+: Enhancing Code Search Dataset with Matching Code" [[paper](https://arxiv.org/abs/2406.11589)] [[data](https://github.com/DeepSoftwareAnalytics/CoSQA_Plus)]                                                                                |
 | 2024-07 | arXiv                                | CoIR                 | ~2M       | 14                                                      | "CoIR: A Comprehensive Benchmark for Code Information Retrieval Models" [[paper](https://arxiv.org/abs/2407.02883)] [[data](https://github.com/CoIR-team/coir)]                                                                                     |
+| 2024-08 | arXiv                                | SeqCoBench           | 14.5K     | Python                                                  | "What can Large Language Models Capture about Code Functional Equivalence?" [[paper](https://arxiv.org/abs/2408.11081)]                                                                                                                             |
 
 #### Type Inference
 
