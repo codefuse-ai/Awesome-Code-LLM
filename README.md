@@ -10,21 +10,27 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥 [2024/08/21] ACL 2024 papers (both main conference and findings) have been added. Just search for the keyword "ACL 2024" in this page.
 
-🔥🔥🔥 [2024/08/22] Latest papers:
+🔥🔥🔥 [2024/08/26] Latest papers:
 
-- 🔥🔥 [Leveraging Large Language Models for Enhancing the Understandability of Generated Unit Tests](https://arxiv.org/abs/2408.11710) from Delft University of Technology.
+- 🔥🔥 [DOMAINEVAL: An Auto-Constructed Benchmark for Multi-Domain Code Generation](https://arxiv.org/abs/2408.13204) from Chinese Academy of Sciences.
 
-- 🔥🔥 [To Code, or Not To Code? Exploring Impact of Code in Pre-training](https://arxiv.org/abs/2408.10914) from Cohere For AI.
+- 🔥🔥 [CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution](https://arxiv.org/abs/2408.13001) from Chinese Academy of Sciences.
 
-- 🔥🔥 [Optimizing Large Language Model Hyperparameters for Code Generation](https://arxiv.org/abs/2408.10577) from Monash University.
+- 🔥🔥 [SQL-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging](https://arxiv.org/abs/2408.12733) from Google Cloud AI.
 
-- 🔥🔥 [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/abs/2408.10495) from Beihang University.
+- 🔥🔥 [Search-Based LLMs for Code Optimization](https://arxiv.org/abs/2408.12159) from The Chinese University of Hong Kong.
 
-- 🔥🔥 [Bridging the Language Gap: Enhancing Multilingual Prompt-Based Code Generation in LLMs via Zero-Shot Cross-Lingual Transfer](https://arxiv.org/abs/2408.09701) from University of Texas at Austin
+- 🔥🔥 [Better Debugging: Combining Static Analysis and LLMs for Explainable Crashing Fault Localization](https://arxiv.org/abs/2408.12070) from Chinese Academy of Sciences.
 
-- 🔥🔥 [DAC: Decomposed Automation Correction for Text-to-SQL](https://arxiv.org/abs/2408.08779) from Harbin Institute of Technology.
+- 🔥🔥 [Enhancing LLM-Based Automated Program Repair with Design Rationales](https://arxiv.org/abs/2408.12056) from Beihang University.
 
-- 🔥🔥 [API-guided Dataset Synthesis to Finetune Large Code Models](https://arxiv.org/abs/2408.08343) from The Hong Kong University of Science and Technology.
+- 🔥 [To Code, or Not To Code? Exploring Impact of Code in Pre-training](https://arxiv.org/abs/2408.10914) from Cohere For AI.
+
+- 🔥 [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/abs/2408.10495) from Beihang University.
+
+- 🔥 [Bridging the Language Gap: Enhancing Multilingual Prompt-Based Code Generation in LLMs via Zero-Shot Cross-Lingual Transfer](https://arxiv.org/abs/2408.09701) from University of Texas at Austin
+
+- 🔥 [API-guided Dataset Synthesis to Finetune Large Code Models](https://arxiv.org/abs/2408.08343) from The Hong Kong University of Science and Technology.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/08] We have compiled 117 papers from July 2024 in one [WeChat article](https://mp.weixin.qq.com/s/UKvFD7cL-qVmvm7_MO1uQA).
 
@@ -937,11 +943,11 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "ThinkRepair: Self-Directed Automated Program Repair" [2024-07] [[paper](https://arxiv.org/abs/2407.20898)]
 
-- "RePair: Automated Program Repair with Process-based Feedback" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.973/)]
-
 - "MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair" [2024-08] [[paper](https://arxiv.org/abs/2408.09568)]
 
-- "RePair: Automated Program Repair with Process-based Feedback" [2024-08] [[paper](https://arxiv.org/abs/2408.11296)]
+- "RePair: Automated Program Repair with Process-based Feedback" [2024-08] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2408.11296)]
+
+- "Enhancing LLM-Based Automated Program Repair with Design Rationales" [2024-08] [[paper](https://arxiv.org/abs/2408.12056)]
 
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
@@ -1241,6 +1247,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Interactive-T2S: Multi-Turn Interactions for Text-to-SQL with Large Language Models" [2024-08] [[paper](https://arxiv.org/abs/2408.11062)]
 
+- "SQL-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging" [2024-08] [[paper](https://arxiv.org/abs/2408.12733)]
+
 ### Test Generation
 
 - "Unit Test Case Generation with Transformers and Focal Context" [2020-09] [AST@ICSE 2022] [[paper](https://arxiv.org/abs/2009.05617)]
@@ -1467,6 +1475,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Impact of Large Language Models of Code on Fault Localization" [2024-08] [[paper](https://arxiv.org/abs/2408.09657)]
 
+- "Better Debugging: Combining Static Analysis and LLMs for Explainable Crashing Fault Localization" [2024-08] [[paper](https://arxiv.org/abs/2408.12070)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -1542,6 +1552,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Meta Large Language Model Compiler: Foundation Models of Compiler Optimization" [2024-06] [[paper](https://arxiv.org/abs/2407.02524)]
 
 - "ViC: Virtual Compiler Is All You Need For Assembly Code Search" [2024-08] [[paper](https://arxiv.org/abs/2408.06385)]
+
+- "Search-Based LLMs for Code Optimization" [2024-08] [[paper](https://arxiv.org/abs/2408.12159)]
+
+- "E-code: Mastering Efficient Code Generation through Pretrained Models and Expert Encoder Group" [2024-08] [[paper](https://arxiv.org/abs/2408.12948)]
 
 ### Decompilation
 
@@ -1982,6 +1996,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-07 | arXiv                            | auto-regression        | 460                  | Python                                                                           | "Generating Unseen Code Tests In Infinitum" [[paper](https://arxiv.org/abs/2407.19772)]                                                                                                                                                                                                      |
 | 2024-07 | arXiv                            | WebApp1K               | 1000                 | JavaScript                                                                       | "WebApp1K: A Practical Code-Generation Benchmark for Web App Development" [[paper](https://arxiv.org/abs/2408.00019)] [[data](https://huggingface.co/datasets/onekq-ai/WebApp1K-React)]                                                                                                      |
 | 2024-08 | ACL 2024 Findings                | CodeInsight            | 3402                 | Python                                                                           | "CodeInsight: A Curated Dataset of Practical Coding Solutions from Stack Overflow" [[paper](https://aclanthology.org/2024.findings-acl.354/)]                                                                                                                                                |
+| 2024-08 | arXiv                            | DomainEval             | 2454                 | Python                                                                           | "DOMAINEVAL: An Auto-Constructed Benchmark for Multi-Domain Code Generation" [[paper](https://arxiv.org/abs/2408.13204)] [[data](https://github.com/domaineval/DomainEval)]                                                                                                                  |
 
 \* Automatically mined/human-annotated
 
@@ -2001,15 +2016,16 @@ $^\diamond$ Machine/human prompts
 
 #### Code Reasoning and QA
 
-| Date    | Venue               | Benchmark | Size     | Language                            | Source                                                                                                                                                                                                                   |
-| ------- | ------------------- | --------- | -------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2021-09 | EMNLP 2021 Findings | CodeQA    | 120K/70K | Java/Python                         | "CodeQA: A Question Answering Dataset for Source Code Comprehension" [[paper](https://arxiv.org/abs/2109.08365)] [[data](https://github.com/jadecxliu/CodeQA)]                                                           |
-| 2022-10 | NAACL 2022          | CS1QA     | 9237     | Python                              | "CS1QA: A Dataset for Assisting Code-based Question Answering in an Introductory Programming Course" [[paper](https://arxiv.org/abs/2210.14494)] [[data](https://github.com/cyoon47/CS1QA)]                              |
-| 2023-09 | arXiv               | CodeApex  | 250      | C++                                 | "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models" [[paper](https://arxiv.org/abs/2309.01940)] [[data](https://github.com/APEXLAB/CodeApex)]                                             |
-| 2024-01 | ICML 2024           | CRUXEval  | 800      | Python                              | "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution" [[paper](https://arxiv.org/abs/2401.03065)] [[data](https://github.com/facebookresearch/cruxeval)]                                               |
-| 2024-05 | arXiv               | PythonIO  | 2650     | Python                              | "Multiple-Choice Questions are Efficient and Robust LLM Evaluators" [[paper](https://arxiv.org/abs/2405.11966)] [[data](https://github.com/Geralt-Targaryen/MC-Evaluation)]                                              |
-| 2024-05 | arXiv               | StaCCQA   | 270K     | Python                              | "Aligning LLMs through Multi-perspective User Preference Ranking-based Feedback for Programming Question Answering" [[paper](https://arxiv.org/abs/2406.00037)] [[data](https://anonymous.4open.science/r/PETCoQA-810A)] |
-| 2024-06 | arXiv               | RepoQA    | 500      | Python, C++, Java, Rust, TypeScript | "RepoQA: Evaluating Long Context Code Understanding" [[paper](https://arxiv.org/abs/2406.06025)] [[data](https://github.com/evalplus/repoqa)]                                                                            |
+| Date    | Venue               | Benchmark  | Size     | Language                            | Source                                                                                                                                                                                                                   |
+| ------- | ------------------- | ---------- | -------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2021-09 | EMNLP 2021 Findings | CodeQA     | 120K/70K | Java/Python                         | "CodeQA: A Question Answering Dataset for Source Code Comprehension" [[paper](https://arxiv.org/abs/2109.08365)] [[data](https://github.com/jadecxliu/CodeQA)]                                                           |
+| 2022-10 | NAACL 2022          | CS1QA      | 9237     | Python                              | "CS1QA: A Dataset for Assisting Code-based Question Answering in an Introductory Programming Course" [[paper](https://arxiv.org/abs/2210.14494)] [[data](https://github.com/cyoon47/CS1QA)]                              |
+| 2023-09 | arXiv               | CodeApex   | 250      | C++                                 | "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models" [[paper](https://arxiv.org/abs/2309.01940)] [[data](https://github.com/APEXLAB/CodeApex)]                                             |
+| 2024-01 | ICML 2024           | CRUXEval   | 800      | Python                              | "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution" [[paper](https://arxiv.org/abs/2401.03065)] [[data](https://github.com/facebookresearch/cruxeval)]                                               |
+| 2024-05 | arXiv               | PythonIO   | 2650     | Python                              | "Multiple-Choice Questions are Efficient and Robust LLM Evaluators" [[paper](https://arxiv.org/abs/2405.11966)] [[data](https://github.com/Geralt-Targaryen/MC-Evaluation)]                                              |
+| 2024-05 | arXiv               | StaCCQA    | 270K     | Python                              | "Aligning LLMs through Multi-perspective User Preference Ranking-based Feedback for Programming Question Answering" [[paper](https://arxiv.org/abs/2406.00037)] [[data](https://anonymous.4open.science/r/PETCoQA-810A)] |
+| 2024-06 | arXiv               | RepoQA     | 500      | Python, C++, Java, Rust, TypeScript | "RepoQA: Evaluating Long Context Code Understanding" [[paper](https://arxiv.org/abs/2406.06025)] [[data](https://github.com/evalplus/repoqa)]                                                                            |
+| 2024-08 | arXiv               | CruxEval-X | 12.6K    | 19                                  | "CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution" [[paper](https://arxiv.org/abs/2408.13001)] [[data](https://github.com/CRUXEVAL-X/cruxeval-x)]                                    |
 
 #### Text-to-SQL
 
