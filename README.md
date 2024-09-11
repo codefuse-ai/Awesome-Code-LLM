@@ -10,23 +10,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥🔥 [2024/09/06] **Our survey has been accepted for publish by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
-🔥🔥🔥 [2024/09/09] Latest papers:
+🔥🔥🔥 [2024/09/11] Latest papers:
 
 - 🔥🔥 [GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](https://arxiv.org/abs/2409.04183) from Ant Group.
 
-- 🔥🔥 [Multi-Programming Language Ensemble for Code Generation in Large Language Model](https://arxiv.org/abs/2409.04114) from NinjaTech AI.
+- 🔥🔥 [HexaCoder: Secure Code Generation via Oracle-Guided Synthetic Training Data](https://arxiv.org/abs/2409.06446) from CISPA Helmholtz Center for Information Security.
 
-- 🔥🔥 [Can OpenSource beat ChatGPT? -- A Comparative Study of Large Language Models for Text-to-Code Generation](https://arxiv.org/abs/2409.04164) from LMU Munich.
+- 🔥🔥 [USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding](https://arxiv.org/abs/2409.05923) from Wuhan University.
 
-- 🔥🔥 [How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data](https://arxiv.org/abs/2409.03810) from Beijing University of Posts and Telecommunications.
+- 🔥🔥 [A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement](https://arxiv.org/abs/2409.05001) from Nanjing University.
 
-- 🔥 [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977) from Fudan University.
+- 🔥🔥 [How Does Code Pretraining Affect Language Model Task Performance?](https://arxiv.org/abs/2409.04556) from Google Research.
 
-- 🔥 [Arctic-SnowCoder: Demystifying High-Quality Data in Code Pretraining](https://arxiv.org/abs/2409.02326) from Snowflake AI Research.
+- 🔥 [Multi-Programming Language Ensemble for Code Generation in Large Language Model](https://arxiv.org/abs/2409.04114) from NinjaTech AI.
 
-- 🔥 [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) from Allen Institute for AI.
+- 🔥 [Can OpenSource beat ChatGPT? -- A Comparative Study of Large Language Models for Text-to-Code Generation](https://arxiv.org/abs/2409.04164) from LMU Munich.
 
-- 🔥 [Automatic Detection of LLM-generated Code: A Case Study of Claude 3 Haiku](https://arxiv.org/abs/2409.01382) from Concordia University.
+- 🔥 [How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data](https://arxiv.org/abs/2409.03810) from Beijing University of Posts and Telecommunications.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/08/21] ACL 2024 papers (both main conference and findings) have been added. Just search for the keyword "ACL 2024" in this page.
 
@@ -273,6 +273,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 48. **OLMOE**: "OLMoE: Open Mixture-of-Experts Language Models" [2024-09] [[paper](https://arxiv.org/abs/2409.02060)]
 
+49. "How Does Code Pretraining Affect Language Model Task Performance?" [2024-09] [[paper](https://arxiv.org/abs/2409.04556)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -468,6 +470,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 33. ** XCoder**: "How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data" [2024-09] [[paper](https://arxiv.org/abs/2409.03810)]
 
 34. **GALLa**: "GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding" [2024-09] [[paper](https://arxiv.org/abs/2409.04183)]
+
+35. **HexaCoder**: "HexaCoder: Secure Code Generation via Oracle-Guided Synthetic Training Data" [2024-09] [[paper](https://arxiv.org/abs/2409.06446)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -812,6 +816,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Planning In Natural Language Improves LLM Search For Code Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.03733)]
 
 - "Multi-Programming Language Ensemble for Code Generation in Large Language Model" [2024-09] [[paper](https://arxiv.org/abs/2409.04114)]
+
+- "A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement" [2024-09] [[paper](https://arxiv.org/abs/2409.05001)]
+
+- "USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding" [2024-09] [[paper](https://arxiv.org/abs/2409.05923)]
 
 ### Code Ranking
 
@@ -1193,6 +1201,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "AUITestAgent: Automatic Requirements Oriented GUI Function Testing" [2024-07] [[paper](https://arxiv.org/abs/2407.09018)]
 
+- "LLM-based Abstraction and Concretization for GUI Test Migration" [2024-09] [[paper](https://arxiv.org/abs/2409.05028)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -1380,6 +1390,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Leveraging Large Language Models for Enhancing the Understandability of Generated Unit Tests" [2024-08] [[paper](https://arxiv.org/abs/2408.11710)]
 
 - "Multi-language Unit Test Generation using LLMs" [2024-09] [[paper](https://arxiv.org/abs/2409.03093)]
+
+- "Exploring the Integration of Large Language Models in Industrial Test Maintenance Processes" [2024-09] [[paper](https://arxiv.org/abs/2409.06416)]
 
 ### Oracle Generation
 
@@ -1841,6 +1853,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Can OpenSource beat ChatGPT? -- A Comparative Study of Large Language Models for Text-to-Code Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.04164)]
 
+- "Insights from Benchmarking Frontier Language Models on Web App Code Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.05177)]
+
 ### Hallucination
 
 - "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.00971)]
@@ -2008,6 +2022,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Can Developers Prompt? A Controlled Experiment for Code Documentation Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.00686)]
 
 - "The Impact of Generative AI-Powered Code Generation Tools on Software Engineer Hiring: Recruiters' Experiences, Perceptions, and Strategies" [2024-09] [[paper](https://arxiv.org/abs/2409.00875)]
+
+- "Investigating the Role of Cultural Values in Adopting Large Language Models for Software Engineering" [2024-09] [[paper](https://arxiv.org/abs/2409.05055)]
 
 ## 8. Datasets
 
