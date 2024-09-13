@@ -10,23 +10,23 @@ This is the repo for our survey [Unifying the Perspectives of NLP and Software E
 
 🔥🔥🔥🔥 [2024/09/06] **Our survey has been accepted for publish by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
-🔥🔥🔥 [2024/09/11] Latest papers:
+🔥🔥🔥 [2024/09/13] Latest papers:
 
-- 🔥🔥 [GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](https://arxiv.org/abs/2409.04183) from Ant Group.
+- 🔥🔥 [CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification](https://arxiv.org/abs/2409.07407) from Huazhong University of Science and Technology.
 
-- 🔥🔥 [HexaCoder: Secure Code Generation via Oracle-Guided Synthetic Training Data](https://arxiv.org/abs/2409.06446) from CISPA Helmholtz Center for Information Security.
+- 🔥🔥 [A Fine-grained Sentiment Analysis of App Reviews using Large Language Models: An Evaluation Study](https://arxiv.org/abs/2409.07162) from University of Tartu.
 
-- 🔥🔥 [USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding](https://arxiv.org/abs/2409.05923) from Wuhan University.
+- 🔥🔥 [Policy Filtration in RLHF to Fine-Tune LLM for Code Generation](https://arxiv.org/abs/2409.06957).
 
-- 🔥🔥 [A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement](https://arxiv.org/abs/2409.05001) from Nanjing University.
+- 🔥🔥 [Generative AI for Requirements Engineering: A Systematic Literature Review](https://arxiv.org/abs/2409.06741) from Waseda University.
 
-- 🔥🔥 [How Does Code Pretraining Affect Language Model Task Performance?](https://arxiv.org/abs/2409.04556) from Google Research.
+- 🔥 [GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](https://arxiv.org/abs/2409.04183) from Ant Group.
 
-- 🔥 [Multi-Programming Language Ensemble for Code Generation in Large Language Model](https://arxiv.org/abs/2409.04114) from NinjaTech AI.
+- 🔥 [HexaCoder: Secure Code Generation via Oracle-Guided Synthetic Training Data](https://arxiv.org/abs/2409.06446) from CISPA Helmholtz Center for Information Security.
 
-- 🔥 [Can OpenSource beat ChatGPT? -- A Comparative Study of Large Language Models for Text-to-Code Generation](https://arxiv.org/abs/2409.04164) from LMU Munich.
+- 🔥 [USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding](https://arxiv.org/abs/2409.05923) from Wuhan University.
 
-- 🔥 [How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data](https://arxiv.org/abs/2409.03810) from Beijing University of Posts and Telecommunications.
+- 🔥 [How Does Code Pretraining Affect Language Model Task Performance?](https://arxiv.org/abs/2409.04556) from Google Research.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/08/21] ACL 2024 papers (both main conference and findings) have been added. Just search for the keyword "ACL 2024" in this page.
 
@@ -492,6 +492,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 8. "Measuring memorization in RLHF for code completion" [2024-06] [[paper](https://arxiv.org/abs/2406.11715)]
 
 9. "Applying RLAIF for Code Generation with API-usage in Lightweight LLMs" [2024-06] [[paper](https://arxiv.org/abs/2406.20060)]
+
+10. **PF-PPO**: "Policy Filtration in RLHF to Fine-Tune LLM for Code Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.06957)]
 
 ## 3. When Coding Meets Reasoning
 
@@ -1203,6 +1205,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM-based Abstraction and Concretization for GUI Test Migration" [2024-09] [[paper](https://arxiv.org/abs/2409.05028)]
 
+- "Enabling Cost-Effective UI Automation Testing with Retrieval-Based LLMs: A Case Study in WeChat" [2024-09] [[paper](https://arxiv.org/abs/2409.07829)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -1563,6 +1567,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Beyond ChatGPT: Enhancing Software Quality Assurance Tasks with Diverse LLMs and Validation Techniques" [2024-09] [[paper](https://arxiv.org/abs/2409.01001)]
 
+- "CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification" [2024-09] [[paper](https://arxiv.org/abs/2409.07407)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -1766,6 +1772,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "From Specifications to Prompts: On the Future of Generative LLMs in Requirements Engineering" [2024-08] [[paper](https://arxiv.org/abs/2408.09127)]
 
 - "Leveraging LLMs for the Quality Assurance of Software Requirements" [2024-08] [[paper](https://arxiv.org/abs/2408.10886)]
+
+- "Generative AI for Requirements Engineering: A Systematic Literature Review" [2024-09] [[paper](https://arxiv.org/abs/2409.06741)]
+
+- "A Fine-grained Sentiment Analysis of App Reviews using Large Language Models: An Evaluation Study" [2024-09] [[paper](https://arxiv.org/abs/2409.07162)]
 
 ## 6. Analysis of AI-Generated Code
 
