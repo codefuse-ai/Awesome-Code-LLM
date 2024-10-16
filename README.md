@@ -4,27 +4,23 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/10/15] Featured papers:
+🔥🔥🔥 [2024/10/16] Featured papers:
 
-- 🔥🔥 [Effi-Code: Unleashing Code Efficiency in Language Models](https://arxiv.org/abs/2410.10209) from The University of Hong Kong.
+- 🔥🔥 [Instructive Code Retriever: Learn from Large Language Model's Feedback for Code Intelligence Tasks](https://arxiv.org/abs/2410.11300) from Zhejiang University.
 
-- 🔥🔥 [Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code](https://arxiv.org/abs/2410.09997) from Purdue University.
+- 🔥🔥 [SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI](https://arxiv.org/abs/2410.11096) from Virtue AI.
 
-- 🔥🔥 [Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?](https://arxiv.org/abs/2410.09812) from Shanghai Jiao Tong University.
+- 🔥 [Effi-Code: Unleashing Code Efficiency in Language Models](https://arxiv.org/abs/2410.10209) from The University of Hong Kong.
 
-- 🔥🔥 [LogLM: From Task-based to Instruction-based Automated Log Analysis](https://arxiv.org/abs/2410.09352) from Huawei.
+- 🔥 [Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code](https://arxiv.org/abs/2410.09997) from Purdue University.
 
-- 🔥🔥 [REDO: Execution-Free Runtime Error Detection for COding Agents](https://arxiv.org/abs/2410.09117) from AWS AI Labs.
+- 🔥 [Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?](https://arxiv.org/abs/2410.09812) from Shanghai Jiao Tong University.
 
-- 🔥🔥 [Software Engineering and Foundation Models: Insights from Industry Blogs Using a Jury of Foundation Models](https://arxiv.org/abs/2410.09012) from Queen’s University.
+- 🔥 [LogLM: From Task-based to Instruction-based Automated Log Analysis](https://arxiv.org/abs/2410.09352) from Huawei.
 
-- 🔥 [MathCoder2: Better Math Reasoning from Continued Pretraining on Model-translated Mathematical Code](https://arxiv.org/abs/2410.08196) from The Chinese University of Hong Kong.
+- 🔥 [REDO: Execution-Free Runtime Error Detection for COding Agents](https://arxiv.org/abs/2410.09117) from AWS AI Labs.
 
-- 🔥 [What Makes Large Language Models Reason in (Multi-Turn) Code Generation?](https://arxiv.org/abs/2410.08105) from Meta AI.
-
-- 🔥 [Mitigating Gender Bias in Code Large Language Models via Model Editing](https://arxiv.org/abs/2410.07820) from Harbin Institute of Technology.
-
-- 🔥 [Do Current Language Models Support Code Intelligence for R Programming Language?](https://arxiv.org/abs/2410.07793) from University of British Columbia.
+- 🔥 [Software Engineering and Foundation Models: Insights from Industry Blogs Using a Jury of Foundation Models](https://arxiv.org/abs/2410.09012) from Queen’s University.
 
 🔥🔥🔥 [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
@@ -1240,6 +1236,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Exploring Demonstration Retrievers in RAG for Coding Tasks: Yeas and Nays!" [2024-10] [[paper](https://arxiv.org/abs/2410.09662)]
 
+- "Instructive Code Retriever: Learn from Large Language Model's Feedback for Code Intelligence Tasks" [2024-10] [[paper](https://arxiv.org/abs/2410.11300)]
+
 ### Type Prediction
 
 - "Learning type annotation: is big data enough?" [2021-08] [ESEC/FSE 2021] [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
@@ -1501,6 +1499,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL" [2024-10] [[paper](https://arxiv.org/abs/2410.01943)]
 
 - "Context-Aware SQL Error Correction Using Few-Shot Learning -- A Novel Approach Based on NLQ, Error, and SQL Similarity" [2024-10] [[paper](https://arxiv.org/abs/2410.09174)]
+
+- "Learning from Imperfect Data: Towards Efficient Knowledge Distillation of Autoregressive Language Models for Text-to-SQL" [2024-10] [[paper](https://arxiv.org/abs/2410.11371)]
+
+- "LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios" [2024-10] [[paper](https://arxiv.org/abs/2410.11457)]
 
 ### Program Proof
 
@@ -2096,6 +2098,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Hallucinating AI Hijacking Attack: Large Language Models and Malicious Code Recommenders" [2024-10] [[paper](https://arxiv.org/abs/2410.06462)]
 
+- "SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI" [2024-10] [[paper](https://arxiv.org/abs/2410.11096)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -2508,6 +2512,7 @@ $^\diamond$ Machine/human prompts
 | 2024-06 | NAACL 2024          | BookSQL          | 100K       |          | "BookSQL: A Large Scale Text-to-SQL Dataset for Accounting Domain" [[paper](https://arxiv.org/abs/2406.07860)] [[data](https://github.com/Exploration-Lab/BookSQL)]                                          |
 | 2024-08 | ACL 2024 Findings   | MultiSQL         | 9257       |          | "MultiSQL: A Schema-Integrated Context-Dependent Text2SQL Dataset with Diverse SQL Operations" [[paper](https://aclanthology.org/2024.findings-acl.823/)] [[data](https://github.com/grandchicken/MultiSQL)] |
 | 2024-09 | arXiv               | BEAVER           | 93         |          | "BEAVER: An Enterprise Benchmark for Text-to-SQL" [[paper](https://arxiv.org/abs/2409.02038)]                                                                                                                |
+| 2024-10 | arXiv               | PRACTIQ          | 2812       |          | "PRACTIQ: A Practical Conversational Text-to-SQL dataset with Ambiguous and Unanswerable Queries" [[paper](https://arxiv.org/abs/2410.11076)]                                                                |
 
 #### Code Translation
 
