@@ -4,23 +4,21 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/10/22] Featured papers:
+🔥🔥🔥 [2024/10/23] Featured papers:
 
-- 🔥🔥 [Security of Language Models for Code: A Systematic Literature Review](https://arxiv.org/abs/2410.15631) from Nanjing University.
+- 🔥🔥 [Beyond Browsing: API-Based Web Agents](https://arxiv.org/abs/2410.16464) from Carnegie Mellon University.
 
-- 🔥🔥 [mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation](https://arxiv.org/abs/2410.15037) from George Mason University.
+- 🔥🔥 [Self-Evolving Multi-Agent Collaboration Networks for Software Development](https://arxiv.org/abs/2410.16946) from Shanghai Jiao Tong University.
 
-- 🔥🔥 [RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph](https://arxiv.org/abs/2410.14684) from Tencent AI Seattle Lab.
+- 🔥 [Security of Language Models for Code: A Systematic Literature Review](https://arxiv.org/abs/2410.15631) from Nanjing University.
 
-- 🔥 [AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents](https://arxiv.org/abs/2410.13825) from Amazon.
+- 🔥 [mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation](https://arxiv.org/abs/2410.15037) from George Mason University.
 
-- 🔥 [aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Completion](https://arxiv.org/abs/2410.13187) from aiXcoder.
+- 🔥 [RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph](https://arxiv.org/abs/2410.14684) from Tencent AI Seattle Lab.
 
-- 🔥 [HumanEval-V: Evaluating Visual Understanding and Reasoning Abilities of Large Multimodal Models Through Coding Tasks](https://arxiv.org/abs/2410.12381) from City University of Hong Kong.
+🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
-🔥🔥🔥 [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/24] We added a new section about [program proof](#program-proof).
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/14] We have compiled 57 papers from August 2024 (including 48 presented at ACL 2024) in one [WeChat article](https://mp.weixin.qq.com/s/JJpUJamWnZP_q7tEcKjPww).
 
@@ -690,6 +688,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 34. "Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios" [2024-10] [[paper](https://arxiv.org/abs/2410.12468)]
 
+35. **EvoMAC**: "Self-Evolving Multi-Agent Collaboration Networks for Software Development" [2024-10] [[paper](https://arxiv.org/abs/2410.16946)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -804,6 +804,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.13825)]
 
+- "Beyond Browsing: API-Based Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.16464)]
+
+- "Large Language Models Empowered Personalized Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.17236)]
+
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
 - [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
@@ -911,6 +915,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Lua**] "Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks" [2024-10] [[paper](https://arxiv.org/abs/2410.14766)]
 
 - "Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers" [2024-10] [[paper](https://arxiv.org/abs/2410.15625)]
+
+- "GeoCode-GPT: A Large Language Model for Geospatial Code Generation Tasks" [2024-10] [[paper](https://arxiv.org/abs/2410.17031)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1227,6 +1233,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Exploring and Lifting the Robustness of LLM-powered Automated Program Repair with Metamorphic Testing" [2024-10] [[paper](https://arxiv.org/abs/2410.07516)]
 
 - "LecPrompt: A Prompt-based Approach for Logical Error Correction with CodeBERT" [2024-10] [[paper](https://arxiv.org/abs/2410.08241)]
+
+- "Semantic-guided Search for Efficient Program Repair with Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.16655)]
 
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
@@ -2200,6 +2208,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CodeJudge: Evaluating Code Generation with Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.02184)]
 
+- "An evaluation of LLM code generation capabilities through graded exercises" [2024-10] [[paper](https://arxiv.org/abs/2410.16292)]
+
 ### Hallucination
 
 - "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.00971)]
@@ -2419,6 +2429,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "UniAutoML: A Human-Centered Framework for Unified Discriminative and Generative AutoML with Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.12841)]
 
 - "How much does AI impact development speed? An enterprise-based randomized controlled trial" [2024-10] [[paper](https://arxiv.org/abs/2410.12944)]
+
+- "Understanding the Effect of Algorithm Transparency of Model Explanations in Text-to-SQL Semantic Parsing" [2024-10] [[paper](https://arxiv.org/abs/2410.16283)]
 
 ## 8. Datasets
 
