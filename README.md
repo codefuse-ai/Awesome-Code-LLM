@@ -4,17 +4,19 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/10/23] Featured papers:
+🔥🔥🔥 [2024/10/25] Featured papers:
 
-- 🔥🔥 [Beyond Browsing: API-Based Web Agents](https://arxiv.org/abs/2410.16464) from Carnegie Mellon University.
+- 🔥🔥 [Process Supervision-Guided Policy Optimization for Code Generation](https://arxiv.org/abs/2410.17621) from ByteDance.
 
-- 🔥🔥 [Self-Evolving Multi-Agent Collaboration Networks for Software Development](https://arxiv.org/abs/2410.16946) from Shanghai Jiao Tong University.
+- 🔥🔥 [Aligning CodeLLMs with Direct Preference Optimization](https://arxiv.org/abs/2410.18585) from Shanghai Jiao Tong University.
 
-- 🔥 [Security of Language Models for Code: A Systematic Literature Review](https://arxiv.org/abs/2410.15631) from Nanjing University.
+- 🔥🔥 [DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection](https://arxiv.org/abs/2410.18479) from Chongqing University.
 
-- 🔥 [mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation](https://arxiv.org/abs/2410.15037) from George Mason University.
+- 🔥🔥 [Context-Augmented Code Generation Using Programming Knowledge Graphs](https://arxiv.org/abs/2410.18251) from The University of British Columbia.
 
-- 🔥 [RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph](https://arxiv.org/abs/2410.14684) from Tencent AI Seattle Lab.
+- 🔥 [Beyond Browsing: API-Based Web Agents](https://arxiv.org/abs/2410.16464) from Carnegie Mellon University.
+
+- 🔥 [Self-Evolving Multi-Agent Collaboration Networks for Software Development](https://arxiv.org/abs/2410.16946) from Shanghai Jiao Tong University.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -528,6 +530,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 16. **CodeDPO**: "CodeDPO: Aligning Code Models with Self Generated and Verified Source Code" [2024-10] [[paper](https://arxiv.org/abs/2410.05605)]
 
+17. "Process Supervision-Guided Policy Optimization for Code Generation" [2024-10] [[paper](https://arxiv.org/abs/2410.17621)]
+
+18. "Aligning CodeLLMs with Direct Preference Optimization" [2024-10] [[paper](https://arxiv.org/abs/2410.18585)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -808,6 +814,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Large Language Models Empowered Personalized Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.17236)]
 
+- "AdvWeb: Controllable Black-box Attacks on VLM-powered Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.17401)]
+
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
 - [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
@@ -918,6 +926,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "GeoCode-GPT: A Large Language Model for Geospatial Code Generation Tasks" [2024-10] [[paper](https://arxiv.org/abs/2410.17031)]
 
+- [**R, D, Racket, Bash**]: "Bridge-Coder: Unlocking LLMs' Potential to Overcome Language Gaps in Low-Resource Code" [2024-10] [[paper](https://arxiv.org/abs/2410.18957)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1021,6 +1031,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Self-Explained Keywords Empower Large Language Models for Code Generation" [2024-10] [[paper](https://arxiv.org/abs/2410.15966)]
 
 - "Building A Coding Assistant via the Retrieval-Augmented Language Model" [2024-10] [[paper](https://arxiv.org/abs/2410.16229)]
+
+- "Context-Augmented Code Generation Using Programming Knowledge Graphs" [2024-10] [[paper](https://arxiv.org/abs/2410.18251)]
+
+- "In-Context Code-Text Learning for Bimodal Software Engineering" [2024-10] [[paper](https://arxiv.org/abs/2410.18107)]
 
 ### Code Ranking
 
@@ -1276,6 +1290,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Instructive Code Retriever: Learn from Large Language Model's Feedback for Code Intelligence Tasks" [2024-10] [[paper](https://arxiv.org/abs/2410.11300)]
 
+- "Binary Code Similarity Detection via Graph Contrastive Learning on Intermediate Representations" [2024-10] [[paper](https://arxiv.org/abs/2410.18561)]
+
 ### Type Prediction
 
 - "Learning type annotation: is big data enough?" [2021-08] [ESEC/FSE 2021] [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
@@ -1409,6 +1425,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Leveraging Large Vision Language Model For Better Automatic Web GUI Testing" [2024-10] [[paper](https://arxiv.org/abs/2410.12157)]
 
 - "Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping" [2024-10] [[paper](https://arxiv.org/abs/2410.16232)]
+
+- "WAFFLE: Multi-Modal Model for Automated Front-End Development" [2024-10] [[paper](https://arxiv.org/abs/2410.18362)]
 
 ### Text-To-SQL
 
@@ -1860,6 +1878,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Just-In-Time Software Defect Prediction via Bi-modal Change Representation Learning" [2024-10] [[paper](https://arxiv.org/abs/2410.12107)]
 
+- "DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection" [2024-10] [[paper](https://arxiv.org/abs/2410.18479)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -2062,6 +2082,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "On the Utility of Domain Modeling Assistance with Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.12577)]
 
+- "On the use of Large Language Models in Model-Driven Engineering" [2024-10] [[paper](https://arxiv.org/abs/2410.17370)]
+
+- "LLM as a code generator in Agile Model Driven Development" [2024-10] [[paper](https://arxiv.org/abs/2410.18489)]
+
 ### Requirement Engineering
 
 - "A Transformer-based Approach for Abstractive Summarization of Requirements from Obligations in Software Engineering Contracts" [2023-09] [RE 2023] [[paper](https://ieeexplore.ieee.org/document/10260954)]
@@ -2099,6 +2123,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LLM-Cure: LLM-based Competitor User Review Analysis for Feature Enhancement" [2024-09] [[paper](https://arxiv.org/abs/2409.15724)]
 
 - "Automatic Instantiation of Assurance Cases from Patterns Using Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.05488)]
+
+- "Whose fault is it anyway? SILC: Safe Integration of LLM-Generated Code" [2024-10] [[paper](https://arxiv.org/abs/2410.18703)]
+
+- "Assured Automatic Programming via Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.18494)]
 
 ## 6. Analysis of AI-Generated Code
 
@@ -2431,6 +2459,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "How much does AI impact development speed? An enterprise-based randomized controlled trial" [2024-10] [[paper](https://arxiv.org/abs/2410.12944)]
 
 - "Understanding the Effect of Algorithm Transparency of Model Explanations in Text-to-SQL Semantic Parsing" [2024-10] [[paper](https://arxiv.org/abs/2410.16283)]
+
+- "Dear Diary: A randomized controlled trial of Generative AI coding tools in the workplace" [2024-10] [[paper](https://arxiv.org/abs/2410.18334)]
 
 ## 8. Datasets
 
