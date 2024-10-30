@@ -4,19 +4,25 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/10/25] Featured papers:
+🔥🔥🔥 [2024/10/30] Featured papers:
 
-- 🔥🔥 [Process Supervision-Guided Policy Optimization for Code Generation](https://arxiv.org/abs/2410.17621) from ByteDance.
+- 🔥🔥 [GPT-4o System Card](https://arxiv.org/abs/2410.21276) from OpenAI.
 
-- 🔥🔥 [Aligning CodeLLMs with Direct Preference Optimization](https://arxiv.org/abs/2410.18585) from Shanghai Jiao Tong University.
+- 🔥🔥 [M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation](https://arxiv.org/abs/2410.21157) from Alibaba Group.
 
-- 🔥🔥 [DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection](https://arxiv.org/abs/2410.18479) from Chongqing University.
+- 🔥🔥 [An Actor-Critic Approach to Boosting Text-to-SQL Large Language Model](https://arxiv.org/abs/2410.22082) from Xinjiang University.
 
-- 🔥🔥 [Context-Augmented Code Generation Using Programming Knowledge Graphs](https://arxiv.org/abs/2410.18251) from The University of British Columbia.
+- 🔥🔥 [FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system](https://arxiv.org/abs/2410.21349) from South China Normal University.
 
-- 🔥 [Beyond Browsing: API-Based Web Agents](https://arxiv.org/abs/2410.16464) from Carnegie Mellon University.
+- 🔥🔥 [AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions](https://arxiv.org/abs/2410.20424) from ByteDance Inc.
 
-- 🔥 [Self-Evolving Multi-Agent Collaboration Networks for Software Development](https://arxiv.org/abs/2410.16946) from Shanghai Jiao Tong University.
+- 🔥 [Process Supervision-Guided Policy Optimization for Code Generation](https://arxiv.org/abs/2410.17621) from ByteDance.
+
+- 🔥 [Aligning CodeLLMs with Direct Preference Optimization](https://arxiv.org/abs/2410.18585) from Shanghai Jiao Tong University.
+
+- 🔥 [DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection](https://arxiv.org/abs/2410.18479) from Chongqing University.
+
+- 🔥 [Context-Augmented Code Generation Using Programming Knowledge Graphs](https://arxiv.org/abs/2410.18251) from The University of British Columbia.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -284,6 +290,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 51. "Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?" [2024-10] [[paper](https://arxiv.org/abs/2410.06735)]
 
+52. **GPT-4o**: "GPT-4o System Card" [2024-10] [[paper](https://arxiv.org/abs/2410.21276)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -534,6 +542,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 18. "Aligning CodeLLMs with Direct Preference Optimization" [2024-10] [[paper](https://arxiv.org/abs/2410.18585)]
 
+19. **FALCON**: "FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system" [2024-10] [[paper](https://arxiv.org/abs/2410.21349)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -605,6 +615,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 33. **PROVE**: "Trust but Verify: Programmatic VLM Evaluation in the Wild" [2024-10] [[paper](https://arxiv.org/abs/2410.13121)]
 
 34. **GeoCoder**: "GeoCoder: Solving Geometry Problems by Generating Modular Code through Vision-Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.13510)]
+
+35. **ReasonAgain**: "ReasonAgain: Using Extractable Symbolic Programs to Evaluate Mathematical Reasoning" [2024-10] [[paper](https://arxiv.org/abs/2410.19056)]
 
 ### 3.2 Code Simulation
 
@@ -695,6 +707,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 34. "Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios" [2024-10] [[paper](https://arxiv.org/abs/2410.12468)]
 
 35. **EvoMAC**: "Self-Evolving Multi-Agent Collaboration Networks for Software Development" [2024-10] [[paper](https://arxiv.org/abs/2410.16946)]
+
+36. **VisionCoder**: "VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs" [2024-10] [[paper](https://arxiv.org/abs/2410.19245)]
+
+37. **AutoKaggle**: "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions" [2024-10] [[paper](https://arxiv.org/abs/2410.20424)]
 
 ### 3.4 Interactive Coding
 
@@ -928,6 +944,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**R, D, Racket, Bash**]: "Bridge-Coder: Unlocking LLMs' Potential to Overcome Language Gaps in Low-Resource Code" [2024-10] [[paper](https://arxiv.org/abs/2410.18957)]
 
+- [**SPICE**]: "SPICEPilot: Navigating SPICE Code Generation and Simulation with AI Guidance" [2024-10] [[paper](https://arxiv.org/abs/2410.20553)]
+
+- [**IEC 61131-3 ST**]: "Training LLMs for Generating IEC 61131-3 Structured Text with Online Feedback" [2024-10] [[paper](https://arxiv.org/abs/2410.22159)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1036,6 +1056,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "In-Context Code-Text Learning for Bimodal Software Engineering" [2024-10] [[paper](https://arxiv.org/abs/2410.18107)]
 
+- "Combining LLM Code Generation with Formal Specifications and Reactive Program Synthesis" [2024-10] [[paper](https://arxiv.org/abs/2410.19736)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1105,6 +1127,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "TRANSAGENT: An LLM-Based Multi-Agent System for Code Translation" [2024-10] [[paper](https://arxiv.org/abs/2409.19894)]
 
 - "Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?" [2024-10] [[paper](https://arxiv.org/abs/2410.09812)]
+
+- "CodeRosetta: Pushing the Boundaries of Unsupervised Code Translation for Parallel Programming" [2024-10] [[paper](https://arxiv.org/abs/2410.20527)]
 
 ### Code Commenting and Summarization
 
@@ -1291,6 +1315,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Instructive Code Retriever: Learn from Large Language Model's Feedback for Code Intelligence Tasks" [2024-10] [[paper](https://arxiv.org/abs/2410.11300)]
 
 - "Binary Code Similarity Detection via Graph Contrastive Learning on Intermediate Representations" [2024-10] [[paper](https://arxiv.org/abs/2410.18561)]
+
+- "Are Decoder-Only Large Language Models the Silver Bullet for Code Search?" [2024-10] [[paper](https://arxiv.org/abs/2410.22240)]
 
 ### Type Prediction
 
@@ -1572,6 +1598,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Learning Metadata-Agnostic Representations for Text-to-SQL In-Context Example Selection" [2024-10] [[paper](https://arxiv.org/abs/2410.14049)]
 
+- "An Actor-Critic Approach to Boosting Text-to-SQL Large Language Model" [2024-10] [[paper](https://arxiv.org/abs/2410.22082)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -1589,6 +1617,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Proof Automation with Large Language Models" [2024-09] [[paper](https://arxiv.org/abs/2409.14274)]
 
 - "Automated Proof Generation for Rust Code via Self-Evolution" [2024-10] [[paper](https://arxiv.org/abs/2410.15756)]
+
+- "CoqPilot, a plugin for LLM-based generation of proofs" [2024-10] [[paper](https://arxiv.org/abs/2410.19605)]
 
 ### Test Generation
 
@@ -1698,6 +1728,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Chat-like Asserts Prediction with the Support of Large Language Model" [2024-07] [[paper](https://arxiv.org/abs/2407.21429)]
 
+- "Do LLMs generate test oracles that capture the actual or the expected program behaviour?" [2024-10] [[paper](https://arxiv.org/abs/2410.21136)]
+
 ### Mutation Testing
 
 - "μBERT: Mutation Testing using Pre-Trained Language Models" [2022-03] [[paper](https://arxiv.org/abs/2203.03289)]
@@ -1707,6 +1739,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LLMorpheus: Mutation Testing using Large Language Models" [2024-04] [[paper](https://arxiv.org/abs/2404.09952)]
 
 - "An Exploratory Study on Using Large Language Models for Mutation Testing" [2024-06] [[paper](https://arxiv.org/abs/2406.09843)]
+
+- "Fine-Tuning LLMs for Code Mutation: A New Era of Cyber Threats" [2024-10] [[paper](https://arxiv.org/abs/2410.22293)]
 
 ### Fuzz Testing
 
@@ -1721,6 +1755,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "FuzzCoder: Byte-level Fuzzing Test via Large Language Model" [2024-09] [[paper](https://arxiv.org/abs/2409.01944)]
 
 - "ISC4DGF: Enhancing Directed Grey-box Fuzzing with LLM-Driven Initial Seed Corpus Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.14329)]
+
+- "Large Language Models Based JSON Parser Fuzzing for Bug Discovery and Behavioral Analysis" [2024-10] [[paper](https://arxiv.org/abs/2410.21806)]
 
 ### Vulnerability Detection
 
@@ -2027,6 +2063,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Leveraging Reviewer Experience in Code Review Comment Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.10959)]
 
 - "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells" [2024-09] [[paper](https://arxiv.org/abs/2409.19801)]
+
+- "Enhancing Code Annotation Reliability: Generative AI's Role in Comment Quality Assessment Models" [2024-10] [[paper](https://arxiv.org/abs/2410.22323)]
+
+- "Knowledge-Guided Prompt Learning for Request Quality Assurance in Public Code Review" [2024-10] [[paper](https://arxiv.org/abs/2410.21673)]
 
 ### Log Analysis
 
@@ -2796,6 +2836,8 @@ $^\diamond$ Machine/human prompts
 | 2024-10 | arXiv             | SWE-bench M    | 617                    | JavaScript                   | "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?" [[paper](https://arxiv.org/abs/2410.03859)] [[data](https://www.swebench.com/multimodal)]                                      |
 | 2024-10 | arXiv             | SWE-Bench+     | 548                    | Python                       | "SWE-Bench+: Enhanced Coding Benchmark for LLMs" [[paper](https://arxiv.org/abs/2410.06992)] [[data](https://zenodo.org/records/13879453)]                                                                  |
 | 2024-10 | arXiv             | DA-Code        | 500                    | Python, Bash, SQL            | "DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models" [[paper](https://arxiv.org/abs/2410.07331)] [[data](https://github.com/yiyihum/da-code)]                                  |
+| 2024-10 | arXiv             | RepoCod        | 980                    | Python                       | "Can Language Models Replace Programmers? REPOCOD Says 'Not Yet'" [[paper](https://arxiv.org/abs/2410.21647)]                                                                                               |
+| 2024-10 | arXiv             | M2rc-Eval      | 5993 repos             | 18                           | "M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation" [[paper](https://arxiv.org/abs/2410.21157)] [[data](https://github.com/M2RC-Eval-Team/M2RC-Eval)]                           |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
