@@ -4,25 +4,25 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/10/30] Featured papers:
+🔥🔥🔥 [2024/11/01] Featured papers:
 
-- 🔥🔥 [GPT-4o System Card](https://arxiv.org/abs/2410.21276) from OpenAI.
+- 🔥🔥 [SelfCodeAlign: Self-Alignment for Code Generation](https://arxiv.org/abs/2410.24198) from University of Illinois Urbana-Champaign.
 
-- 🔥🔥 [M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation](https://arxiv.org/abs/2410.21157) from Alibaba Group.
+- 🔥🔥 [Repository-Level Compositional Code Translation and Validation](https://arxiv.org/abs/2410.24117) from University of Illinois Urbana-Champaign.
 
-- 🔥🔥 [An Actor-Critic Approach to Boosting Text-to-SQL Large Language Model](https://arxiv.org/abs/2410.22082) from Xinjiang University.
+- 🔥🔥 [VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.23402) from FPT Software AI Center.
 
-- 🔥🔥 [FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system](https://arxiv.org/abs/2410.21349) from South China Normal University.
+- 🔥🔥 [Can Models Help Us Create Better Models? Evaluating LLMs as Data Scientists](https://arxiv.org/abs/2410.23331) from Snowflake AI Research.
 
-- 🔥🔥 [AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions](https://arxiv.org/abs/2410.20424) from ByteDance Inc.
+- 🔥 [GPT-4o System Card](https://arxiv.org/abs/2410.21276) from OpenAI.
 
-- 🔥 [Process Supervision-Guided Policy Optimization for Code Generation](https://arxiv.org/abs/2410.17621) from ByteDance.
+- 🔥 [M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation](https://arxiv.org/abs/2410.21157) from Alibaba Group.
 
-- 🔥 [Aligning CodeLLMs with Direct Preference Optimization](https://arxiv.org/abs/2410.18585) from Shanghai Jiao Tong University.
+- 🔥 [An Actor-Critic Approach to Boosting Text-to-SQL Large Language Model](https://arxiv.org/abs/2410.22082) from Xinjiang University.
 
-- 🔥 [DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection](https://arxiv.org/abs/2410.18479) from Chongqing University.
+- 🔥 [FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system](https://arxiv.org/abs/2410.21349) from South China Normal University.
 
-- 🔥 [Context-Augmented Code Generation Using Programming Knowledge Graphs](https://arxiv.org/abs/2410.18251) from The University of British Columbia.
+- 🔥 [AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions](https://arxiv.org/abs/2410.20424) from ByteDance Inc.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -504,6 +504,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 39. **CursorCore**: "CursorCore: Assist Programming through Aligning Anything" [2024-10] [[paper](https://arxiv.org/abs/2410.07002)]
 
+40. **SelfCodeAlign**: "SelfCodeAlign: Self-Alignment for Code Generation" [2024-10] [[paper](https://arxiv.org/abs/2410.24198)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -635,6 +637,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "SelfPiCo: Self-Guided Partial Code Execution with LLMs" [2024-07] [[paper](https://arxiv.org/abs/2407.16974)]
 
 - "Large Language Models as Code Executors: An Exploratory Study" [2024-10] [[paper](https://arxiv.org/abs/2410.06667)]
+
+- "VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning" [2024-10] [[paper](https://arxiv.org/abs/2410.23402)]
 
 ### 3.3 Code Agents
 
@@ -831,6 +835,12 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "Large Language Models Empowered Personalized Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.17236)]
 
 - "AdvWeb: Controllable Black-box Attacks on VLM-powered Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.17401)]
+
+- "Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.22552)]
+
+- "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.23218)]
+
+- "From Context to Action: Analysis of the Impact of State Representation and Context on the Generalization of Multi-Turn Web Navigation Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.23555)]
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
@@ -1058,6 +1068,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Combining LLM Code Generation with Formal Specifications and Reactive Program Synthesis" [2024-10] [[paper](https://arxiv.org/abs/2410.19736)]
 
+- "Less is More: DocString Compression in Code Generation" [2024-10] [[paper](https://arxiv.org/abs/2410.22793)]
+
+- "Multi-Programming Language Sandbox for LLMs" [2024-10] [[paper](https://arxiv.org/abs/2410.23074)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1129,6 +1143,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?" [2024-10] [[paper](https://arxiv.org/abs/2410.09812)]
 
 - "CodeRosetta: Pushing the Boundaries of Unsupervised Code Translation for Parallel Programming" [2024-10] [[paper](https://arxiv.org/abs/2410.20527)]
+
+- "A test-free semantic mistakes localization framework in Neural Code Translation" [2024-10] [[paper](https://arxiv.org/abs/2410.22818)]
+
+- "Repository-Level Compositional Code Translation and Validation" [2024-10] [[paper](https://arxiv.org/abs/2410.24117)]
+
+- "Leveraging Large Language Models for Code Translation and Software Development in Scientific Computing" [2024-10] [[paper](https://arxiv.org/abs/2410.24119)]
 
 ### Code Commenting and Summarization
 
@@ -2316,6 +2336,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Effi-Code: Unleashing Code Efficiency in Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.10209)]
 
+- "Rethinking Code Refinement: Learning to Judge Code Efficiency" [2024-10] [[paper](https://arxiv.org/abs/2410.22375)]
+
 ### Robustness
 
 - "Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain" [2023-10] [[paper](https://arxiv.org/abs/2310.14053)]
@@ -2596,6 +2618,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-09 | ASE 2024                         | CoCoNote               | 58221                | Python Notebook                                                                  | "Contextualized Data-Wrangling Code Generation in Computational Notebooks" [[paper](https://arxiv.org/abs/2409.13551)] [[data](https://github.com/Jun-jie-Huang/CoCoNote)]                                                                                                                   |
 | 2024-10 | arXiv                            | unnamed                | 77                   | Python                                                                           | "Evaluation of Code LLMs on Geospatial Code Generation" [[paper](https://arxiv.org/abs/2410.04617)] [[data](https://github.com/kraina-ai/geospatial-code-llms-dataset)]                                                                                                                      |
 | 2024-10 | arXiv                            | mHumanEval             | 836,400              | 25PL, 204NL                                                                      | "mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation" [[paper](https://arxiv.org/abs/2410.15037)] [[data](https://github.com/mraihan-gmu/mHumanEval)]                                                                                               |
+| 2024-10 | arXiv                            | FeatEng                | 103                  | Python                                                                           | "Can Models Help Us Create Better Models? Evaluating LLMs as Data Scientists" [[paper](https://arxiv.org/abs/2410.23331)] [[data](https://github.com/FeatEng/FeatEng)]                                                                                                                       |
 
 \* Automatically mined/human-annotated
 
@@ -2659,6 +2682,7 @@ $^\diamond$ Machine/human prompts
 | 2024-08 | ACL 2024 Findings   | MultiSQL         | 9257       |          | "MultiSQL: A Schema-Integrated Context-Dependent Text2SQL Dataset with Diverse SQL Operations" [[paper](https://aclanthology.org/2024.findings-acl.823/)] [[data](https://github.com/grandchicken/MultiSQL)] |
 | 2024-09 | arXiv               | BEAVER           | 93         |          | "BEAVER: An Enterprise Benchmark for Text-to-SQL" [[paper](https://arxiv.org/abs/2409.02038)]                                                                                                                |
 | 2024-10 | arXiv               | PRACTIQ          | 2812       |          | "PRACTIQ: A Practical Conversational Text-to-SQL dataset with Ambiguous and Unanswerable Queries" [[paper](https://arxiv.org/abs/2410.11076)]                                                                |
+| 2024-10 | arXiv               | BIS              | 239        |          | "BIS: NL2SQL Service Evaluation Benchmark for Business Intelligence Scenarios" [[paper](https://arxiv.org/abs/2410.22925)] [[data](https://github.com/boracaglayan/bis-nl2sql)]                              |
 
 #### Code Translation
 
