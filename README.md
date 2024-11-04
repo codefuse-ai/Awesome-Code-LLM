@@ -4,31 +4,41 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/11/01] Featured papers:
+🔥🔥🔥 [2024/11/04] Featured papers:
 
-- 🔥🔥 [SelfCodeAlign: Self-Alignment for Code Generation](https://arxiv.org/abs/2410.24198) from University of Illinois Urbana-Champaign.
+- 🔥🔥 [Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement](https://arxiv.org/abs/2411.00622) from Alibaba Group.
 
-- 🔥🔥 [Repository-Level Compositional Code Translation and Validation](https://arxiv.org/abs/2410.24117) from University of Illinois Urbana-Champaign.
+- 🔥🔥 [RSL-SQL: Robust Schema Linking in Text-to-SQL Generation](https://arxiv.org/abs/2411.00073) from Huazhong University of Science and Technology.
 
-- 🔥🔥 [VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.23402) from FPT Software AI Center.
+- 🔥🔥 [Mastering the Craft of Data Synthesis for CodeLLMs](https://arxiv.org/abs/2411.00005) from Oracle.
 
-- 🔥🔥 [Can Models Help Us Create Better Models? Evaluating LLMs as Data Scientists](https://arxiv.org/abs/2410.23331) from Snowflake AI Research.
+- 🔥 [SelfCodeAlign: Self-Alignment for Code Generation](https://arxiv.org/abs/2410.24198) from University of Illinois Urbana-Champaign.
 
-- 🔥 [GPT-4o System Card](https://arxiv.org/abs/2410.21276) from OpenAI.
+- 🔥 [Repository-Level Compositional Code Translation and Validation](https://arxiv.org/abs/2410.24117) from University of Illinois Urbana-Champaign.
 
-- 🔥 [M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation](https://arxiv.org/abs/2410.21157) from Alibaba Group.
+- 🔥 [VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.23402) from FPT Software AI Center.
 
-- 🔥 [An Actor-Critic Approach to Boosting Text-to-SQL Large Language Model](https://arxiv.org/abs/2410.22082) from Xinjiang University.
-
-- 🔥 [FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system](https://arxiv.org/abs/2410.21349) from South China Normal University.
-
-- 🔥 [AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions](https://arxiv.org/abs/2410.20424) from ByteDance Inc.
+- 🔥 [Can Models Help Us Create Better Models? Evaluating LLMs as Data Scientists](https://arxiv.org/abs/2410.23331) from Snowflake AI Research.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/14] We have compiled 57 papers from August 2024 (including 48 presented at ACL 2024) in one [WeChat article](https://mp.weixin.qq.com/s/JJpUJamWnZP_q7tEcKjPww).
+
+If you find this repo helpful, please cite us as:
+
+```
+@article{zhang2024unifying,
+   title={Unifying the Perspectives of {NLP} and Software Engineering: A Survey on Language Models for Code},
+   author={Ziyin Zhang and Chaoyu Chen and Bingchang Liu and Cong Liao and Zi Gong and Hang Yu and Jianguo Li and Rui Wang},
+   journal={Transactions on Machine Learning Research},
+   issn={2835-8856},
+   year={2024},
+   url={https://openreview.net/forum?id=hkNnGqZnpa},
+   note={}
+}
+```
 
 ## Table of Contents
 
@@ -99,6 +109,7 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
      - [Commit Message Generation](#commit-message-generation)
      - [Code Review](#code-review)
      - [Log Analysis](#log-analysis)
+     - [Software Configuration](#software-configuration)
 
    - Requirement
 
@@ -322,6 +333,8 @@ These models are general-purpose LLMs further pretrained on code-related data.
 
 - **Qwen2.5-Coder**: "Qwen2.5-Coder Technical Report" [2024-09] [[paper](https://arxiv.org/abs/2409.12186)]
 
+- **Lingma SWE-GPT**: "Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement" [2024-11] [[paper](https://arxiv.org/abs/2411.00622)]
+
 ### 2.3 General Pretraining on Code
 
 These models are Transformer encoders, decoders, and encoder-decoders pretrained from scratch using existing objectives for general language modeling.
@@ -505,6 +518,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 39. **CursorCore**: "CursorCore: Assist Programming through Aligning Anything" [2024-10] [[paper](https://arxiv.org/abs/2410.07002)]
 
 40. **SelfCodeAlign**: "SelfCodeAlign: Self-Alignment for Code Generation" [2024-10] [[paper](https://arxiv.org/abs/2410.24198)]
+
+41. "Mastering the Craft of Data Synthesis for CodeLLMs" [2024-10] [[paper](https://arxiv.org/abs/2411.00005)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -1072,6 +1087,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Multi-Programming Language Sandbox for LLMs" [2024-10] [[paper](https://arxiv.org/abs/2410.23074)]
 
+- "Personality-Guided Code Generation Using Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2411.00006)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1620,6 +1637,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "An Actor-Critic Approach to Boosting Text-to-SQL Large Language Model" [2024-10] [[paper](https://arxiv.org/abs/2410.22082)]
 
+- "RSL-SQL: Robust Schema Linking in Text-to-SQL Generation" [2024-10] [[paper](https://arxiv.org/abs/2411.00073)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2126,6 +2145,16 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LogLM: From Task-based to Instruction-based Automated Log Analysis" [2024-10] [[paper](https://arxiv.org/abs/2410.09352)]
 
+### Software Configuration
+
+- "Configuration Validation with Large Language Models" [2023-10] [[paper](https://arxiv.org/abs/2310.09690)]
+
+- "CloudEval-YAML: A Practical Benchmark for Cloud Configuration Generation" [2023-11] [[paper](https://arxiv.org/abs/2401.06786)]
+
+- "Can LLMs Configure Software Tools" [2023-12] [[paper](https://arxiv.org/abs/2312.06121)]
+
+- "LLM-Based Misconfiguration Detection for AWS Serverless Computing" [2024-11] [[paper](https://arxiv.org/abs/2411.00642)]
+
 ### Software Modeling
 
 - "Towards using Few-Shot Prompt Learning for Automating Model Completion" [2022-12] [[paper](https://arxiv.org/abs/2212.03404)]
@@ -2187,6 +2216,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Whose fault is it anyway? SILC: Safe Integration of LLM-Generated Code" [2024-10] [[paper](https://arxiv.org/abs/2410.18703)]
 
 - "Assured Automatic Programming via Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.18494)]
+
+- "Does GenAI Make Usability Testing Obsolete?" [2024-11] [[paper](https://arxiv.org/abs/2411.00634)]
 
 ## 6. Analysis of AI-Generated Code
 
@@ -2636,6 +2667,7 @@ $^\diamond$ Machine/human prompts
 | 2024-05 | arXiv | Plot2Code   | 132  | Python   | "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots" [[paper](https://arxiv.org/abs/2405.07990)] [[data](https://huggingface.co/datasets/TencentARC/Plot2Code)] |
 | 2024-06 | arXiv | ChartMimic  | 1000 | Python   | "ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation" [[paper](https://arxiv.org/abs/2406.09961)] [[data](https://github.com/ChartMimic/ChartMimic)]                                                 |
 | 2024-10 | arXiv | HumanEval-V | 108  | Python   | "HumanEval-V: Evaluating Visual Understanding and Reasoning Abilities of Large Multimodal Models Through Coding Tasks" [[paper](https://arxiv.org/abs/2410.12381)] [[data](https://github.com/HumanEval-V/HumanEval-V-Benchmark)]           |
+| 2024-10 | arXiv | TurtleBench | 260  | Python   | "TurtleBench: A Visual Programming Benchmark in Turtle Geometry" [[paper](https://arxiv.org/abs/2411.00264)] [[data](https://github.com/sinaris76/TurtleBench)]                                                                             |
 
 #### Code Reasoning and QA
 
