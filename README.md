@@ -4,21 +4,21 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/11/04] Featured papers:
+🔥🔥🔥 [2024/11/05] Featured papers:
 
-- 🔥🔥 [Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement](https://arxiv.org/abs/2411.00622) from Alibaba Group.
+- 🔥🔥 [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent](https://arxiv.org/abs/2411.02265) from Tencent.
 
-- 🔥🔥 [RSL-SQL: Robust Schema Linking in Text-to-SQL Generation](https://arxiv.org/abs/2411.00073) from Huazhong University of Science and Technology.
+- 🔥🔥 [Do Advanced Language Models Eliminate the Need for Prompt Engineering in Software Engineering?](https://arxiv.org/abs/2411.02093) from Peking University.
 
-- 🔥🔥 [Mastering the Craft of Data Synthesis for CodeLLMs](https://arxiv.org/abs/2411.00005) from Oracle.
+- 🔥🔥 [A Deep Dive Into Large Language Model Code Generation Mistakes: What and Why?](https://arxiv.org/abs/2411.01414) from University of California Irvine.
 
-- 🔥 [SelfCodeAlign: Self-Alignment for Code Generation](https://arxiv.org/abs/2410.24198) from University of Illinois Urbana-Champaign.
+- 🔥🔥 [InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation](https://arxiv.org/abs/2411.01063) from Queen’s University.
 
-- 🔥 [Repository-Level Compositional Code Translation and Validation](https://arxiv.org/abs/2410.24117) from University of Illinois Urbana-Champaign.
+- 🔥 [Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement](https://arxiv.org/abs/2411.00622) from Alibaba Group.
 
-- 🔥 [VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.23402) from FPT Software AI Center.
+- 🔥 [RSL-SQL: Robust Schema Linking in Text-to-SQL Generation](https://arxiv.org/abs/2411.00073) from Huazhong University of Science and Technology.
 
-- 🔥 [Can Models Help Us Create Better Models? Evaluating LLMs as Data Scientists](https://arxiv.org/abs/2410.23331) from Snowflake AI Research.
+- 🔥 [Mastering the Craft of Data Synthesis for CodeLLMs](https://arxiv.org/abs/2411.00005) from Oracle.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -144,7 +144,7 @@ If you find this repo helpful, please cite us as:
    - [Text-to-SQL](#text-to-sql-1)
    - [Code Translation](#code-translation-1)
    - [Program Repair](#program-repair-1)
-   - [Code Summarization](#code-summarization-1)
+   - [Code Summarization](#code-summarization)
    - [Defect/Vulnerability Detection](#defectvulnerability-detection)
    - [Code Retrieval](#code-retrieval)
    - [Type Inference](#type-inference)
@@ -302,6 +302,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 51. "Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?" [2024-10] [[paper](https://arxiv.org/abs/2410.06735)]
 
 52. **GPT-4o**: "GPT-4o System Card" [2024-10] [[paper](https://arxiv.org/abs/2410.21276)]
+
+53. **Hunyuan-Large**: "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent" [2024-11] [[paper](https://arxiv.org/abs/2411.02265)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -857,6 +859,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "From Context to Action: Analysis of the Impact of State Representation and Context on the Generalization of Multi-Turn Web Navigation Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.23555)]
 
+- "AutoGLM: Autonomous Foundation Agents for GUIs" [2024-10] [[paper](https://arxiv.org/abs/2411.00820)]
+
+- "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning" [2024-11] [[paper](https://arxiv.org/abs/2411.02337)]
+
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
 - [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
@@ -1089,6 +1095,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Personality-Guided Code Generation Using Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2411.00006)]
 
+- "Do Advanced Language Models Eliminate the Need for Prompt Engineering in Software Engineering?" [2024-11] [[paper](https://arxiv.org/abs/2411.02093)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1166,6 +1174,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Repository-Level Compositional Code Translation and Validation" [2024-10] [[paper](https://arxiv.org/abs/2410.24117)]
 
 - "Leveraging Large Language Models for Code Translation and Software Development in Scientific Computing" [2024-10] [[paper](https://arxiv.org/abs/2410.24119)]
+
+- "InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation" [2024-11] [[paper](https://arxiv.org/abs/2411.01063)]
 
 ### Code Commenting and Summarization
 
@@ -1491,6 +1501,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "WAFFLE: Multi-Modal Model for Automated Front-End Development" [2024-10] [[paper](https://arxiv.org/abs/2410.18362)]
 
+- "DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.01606)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -1639,6 +1651,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "RSL-SQL: Robust Schema Linking in Text-to-SQL Generation" [2024-10] [[paper](https://arxiv.org/abs/2411.00073)]
 
+- "KeyInst: Keyword Instruction for Improving SQL Formulation in Text-to-SQL" [2024-10] [[paper](https://arxiv.org/abs/2411.00788)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -1753,6 +1767,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM-based Unit Test Generation via Property Retrieval" [2024-10] [[paper](https://arxiv.org/abs/2410.13542)]
 
+- "Disrupting Test Development with AI Assistants" [2024-11] [[paper](https://arxiv.org/abs/2411.02328)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -1768,6 +1784,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Chat-like Asserts Prediction with the Support of Large Language Model" [2024-07] [[paper](https://arxiv.org/abs/2407.21429)]
 
 - "Do LLMs generate test oracles that capture the actual or the expected program behaviour?" [2024-10] [[paper](https://arxiv.org/abs/2410.21136)]
+
+- "Generating executable oracles to check conformance of client code to requirements of JDK Javadocs using LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.01789)]
 
 ### Mutation Testing
 
@@ -2329,6 +2347,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "An evaluation of LLM code generation capabilities through graded exercises" [2024-10] [[paper](https://arxiv.org/abs/2410.16292)]
 
+- "A Deep Dive Into Large Language Model Code Generation Mistakes: What and Why?" [2024-11] [[paper](https://arxiv.org/abs/2411.01414)]
+
 ### Hallucination
 
 - "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.00971)]
@@ -2454,6 +2474,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Benchmarking ChatGPT, Codeium, and GitHub Copilot: A Comparative Study of AI-Driven Programming and Debugging Assistants" [2024-09] [[paper](https://arxiv.org/abs/2409.19922)]
 
 - "Mitigating Gender Bias in Code Large Language Models via Model Editing" [2024-10] [[paper](https://arxiv.org/abs/2410.07820)]
+
+- "An Empirical Study on the Code Refactoring Capability of Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.02320)]
 
 ## 7. Human-LLM Interaction
 
@@ -2765,6 +2787,7 @@ $^\diamond$ Machine/human prompts
 | 2023-04 | arXiv                            | RunBugRun           | 450K      | C, C++, Java, Python, JS, Ruby, Go, PHP                   | "RunBugRun -- An Executable Dataset for Automated Program Repair" [[paper](https://arxiv.org/abs/2304.01102)] [[data](https://github.com/giganticode/run_bug_run)]                                                        |
 | 2023-08 | arXiv                            | HumanEvalPack       | 984       | Python, JS, Go, Java, C++, Rust                           | "OctoPack: Instruction Tuning Code Large Language Models" [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]                                                     |
 | 2024-01 | arXiv                            | DebugBench          | 4253      | C++, Java, Python                                         | "DebugBench: Evaluating Debugging Capability of Large Language Models" [[paper](https://arxiv.org/abs/2401.04621)] [[data](https://github.com/thunlp/DebugBench)]                                                         |
+| 2024-11 | arXiv                            | MdEval              | 3513      | 18                                                        | "MdEval: Massively Multilingual Code Debugging" [[paper](https://arxiv.org/abs/2411.02310)]                                                                                                                               |
 
 \* These are code-change datasest, and only a subset therein concerns bug fixing.
 
