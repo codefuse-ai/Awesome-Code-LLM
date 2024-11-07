@@ -4,21 +4,19 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/11/05] Featured papers:
+🔥🔥🔥 [2024/11/07] Featured papers:
 
-- 🔥🔥 [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent](https://arxiv.org/abs/2411.02265) from Tencent.
+- 🔥🔥 [Interaction2Code: How Far Are We From Automatic Interactive Webpage Generation?](https://arxiv.org/abs/2411.03292) from The Chinese University of Hong Kong.
 
-- 🔥🔥 [Do Advanced Language Models Eliminate the Need for Prompt Engineering in Software Engineering?](https://arxiv.org/abs/2411.02093) from Peking University.
+- 🔥🔥 [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) from Tsinghua University.
 
-- 🔥🔥 [A Deep Dive Into Large Language Model Code Generation Mistakes: What and Why?](https://arxiv.org/abs/2411.01414) from University of California Irvine.
+- 🔥 [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent](https://arxiv.org/abs/2411.02265) from Tencent.
 
-- 🔥🔥 [InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation](https://arxiv.org/abs/2411.01063) from Queen’s University.
+- 🔥 [Do Advanced Language Models Eliminate the Need for Prompt Engineering in Software Engineering?](https://arxiv.org/abs/2411.02093) from Peking University.
 
-- 🔥 [Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement](https://arxiv.org/abs/2411.00622) from Alibaba Group.
+- 🔥 [A Deep Dive Into Large Language Model Code Generation Mistakes: What and Why?](https://arxiv.org/abs/2411.01414) from University of California Irvine.
 
-- 🔥 [RSL-SQL: Robust Schema Linking in Text-to-SQL Generation](https://arxiv.org/abs/2411.00073) from Huazhong University of Science and Technology.
-
-- 🔥 [Mastering the Craft of Data Synthesis for CodeLLMs](https://arxiv.org/abs/2411.00005) from Oracle.
+- 🔥 [InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation](https://arxiv.org/abs/2411.01063) from Queen’s University.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -733,6 +731,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 37. **AutoKaggle**: "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions" [2024-10] [[paper](https://arxiv.org/abs/2410.20424)]
 
+38. **Watson**: "Watson: A Cognitive Observability Framework for the Reasoning of Foundation Model-Powered Agents" [2024-11] [[paper](https://arxiv.org/abs/2411.03455)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -978,6 +978,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**SPICE**]: "SPICEPilot: Navigating SPICE Code Generation and Simulation with AI Guidance" [2024-10] [[paper](https://arxiv.org/abs/2410.20553)]
 
 - [**IEC 61131-3 ST**]: "Training LLMs for Generating IEC 61131-3 Structured Text with Online Feedback" [2024-10] [[paper](https://arxiv.org/abs/2410.22159)]
+
+- [**Verilog**] "MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.03471)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1503,6 +1505,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.01606)]
 
+- "Interaction2Code: How Far Are We From Automatic Interactive Webpage Generation?" [2024-11] [[paper](https://arxiv.org/abs/2411.03292)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -1653,6 +1657,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "KeyInst: Keyword Instruction for Improving SQL Formulation in Text-to-SQL" [2024-10] [[paper](https://arxiv.org/abs/2411.00788)]
 
+- "Grounding Natural Language to SQL Translation with Data-Based Self-Explanations" [2024-11] [[paper](https://arxiv.org/abs/2411.02948)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -1769,6 +1775,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Disrupting Test Development with AI Assistants" [2024-11] [[paper](https://arxiv.org/abs/2411.02328)]
 
+- "Parameter-Efficient Fine-Tuning of Large Language Models for Unit Test Generation: An Empirical Study" [2024-11] [[paper](https://arxiv.org/abs/2411.02462)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -1814,6 +1822,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ISC4DGF: Enhancing Directed Grey-box Fuzzing with LLM-Driven Initial Seed Corpus Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.14329)]
 
 - "Large Language Models Based JSON Parser Fuzzing for Bug Discovery and Behavioral Analysis" [2024-10] [[paper](https://arxiv.org/abs/2410.21806)]
+
+- "Fixing Security Vulnerabilities with AI in OSS-Fuzz" [2024-11] [[paper](https://arxiv.org/abs/2411.03346)]
 
 ### Vulnerability Detection
 
@@ -1972,6 +1982,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Just-In-Time Software Defect Prediction via Bi-modal Change Representation Learning" [2024-10] [[paper](https://arxiv.org/abs/2410.12107)]
 
 - "DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection" [2024-10] [[paper](https://arxiv.org/abs/2410.18479)]
+
+- "Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation" [2024-11] [[paper](https://arxiv.org/abs/2411.03079)]
 
 ### Malicious Code Detection
 
@@ -2705,6 +2717,7 @@ $^\diamond$ Machine/human prompts
 | 2024-08 | arXiv               | CruxEval-X | 12.6K    | 19                                  | "CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution" [[paper](https://arxiv.org/abs/2408.13001)] [[data](https://github.com/CRUXEVAL-X/cruxeval-x)]                                    |
 | 2024-09 | arXiv               | SpecEval   | 204      | Java                                | "SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications" [[paper](https://arxiv.org/abs/2409.12866)] [[data](https://sites.google.com/view/speceval/)]                              |
 | 2024-10 | arXiv               | CodeMMLU   | 19912    | 13                                  | "CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs" [[paper](https://arxiv.org/abs/2410.01999)] [[data](https://github.com/FSoft-AI4Code/CodeMMLU)]                             |
+| 2024-11 | arXiv               | unnamed    | 80232    | Python                              | "Leveraging Large Language Models in Code Question Answering: Baselines and Issues" [[paper](https://arxiv.org/abs/2411.03012)] [[data](https://github.com/IU-AES-AI4Code/CodeQuestionAnswering)]                        |
 
 #### Text-to-SQL
 
