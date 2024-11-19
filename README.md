@@ -4,19 +4,21 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/11/18] Featured papers:
+🔥🔥🔥 [2024/11/19] Featured papers:
 
-- 🔥🔥 [Xmodel-1.5: An 1B-scale Multilingual LLM](https://arxiv.org/abs/2411.10083) from XiaoduoAI.
+- 🔥🔥 [A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation](https://arxiv.org/abs/2411.11532) from Huazhong University of Science and Technology.
 
-- 🔥🔥 [Prompting and Fine-tuning Large Language Models for Automated Code Review Comment Generation](https://arxiv.org/abs/2411.10129) from Bangladesh University of Engineering and Technology.
+- 🔥🔥 [SRA-MCTS: Self-driven Reasoning Aurmentation with Monte Carlo Tree Search for Enhanced Code Generation](https://arxiv.org/abs/2411.11053) from Beijing Institute of Technology.
 
-- 🔥🔥 [An Empirical Study on LLM-based Agents for Automated Bug Fixing](https://arxiv.org/abs/2411.10213) from Bytedance.
+- 🔥🔥 [See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI](https://arxiv.org/abs/2411.10861) from IBM.
 
-- 🔥🔥 [CoCoP: Enhancing Text Classification with LLM through Code Completion Prompt](https://arxiv.org/abs/2411.08979) from University of Tehran.
+- 🔥 [Xmodel-1.5: An 1B-scale Multilingual LLM](https://arxiv.org/abs/2411.10083) from XiaoduoAI.
 
-- 🔥 [XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL](https://arxiv.org/abs/2411.08599) from Alibaba Group.
+- 🔥 [Prompting and Fine-tuning Large Language Models for Automated Code Review Comment Generation](https://arxiv.org/abs/2411.10129) from Bangladesh University of Engineering and Technology.
 
-- 🔥 [Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763) from University of Hong Kong.
+- 🔥 [An Empirical Study on LLM-based Agents for Automated Bug Fixing](https://arxiv.org/abs/2411.10213) from Bytedance.
+
+- 🔥 [CoCoP: Enhancing Text Classification with LLM through Code Completion Prompt](https://arxiv.org/abs/2411.08979) from University of Tehran.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -1122,6 +1124,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "ROCODE: Integrating Backtracking Mechanism and Program Analysis in Large Language Models for Code Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.07112)]
 
+- "SRA-MCTS: Self-driven Reasoning Aurmentation with Monte Carlo Tree Search for Enhanced Code Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.11053)]
+
 ### Code RAG
 
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
@@ -1418,6 +1422,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "An Empirical Study on the Potential of LLMs in Automated Software Refactoring" [2024-11] [[paper](https://arxiv.org/abs/2411.04444)]
 
+- "CODECLEANER: Elevating Standards with A Robust Data Contamination Mitigation Toolkit" [2024-11] [[paper](https://arxiv.org/abs/2411.10842)]
+
 ### Type Prediction
 
 - "Learning type annotation: is big data enough?" [2021-08] [ESEC/FSE 2021] [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
@@ -1499,6 +1505,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Exploring the Potential of Conversational Test Suite Based Program Repair on SWE-bench" [2024-10] [[paper](https://arxiv.org/abs/2410.04485)]
 
 - "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph" [2024-10] [[paper](https://arxiv.org/abs/2410.14684)]
+
+- "See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI" [2024-11] [[paper](https://arxiv.org/abs/2411.10861)]
 
 ### Frontend Development
 
@@ -1836,6 +1844,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "VALTEST: Automated Validation of Language Model Generated Test Cases" [2024-11] [[paper](https://arxiv.org/abs/2411.08254)]
 
+- "REACCEPT: Automated Co-evolution of Production and Test Code Based on Dynamic Validation and Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.11033)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -1885,6 +1895,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Large Language Models Based JSON Parser Fuzzing for Bug Discovery and Behavioral Analysis" [2024-10] [[paper](https://arxiv.org/abs/2410.21806)]
 
 - "Fixing Security Vulnerabilities with AI in OSS-Fuzz" [2024-11] [[paper](https://arxiv.org/abs/2411.03346)]
+
+- "A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.11532)]
 
 ### Vulnerability Detection
 
@@ -2048,6 +2060,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Smart-LLaMA: Two-Stage Post-Training of Large Language Models for Smart Contract Vulnerability Detection and Explanation" [2024-11] [[paper](https://arxiv.org/abs/2411.06221)]
 
+- "FlexFL: Flexible and Effective Fault Localization with Open-Source Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.10714)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -2204,6 +2218,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Prompting and Fine-tuning Large Language Models for Automated Code Review Comment Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.10129)]
 
+- "Deep Learning-based Code Reviews: A Paradigm Shift or a Double-Edged Sword?" [2024-11] [[paper](https://arxiv.org/abs/2411.11401)]
+
 ### Log Analysis
 
 - "LogStamp: Automatic Online Log Parsing Based on Sequence Labelling" [2022-08] [[paper](https://arxiv.org/abs/2208.10282)]
@@ -2319,6 +2335,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Assured Automatic Programming via Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.18494)]
 
 - "Does GenAI Make Usability Testing Obsolete?" [2024-11] [[paper](https://arxiv.org/abs/2411.00634)]
+
+- "Exploring LLMs for Verifying Technical System Specifications Against Requirements" [2024-11] [[paper](https://arxiv.org/abs/2411.11582)]
 
 ## 6. Analysis of AI-Generated Code
 
@@ -2476,6 +2494,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Rethinking Code Refinement: Learning to Judge Code Efficiency" [2024-10] [[paper](https://arxiv.org/abs/2410.22375)]
 
+- "Generating Energy-efficient code with LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.10599)]
+
 ### Robustness
 
 - "Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain" [2023-10] [[paper](https://arxiv.org/abs/2310.14053)]
@@ -2487,6 +2507,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "NLPerturbator: Studying the Robustness of Code LLMs to Natural Language Variations" [2024-06] [[paper](https://arxiv.org/abs/2406.19783)]
 
 - "An Empirical Study on Capability of Large Language Models in Understanding Code Semantics" [2024-07] [[paper](https://arxiv.org/abs/2407.03611)]
+
+- "Comparing Robustness Against Adversarial Attacks in Code Generation: LLM-Generated vs. Human-Written" [2024-11] [[paper](https://arxiv.org/abs/2411.10565)]
 
 ### Interpretability
 
@@ -2573,6 +2595,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Model Editing for LLMs4Code: How Far are We?" [2024-11] [[paper](https://arxiv.org/abs/2411.06638)]
 
 - "An Empirical Study on LLM-based Agents for Automated Bug Fixing" [2024-11] [[paper](https://arxiv.org/abs/2411.10213)]
+
+- "Precision or Peril: Evaluating Code Quality from Quantized Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.10656)]
 
 ## 7. Human-LLM Interaction
 
