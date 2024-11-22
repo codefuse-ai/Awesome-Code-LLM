@@ -4,21 +4,21 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/11/19] Featured papers:
+🔥🔥🔥 [2024/11/22] Featured papers:
 
-- 🔥🔥 [A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation](https://arxiv.org/abs/2411.11532) from Huazhong University of Science and Technology.
+- 🔥🔥 [Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/abs/2411.13990) from Sun Yat-sen University.
 
-- 🔥🔥 [SRA-MCTS: Self-driven Reasoning Aurmentation with Monte Carlo Tree Search for Enhanced Code Generation](https://arxiv.org/abs/2411.11053) from Beijing Institute of Technology.
+- 🔥🔥 [Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL](https://arxiv.org/abs/2411.13244) from University of Science and Technology of China.
 
-- 🔥🔥 [See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI](https://arxiv.org/abs/2411.10861) from IBM.
+- 🔥🔥 [CodeXEmbed: A Generalist Embedding Model Family for Multiligual and Multi-task Code Retrieval](https://arxiv.org/abs/2411.12644) from Salesforce AI Research.
 
-- 🔥 [Xmodel-1.5: An 1B-scale Multilingual LLM](https://arxiv.org/abs/2411.10083) from XiaoduoAI.
+- 🔥🔥 [ProSec: Fortifying Code LLMs with Proactive Security Alignment](https://arxiv.org/abs/2411.12882) from Purdue University.
 
-- 🔥 [Prompting and Fine-tuning Large Language Models for Automated Code Review Comment Generation](https://arxiv.org/abs/2411.10129) from Bangladesh University of Engineering and Technology.
+- 🔥 [A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation](https://arxiv.org/abs/2411.11532) from Huazhong University of Science and Technology.
 
-- 🔥 [An Empirical Study on LLM-based Agents for Automated Bug Fixing](https://arxiv.org/abs/2411.10213) from Bytedance.
+- 🔥 [SRA-MCTS: Self-driven Reasoning Aurmentation with Monte Carlo Tree Search for Enhanced Code Generation](https://arxiv.org/abs/2411.11053) from Beijing Institute of Technology.
 
-- 🔥 [CoCoP: Enhancing Text Classification with LLM through Code Completion Prompt](https://arxiv.org/abs/2411.08979) from University of Tehran.
+- 🔥 [See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI](https://arxiv.org/abs/2411.10861) from IBM.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -26,7 +26,9 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/14] We have compiled 57 papers from August 2024 (including 48 presented at ACL 2024) in one [WeChat article](https://mp.weixin.qq.com/s/JJpUJamWnZP_q7tEcKjPww).
 
-If you find this repo helpful, please cite us as:
+#### How to Contribute
+
+If you find a paper to be missing from this repository, misplaced in a category, or lacking a reference to its journal/conference information, please do not hesitate to create an issue. If you find this repo helpful, please cite our survey:
 
 ```
 @article{zhang2024unifying,
@@ -104,7 +106,7 @@ If you find this repo helpful, please cite us as:
      - [Vulnerability Detection](#vulnerability-detection)
      - [Malicious Code Detection](#malicious-code-detection)
      - [Compiler Optimization](#compiler-optimization)
-     - [Decompilation](#decompilation)
+     - [Binary Analysis and Decompilation](#binary-analysis-and-decompilation)
 
    - DevOps
 
@@ -534,6 +536,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 42. **CodeLutra**: "CodeLutra: Boosting LLM Code Generation via Preference-Guided Refinement" [2024-11] [[paper](https://arxiv.org/abs/2411.05199)]
 
+43. **DSTC**: "DSTC: Direct Preference Learning with Only Self-Generated Tests and Code to Improve Code LMs" [2024-11] [[paper](https://arxiv.org/abs/2411.13611)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -656,6 +660,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 39. **CoCoP**: "CoCoP: Enhancing Text Classification with LLM through Code Completion Prompt" [2024-11] [[paper](https://arxiv.org/abs/2411.08979)]
 
+40. **REPL-Plan**: "Interactive and Expressive Code-Augmented Planning with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.13826)]
+
 ### 3.2 Code Simulation
 
 - "Code Simulation Challenges for Large Language Models" [2024-01] [[paper](https://arxiv.org/abs/2401.09074)]
@@ -755,6 +761,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 38. **Watson**: "Watson: A Cognitive Observability Framework for the Reasoning of Foundation Model-Powered Agents" [2024-11] [[paper](https://arxiv.org/abs/2411.03455)]
 
 39. **CodeTree**: "CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.04329)]
+
+40. **EvoCoder**: "LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues" [2024-11] [[paper](https://arxiv.org/abs/2411.13941)]
 
 ### 3.4 Interactive Coding
 
@@ -1222,6 +1230,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation" [2024-11] [[paper](https://arxiv.org/abs/2411.01063)]
 
+- "Translating C To Rust: Lessons from a User Study" [2024-11] [[paper](https://arxiv.org/abs/2411.14174)]
+
 ### Code Commenting and Summarization
 
 - "A Transformer-based Approach for Source Code Summarization" [2020-05] [ACL 2020] [[paper](https://arxiv.org/abs/2005.00653)]
@@ -1413,6 +1423,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Binary Code Similarity Detection via Graph Contrastive Learning on Intermediate Representations" [2024-10] [[paper](https://arxiv.org/abs/2410.18561)]
 
 - "Are Decoder-Only Large Language Models the Silver Bullet for Code Search?" [2024-10] [[paper](https://arxiv.org/abs/2410.22240)]
+
+- "CodeXEmbed: A Generalist Embedding Model Family for Multiligual and Multi-task Code Retrieval" [2024-11] [[paper](https://arxiv.org/abs/2411.12644)]
 
 ### Code Refactoring
 
@@ -1723,6 +1735,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "PDC & DM-SFT: A Road for LLM SQL Bug-Fix Enhancing" [2024-11] [[paper](https://arxiv.org/abs/2411.06767)]
 
 - "XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL" [2024-11] [[paper](https://arxiv.org/abs/2411.08599)]
+
+- "Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL" [2024-11] [[paper](https://arxiv.org/abs/2411.13244)]
 
 ### Program Proof
 
@@ -2062,6 +2076,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "FlexFL: Flexible and Effective Fault Localization with Open-Source Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.10714)]
 
+- "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems" [2024-11] [[paper](https://arxiv.org/abs/2411.13017)]
+
+- "Are Large Language Models Memorizing Bug Benchmarks?" [2024-11] [[paper](https://arxiv.org/abs/2411.13323)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -2148,7 +2166,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions" [2024-10] [[paper](https://arxiv.org/abs/2410.09241)]
 
-### Decompilation
+### Binary Analysis and Decompilation
 
 - "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
 
@@ -2170,11 +2188,15 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Nova+: Generative Language Models for Binaries" [2023-11] [[paper](https://arxiv.org/abs/2311.13721)]
 
+- "CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking" [2024-11] [[paper](https://arxiv.org/abs/2402.11842)]
+
 - "LLM4Decompile: Decompiling Binary Code with Large Language Models" [2024-03] [[paper](https://arxiv.org/abs/2403.05286)]
 
 - "WaDec: Decompile WebAssembly Using Large Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.11346)]
 
 - "MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract" [2024-10] [[paper](https://arxiv.org/abs/2410.15275)]
+
+- "Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases" [2024-11] [[paper](https://arxiv.org/abs/2405.19581)]
 
 ### Commit Message Generation
 
@@ -2404,6 +2426,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "RedCode: Risky Code Execution and Generation Benchmark for Code Agents" [2024-11] [[paper](https://arxiv.org/abs/2411.07781)]
 
+- "ProSec: Fortifying Code LLMs with Proactive Security Alignment" [2024-11] [[paper](https://arxiv.org/abs/2411.12882)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -2454,6 +2478,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Evaluating ChatGPT-3.5 Efficiency in Solving Coding Problems of Different Complexity Levels: An Empirical Analysis" [2024-11] [[paper](https://arxiv.org/abs/2411.07529)]
 
+- "LLM4DS: Evaluating Large Language Models for Data Science Code Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.11908)]
+
 ### Hallucination
 
 - "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.00971)]
@@ -2495,6 +2521,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Rethinking Code Refinement: Learning to Judge Code Efficiency" [2024-10] [[paper](https://arxiv.org/abs/2410.22375)]
 
 - "Generating Energy-efficient code with LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.10599)]
+
+- "An exploration of the effect of quantisation on energy consumption and inference time of StarCoder2" [2024-11] [[paper](https://arxiv.org/abs/2411.12758)]
 
 ### Robustness
 
@@ -2700,6 +2728,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLMs are Imperfect, Then What? An Empirical Study on LLM Failures in Software Engineering" [2024-11] [[paper](https://arxiv.org/abs/2411.09916)]
 
+- "Human-In-the-Loop Software Development Agents" [2024-11] [[paper](https://arxiv.org/abs/2411.12924)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -2879,6 +2909,7 @@ $^\diamond$ Machine/human prompts
 | 2023-08 | arXiv                                | G-TransEval              | 4000   | C++, Java, C#, JS, Python                                 | "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark" [[paper](https://arxiv.org/abs/2308.08961)] [[data](https://github.com/PolyEval/G-TransEval)]                                                |
 | 2023-10 | arXiv                                | CodeTransOcean           | 270.5K | 45                                                        | "CodeTransOcean: A Comprehensive Multilingual Benchmark for Code Translation" [[paper](https://arxiv.org/abs/2310.04951)] [[data](https://github.com/WeixiangYAN/CodeTransOcean)]                                   |
 | 2024-11 | arXiv                                | Classeval-T              | 94     | Python, Java, C++                                         | "Escalating LLM-based Code Translation Benchmarking into the Class-level Era" [[paper](https://arxiv.org/abs/2411.06145)]                                                                                           |
+| 2024-11 | arXiv                                | RustRepoTrans            | 375    | C++, Java, Python, Rust                                   | "Repository-level Code Translation Benchmark Targeting Rust" [[paper](https://arxiv.org/abs/2411.13990)] [[data](https://github.com/TrustedGPT/RustRepoTrans)]                                                      |
 
 #### Program Repair
 
