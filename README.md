@@ -4,21 +4,21 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/11/22] Featured papers:
+🔥🔥🔥 [2024/11/28] Featured papers:
 
-- 🔥🔥 [Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/abs/2411.13990) from Sun Yat-sen University.
+- 🔥🔥 [Preference Optimization for Reasoning with Pseudo Feedback](https://arxiv.org/abs/2411.16345) from Nanyang Technological University.
 
-- 🔥🔥 [Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL](https://arxiv.org/abs/2411.13244) from University of Science and Technology of China.
+- 🔥🔥 [ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data](https://arxiv.org/abs/2411.15004) from Scribe.
 
-- 🔥🔥 [CodeXEmbed: A Generalist Embedding Model Family for Multiligual and Multi-task Code Retrieval](https://arxiv.org/abs/2411.12644) from Salesforce AI Research.
+- 🔥🔥 [Planning-Driven Programming: A Large Language Model Programming Workflow](https://arxiv.org/abs/2411.14503) from The University of Melbourne.
 
-- 🔥🔥 [ProSec: Fortifying Code LLMs with Proactive Security Alignment](https://arxiv.org/abs/2411.12882) from Purdue University.
+- 🔥 [Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/abs/2411.13990) from Sun Yat-sen University.
 
-- 🔥 [A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation](https://arxiv.org/abs/2411.11532) from Huazhong University of Science and Technology.
+- 🔥 [Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL](https://arxiv.org/abs/2411.13244) from University of Science and Technology of China.
 
-- 🔥 [SRA-MCTS: Self-driven Reasoning Aurmentation with Monte Carlo Tree Search for Enhanced Code Generation](https://arxiv.org/abs/2411.11053) from Beijing Institute of Technology.
+- 🔥 [CodeXEmbed: A Generalist Embedding Model Family for Multiligual and Multi-task Code Retrieval](https://arxiv.org/abs/2411.12644) from Salesforce AI Research.
 
-- 🔥 [See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI](https://arxiv.org/abs/2411.10861) from IBM.
+- 🔥 [ProSec: Fortifying Code LLMs with Proactive Security Alignment](https://arxiv.org/abs/2411.12882) from Purdue University.
 
 🔥🔥🔥 [2024/10/22] We have compiled 70 papers from September and October 2024 in one [WeChat article](https://mp.weixin.qq.com/s/g-VLL-MzVdqPBto_-LcoPQ).
 
@@ -578,6 +578,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 19. **FALCON**: "FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system" [2024-10] [[paper](https://arxiv.org/abs/2410.21349)]
 
+20. **PFPO**: "Preference Optimization for Reasoning with Pseudo Feedback" [2024-11] [[paper](https://arxiv.org/abs/2411.16345)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -818,6 +820,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-based Code Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.06774)]
 
+- "Planning-Driven Programming: A Large Language Model Programming Workflow" [2024-11] [[paper](https://arxiv.org/abs/2411.14503)]
+
+- "ConAIR:Consistency-Augmented Iterative Interaction Framework to Enhance the Reliability of Code Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.15587)]
+
 ### 3.5 Frontend Navigation
 
 - "MarkupLM: Pre-training of Text and Markup Language for Visually-rich Document Understanding" [2021-10] [ACL 2022] [[paper](https://arxiv.org/abs/2110.08518)]
@@ -897,6 +903,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning" [2024-11] [[paper](https://arxiv.org/abs/2411.02337)]
 
 - "The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use" [2024-11] [[paper](https://arxiv.org/abs/2411.10323)]
+
+- "ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data" [2024-11] [[paper](https://arxiv.org/abs/2411.15004)]
+
+- "ShowUI: One Vision-Language-Action Model for GUI Visual Agent" [2024-11] [[paper](https://arxiv.org/abs/2411.17465)]
 
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
@@ -1017,6 +1027,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Verilog**] "MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.03471)]
 
 - [**Verilog**] "CorrectBench: Automatic Testbench Generation with Functional Self-Correction using LLMs for HDL Design" [2024-11] [[paper](https://arxiv.org/abs/2411.08510)]
+
+- [**MUMPS, ALC**] "Leveraging LLMs for Legacy Code Modernization: Challenges and Opportunities for LLM-Generated Documentation" [2024-11] [[paper](https://arxiv.org/abs/2411.14971)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1426,6 +1438,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CodeXEmbed: A Generalist Embedding Model Family for Multiligual and Multi-task Code Retrieval" [2024-11] [[paper](https://arxiv.org/abs/2411.12644)]
 
+- "CodeSAM: Source Code Representation Learning by Infusing Self-Attention with Multi-Code-View Graphs" [2024-11] [[paper](https://arxiv.org/abs/2411.14611)]
+
+- "EnStack: An Ensemble Stacking Framework of Large Language Models for Enhanced Vulnerability Detection in Source Code" [2024-11] [[paper](https://arxiv.org/abs/2411.16561)]
+
+- "Isotropy Matters: Soft-ZCA Whitening of Embeddings for Semantic Code Search" [2024-11] [[paper](https://arxiv.org/abs/2411.17538)]
+
 ### Code Refactoring
 
 - "An Empirical Study on the Code Refactoring Capability of Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.02320)]
@@ -1435,6 +1453,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "An Empirical Study on the Potential of LLMs in Automated Software Refactoring" [2024-11] [[paper](https://arxiv.org/abs/2411.04444)]
 
 - "CODECLEANER: Elevating Standards with A Robust Data Contamination Mitigation Toolkit" [2024-11] [[paper](https://arxiv.org/abs/2411.10842)]
+
+- "Instruct or Interact? Exploring and Eliciting LLMs' Capability in Code Snippet Adaptation Through Prompt Engineering" [2024-11] [[paper](https://arxiv.org/abs/2411.15501)]
 
 ### Type Prediction
 
@@ -1738,6 +1758,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL" [2024-11] [[paper](https://arxiv.org/abs/2411.13244)]
 
+- "Text-to-SQL Calibration: No Need to Ask -- Just Rescale Model Probabilities" [2024-11] [[paper](https://arxiv.org/abs/2411.16742)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -1757,6 +1779,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Automated Proof Generation for Rust Code via Self-Evolution" [2024-10] [[paper](https://arxiv.org/abs/2410.15756)]
 
 - "CoqPilot, a plugin for LLM-based generation of proofs" [2024-10] [[paper](https://arxiv.org/abs/2410.19605)]
+
+- "dafny-annotator: AI-Assisted Verification of Dafny Programs" [2024-11] [[paper](https://arxiv.org/abs/2411.15143)]
 
 ### Test Generation
 
@@ -1879,6 +1903,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Generating executable oracles to check conformance of client code to requirements of JDK Javadocs using LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.01789)]
 
 - "Automatically Write Code Checker: An LLM-based Approach with Logic-guided API Retrieval and Case by Case Iteration" [2024-11] [[paper](https://arxiv.org/abs/2411.06796)]
+
+- "ASSERTIFY: Utilizing Large Language Models to Generate Assertions for Production Code" [2024-11] [[paper](https://arxiv.org/abs/2411.16927)]
 
 ### Mutation Testing
 
@@ -2080,6 +2106,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Are Large Language Models Memorizing Bug Benchmarks?" [2024-11] [[paper](https://arxiv.org/abs/2411.13323)]
 
+- "An Empirical Study of Vulnerability Detection using Federated Learning" [2024-11] [[paper](https://arxiv.org/abs/2411.16099)]
+
+- "Fault Localization from the Semantic Code Search Perspective" [2024-11] [[paper](https://arxiv.org/abs/2411.17230)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -2242,6 +2272,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Deep Learning-based Code Reviews: A Paradigm Shift or a Double-Edged Sword?" [2024-11] [[paper](https://arxiv.org/abs/2411.11401)]
 
+- "Redefining Crowdsourced Test Report Prioritization: An Innovative Approach with Large Language Model" [2024-11] [[paper](https://arxiv.org/abs/2411.17045)]
+
 ### Log Analysis
 
 - "LogStamp: Automatic Online Log Parsing Based on Sequence Labelling" [2022-08] [[paper](https://arxiv.org/abs/2208.10282)]
@@ -2359,6 +2391,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Does GenAI Make Usability Testing Obsolete?" [2024-11] [[paper](https://arxiv.org/abs/2411.00634)]
 
 - "Exploring LLMs for Verifying Technical System Specifications Against Requirements" [2024-11] [[paper](https://arxiv.org/abs/2411.11582)]
+
+- "Towards the LLM-Based Generation of Formal Specifications from Natural-Language Contracts: Early Experiments with Symboleo" [2024-11] [[paper](https://arxiv.org/abs/2411.15898)]
 
 ## 6. Analysis of AI-Generated Code
 
@@ -2479,6 +2513,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Evaluating ChatGPT-3.5 Efficiency in Solving Coding Problems of Different Complexity Levels: An Empirical Analysis" [2024-11] [[paper](https://arxiv.org/abs/2411.07529)]
 
 - "LLM4DS: Evaluating Large Language Models for Data Science Code Generation" [2024-11] [[paper](https://arxiv.org/abs/2411.11908)]
+
+- "A Preliminary Study of Multilingual Code Language Models for Code Generation Task Using Translated Benchmarks" [2024-11] [[paper](https://arxiv.org/abs/2411.15470)]
 
 ### Hallucination
 
@@ -2968,30 +3004,31 @@ $^\diamond$ Machine/human prompts
 
 - "Benchmarking Software Vulnerability Detection Techniques: A Survey", 2023-03, arXiv, [[paper](https://arxiv.org/abs/2303.16362)]
 
-| Date    | Venue                        | Benchmark      | Size  | Language | Source                                                                                                                                                                                                                       |
-| ------- | ---------------------------- | -------------- | ----- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2018-01 | NDSS 2018                    | CGD            | 62K   | C, C++   | "VulDeePecker: A Deep Learning-Based System for Vulnerability Detection" [[paper](https://arxiv.org/abs/1801.01681)] [[data](https://github.com/CGCL-codes/VulDeePecker)]                                                    |
-| 2018-04 | IEEE Trans. Ind. Informatics | unnamed        | 32988 | C, C++   | "Cross-Project Transfer Representation Learning for Vulnerable Function Discovery" [[paper](https://ieeexplore.ieee.org/document/8329207)] [[data](https://github.com/DanielLin1986/TransferRepresentationLearning)]         |
-| 2018-07 | ICMLA 2018                   | Draper VDISC   | 12.8M | C, C++   | "Automated Vulnerability Detection in Source Code Using Deep Representation Learning" [[paper](https://arxiv.org/abs/1807.04320)] [[data](https://osf.io/d45bw/)]                                                            |
-| 2018-07 | IEEE TDSC                    | SySeVR         | 15591 | C, C++   | "SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities" [[paper](https://arxiv.org/abs/1807.06756)] [[data](https://github.com/SySeVR/SySeVR)]                                                      |
-| 2019-02 | MSR 2019                     | unnamed        | 624   | Java     | "A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software" [[paper](https://arxiv.org/abs/1902.02595)] [[data](https://github.com/SAP/project-kb/tree/main/MSR2019)]                                   |
-| 2019-09 | NeurIPS 2019                 | Devign         | 49K   | C        | "Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks" [[paper](https://arxiv.org/abs/1909.03496)] [[data](https://sites.google.com/view/devign)]            |
-| 2019-11 | IEEE TDSC                    | unnamed        | 170K  | C, C++   | "Software Vulnerability Discovery via Learning Multi-Domain Knowledge Bases" [[paper](https://ieeexplore.ieee.org/document/8906156)] [[data](https://github.com/DanielLin1986/RepresentationsLearningFromMulti_domain)]      |
-| 2019-12 | ICLR 2020                    | GREAT          | 2.8M  | Python   | "Global Relational Models of Source Code" [[paper](https://openreview.net/forum?id=B1lnbRNtwr)] [[data](https://zenodo.org/records/3954944)]                                                                                 |
-| 2020-01 | IEEE TDSC                    | MVD            | 182K  | C, C++   | "μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection" [[paper](https://arxiv.org/abs/2001.02334)] [[data](https://github.com/muVulDeePecker/muVulDeePecker)]                                  |
-| 2020-02 | ICICS 2019                   | unnamed        | 1471  | C        | "Deep Learning-Based Vulnerable Function Detection: A Benchmark" [[paper](https://link.springer.com/chapter/10.1007/978-3-030-41579-2_13)] [[data](https://github.com/DanielLin1986/Function-level-Vulnerability-Detection)] |
-| 2020-09 | IEEE Trans. Software Eng.    | ReVeal         | 18K   | C        | "Deep Learning based Vulnerability Detection: Are We There Yet?" [[paper](https://arxiv.org/abs/2009.07235)] [[data](https://bit.ly/3bX30ai)]                                                                                |
-| 2020-09 | MSR 2020                     | Big-Vul        | 265K  | C, C++   | "A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries" [[paper](https://dl.acm.org/doi/10.1145/3379597.3387501)] [[data](https://github.com/ZeoVan/MSR_20_Code_Vulnerability_CSV_Dataset)]                 |
-| 2021-02 | ICSE (SEIP) 2021             | D2A            | 1.3M  | C, C++   | "D2A: A Dataset Built for AI-Based Vulnerability Detection Methods Using Differential Analysis" [[paper](https://arxiv.org/abs/2102.07995)] [[data](https://github.com/ibm/D2A)]                                             |
-| 2021-05 | NeurIPS 2021                 | PyPIBugs       | 2374  | Python   | "Self-Supervised Bug Detection and Repair" [[paper](https://arxiv.org/abs/2105.12787)] [[data](https://www.microsoft.com/en-us/download/103554)]                                                                             |
-| 2021-07 | In PROMISE 2021              | CVEfixes       | 5495  | 27       | "CVEfixes: Automated Collection of Vulnerabilities and Their Fixes from Open-Source Software" [[paper](https://arxiv.org/abs/2107.08760)] [[data](https://zenodo.org/records/7029359)]                                       |
-| 2021-08 | ESEC/FSE 2021                | CrossVul       | 27476 | 40+      | "CrossVul: a cross-language vulnerability dataset with commit data" [[paper](https://dl.acm.org/doi/10.1145/3468264.3473122)] [[data](https://zenodo.org/records/4734050)]                                                   |
-| 2023-04 | RAID 2023                    | DiverseVul     | 349K  | C, C++   | "DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection" [[paper](https://arxiv.org/abs/2304.00409)] [[data](https://github.com/wagner-group/diversevul)]                          |
-| 2023-06 | arXiv                        | VulnPatchPairs | 26K   | C        | "Limits of Machine Learning for Automatic Vulnerability Detection" [[paper](https://arxiv.org/abs/2306.17193)] [[data](https://github.com/niklasrisse/LimitsOfML4Vuln)]                                                      |
-| 2023-11 | arXiv                        | VulBench       | 455   | C        | "How Far Have We Gone in Vulnerability Detection Using Large Language Models" [[paper](https://arxiv.org/abs/2311.12420)] [[data](https://anonymous.4open.science/r/VulBench-EA6F/)]                                         |
-| 2024-03 | arXiv                        | PrimeVul       | 236K  | C/C++    | "Vulnerability Detection with Code Language Models: How Far Are We?" [[paper](https://arxiv.org/abs/2403.18624)]                                                                                                             |
-| 2024-06 | arXiv                        | VulDetectBench | 1000  | C/C++    | "VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models" [[paper](https://arxiv.org/abs/2406.07595)] [[data](https://github.com/Sweetaroo/VulDetectBench)]                     |
-| 2024-08 | arXiv                        | CodeJudge-Eval | 1860  | Python   | "CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?" [[paper](https://arxiv.org/abs/2408.10718)] [[data](https://github.com/CodeLLM-Research/CodeJudge-Eval)]                                   |
+| Date    | Venue                        | Benchmark      | Size  | Language                    | Source                                                                                                                                                                                                                       |
+| ------- | ---------------------------- | -------------- | ----- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2018-01 | NDSS 2018                    | CGD            | 62K   | C, C++                      | "VulDeePecker: A Deep Learning-Based System for Vulnerability Detection" [[paper](https://arxiv.org/abs/1801.01681)] [[data](https://github.com/CGCL-codes/VulDeePecker)]                                                    |
+| 2018-04 | IEEE Trans. Ind. Informatics | unnamed        | 32988 | C, C++                      | "Cross-Project Transfer Representation Learning for Vulnerable Function Discovery" [[paper](https://ieeexplore.ieee.org/document/8329207)] [[data](https://github.com/DanielLin1986/TransferRepresentationLearning)]         |
+| 2018-07 | ICMLA 2018                   | Draper VDISC   | 12.8M | C, C++                      | "Automated Vulnerability Detection in Source Code Using Deep Representation Learning" [[paper](https://arxiv.org/abs/1807.04320)] [[data](https://osf.io/d45bw/)]                                                            |
+| 2018-07 | IEEE TDSC                    | SySeVR         | 15591 | C, C++                      | "SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities" [[paper](https://arxiv.org/abs/1807.06756)] [[data](https://github.com/SySeVR/SySeVR)]                                                      |
+| 2019-02 | MSR 2019                     | unnamed        | 624   | Java                        | "A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software" [[paper](https://arxiv.org/abs/1902.02595)] [[data](https://github.com/SAP/project-kb/tree/main/MSR2019)]                                   |
+| 2019-09 | NeurIPS 2019                 | Devign         | 49K   | C                           | "Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks" [[paper](https://arxiv.org/abs/1909.03496)] [[data](https://sites.google.com/view/devign)]            |
+| 2019-11 | IEEE TDSC                    | unnamed        | 170K  | C, C++                      | "Software Vulnerability Discovery via Learning Multi-Domain Knowledge Bases" [[paper](https://ieeexplore.ieee.org/document/8906156)] [[data](https://github.com/DanielLin1986/RepresentationsLearningFromMulti_domain)]      |
+| 2019-12 | ICLR 2020                    | GREAT          | 2.8M  | Python                      | "Global Relational Models of Source Code" [[paper](https://openreview.net/forum?id=B1lnbRNtwr)] [[data](https://zenodo.org/records/3954944)]                                                                                 |
+| 2020-01 | IEEE TDSC                    | MVD            | 182K  | C, C++                      | "μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection" [[paper](https://arxiv.org/abs/2001.02334)] [[data](https://github.com/muVulDeePecker/muVulDeePecker)]                                  |
+| 2020-02 | ICICS 2019                   | unnamed        | 1471  | C                           | "Deep Learning-Based Vulnerable Function Detection: A Benchmark" [[paper](https://link.springer.com/chapter/10.1007/978-3-030-41579-2_13)] [[data](https://github.com/DanielLin1986/Function-level-Vulnerability-Detection)] |
+| 2020-09 | IEEE Trans. Software Eng.    | ReVeal         | 18K   | C                           | "Deep Learning based Vulnerability Detection: Are We There Yet?" [[paper](https://arxiv.org/abs/2009.07235)] [[data](https://bit.ly/3bX30ai)]                                                                                |
+| 2020-09 | MSR 2020                     | Big-Vul        | 265K  | C, C++                      | "A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries" [[paper](https://dl.acm.org/doi/10.1145/3379597.3387501)] [[data](https://github.com/ZeoVan/MSR_20_Code_Vulnerability_CSV_Dataset)]                 |
+| 2021-02 | ICSE (SEIP) 2021             | D2A            | 1.3M  | C, C++                      | "D2A: A Dataset Built for AI-Based Vulnerability Detection Methods Using Differential Analysis" [[paper](https://arxiv.org/abs/2102.07995)] [[data](https://github.com/ibm/D2A)]                                             |
+| 2021-05 | NeurIPS 2021                 | PyPIBugs       | 2374  | Python                      | "Self-Supervised Bug Detection and Repair" [[paper](https://arxiv.org/abs/2105.12787)] [[data](https://www.microsoft.com/en-us/download/103554)]                                                                             |
+| 2021-07 | In PROMISE 2021              | CVEfixes       | 5495  | 27                          | "CVEfixes: Automated Collection of Vulnerabilities and Their Fixes from Open-Source Software" [[paper](https://arxiv.org/abs/2107.08760)] [[data](https://zenodo.org/records/7029359)]                                       |
+| 2021-08 | ESEC/FSE 2021                | CrossVul       | 27476 | 40+                         | "CrossVul: a cross-language vulnerability dataset with commit data" [[paper](https://dl.acm.org/doi/10.1145/3468264.3473122)] [[data](https://zenodo.org/records/4734050)]                                                   |
+| 2023-04 | RAID 2023                    | DiverseVul     | 349K  | C, C++                      | "DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection" [[paper](https://arxiv.org/abs/2304.00409)] [[data](https://github.com/wagner-group/diversevul)]                          |
+| 2023-06 | arXiv                        | VulnPatchPairs | 26K   | C                           | "Limits of Machine Learning for Automatic Vulnerability Detection" [[paper](https://arxiv.org/abs/2306.17193)] [[data](https://github.com/niklasrisse/LimitsOfML4Vuln)]                                                      |
+| 2023-11 | arXiv                        | VulBench       | 455   | C                           | "How Far Have We Gone in Vulnerability Detection Using Large Language Models" [[paper](https://arxiv.org/abs/2311.12420)] [[data](https://anonymous.4open.science/r/VulBench-EA6F/)]                                         |
+| 2024-03 | arXiv                        | PrimeVul       | 236K  | C/C++                       | "Vulnerability Detection with Code Language Models: How Far Are We?" [[paper](https://arxiv.org/abs/2403.18624)]                                                                                                             |
+| 2024-06 | arXiv                        | VulDetectBench | 1000  | C/C++                       | "VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models" [[paper](https://arxiv.org/abs/2406.07595)] [[data](https://github.com/Sweetaroo/VulDetectBench)]                     |
+| 2024-08 | arXiv                        | CodeJudge-Eval | 1860  | Python                      | "CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?" [[paper](https://arxiv.org/abs/2408.10718)] [[data](https://github.com/CodeLLM-Research/CodeJudge-Eval)]                                   |
+| 2024-11 | arXiv                        | CleanVul       | 11632 | Java, Python, JS, C#, C/C++ | "CleanVul: Automatic Function-Level Vulnerability Detection in Code Commits Using LLM Heuristics" [[paper](https://arxiv.org/abs/2411.17274)] [[data](https://github.com/yikun-li/CleanVul)]                                 |
 
 #### Code Retrieval
 
