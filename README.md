@@ -4,25 +4,23 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/12/09] Featured papers:
+🔥🔥🔥 [2024/12/11] Featured papers:
 
-- 🔥🔥 [Evaluating and Aligning CodeLLMs on Human Preference](https://arxiv.org/abs/2412.05210) from Alibaba Group.
+- 🔥🔥 [The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model](https://arxiv.org/abs/2412.07298) from Chinese Academy of Sciences.
 
-- 🔥🔥 [EXAONE 3.5: Series of Large Language Models for Real-world Use Cases](https://arxiv.org/abs/2412.04862) from LG AI Research.
+- 🔥🔥 [Exploring Coding Spot: Understanding Parametric Contributions to LLM Coding Performance](https://arxiv.org/abs/2412.07113) from Korea University.
 
-- 🔥🔥 [BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks](https://arxiv.org/abs/2412.04626) from ServiceNow.
+- 🔥🔥 [StackEval: Benchmarking LLMs in Coding Assistance](https://arxiv.org/abs/2412.05288) from Prosus AI.
 
-- 🔥🔥 [RedStone: Curating General, Code, Math, and QA Data for Large Language Models](https://arxiv.org/abs/2412.03398) from Microsoft Research.
+- 🔥 [Evaluating and Aligning CodeLLMs on Human Preference](https://arxiv.org/abs/2412.05210) from Alibaba Group.
 
-- 🔥🔥 [TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get Resolved?](https://arxiv.org/abs/2412.02883) from IBM.
+- 🔥 [EXAONE 3.5: Series of Large Language Models for Real-world Use Cases](https://arxiv.org/abs/2412.04862) from LG AI Research.
 
-- 🔥 [Commit0: Library Generation from Scratch](https://arxiv.org/abs/2412.01769) from Cornell University.
+- 🔥 [BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks](https://arxiv.org/abs/2412.04626) from ServiceNow.
 
-- 🔥 [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) from 01.AI.
+- 🔥 [RedStone: Curating General, Code, Math, and QA Data for Large Language Models](https://arxiv.org/abs/2412.03398) from Microsoft Research.
 
-- 🔥 [CoRNStack: High-Quality Contrastive Data for Better Code Ranking](https://arxiv.org/abs/2412.01007) from University of Illinois Urbana-Champaign.
-
-- 🔥 [FullStack Bench: Evaluating LLMs as Full Stack Coder](https://arxiv.org/abs/2412.00535) from ByteDance.
+- 🔥 [TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get Resolved?](https://arxiv.org/abs/2412.02883) from IBM.
 
 🔥🔥🔥 [2024/11/29] 28 papers from EMNLP 2024 main conference and 20 papers from Findings have been collected. You may search for the keyword "EMNLP 2024" in this page.
 
@@ -324,6 +322,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 57. "RedStone: Curating General, Code, Math, and QA Data for Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.03398)]
 
 58. **EXAONE 3.5**: "EXAONE 3.5: Series of Large Language Models for Real-world Use Cases" [2024-12] [[paper](https://arxiv.org/abs/2412.04862)]
+
+59. "The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.07298)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -757,39 +757,41 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 23. **Survey**: "Large Language Model-Based Agents for Software Engineering: A Survey" [2024-09] [[paper](https://arxiv.org/abs/2409.02977)]
 
-24. **AutoSafeCoder**: "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing" [2024-09] [[paper](https://arxiv.org/abs/2409.10737)]
+24. **PairCoder**: "A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement" [2024-09] [ASE 2024] [[paper](https://arxiv.org/abs/2409.05001)] [[repo](https://github.com/nju-websoft/PairCoder)]
 
-25. **SuperCoder2.0**: "SuperCoder2.0: Technical Report on Exploring the feasibility of LLMs as Autonomous Programmer" [2024-09] [[paper](https://arxiv.org/abs/2409.11190)]
+25. **AutoSafeCoder**: "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing" [2024-09] [[paper](https://arxiv.org/abs/2409.10737)]
 
-26. **Survey**: "Agents in Software Engineering: Survey, Landscape, and Vision" [2024-09] [[paper](https://arxiv.org/abs/2409.09030)]
+26. **SuperCoder2.0**: "SuperCoder2.0: Technical Report on Exploring the feasibility of LLMs as Autonomous Programmer" [2024-09] [[paper](https://arxiv.org/abs/2409.11190)]
 
-27. **MOSS**: "MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents" [2024-09] [[paper](https://arxiv.org/abs/2409.16120)]
+27. **Survey**: "Agents in Software Engineering: Survey, Landscape, and Vision" [2024-09] [[paper](https://arxiv.org/abs/2409.09030)]
 
-28. **HyperAgent**: "HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale" [2024-09] [[paper](https://arxiv.org/abs/2409.16299)]
+28. **MOSS**: "MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents" [2024-09] [[paper](https://arxiv.org/abs/2409.16120)]
 
-29. "Compositional Hardness of Code in Large Language Models -- A Probabilistic Perspective" [2024-09] [[paper](https://arxiv.org/abs/2409.18028)]
+29. **HyperAgent**: "HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale" [2024-09] [[paper](https://arxiv.org/abs/2409.16299)]
 
-30. **RGD**: "RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance" [2024-10] [[paper](https://arxiv.org/abs/2410.01242)]
+30. "Compositional Hardness of Code in Large Language Models -- A Probabilistic Perspective" [2024-09] [[paper](https://arxiv.org/abs/2409.18028)]
 
-31. **Seeker**: "Seeker: Enhancing Exception Handling in Code with LLM-based Multi-Agent Approach" [2024-10] [[paper](https://arxiv.org/abs/2410.06949)]
+31. **RGD**: "RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance" [2024-10] [[paper](https://arxiv.org/abs/2410.01242)]
 
-32. **REDO**: "REDO: Execution-Free Runtime Error Detection for COding Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.09117)]
+32. **Seeker**: "Seeker: Enhancing Exception Handling in Code with LLM-based Multi-Agent Approach" [2024-10] [[paper](https://arxiv.org/abs/2410.06949)]
 
-33. "Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios" [2024-10] [[paper](https://arxiv.org/abs/2410.12468)]
+33. **REDO**: "REDO: Execution-Free Runtime Error Detection for COding Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.09117)]
 
-34. **EvoMAC**: "Self-Evolving Multi-Agent Collaboration Networks for Software Development" [2024-10] [[paper](https://arxiv.org/abs/2410.16946)]
+34. "Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios" [2024-10] [[paper](https://arxiv.org/abs/2410.12468)]
 
-35. **VisionCoder**: "VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs" [2024-10] [[paper](https://arxiv.org/abs/2410.19245)]
+35. **EvoMAC**: "Self-Evolving Multi-Agent Collaboration Networks for Software Development" [2024-10] [[paper](https://arxiv.org/abs/2410.16946)]
 
-36. **AutoKaggle**: "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions" [2024-10] [[paper](https://arxiv.org/abs/2410.20424)]
+36. **VisionCoder**: "VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs" [2024-10] [[paper](https://arxiv.org/abs/2410.19245)]
 
-37. **Watson**: "Watson: A Cognitive Observability Framework for the Reasoning of Foundation Model-Powered Agents" [2024-11] [[paper](https://arxiv.org/abs/2411.03455)]
+37. **AutoKaggle**: "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions" [2024-10] [[paper](https://arxiv.org/abs/2410.20424)]
 
-38. **CodeTree**: "CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.04329)]
+38. **Watson**: "Watson: A Cognitive Observability Framework for the Reasoning of Foundation Model-Powered Agents" [2024-11] [[paper](https://arxiv.org/abs/2411.03455)]
 
-39. **EvoCoder**: "LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues" [2024-11] [[paper](https://arxiv.org/abs/2411.13941)]
+39. **CodeTree**: "CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.04329)]
 
-40. **AEGIS**: "AEGIS: An Agent-based Framework for General Bug Reproduction from Issue Descriptions" [2024-11] [[paper](https://arxiv.org/abs/2411.18015)]
+40. **EvoCoder**: "LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues" [2024-11] [[paper](https://arxiv.org/abs/2411.13941)]
+
+41. **AEGIS**: "AEGIS: An Agent-based Framework for General Bug Reproduction from Issue Descriptions" [2024-11] [[paper](https://arxiv.org/abs/2411.18015)]
 
 ### 3.4 Interactive Coding
 
@@ -1043,15 +1045,11 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**R**] "Do Current Language Models Support Code Intelligence for R Programming Language?" [2024-10] [[paper](https://arxiv.org/abs/2410.07793)]
 
-- "Can Large Language Models Generate Geospatial Code?" [2024-10] [[paper](https://arxiv.org/abs/2410.09738)]
-
 - [**PLC**] "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents" [2024-10] [[paper](https://arxiv.org/abs/2410.14209)]
 
 - [**Lua**] "Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks" [2024-10] [[paper](https://arxiv.org/abs/2410.14766)]
 
 - "Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers" [2024-10] [[paper](https://arxiv.org/abs/2410.15625)]
-
-- "GeoCode-GPT: A Large Language Model for Geospatial Code Generation Tasks" [2024-10] [[paper](https://arxiv.org/abs/2410.17031)]
 
 - [**R, D, Racket, Bash**]: "Bridge-Coder: Unlocking LLMs' Potential to Overcome Language Gaps in Low-Resource Code" [2024-10] [[paper](https://arxiv.org/abs/2410.18957)]
 
@@ -1140,8 +1138,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Planning In Natural Language Improves LLM Search For Code Generation" [2024-09] [[paper](https://arxiv.org/abs/2409.03733)]
 
 - "Multi-Programming Language Ensemble for Code Generation in Large Language Model" [2024-09] [[paper](https://arxiv.org/abs/2409.04114)]
-
-- "A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement" [2024-09] [[paper](https://arxiv.org/abs/2409.05001)]
 
 - "USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding" [2024-09] [[paper](https://arxiv.org/abs/2409.05923)]
 
@@ -1603,6 +1599,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI" [2024-11] [[paper](https://arxiv.org/abs/2411.10861)]
 
+- "Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects" [2024-12] [[paper](https://arxiv.org/abs/2412.06294)]
+
 ### Frontend Development
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -1845,6 +1843,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "SecureSQL: Evaluating Data Leakage of Large Language Models as Natural Language Interfaces to Databases" [2024-11] [EMNLP 2024 Findings] [[paper](https://aclanthology.org/2024.findings-emnlp.346/)]
 
+- "A Survey of Large Language Model-Based Generative AI for Text-to-SQL: Benchmarks, Applications, Use Cases, and Challenges" [2024-12] [[paper](https://arxiv.org/abs/2412.05208)]
+
+- "Cooperative SQL Generation for Segmented Databases By Using Multi-functional LLM Agents" [2024-12] [[paper](https://arxiv.org/abs/2412.05850)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -1866,6 +1868,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CoqPilot, a plugin for LLM-based generation of proofs" [2024-10] [[paper](https://arxiv.org/abs/2410.19605)]
 
 - "dafny-annotator: AI-Assisted Verification of Dafny Programs" [2024-11] [[paper](https://arxiv.org/abs/2411.15143)]
+
+- "AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement" [2024-12] [[paper](https://arxiv.org/abs/2412.06176)]
 
 ### Test Generation
 
@@ -2579,6 +2583,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Evaluating and Improving the Robustness of Security Attack Detectors Generated by LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.18216)]
 
+- "SABER: Model-agnostic Backdoor Attack on Chain-of-Thought in Neural Code Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.05829)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -2704,6 +2710,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "DeepCodeProbe: Towards Understanding What Models Trained on Code Learn" [2024-07] [[paper](https://arxiv.org/abs/2407.08890)]
 
 - "Towards More Trustworthy and Interpretable LLMs for Code through Syntax-Grounded Explanations" [2024-07] [[paper](https://arxiv.org/abs/2407.08983)]
+
+- "Exploring Coding Spot: Understanding Parametric Contributions to LLM Coding Performance" [2024-12] [[paper](https://arxiv.org/abs/2412.07113)]
 
 ### API Usage
 
@@ -2895,6 +2903,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Amplifying human performance in combinatorial competitive programming" [2024-11] [[paper](https://arxiv.org/abs/2411.19744)]
 
+- "Why Do Developers Engage with ChatGPT in Issue-Tracker? Investigating Usage and Reliance on ChatGPT-Generated Code" [2024-12] [[paper](https://arxiv.org/abs/2412.06757)]
+
+- "Examining the Use and Impact of an AI Code Assistant on Developer Productivity and Experience in the Enterprise" [2024-12] [[paper](https://arxiv.org/abs/2412.06603)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -2932,6 +2944,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - **DebugEval**: "Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement" [2024-08] [[paper](https://arxiv.org/abs/2408.05006)] [[repo](https://github.com/NEUIR/DebugEval)]
 
 - **FullStack Bench**: "FullStack Bench: Evaluating LLMs as Full Stack Coder" [2024-11] [[paper](https://arxiv.org/abs/2412.00535)] [[data](https://github.com/bytedance/FullStackBench)]
+
+- **StackEval**: "StackEval: Benchmarking LLMs in Coding Assistance" [2024-12] [[paper](https://arxiv.org/abs/2412.05288)] [[data](https://github.com/ProsusAI/stack-eval)]
 
 #### Program Synthesis
 
