@@ -4,23 +4,15 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/12/11] Featured papers:
+🔥🔥🔥 [2024/12/13] Featured papers:
 
-- 🔥🔥 [The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model](https://arxiv.org/abs/2412.07298) from Chinese Academy of Sciences.
+- 🔥🔥 [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) from Microsoft Research.
 
-- 🔥🔥 [Exploring Coding Spot: Understanding Parametric Contributions to LLM Coding Performance](https://arxiv.org/abs/2412.07113) from Korea University.
+- 🔥 [The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model](https://arxiv.org/abs/2412.07298) from Chinese Academy of Sciences.
 
-- 🔥🔥 [StackEval: Benchmarking LLMs in Coding Assistance](https://arxiv.org/abs/2412.05288) from Prosus AI.
+- 🔥 [Exploring Coding Spot: Understanding Parametric Contributions to LLM Coding Performance](https://arxiv.org/abs/2412.07113) from Korea University.
 
-- 🔥 [Evaluating and Aligning CodeLLMs on Human Preference](https://arxiv.org/abs/2412.05210) from Alibaba Group.
-
-- 🔥 [EXAONE 3.5: Series of Large Language Models for Real-world Use Cases](https://arxiv.org/abs/2412.04862) from LG AI Research.
-
-- 🔥 [BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks](https://arxiv.org/abs/2412.04626) from ServiceNow.
-
-- 🔥 [RedStone: Curating General, Code, Math, and QA Data for Large Language Models](https://arxiv.org/abs/2412.03398) from Microsoft Research.
-
-- 🔥 [TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get Resolved?](https://arxiv.org/abs/2412.02883) from IBM.
+- 🔥 [StackEval: Benchmarking LLMs in Coding Assistance](https://arxiv.org/abs/2412.05288) from Prosus AI.
 
 🔥🔥🔥 [2024/11/29] 28 papers from EMNLP 2024 main conference and 20 papers from Findings have been collected. You may search for the keyword "EMNLP 2024" in this page.
 
@@ -117,6 +109,7 @@ If you find a paper to be missing from this repository, misplaced in a category,
      - [Code Review](#code-review)
      - [Log Analysis](#log-analysis)
      - [Software Configuration](#software-configuration)
+     - [Code QA](#code-qa)
 
    - Requirement
 
@@ -324,6 +317,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 58. **EXAONE 3.5**: "EXAONE 3.5: Series of Large Language Models for Real-world Use Cases" [2024-12] [[paper](https://arxiv.org/abs/2412.04862)]
 
 59. "The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.07298)]
+
+60. **Phi-4**: "Phi-4 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.08905)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -945,6 +940,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction" [2024-12] [[paper](https://arxiv.org/abs/2412.04454)]
 
+- "Falcon-UI: Understanding GUI Before Following User Instructions" [2024-12] [[paper](https://arxiv.org/abs/2412.09362)]
+
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
 - [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
@@ -1291,6 +1288,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing Cross-Language Code Translation via Task-Specific Embedding Alignment in Retrieval-Augmented Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.05159)]
 
+- "Scalable, Validated Code Translation of Entire Projects using Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.08035)]
+
 ### Code Commenting and Summarization
 
 - "A Transformer-based Approach for Source Code Summarization" [2020-05] [ACL 2020] [[paper](https://arxiv.org/abs/2005.00653)]
@@ -1600,6 +1599,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI" [2024-11] [[paper](https://arxiv.org/abs/2411.10861)]
 
 - "Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects" [2024-12] [[paper](https://arxiv.org/abs/2412.06294)]
+
+- "ContextModule: Improving Code Completion via Repository-level Contextual Information" [2024-12] [[paper](https://arxiv.org/abs/2412.08063)]
 
 ### Frontend Development
 
@@ -2439,6 +2440,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LogLLM: Log-based Anomaly Detection Using Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.08561)]
 
+### Code QA
+
+- "DialogAgent: An Auto-engagement Agent for Code Question Answering Data Production" [2024-12] [[paper](https://arxiv.org/abs/2412.08069)]
+
 ### Software Modeling
 
 - "Towards using Few-Shot Prompt Learning for Automating Model Completion" [2022-12] [[paper](https://arxiv.org/abs/2212.03404)]
@@ -2700,6 +2705,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Comparing Robustness Against Adversarial Attacks in Code Generation: LLM-Generated vs. Human-Written" [2024-11] [[paper](https://arxiv.org/abs/2411.10565)]
 
 - "On the Adversarial Robustness of Instruction-Tuned Large Language Models for Code" [2024-11] [[paper](https://arxiv.org/abs/2411.19508)]
+
+- "What You See Is Not Always What You Get: An Empirical Study of Code Comprehension by Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.08098)]
 
 ### Interpretability
 
@@ -3013,6 +3020,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-11 | arXiv                            | LibEvolutionEval       | 34.7K                | Python                                                                           | "LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation" [[paper](https://arxiv.org/abs/2412.04478)]                                                                                                                                                                   |
 | 2024-12 | arXiv                            | PandasPlotBench        | 175                  | Python                                                                           | "Drawing Pandas: A Benchmark for LLMs in Generating Plotting Code" [[paper](https://arxiv.org/abs/2412.02764)] [[data](https://huggingface.co/datasets/JetBrains-Research/plot_bench)]                                                                                                       |
 | 2024-12 | arXiv                            | CodeArena              | 397                  | 44                                                                               | "Evaluating and Aligning CodeLLMs on Human Preference" [[paper](https://arxiv.org/abs/2412.05210)] [[data](https://github.com/QwenLM/Qwen2.5-Coder/tree/main/qwencoder-eval/instruct/CodeArena)]                                                                                             |
+| 2024-12 | arXiv                            | OBFUSEVAL              | 1354                 | C                                                                                | "Unseen Horizons: Unveiling the Real Capability of LLM Code Generation Beyond the Familiar" [[paper](https://arxiv.org/abs/2412.08109)] [[data](https://github.com/zhangbuzhang/ObfusEval)]                                                                                                  |
 
 \* Automatically mined/human-annotated
 
