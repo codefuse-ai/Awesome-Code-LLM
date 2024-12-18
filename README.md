@@ -4,15 +4,17 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2024/12/13] Featured papers:
+🔥🔥🔥 [2024/12/18] Featured papers:
 
-- 🔥🔥 [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) from Microsoft Research.
+- 🔥🔥 [Seed-CTS: Unleashing the Power of Tree Search for Superior Performance in Competitive Coding Tasks](https://arxiv.org/abs/2412.12544) from ByteDance.
 
-- 🔥 [The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model](https://arxiv.org/abs/2412.07298) from Chinese Academy of Sciences.
+- 🔥🔥 [Can LLM Prompting Serve as a Proxy for Static Analysis in Vulnerability Detection](https://arxiv.org/abs/2412.12039) from Columbia University.
 
-- 🔥 [Exploring Coding Spot: Understanding Parametric Contributions to LLM Coding Performance](https://arxiv.org/abs/2412.07113) from Korea University.
+- 🔥🔥 [ExecRepoBench: Multi-level Executable Code Completion Evaluation](https://arxiv.org/abs/2412.11990) from Alibaba Group.
 
-- 🔥 [StackEval: Benchmarking LLMs in Coding Assistance](https://arxiv.org/abs/2412.05288) from Prosus AI.
+- 🔥🔥 [CoinMath: Harnessing the Power of Coding Instruction for Math LLMs](https://arxiv.org/abs/2412.11699) from A\*STAR.
+
+- 🔥 [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) from Microsoft Research.
 
 🔥🔥🔥 [2024/11/29] 28 papers from EMNLP 2024 main conference and 20 papers from Findings have been collected. You may search for the keyword "EMNLP 2024" in this page.
 
@@ -684,6 +686,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 46. "From Code to Play: Benchmarking Program Search for Games Using Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.04057)]
 
+47. **CoinMath**: "CoinMath: Harnessing the Power of Coding Instruction for Math LLMs" [2024-12] [[paper](https://arxiv.org/abs/2412.11699)]
+
 ### 3.2 Code Simulation
 
 - "Code Simulation Challenges for Large Language Models" [2024-01] [[paper](https://arxiv.org/abs/2401.09074)]
@@ -787,6 +791,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 40. **EvoCoder**: "LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues" [2024-11] [[paper](https://arxiv.org/abs/2411.13941)]
 
 41. **AEGIS**: "AEGIS: An Agent-based Framework for General Bug Reproduction from Issue Descriptions" [2024-11] [[paper](https://arxiv.org/abs/2411.18015)]
+
+42. **ExecutionAgent**: "You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects" [2024-12] [[paper](https://arxiv.org/abs/2412.10133)]
+
+43. **GHIssueMarket**: "GHIssuemarket: A Sandbox Environment for SWE-Agents Economic Experimentation" [2024-12] [[paper](https://arxiv.org/abs/2412.11722)]
 
 ### 3.4 Interactive Coding
 
@@ -942,6 +950,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Falcon-UI: Understanding GUI Before Following User Instructions" [2024-12] [[paper](https://arxiv.org/abs/2412.09362)]
 
+- "WEPO: Web Element Preference Optimization for LLM-based Web Navigation" [2024-12] [[paper](https://arxiv.org/abs/2412.10742)]
+
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
 - [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
@@ -1064,6 +1074,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**ST**] "A Multi-Agent Framework for Extensible Structured Text Generation in PLCs" [2024-12] [[paper](https://arxiv.org/abs/2412.02410)]
 
+- [**Verilog**] "PromptV: Leveraging LLM-powered Multi-Agent Prompting for High-quality Verilog Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.11014)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1183,6 +1195,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "VeCoGen: Automating Generation of Formally Verified C Code with Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.19275)]
 
 - "Does Few-Shot Learning Help LLM Performance in Code Synthesis?" [2024-12] [[paper](https://arxiv.org/abs/2412.02906)]
+
+- "Seed-CTS: Unleashing the Power of Tree Search for Superior Performance in Competitive Coding Tasks" [2024-12] [[paper](https://arxiv.org/abs/2412.12544)]
 
 ### Code RAG
 
@@ -1664,6 +1678,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Automated Test Transfer Across Android Apps Using Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.17933)]
 
+- "Zero-Shot Prompting Approaches for LLM-based Graphical User Interface Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.11328)]
+
 ### Automated Machine Learning
 
 "Large Language Models Synergize with Automated Machine Learning" [2024-05] [[paper](https://arxiv.org/abs/2405.03727)]
@@ -1848,6 +1864,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Cooperative SQL Generation for Segmented Databases By Using Multi-functional LLM Agents" [2024-12] [[paper](https://arxiv.org/abs/2412.05850)]
 
+- "ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL" [2024-12] [[paper](https://arxiv.org/abs/2412.10138)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -1871,6 +1889,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "dafny-annotator: AI-Assisted Verification of Dafny Programs" [2024-11] [[paper](https://arxiv.org/abs/2411.15143)]
 
 - "AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement" [2024-12] [[paper](https://arxiv.org/abs/2412.06176)]
+
+- "Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.10483)]
 
 ### Test Generation
 
@@ -2214,6 +2234,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing IR-based Fault Localization using Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.03754)]
 
+- "Can LLM Prompting Serve as a Proxy for Static Analysis in Vulnerability Detection" [2024-12] [[paper](https://arxiv.org/abs/2412.12039)]
+
+- "A Large Language Model Approach to Identify Flakiness in C++ Projects" [2024-12] [[paper](https://arxiv.org/abs/2412.12340)]
+
 ### Malicious Code Detection
 
 - "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
@@ -2302,6 +2326,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly" [2024-11] [EMNLP 2024 Findings] [[paper](https://aclanthology.org/2024.findings-emnlp.55/)]
 
+- "Towards LLM-based optimization compilers. Can LLMs learn how to apply a single peephole optimization? Reasoning is all LLMs need!" [2024-12] [[paper](https://arxiv.org/abs/2412.12163)]
+
 ### Binary Analysis and Decompilation
 
 - "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
@@ -2333,6 +2359,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract" [2024-10] [[paper](https://arxiv.org/abs/2410.15275)]
 
 - "Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases" [2024-11] [[paper](https://arxiv.org/abs/2405.19581)]
+
+- "A Progressive Transformer for Unifying Binary Code Embedding and Knowledge Transfer" [2024-12] [[paper](https://arxiv.org/abs/2412.11177)]
 
 ### Commit Message Generation
 
@@ -2422,9 +2450,13 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LogLM: From Task-based to Instruction-based Automated Log Analysis" [2024-10] [[paper](https://arxiv.org/abs/2410.09352)]
 
+- "LogLLM: Log-based Anomaly Detection Using Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.08561)]
+
 - "Adapting Large Language Models to Log Analysis with Interpretable Domain Knowledge" [2024-12] [[paper](https://arxiv.org/abs/2412.01377)]
 
 - "Chatting with Logs: An exploratory study on Finetuning LLMs for LogQL" [2024-12] [[paper](https://arxiv.org/abs/2412.03612)]
+
+- "LogBabylon: A Unified Framework for Cross-Log File Integration and Analysis" [2024-12] [[paper](https://arxiv.org/abs/2412.12364)]
 
 ### Software Configuration
 
@@ -2437,8 +2469,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LuaTaint: A Static Analysis System for Web Configuration Interface Vulnerability of Internet of Things Devices" [2024-02] [IOT] [[paper](https://arxiv.org/abs/2402.16043)]
 
 - "LLM-Based Misconfiguration Detection for AWS Serverless Computing" [2024-11] [[paper](https://arxiv.org/abs/2411.00642)]
-
-- "LogLLM: Log-based Anomaly Detection Using Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.08561)]
 
 ### Code QA
 
@@ -3275,6 +3305,7 @@ $^\diamond$ Machine/human prompts
 | 2024-10 | arXiv             | M2rc-Eval      | 5993 repos             | 18                           | "M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation" [[paper](https://arxiv.org/abs/2410.21157)] [[data](https://github.com/M2RC-Eval-Team/M2RC-Eval)]                               |
 | 2024-11 | arXiv             | FAUN-Eval      | 300                    | Python, Java, JS, TS, Go     | "A Real-World Benchmark for Evaluating Fine-Grained Issue Solving Capabilities of Large Language Models" [[paper](https://arxiv.org/abs/2411.18019)] [[data](https://anonymous.4open.science/status/FAUN-Eval)] |
 | 2024-12 | arXiv             | Commit0        | 54                     | Python                       | "Commit0: Library Generation from Scratch" [[paper](https://arxiv.org/abs/2412.01769)] [[data](https://github.com/commit-0/commit0)]                                                                            |
+| 2024-12 | arXiv             | ExecRepoBench  | 1.2K                   | Python                       | "ExecRepoBench: Multi-level Executable Code Completion Evaluation" [[paper](https://arxiv.org/abs/2412.11990)] [[data](https://github.com/QwenLM/Qwen2.5-Coder/tree/main/qwencoder-eval/instruct/CodeArena)]    |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
