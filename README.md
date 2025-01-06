@@ -4,19 +4,17 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/01/02] Featured papers:
+🔥🔥🔥 [2025/01/06] Featured papers:
 
-- 🔥🔥 [HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation](https://arxiv.org/abs/2412.21199) from Tsinghua University.
+- 🔥🔥 [CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings](https://arxiv.org/abs/2501.01257) from Qwen Team.
 
-- 🔥🔥 [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139) from UC Berkeley.
+- 🔥🔥 [2 OLMo 2 Furious](https://arxiv.org/abs/2501.00656) from Allen Institute for AI.
 
-- 🔥🔥 [LoGFiLM: Fine-Tuning A Large Language Model for Automated Generation of Log Statements](https://arxiv.org/abs/2412.18835) from Nanjing University.
+- 🔥 [HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation](https://arxiv.org/abs/2412.21199) from Tsinghua University.
 
-- 🔥 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437).
+- 🔥 [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139) from UC Berkeley.
 
-- 🔥 [CodeV: Issue Resolving with Visual Data](https://arxiv.org/abs/2412.17315) from Shandong University.
-
-- 🔥 [Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation and Execution in Complex Task Handling](https://arxiv.org/abs/2412.15305) from Chinese Academy of Sciences.
+- 🔥 [LoGFiLM: Fine-Tuning A Large Language Model for Automated Generation of Log Statements](https://arxiv.org/abs/2412.18835) from Nanjing University.
 
 🔥🔥🔥 [2024/11/29] 28 papers from EMNLP 2024 main conference and 20 papers from Findings have been collected. You may search for the keyword "EMNLP 2024" in this page.
 
@@ -331,6 +329,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 63. **YuLan-Mini**: "YuLan-Mini: An Open Data-efficient Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.17743)]
 
 64. **DeepSeek-V3**: "DeepSeek-V3 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.19437)]
+
+65. **OLMo 2**: "2 OLMo 2 Furious" [2024-12] [[paper](https://arxiv.org/abs/2501.00656)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -702,6 +702,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 48. **MultiLingPoT**: "MultiLingPoT: Enhancing Mathematical Reasoning with Multilingual Program Fine-tuning" [2024-12] [[paper](https://arxiv.org/abs/2412.12609)]
 
+49. **ProgCo**: "ProgCo: Program Helps Self-Correction of Large Language Models" [2025-01] [[paper](https://arxiv.org/abs/2501.01264)]
+
 ### 3.2 Code Simulation
 
 - "Code Simulation Challenges for Large Language Models" [2024-01] [[paper](https://arxiv.org/abs/2401.09074)]
@@ -881,6 +883,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "Outcome-Refining Process Supervision for Code Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.15118)]
 
 - "Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation and Execution in Complex Task Handling" [2024-12] [[paper](https://arxiv.org/abs/2412.15305)]
+
+- "Dynamic Scaling of Unit Tests for Code Reward Modeling" [2025-01] [[paper](https://arxiv.org/abs/2501.01054)]
 
 ### 3.5 Frontend Navigation
 
@@ -2066,6 +2070,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Improving the Readability of Automatically Generated Tests using Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.18843)]
 
+- "The Potential of LLMs in Automating Software Testing: From Generation to Reporting" [2024-12] [[paper](https://arxiv.org/abs/2501.00217)]
+
+- "The Prompt Alchemist: Automated LLM-Tailored Prompt Optimization for Test Case Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.01329)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -2408,6 +2416,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Can LLMs Obfuscate Code? A Systematic Analysis of Large Language Models into Assembly Code Obfuscation" [2024-12] [[paper](https://arxiv.org/abs/2412.16135)]
 
+- "Finding Missed Code Size Optimizations in Compilers using LLMs" [2024-12] [[paper](https://arxiv.org/abs/2501.00655)]
+
 ### Binary Analysis and Decompilation
 
 - "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
@@ -2635,6 +2645,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "PassionNet: An Innovative Framework for Duplicate and Conflicting Requirements Identification" [2024-12] [[paper](https://arxiv.org/abs/2412.01657)]
 
 - "Generative Language Models Potential for Requirement Engineering Applications: Insights into Current Strengths and Limitations" [2024-12] [[paper](https://arxiv.org/abs/2412.00959)]
+
+- "LicenseGPT: A Fine-tuned Foundation Model for Publicly Available Dataset License Compliance" [2024-12] [[paper](https://arxiv.org/abs/2501.00106)]
 
 ## 6. Analysis of AI-Generated Code
 
@@ -3158,6 +3170,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2024-12 | arXiv                            | CodeArena                                        | 397                  | 44                                                                               | "Evaluating and Aligning CodeLLMs on Human Preference" [[paper](https://arxiv.org/abs/2412.05210)] [[data](https://github.com/QwenLM/Qwen2.5-Coder/tree/main/qwencoder-eval/instruct/CodeArena)]                                                                                             |
 | 2024-12 | arXiv                            | OBFUSEVAL                                        | 1354                 | C                                                                                | "Unseen Horizons: Unveiling the Real Capability of LLM Code Generation Beyond the Familiar" [[paper](https://arxiv.org/abs/2412.08109)] [[data](https://github.com/zhangbuzhang/ObfusEval)]                                                                                                  |
 | 2024-12 | arXiv                            | HumanEval Pro / MBPP Pro / BigCodeBench-Lite Pro | 164/378/57           | Python                                                                           | "HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation" [[paper](https://arxiv.org/abs/2412.21199)] [[data](https://github.com/CodeEval-Pro/CodeEval-Pro/tree/main)]                                                                                 |
+| 2025-01 | arXiv                            | CodeElo                                          | 387                  | -                                                                                | "CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings" [[paper](https://arxiv.org/abs/2501.01257)] [[data](https://codeelo-bench.github.io/)]                                                                                                   |
 
 \* Automatically mined/human-annotated
 
