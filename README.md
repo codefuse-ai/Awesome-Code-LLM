@@ -4,7 +4,13 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/01/11] Featured papers:
+🔥🔥🔥 [2025/01/15] Featured papers:
+
+- 🔥🔥 [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) from MiniMax.
+
+- 🔥🔥 [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) from Tongyi Lab.
+
+- 🔥🔥 [FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering](https://arxiv.org/abs/2501.07314) from University of Turku.
 
 - 🔥 [EpiCoder: Encompassing Diversity and Complexity in Code Generation](https://arxiv.org/abs/2501.04694) from Microsoft.
 
@@ -82,7 +88,7 @@ If you find a paper to be missing from this repository, misplaced in a category,
      - [Code Commenting and Summarization](#code-commenting-and-summarization)
      - [Program Repair](#program-repair)
      - [Code Similarity and Embedding (Clone Detection, Code Search)](#code-similarity-and-embedding-clone-detection-code-search)
-     - [Code Refactoring](#code-refactoring)
+     - [Code Refactoring and Migration](#code-refactoring-and-migration)
      - [Type Prediction](#type-prediction)
      - [Repository-Level Coding](#repository-level-coding)
      - [Frontend Development](#frontend-development)
@@ -262,71 +268,81 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 32. **MAP-Neo**: "MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series" [2024-05] [[paper](https://arxiv.org/abs/2405.19327)] [[repo](https://github.com/multimodal-art-projection/MAP-NEO)]
 
-33. **Skywork-MoE**: "Skywork-MoE: A Deep Dive into Training Techniques for Mixture-of-Experts Language Models" [2024-06] [[paper](https://arxiv.org/abs/2406.06563)]
+33. **Zyda**: "Zyda: A 1.3T Dataset for Open Language Modeling" [2024-06] [[paper](https://arxiv.org/abs/2406.01981)]
 
-34. **Xmodel-LM**: "Xmodel-LM Technical Report" [2024-06] [[paper](https://arxiv.org/abs/2406.02856)]
+34. **Skywork-MoE**: "Skywork-MoE: A Deep Dive into Training Techniques for Mixture-of-Experts Language Models" [2024-06] [[paper](https://arxiv.org/abs/2406.06563)]
 
-35. **GEB**: "GEB-1.3B: Open Lightweight Large Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.09900)]
+35. **Xmodel-LM**: "Xmodel-LM Technical Report" [2024-06] [[paper](https://arxiv.org/abs/2406.02856)]
 
-36. **HARE**: "HARE: HumAn pRiors, a key to small language model Efficiency" [2024-06] [[paper](https://arxiv.org/abs/2406.11410)]
+36. **GEB**: "GEB-1.3B: Open Lightweight Large Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.09900)]
 
-37. **DCLM**: "DataComp-LM: In search of the next generation of training sets for language models" [2024-06] [[paper](https://arxiv.org/abs/2406.11794)]
+37. **HARE**: "HARE: HumAn pRiors, a key to small language model Efficiency" [2024-06] [[paper](https://arxiv.org/abs/2406.11410)]
 
-38. **Nemotron-4**: "Nemotron-4 340B Technical Report" [2024-06] [[paper](https://arxiv.org/abs/2406.11704)]
+38. **DCLM**: "DataComp-LM: In search of the next generation of training sets for language models" [2024-06] [[paper](https://arxiv.org/abs/2406.11794)]
 
-39. **ChatGLM**: "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools" [2024-06] [[paper](https://arxiv.org/abs/2406.12793)]
+39. **Nemotron-4**: "Nemotron-4 340B Technical Report" [2024-06] [[paper](https://arxiv.org/abs/2406.11704)]
 
-40. **YuLan**: "YuLan: An Open-source Large Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.19853)]
+40. **ChatGLM**: "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools" [2024-06] [[paper](https://arxiv.org/abs/2406.12793)]
 
-41. **Gemma 2**: "Gemma 2: Improving Open Language Models at a Practical Size" [2024-06] [[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)]
+41. **FineWeb**: "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale" [2024-06] [[paper](https://arxiv.org/abs/2406.17557)]
 
-42. **H2O-Danube3**: "H2O-Danube3 Technical Report" [2024-07] [[paper](https://arxiv.org/abs/2407.09276)]
+42. **YuLan**: "YuLan: An Open-source Large Language Model" [2024-06] [[paper](https://arxiv.org/abs/2406.19853)]
 
-43. **Qwen2**: "Qwen2 Technical Report" [2024-07] [[paper](https://arxiv.org/abs/2407.10671)]
+43. **Gemma 2**: "Gemma 2: Improving Open Language Models at a Practical Size" [2024-06] [[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)]
 
-44. **ALLaM**: "ALLaM: Large Language Models for Arabic and English" [2024-07] [[paper](https://arxiv.org/abs/2407.15390)]
+44. **H2O-Danube3**: "H2O-Danube3 Technical Report" [2024-07] [[paper](https://arxiv.org/abs/2407.09276)]
 
-45. **SeaLLMs 3**: "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages" [2024-07] [[paper](https://arxiv.org/abs/2407.19672)]
+45. **Qwen2**: "Qwen2 Technical Report" [2024-07] [[paper](https://arxiv.org/abs/2407.10671)]
 
-46. **AFM**: "Apple Intelligence Foundation Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.21075)]
+46. **ALLaM**: "ALLaM: Large Language Models for Arabic and English" [2024-07] [[paper](https://arxiv.org/abs/2407.15390)]
 
-47. "To Code, or Not To Code? Exploring Impact of Code in Pre-training" [2024-08] [[paper](https://arxiv.org/abs/2408.10914)]
+47. **SeaLLMs 3**: "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages" [2024-07] [[paper](https://arxiv.org/abs/2407.19672)]
 
-48. **OLMoE**: "OLMoE: Open Mixture-of-Experts Language Models" [2024-09] [[paper](https://arxiv.org/abs/2409.02060)]
+48. **AFM**: "Apple Intelligence Foundation Language Models" [2024-07] [[paper](https://arxiv.org/abs/2407.21075)]
 
-49. "How Does Code Pretraining Affect Language Model Task Performance?" [2024-09] [[paper](https://arxiv.org/abs/2409.04556)]
+49. "To Code, or Not To Code? Exploring Impact of Code in Pre-training" [2024-08] [[paper](https://arxiv.org/abs/2408.10914)]
 
-50. **EuroLLM**: "EuroLLM: Multilingual Language Models for Europe" [2024-09] [[paper](https://arxiv.org/abs/2409.16235)]
+50. **OLMoE**: "OLMoE: Open Mixture-of-Experts Language Models" [2024-09] [[paper](https://arxiv.org/abs/2409.02060)]
 
-51. "Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?" [2024-10] [EMNLP 2024] [[paper](https://arxiv.org/abs/2410.06735)]
+51. "How Does Code Pretraining Affect Language Model Task Performance?" [2024-09] [[paper](https://arxiv.org/abs/2409.04556)]
 
-52. **GPT-4o**: "GPT-4o System Card" [2024-10] [[paper](https://arxiv.org/abs/2410.21276)]
+52. **EuroLLM**: "EuroLLM: Multilingual Language Models for Europe" [2024-09] [[paper](https://arxiv.org/abs/2409.16235)]
 
-53. **Hunyuan-Large**: "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent" [2024-11] [[paper](https://arxiv.org/abs/2411.02265)]
+53. "Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?" [2024-10] [EMNLP 2024] [[paper](https://arxiv.org/abs/2410.06735)]
 
-54. **Crystal**: "Crystal: Illuminating LLM Abilities on Language and Code" [2024-11] [[paper](https://arxiv.org/abs/2411.04156)]
+54. **GPT-4o**: "GPT-4o System Card" [2024-10] [[paper](https://arxiv.org/abs/2410.21276)]
 
-55. **Xmodel-1.5**: "Xmodel-1.5: An 1B-scale Multilingual LLM" [2024-11] [[paper](https://arxiv.org/abs/2411.10083)]
+55. **Hunyuan-Large**: "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent" [2024-11] [[paper](https://arxiv.org/abs/2411.02265)]
 
-56. **Yi-Lightning**: "Yi-Lightning Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.01253)]
+56. **Crystal**: "Crystal: Illuminating LLM Abilities on Language and Code" [2024-11] [[paper](https://arxiv.org/abs/2411.04156)]
 
-57. "RedStone: Curating General, Code, Math, and QA Data for Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.03398)]
+57. **Zyda-2**: "Zyda-2: a 5 Trillion Token High-Quality Dataset" [2024-11] [[paper](https://arxiv.org/abs/2411.06068)]
 
-58. **EXAONE 3.5**: "EXAONE 3.5: Series of Large Language Models for Real-world Use Cases" [2024-12] [[paper](https://arxiv.org/abs/2412.04862)]
+58. **Xmodel-1.5**: "Xmodel-1.5: An 1B-scale Multilingual LLM" [2024-11] [[paper](https://arxiv.org/abs/2411.10083)]
 
-59. "The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.07298)]
+59. **Yi-Lightning**: "Yi-Lightning Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.01253)]
 
-60. **Phi-4**: "Phi-4 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.08905)]
+60. "RedStone: Curating General, Code, Math, and QA Data for Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.03398)]
 
-61. **Typhoon 2**: "Typhoon 2: A Family of Open Text and Multimodal Thai Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.13702)]
+61. **EXAONE 3.5**: "EXAONE 3.5: Series of Large Language Models for Real-world Use Cases" [2024-12] [[paper](https://arxiv.org/abs/2412.04862)]
 
-62. **Qwen2.5**: "Qwen2.5 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.15115)]
+62. "The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.07298)]
 
-63. **YuLan-Mini**: "YuLan-Mini: An Open Data-efficient Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.17743)]
+63. **Phi-4**: "Phi-4 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.08905)]
 
-64. **DeepSeek-V3**: "DeepSeek-V3 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.19437)]
+64. **Typhoon 2**: "Typhoon 2: A Family of Open Text and Multimodal Thai Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.13702)]
 
-65. **OLMo 2**: "2 OLMo 2 Furious" [2024-12] [[paper](https://arxiv.org/abs/2501.00656)]
+65. **Qwen2.5**: "Qwen2.5 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.15115)]
+
+66. **YuLan-Mini**: "YuLan-Mini: An Open Data-efficient Language Model" [2024-12] [[paper](https://arxiv.org/abs/2412.17743)]
+
+67. **DeepSeek-V3**: "DeepSeek-V3 Technical Report" [2024-12] [[paper](https://arxiv.org/abs/2412.19437)]
+
+68. **OLMo 2**: "2 OLMo 2 Furious" [2024-12] [[paper](https://arxiv.org/abs/2501.00656)]
+
+69. **FinerWeb**: "FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering" [2025-01] [[paper](https://arxiv.org/abs/2501.07314)]
+
+70. **MiniMax-01**: "MiniMax-01: Scaling Foundation Models with Lightning Attention" [2025-01] [[paper](https://arxiv.org/abs/2501.08313)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -816,6 +832,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 45. **SWE-Fixer**: "SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution" [2025-01] [[paper](https://arxiv.org/abs/2501.05040)]
 
+46. **CodeCoR**: "CodeCoR: An LLM-Based Self-Reflective Multi-Agent Framework for Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.07811)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -986,6 +1004,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Beyond Pass or Fail: A Multi-dimensional Benchmark for Mobile UI Navigation" [2025-01] [[paper](https://arxiv.org/abs/2501.02863)]
 
+- "WebWalker: Benchmarking LLMs in Web Traversal" [2025-01] [[paper](https://arxiv.org/abs/2501.07572)]
+
 ## 4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages
 
 - [**Ruby**] "On the Transferability of Pre-trained Language Models for Low-Resource Programming Languages" [2022-04] [ICPC 2022] [[paper](https://arxiv.org/abs/2204.09653)]
@@ -1113,6 +1133,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Verilog**] "PromptV: Leveraging LLM-powered Multi-Agent Prompting for High-quality Verilog Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.11014)]
 
 - [**HPC**] "HPC-Coder-V2: Studying Code LLMs Across Low-Resource Parallel Languages" [2024-12] [[paper](https://arxiv.org/abs/2412.15178)]
+
+- [**Verilog**] "RTLSquad: Multi-Agent Based Interpretable RTL Design" [2025-01] [[paper](https://arxiv.org/abs/2501.05470)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1242,6 +1264,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "The Impact of Prompt Programming on Function-Level Code Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.20545)]
 
+- "Leveraging Metamemory Mechanisms for Enhanced Data-Free Code Generation in LLMs" [2025-01] [[paper](https://arxiv.org/abs/2501.07892)]
+
 ### Code RAG
 
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
@@ -1358,6 +1382,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis" [2024-12] [[paper](https://arxiv.org/abs/2412.14234)]
 
+- "I Can't Share Code, but I need Translation -- An Empirical Study on Code Translation through Federated LLM" [2025-01] [[paper](https://arxiv.org/abs/2501.05724)]
+
 ### Code Commenting and Summarization
 
 - "A Transformer-based Approach for Source Code Summarization" [2020-05] [ACL 2020] [[paper](https://arxiv.org/abs/2005.00653)]
@@ -1419,6 +1445,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Selective Shot Learning for Code Explanation" [2024-12] [[paper](https://arxiv.org/abs/2412.12852)]
 
 - "Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text" [2025-01] [[paper](https://arxiv.org/abs/2501.03166)]
+
+- "Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs" [2025-01] [[paper](https://arxiv.org/abs/2501.07857)]
 
 ### Program Repair
 
@@ -1518,6 +1546,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLM4CVE: Enabling Iterative Automated Vulnerability Repair with Large Language Models" [2025-01] [[paper](https://arxiv.org/abs/2501.03446)]
 
+- "Evaluating Agent-based Program Repair at Google" [2025-01] [[paper](https://arxiv.org/abs/2501.07531)]
+
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
 - "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
@@ -1576,7 +1606,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CoRNStack: High-Quality Contrastive Data for Better Code Ranking" [2024-12] [[paper](https://arxiv.org/abs/2412.01007)]
 
-### Code Refactoring
+### Code Refactoring and Migration
 
 - "An Empirical Study on the Code Refactoring Capability of Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.02320)]
 
@@ -1589,6 +1619,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Instruct or Interact? Exploring and Eliciting LLMs' Capability in Code Snippet Adaptation Through Prompt Engineering" [2024-11] [[paper](https://arxiv.org/abs/2411.15501)]
 
 - "Generating refactored code accurately using reinforcement learning" [2024-12] [[paper](https://arxiv.org/abs/2412.18035)]
+
+- "How is Google using AI for internal code migrations?" [2025-01] [[paper](https://arxiv.org/abs/2501.06972)]
 
 ### Type Prediction
 
@@ -1966,6 +1998,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Rango: Adaptive Retrieval-Augmented Proving for Automated Software Verification" [2024-12] [[paper](https://arxiv.org/abs/2412.14063)]
 
+- "Dafny as Verification-Aware Intermediate Language for Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.06283)]
+
 ### Test Generation
 
 - "Unit Test Case Generation with Transformers and Focal Context" [2020-09] [AST@ICSE 2022] [[paper](https://arxiv.org/abs/2009.05617)]
@@ -2086,6 +2120,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "The Prompt Alchemist: Automated LLM-Tailored Prompt Optimization for Test Case Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.01329)]
 
+- "Enhancing LLM's Ability to Generate More Repository-Aware Unit Tests Through Precise Contextual Information Injection" [2025-01] [[paper](https://arxiv.org/abs/2501.07425)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -2121,6 +2157,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "An Exploratory Study on Using Large Language Models for Mutation Testing" [2024-06] [[paper](https://arxiv.org/abs/2406.09843)]
 
 - "Fine-Tuning LLMs for Code Mutation: A New Era of Cyber Threats" [2024-10] [[paper](https://arxiv.org/abs/2410.22293)]
+
+- "Simulink Mutation Testing using CodeBERT" [2025-01] [[paper](https://arxiv.org/abs/2501.07553)]
 
 ### Fuzz Testing
 
@@ -2534,6 +2572,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Deep Assessment of Code Review Generation Approaches: Beyond Lexical Similarity" [2025-01] [[paper](https://arxiv.org/abs/2501.05176)]
 
+- "Debugging Without Error Messages: How LLM Prompting Strategy Affects Programming Error Explanation Effectiveness" [2025-01] [[paper](https://arxiv.org/abs/2501.05706)]
+
+- "I Can Find You in Seconds! Leveraging Large Language Models for Code Authorship Attribution" [2025-01] [[paper](https://arxiv.org/abs/2501.08165)]
+
 ### Log Analysis
 
 - "LogStamp: Automatic Online Log Parsing Based on Sequence Labelling" [2022-08] [[paper](https://arxiv.org/abs/2208.10282)]
@@ -2748,6 +2790,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "SABER: Model-agnostic Backdoor Attack on Chain-of-Thought in Neural Code Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.05829)]
 
+- "CWEval: Outcome-driven Evaluation on Functionality and Security of LLM Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.08200)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -2919,6 +2963,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Bias Unveiled: Investigating Social Bias in LLM-Generated Code" [2024-11] [[paper](https://arxiv.org/abs/2411.10351)]
 
 - "FairCode: Evaluating Social Bias of LLMs in Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.05396)]
+
+- "Unveiling Provider Bias in Large Language Models for Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.07849)]
 
 ### AI-Generated Code Detection
 
