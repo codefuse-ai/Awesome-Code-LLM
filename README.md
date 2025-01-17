@@ -4,19 +4,15 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/01/15] Featured papers:
+🔥🔥🔥 [2025/01/17] Featured papers:
 
-- 🔥🔥 [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) from MiniMax.
+- 🔥🔥 [The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models](https://arxiv.org/abs/2501.09653) from Delft University of Technology.
 
-- 🔥🔥 [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) from Tongyi Lab.
+- 🔥 [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) from MiniMax.
 
-- 🔥🔥 [FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering](https://arxiv.org/abs/2501.07314) from University of Turku.
+- 🔥 [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) from Tongyi Lab.
 
-- 🔥 [EpiCoder: Encompassing Diversity and Complexity in Code Generation](https://arxiv.org/abs/2501.04694) from Microsoft.
-
-- 🔥 [CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings](https://arxiv.org/abs/2501.01257) from Qwen Team.
-
-- 🔥 [2 OLMo 2 Furious](https://arxiv.org/abs/2501.00656) from Allen Institute for AI.
+- 🔥 [FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering](https://arxiv.org/abs/2501.07314) from University of Turku.
 
 🔥🔥🔥 [2025/01/11] 20 papers from NeurIPS 2024 have been collected. You may search for the keyword "NeurIPS 2024" in this page.
 
@@ -1384,6 +1380,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "I Can't Share Code, but I need Translation -- An Empirical Study on Code Translation through Federated LLM" [2025-01] [[paper](https://arxiv.org/abs/2501.05724)]
 
+- "Guided Debugging of Auto-Translated Code Using Differential Testing" [2025-01] [[paper](https://arxiv.org/abs/2501.09475)]
+
 ### Code Commenting and Summarization
 
 - "A Transformer-based Approach for Source Code Summarization" [2020-05] [ACL 2020] [[paper](https://arxiv.org/abs/2005.00653)]
@@ -1547,6 +1545,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LLM4CVE: Enabling Iterative Automated Vulnerability Repair with Large Language Models" [2025-01] [[paper](https://arxiv.org/abs/2501.03446)]
 
 - "Evaluating Agent-based Program Repair at Google" [2025-01] [[paper](https://arxiv.org/abs/2501.07531)]
+
+- "HAFix: History-Augmented Large Language Models for Bug Fixing" [2025-01] [[paper](https://arxiv.org/abs/2501.09135)]
 
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
@@ -1780,9 +1780,11 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 ### Automated Machine Learning
 
-"Large Language Models Synergize with Automated Machine Learning" [2024-05] [[paper](https://arxiv.org/abs/2405.03727)]
+- "Large Language Models Synergize with Automated Machine Learning" [2024-05] [[paper](https://arxiv.org/abs/2405.03727)]
 
 - "AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML" [2024-10] [[paper](https://arxiv.org/abs/2410.02958)]
+
+- "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering" [2024-10] [[paper](https://arxiv.org/abs/2410.07095)]
 
 - "UniAutoML: A Human-Centered Framework for Unified Discriminative and Generative AutoML with Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2410.12841)]
 
@@ -1967,6 +1969,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Solid-SQL: Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL" [2024-12] [[paper](https://arxiv.org/abs/2412.12522)]
 
 - "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types" [2024-12] [[paper](https://arxiv.org/abs/2412.17867)]
+
+- "A Study of In-Context-Learning-Based Text-to-SQL Errors" [2025-01] [[paper](https://arxiv.org/abs/2501.09310)]
+
+- "Confidence Estimation for Error Detection in Text-to-SQL Systems" [2025-01] [[paper](https://arxiv.org/abs/2501.09527)]
 
 ### Program Proof
 
@@ -2512,6 +2518,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "A Progressive Transformer for Unifying Binary Code Embedding and Knowledge Transfer" [2024-12] [[paper](https://arxiv.org/abs/2412.11177)]
 
+- "Augmenting Smart Contract Decompiler Output through Fine-grained Dependency Analysis and LLM-facilitated Semantic Recovery" [2025-01] [[paper](https://arxiv.org/abs/2501.08670)]
+
 ### Commit Message Generation
 
 - "Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond" [2024-04] [[paper](https://arxiv.org/abs/2404.14824)]
@@ -2633,6 +2641,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LuaTaint: A Static Analysis System for Web Configuration Interface Vulnerability of Internet of Things Devices" [2024-02] [IOT] [[paper](https://arxiv.org/abs/2402.16043)]
 
 - "LLM-Based Misconfiguration Detection for AWS Serverless Computing" [2024-11] [[paper](https://arxiv.org/abs/2411.00642)]
+
+- "Leveraging LLM Agents for Translating Network Configurations" [2025-01] [[paper](https://arxiv.org/abs/2501.08760)]
 
 ### Code QA
 
@@ -3154,6 +3164,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Towards Decoding Developer Cognition in the Age of AI Assistants" [2025-01] [[paper](https://arxiv.org/abs/2501.02684)]
 
+- "Simulated Interactive Debugging" [2025-01] [[paper](https://arxiv.org/abs/2501.09694)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -3169,6 +3181,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 5. **ROOTS**: "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset" [2023-03] [NeurIPS 2022 Datasets and Benchmarks Track] [[paper](https://arxiv.org/abs/2303.03915)] [[data](https://huggingface.co/datasets?search=bigscience-data/roots)]
 
 6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation" [2024-02] [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
+
+7. **The Heap**: "The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models" [2025-01] [[paper](https://arxiv.org/abs/2501.09653)]
 
 ### 8.2 Benchmarks
 
@@ -3389,6 +3403,7 @@ $^\diamond$ Machine/human prompts
 | 2023-08 | arXiv                            | HumanEvalPack       | 984       | Python, JS, Go, Java, C++, Rust                           | "OctoPack: Instruction Tuning Code Large Language Models" [[paper](https://arxiv.org/abs/2308.07124)] [[data](https://huggingface.co/datasets/bigcode/humanevalpack)]                                                     |
 | 2024-01 | arXiv                            | DebugBench          | 4253      | C++, Java, Python                                         | "DebugBench: Evaluating Debugging Capability of Large Language Models" [[paper](https://arxiv.org/abs/2401.04621)] [[data](https://github.com/thunlp/DebugBench)]                                                         |
 | 2024-11 | arXiv                            | MdEval              | 3513      | 18                                                        | "MdEval: Massively Multilingual Code Debugging" [[paper](https://arxiv.org/abs/2411.02310)]                                                                                                                               |
+| 2025-01 | arXiv                            | unnamed             | 48,398    | Python                                                    | "Suggesting Code Edits in Interactive Machine Learning Notebooks Using Large Language Models" [[paper](https://arxiv.org/abs/2501.09745)] [[data](https://zenodo.org/records/14281690)]                                   |
 
 \* These are code-change datasest, and only a subset therein concerns bug fixing.
 
