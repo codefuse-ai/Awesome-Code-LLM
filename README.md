@@ -4,15 +4,11 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/01/17] Featured papers:
+🔥🔥🔥 [2025/01/21] Featured papers:
 
-- 🔥🔥 [The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models](https://arxiv.org/abs/2501.09653) from Delft University of Technology.
+- 🔥🔥 [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)
 
-- 🔥 [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) from MiniMax.
-
-- 🔥 [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) from Tongyi Lab.
-
-- 🔥 [FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering](https://arxiv.org/abs/2501.07314) from University of Turku.
+- 🔥 [The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models](https://arxiv.org/abs/2501.09653) from Delft University of Technology.
 
 🔥🔥🔥 [2025/01/11] 20 papers from NeurIPS 2024 have been collected. You may search for the keyword "NeurIPS 2024" in this page.
 
@@ -2128,6 +2124,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing LLM's Ability to Generate More Repository-Aware Unit Tests Through Precise Contextual Information Injection" [2025-01] [[paper](https://arxiv.org/abs/2501.07425)]
 
+- "Test Wars: A Comparative Study of SBST, Symbolic Execution, and LLM-Based Approaches to Unit Test Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.10200)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
@@ -2525,6 +2523,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond" [2024-04] [[paper](https://arxiv.org/abs/2404.14824)]
 
 - "Towards Realistic Evaluation of Commit Message Generation by Matching Online and Offline Settings" [2024-10] [[paper](https://arxiv.org/abs/2410.12046)]
+
+- "Optimization is Better than Generation: Optimizing Commit Message Leveraging Human-written Commit Message" [2025-01] [[paper](https://arxiv.org/abs/2501.09861)]
 
 ### Code Review
 
@@ -2975,6 +2975,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "FairCode: Evaluating Social Bias of LLMs in Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.05396)]
 
 - "Unveiling Provider Bias in Large Language Models for Code Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.07849)]
+
+- "Addressing Popularity Bias in Third-Party Library Recommendations Using LLMs" [2025-01] [[paper](https://arxiv.org/abs/2501.10313)]
 
 ### AI-Generated Code Detection
 
