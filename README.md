@@ -4,21 +4,19 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/02/18] Featured papers:
+🔥🔥🔥 [2025/02/21] Featured papers:
 
-- 🔥🔥 [Exploring Code Language Models for Automated HLS-based Hardware Generation: Benchmark, Infrastructure and Analysis](https://arxiv.org/abs/2502.13921) from Imperial College London.
+- 🔥🔥 [SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines](https://arxiv.org/abs/2502.14739) from M-A-P.
 
-- 🔥🔥 [Scoring Verifiers: Evaluating Synthetic Verification in Code and Reasoning](https://arxiv.org/abs/2502.13820) from NVIDIA.
+- 🔥🔥 [MLGym: A New Framework and Benchmark for Advancing AI Research Agents](https://arxiv.org/abs/2502.14499) from Meta.
 
-- 🔥🔥 [An LLM-based Agent for Reliable Docker Environment Configuration](https://arxiv.org/abs/2502.13681) from ByteDance.
+- 🔥 [Exploring Code Language Models for Automated HLS-based Hardware Generation: Benchmark, Infrastructure and Analysis](https://arxiv.org/abs/2502.13921) from Imperial College London.
 
-- 🔥🔥 [SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?](https://arxiv.org/abs/2502.12115) from OpenAI.
+- 🔥 [Scoring Verifiers: Evaluating Synthetic Verification in Code and Reasoning](https://arxiv.org/abs/2502.13820) from NVIDIA.
 
-- 🔥 [Copilot Arena: A Platform for Code LLM Evaluation in the Wild](https://arxiv.org/abs/2502.09328) from Carnegie Mellon University.
+- 🔥 [An LLM-based Agent for Reliable Docker Environment Configuration](https://arxiv.org/abs/2502.13681) from ByteDance.
 
-- 🔥 [RefineCoder: Iterative Improving of Large Language Models via Adaptive Critique Refinement for Code Generation](https://arxiv.org/abs/2502.09183) from Beijing Institute of Technology.
-
-- 🔥 [Salamandra Technical Report](https://arxiv.org/abs/2502.08489) from Barcelona Supercomputing Center.
+- 🔥 [SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?](https://arxiv.org/abs/2502.12115) from OpenAI.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/01/11] 20 papers from NeurIPS 2024 have been collected. You may search for the keyword "NeurIPS 2024" in this page.
 
@@ -966,6 +964,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "RefineCoder: Iterative Improving of Large Language Models via Adaptive Critique Refinement for Code Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.09183)]
 
 - "VisPath: Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization" [2025-02] [[paper](https://arxiv.org/abs/2502.11140)]
+
+- "S\*: Test Time Scaling for Code Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.14382)]
 
 ### 3.5 Frontend Navigation
 
@@ -1917,6 +1917,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "AIDE: AI-Driven Exploration in the Space of Code" [2025-02] [[paper](https://arxiv.org/abs/2502.13138)]
 
+- "MLGym: A New Framework and Benchmark for Advancing AI Research Agents" [2025-02] [[paper](https://arxiv.org/abs/2502.14499)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -2130,6 +2132,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Knapsack Optimization-based Schema Linking for LLM-based Text-to-SQL Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.12911)]
 
 - "STaR-SQL: Self-Taught Reasoner for Text-to-SQL" [2025-02] [[paper](https://arxiv.org/abs/2502.13550)]
+
+- "Bridging the Gap: Transforming Natural Language Questions into SQL Queries via Abstract Query Pattern and Contextual Schema Markup" [2025-02] [[paper](https://arxiv.org/abs/2502.14682)]
 
 ### Program Proof
 
@@ -3043,6 +3047,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Benchmarking Prompt Engineering Techniques for Secure Code Generation with GPT Models" [2025-02] [[paper](https://arxiv.org/abs/2502.06039)]
 
+- "Do LLMs Consider Security? An Empirical Study on Responses to Programming Questions" [2025-02] [[paper](https://arxiv.org/abs/2502.14202)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -3489,6 +3495,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - **HLE**: "Humanity's Last Exam" [2025-01] [[paper](https://arxiv.org/abs/2501.14249)] [[data](https://github.com/centerforaisafety/hle)]
 
+- **SuperGPQA**: "SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines" [2025-02] [[paper](https://arxiv.org/abs/2502.14739)]
+
 #### Evaluation Metrics
 
 - "CodeBLEU: a Method for Automatic Evaluation of Code Synthesis" [2020-09] [[paper](https://arxiv.org/abs/2009.10297)]
@@ -3579,6 +3587,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-02 | arXiv                            | KernelBench                                      | 250                  | Python                                                                           | "KernelBench: Can LLMs Write Efficient GPU Kernels?" [[paper](https://arxiv.org/abs/2502.10517)]                                                                                                                                                                                             |
 | 2025-02 | arXiv                            | BaxBench                                         | 392                  | Go, JS, PHP, Python, Ruby, Rust                                                  | "BaxBench: Can LLMs Generate Correct and Secure Backends?" [[paper](https://arxiv.org/abs/2502.11844)] [[data](https://baxbench.com/)]                                                                                                                                                       |
 | 2025-02 | arXiv                            | DataSciBench                                     | 222                  | Python                                                                           | "DataSciBench: An LLM Agent Benchmark for Data Science" [[paper](https://arxiv.org/abs/2502.13897)] [[data](https://github.com/THUDM/DataSciBench)]                                                                                                                                          |
+| 2025-02 | arXiv                            | TritonBench                                      | 184                  | Triton                                                                           | "TritonBench: Benchmarking Large Language Model Capabilities for Generating Triton Operators" [[paper](https://arxiv.org/abs/2502.14752)] [[data](https://github.com/thunlp/TritonBench)]                                                                                                    |
 
 \* Automatically mined/human-annotated
 
