@@ -553,7 +553,7 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 33. **DataScope**: "API-guided Dataset Synthesis to Finetune Large Code Models" [2024-08] [[paper](https://arxiv.org/abs/2408.08343)]
 
-34. ** XCoder**: "How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data" [2024-09] [EMNLP 2024] [[paper](https://arxiv.org/abs/2409.03810)]
+34. **XCoder**: "How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data" [2024-09] [EMNLP 2024] [[paper](https://arxiv.org/abs/2409.03810)]
 
 35. **GALLa**: "GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding" [2024-09] [[paper](https://arxiv.org/abs/2409.04183)]
 
