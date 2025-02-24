@@ -4,19 +4,35 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/02/21] Featured papers:
+🔥🔥🔥 [2025/02/24] Featured papers:
 
-- 🔥🔥 [SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines](https://arxiv.org/abs/2502.14739) from M-A-P.
+- 🔥🔥 [CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs](https://arxiv.org/abs/2502.14925) from University of Manitoba.
 
-- 🔥🔥 [MLGym: A New Framework and Benchmark for Advancing AI Research Agents](https://arxiv.org/abs/2502.14499) from Meta.
+- 🔥 [SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines](https://arxiv.org/abs/2502.14739) from M-A-P.
 
-- 🔥 [Exploring Code Language Models for Automated HLS-based Hardware Generation: Benchmark, Infrastructure and Analysis](https://arxiv.org/abs/2502.13921) from Imperial College London.
+- 🔥 [MLGym: A New Framework and Benchmark for Advancing AI Research Agents](https://arxiv.org/abs/2502.14499) from Meta.
 
-- 🔥 [Scoring Verifiers: Evaluating Synthetic Verification in Code and Reasoning](https://arxiv.org/abs/2502.13820) from NVIDIA.
+🔥🔥🔥 Recent works from Codefuse:
 
-- 🔥 [An LLM-based Agent for Reliable Docker Environment Configuration](https://arxiv.org/abs/2502.13681) from ByteDance.
+- Graph-Aligned LLM for Improved Source Code Understanding: [codefuse-ai/GALLa](https://github.com/codefuse-ai/GALLa)
 
-- 🔥 [SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?](https://arxiv.org/abs/2502.12115) from OpenAI.
+- Code Graph Model: [codefuse-ai/CodeFuse-CGM](https://github.com/codefuse-ai/CodeFuse-CGM)
+
+- RepoFuse: [codefuse-ai/RepoFuse](https://github.com/codefuse-ai/RepoFuse)
+
+- EasyDeploy: [codefuse-ai/EasyDeploy](https://github.com/codefuse-ai/EasyDeploy)
+
+- Rodimus: [codefuse-ai/rodimus](https://github.com/codefuse-ai/rodimus)
+
+- muAgent: [codefuse-ai/CodeFuse-muAgent](https://github.com/codefuse-ai/CodeFuse-muAgent)
+
+- Code General Embedding: [codefuse-ai/CodeFuse-CGE](https://github.com/codefuse-ai/CodeFuse-CGE)
+
+- Decomposed and Distilled LLM for Semantic Search: [codefuse-ai/D2LLM](https://github.com/codefuse-ai/D2LLM)
+
+- VLM: [codefuse-ai/CodeFuse-MFT-VLM](https://github.com/codefuse-ai/CodeFuse-MFT-VLM)
+
+- MFTCoder: [codefuse-ai/MFTCoder](https://github.com/codefuse-ai/MFTCoder)
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/01/11] 20 papers from NeurIPS 2024 have been collected. You may search for the keyword "NeurIPS 2024" in this page.
 
@@ -1209,6 +1225,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "Exploring Code Language Models for Automated HLS-based Hardware Generation: Benchmark, Infrastructure and Analysis" [2025-02] [ASP-DAC 2025] [[paper](https://arxiv.org/abs/2502.13921)]
 
+- [**Alloy***] "On the Effectiveness of Large Language Models in Writing Alloy Formulas" [2025-02] [[paper](https://arxiv.org/abs/2502.15441)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1347,6 +1365,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.12492)]
 
+- "Learning to Solve and Verify: A Self-Play Framework for Code and Test Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.14948)]
+
 ### Code RAG
 
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
@@ -1368,6 +1388,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation" [2024-12] [[paper](https://arxiv.org/abs/2412.12447)]
 
 - "An Empirical Study of Retrieval-Augmented Code Generation: Challenges and Opportunities" [2025-01] [[paper](https://arxiv.org/abs/2501.13742)]
+
+- "CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs" [2025-02] [[paper](https://arxiv.org/abs/2502.14925)]
 
 ### Code Ranking
 
@@ -2135,6 +2157,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Bridging the Gap: Transforming Natural Language Questions into SQL Queries via Abstract Query Pattern and Contextual Schema Markup" [2025-02] [[paper](https://arxiv.org/abs/2502.14682)]
 
+- "OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment" [2025-02] [[paper](https://arxiv.org/abs/2502.14913)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2172,6 +2196,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Verifying LLM-Generated Code in the Context of Software Verification with Ada/SPARK" [2025-02] [[paper](https://arxiv.org/abs/2502.07728)]
 
 - "RAG-Verus: Repository-Level Program Verification with LLMs using Retrieval Augmented Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.05344)]
+
+- "FormalSpecCpp: A Dataset of C++ Formal Specifications created using LLMs" [2025-02] [[paper](https://arxiv.org/abs/2502.15217)]
 
 ### Test Generation
 
@@ -2590,6 +2616,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Large Language Models for In-File Vulnerability Localization Can Be "Lost in the End"" [2025-02] [[paper](https://arxiv.org/abs/2502.06898)]
 
 - "Where's the Bug? Attention Probing for Scalable Fault Localization" [2025-02] [[paper](https://arxiv.org/abs/2502.13966)]
+
+- "Bridging Bug Localization and Issue Fixing: A Hierarchical Localization Framework Leveraging Large Language Models" [2025-02] [[paper](https://arxiv.org/abs/2502.15292)]
 
 ### Malicious Code Detection
 
