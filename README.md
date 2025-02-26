@@ -4,35 +4,24 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/02/24] Featured papers:
+🔥🔥🔥 [2025/02/26] Featured papers:
 
-- 🔥🔥 [CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs](https://arxiv.org/abs/2502.14925) from University of Manitoba.
+- 🔥🔥 [SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](https://arxiv.org/abs/2502.18449) from Meta.
 
-- 🔥 [SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines](https://arxiv.org/abs/2502.14739) from M-A-P.
+- 🔥🔥 [CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models](https://arxiv.org/abs/2502.16614) from M-A-P.
 
-- 🔥 [MLGym: A New Framework and Benchmark for Advancing AI Research Agents](https://arxiv.org/abs/2502.14499) from Meta.
+- 🔥 [CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs](https://arxiv.org/abs/2502.14925) from University of Manitoba.
 
 🔥🔥🔥 Recent works from Codefuse:
 
 - Graph-Aligned LLM for Improved Source Code Understanding: [codefuse-ai/GALLa](https://github.com/codefuse-ai/GALLa)
-
 - Code Graph Model: [codefuse-ai/CodeFuse-CGM](https://github.com/codefuse-ai/CodeFuse-CGM)
-
 - RepoFuse: [codefuse-ai/RepoFuse](https://github.com/codefuse-ai/RepoFuse)
-
 - EasyDeploy: [codefuse-ai/EasyDeploy](https://github.com/codefuse-ai/EasyDeploy)
-
 - Rodimus: [codefuse-ai/rodimus](https://github.com/codefuse-ai/rodimus)
-
 - muAgent: [codefuse-ai/CodeFuse-muAgent](https://github.com/codefuse-ai/CodeFuse-muAgent)
-
 - Code General Embedding: [codefuse-ai/CodeFuse-CGE](https://github.com/codefuse-ai/CodeFuse-CGE)
-
 - Decomposed and Distilled LLM for Semantic Search: [codefuse-ai/D2LLM](https://github.com/codefuse-ai/D2LLM)
-
-- VLM: [codefuse-ai/CodeFuse-MFT-VLM](https://github.com/codefuse-ai/CodeFuse-MFT-VLM)
-
-- MFTCoder: [codefuse-ai/MFTCoder](https://github.com/codefuse-ai/MFTCoder)
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/01/11] 20 papers from NeurIPS 2024 have been collected. You may search for the keyword "NeurIPS 2024" in this page.
 
@@ -651,6 +640,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 24. **Focused-DPO**: "Focused-DPO: Enhancing Code Generation Through Focused Preference Optimization on Error-Prone Points" [2025-02] [[paper](https://arxiv.org/abs/2502.11475)]
 
+25. **SWE-RL**: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution" [2025-02] [[paper](https://arxiv.org/abs/2502.18449)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -762,6 +753,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 53. **ToolCoder**: "ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models" [2025-02] [[paper](https://arxiv.org/abs/2502.11404)]
 
 54. **RM-PoT**: "RM-PoT: Reformulating Mathematical Problems and Solving via Program of Thoughts" [2025-02] [[paper](https://arxiv.org/abs/2502.12589)]
+
+55. **SBSC**: "SBSC: Step-By-Step Coding for Improving Mathematical Olympiad Performance" [2025-02] [[paper](https://arxiv.org/abs/2502.16666)]
+
+56. "Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments" [2025-02] [[paper](https://arxiv.org/abs/2502.17956)]
 
 ### 3.2 Code Simulation
 
@@ -1367,6 +1362,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Learning to Solve and Verify: A Self-Play Framework for Code and Test Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.14948)]
 
+- "Thinking Before Running! Efficient Code Generation with Thorough Exploration and Optimal Refinement" [2025-02] [[paper](https://arxiv.org/abs/2502.17442)]
+
 ### Code RAG
 
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
@@ -1391,6 +1388,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs" [2025-02] [[paper](https://arxiv.org/abs/2502.14925)]
 
+- "CodeSwift: Accelerating LLM Inference for Efficient Code Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.17139)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1414,6 +1413,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Condor: A Code Discriminator Integrating General Semantics with Code Details" [2024-12] [[paper](https://arxiv.org/abs/2412.17429)]
 
 - "Scoring Verifiers: Evaluating Synthetic Verification in Code and Reasoning" [2025-02] [[paper](https://arxiv.org/abs/2502.13820)]
+
+- "Pragmatic Reasoning improves LLM Code Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.15835)]
 
 ### Code Translation
 
@@ -1568,6 +1569,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Should Code Models Learn Pedagogically? A Preliminary Evaluation of Curriculum Learning for Real-World Software Engineering Tasks" [2025-02] [[paper](https://arxiv.org/abs/2502.03806)]
 
 - "Optimizing Datasets for Code Summarization: Is Code-Comment Coherence Enough?" [2025-02] [[paper](https://arxiv.org/abs/2502.07611)]
+
+- "Code Summarization Beyond Function Level" [2025-02] [[paper](https://arxiv.org/abs/2502.16704)]
 
 ### Program Repair
 
@@ -1850,6 +1853,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ContextModule: Improving Code Completion via Repository-level Contextual Information" [2024-12] [[paper](https://arxiv.org/abs/2412.08063)]
 
 - "Repository Structure-Aware Training Makes SLMs Better Issue Resolver" [2024-12] [[paper](https://arxiv.org/abs/2412.19031)]
+
+- "MutaGReP: Execution-Free Repository-Grounded Plan Search for Code-Use" [2025-02] [[paper](https://arxiv.org/abs/2502.15872)]
 
 ### Frontend Development
 
@@ -2159,6 +2164,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment" [2025-02] [[paper](https://arxiv.org/abs/2502.14913)]
 
+- "SQLong: Enhanced NL2SQL for Longer Contexts with LLMs" [2025-02] [[paper](https://arxiv.org/abs/2502.16747)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2362,6 +2369,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "AsserT5: Test Assertion Generation Using a Fine-Tuned Code Language Model" [2025-02] [[paper](https://arxiv.org/abs/2502.02708)]
 
 - "Improving Retrieval-Augmented Deep Assertion Generation via Joint Training" [2025-02] [[paper](https://arxiv.org/abs/2502.10696)]
+
+- "Improving Deep Assertion Generation via Fine-Tuning Retrieval-Augmented Pre-trained Language Models" [2025-02] [[paper](https://arxiv.org/abs/2502.16071)]
 
 ### Mutation Testing
 
@@ -3237,6 +3246,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "ADC: Enhancing Function Calling Via Adversarial Datasets and Code Line-Level Feedback" [2024-12] [[paper](https://arxiv.org/abs/2412.17754)]
 
+- "CODESYNC: Synchronizing Large Language Models with Dynamic Code Evolution at Scale" [2025-02] [[paper](https://arxiv.org/abs/2502.16645)]
+
 ### Privacy
 
 - "Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach" [2024-04] [[paper](https://arxiv.org/abs/2404.14296)]
@@ -3292,6 +3303,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CodeVision: Detecting LLM-Generated Code Using 2D Token Probability Maps and Vision Models" [2025-01] [[paper](https://arxiv.org/abs/2501.03288)]
 
 - "Robust and Secure Code Watermarking for Large Language Models via ML/Crypto Codesign" [2025-02] [[paper](https://arxiv.org/abs/2502.02068)]
+
+- "Detection of LLM-Generated Java Code Using Discretized Nested Bigrams" [2025-02] [[paper](https://arxiv.org/abs/2502.15740)]
+
+- "Detection of LLM-Paraphrased Code and Identification of the Responsible LLM Using Coding Style Features" [2025-02] [[paper](https://arxiv.org/abs/2502.17749)]
 
 ### Others
 
@@ -3477,6 +3492,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "From Tools to Teammates: Evaluating LLMs in Multi-Session Coding Interactions" [2025-02] [[paper](https://arxiv.org/abs/2502.13791)]
 
+- "How Scientists Use Large Language Models to Program" [2025-02] [[paper](https://arxiv.org/abs/2502.17348)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -3540,6 +3557,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Copilot Arena: A Platform for Code LLM Evaluation in the Wild" [2025-02] [[paper](https://arxiv.org/abs/2502.09328)]
 
 - "MCTS-Judge: Test-Time Scaling in LLM-as-a-Judge for Code Correctness Evaluation" [2025-02] [[paper](https://arxiv.org/abs/2502.12468)]
+
+- "CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models" [2025-02] [[paper](https://arxiv.org/abs/2502.16614)]
 
 #### Program Synthesis
 
