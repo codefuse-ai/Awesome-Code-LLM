@@ -4,13 +4,13 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/03/06] Featured papers:
+🔥🔥🔥 [2025/03/10] Featured papers:
 
-- 🔥🔥 [MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems](https://arxiv.org/abs/2503.03686) from Shanghai Jiao Tong University.
+- 🔥🔥 [Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs](https://arxiv.org/abs/2503.05139) from Ant Group.
 
-- 🔥🔥 [KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding](https://arxiv.org/abs/2503.02951) from Microsoft GenAI.
+- 🔥 [MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems](https://arxiv.org/abs/2503.03686) from Shanghai Jiao Tong University.
 
-- 🔥 [Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs](https://arxiv.org/abs/2503.01743) from Microsoft.
+- 🔥 [KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding](https://arxiv.org/abs/2503.02951) from Microsoft GenAI.
 
 🔥🔥🔥 Recent works from Codefuse:
 
@@ -355,6 +355,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 73. **Kanana**: "Kanana: Compute-efficient Bilingual Language Models" [2025-02] [[paper](https://arxiv.org/abs/2502.18934)]
 
 74. **Phi-4-Mini**: "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs" [2025-03] [[paper](https://arxiv.org/abs/2503.01743)]
+
+75. **Ling**: "Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs" [2025-03] [[paper](https://arxiv.org/abs/2503.05139)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -1268,8 +1270,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "JumpCoder: Go Beyond Autoregressive Coder via Online Modification" [2024-01] [ACL 2024] [[paper](https://arxiv.org/abs/2401.07870)]
 
-- "Unsupervised Evaluation of Code LLMs with Round-Trip Correctness" [2024-02] [ICML 2024] [[paper](https://arxiv.org/abs/2402.08699)]
-
 - "The Larger the Better? Improved LLM Code-Generation via Budget Reallocation" [2024-03] [[paper](https://arxiv.org/abs/2404.00725)]
 
 - "Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models" [2024-03] [ACL 2024] [[paper](https://arxiv.org/abs/2403.04811)]
@@ -1279,8 +1279,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs" [2024-04] [[paper](https://arxiv.org/abs/2404.08148)]
 
 - "Quality Assessment of Prompts Used in Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.10155)]
-
-- "Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation" [2024-04] [[paper](https://arxiv.org/abs/2404.14370)]
 
 - "Model Cascading for Code: Reducing Inference Costs with Model Cascading for LLM Based Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.15842)]
 
@@ -1307,12 +1305,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Selective Prompt Anchoring for Code Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.09121)]
 
 - "Bridging the Language Gap: Enhancing Multilingual Prompt-Based Code Generation in LLMs via Zero-Shot Cross-Lingual Transfer" [2024-08] [[paper](https://arxiv.org/abs/2408.09701)]
-
-- "Optimizing Large Language Model Hyperparameters for Code Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.10577)]
-
-- "EPiC: Cost-effective Search-based Prompt Engineering of LLMs for Code Generation" [2024-08] [[paper](https://arxiv.org/abs/2408.11198)]
-
-- "CodeRefine: A Pipeline for Enhancing LLM-Generated Code Implementations of Research Papers" [2024-08] [[paper](https://arxiv.org/abs/2408.13366)]
 
 - "No Man is an Island: Towards Fully Automatic Programming by Code Search, Code Generation and Program Repair" [2024-09] [[paper](https://arxiv.org/abs/2409.03267)]
 
@@ -1349,8 +1341,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Multi-Programming Language Sandbox for LLMs" [2024-10] [[paper](https://arxiv.org/abs/2410.23074)]
 
 - "Personality-Guided Code Generation Using Large Language Models" [2024-10] [[paper](https://arxiv.org/abs/2411.00006)]
-
-- "Do Advanced Language Models Eliminate the Need for Prompt Engineering in Software Engineering?" [2024-11] [[paper](https://arxiv.org/abs/2411.02093)]
 
 - "Scattered Forest Search: Smarter Code Space Exploration with LLMs" [2024-11] [[paper](https://arxiv.org/abs/2411.05010)]
 
@@ -1389,6 +1379,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Learning to Solve and Verify: A Self-Play Framework for Code and Test Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.14948)]
 
 - "Thinking Before Running! Efficient Code Generation with Thorough Exploration and Optimal Refinement" [2025-02] [[paper](https://arxiv.org/abs/2502.17442)]
+
+- "Grammar-Based Code Representation: Is It a Worthy Pursuit for LLMs?" [2025-03] [[paper](https://arxiv.org/abs/2503.05507)]
 
 ### Code RAG
 
@@ -2200,6 +2192,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale" [2025-03] [[paper](https://arxiv.org/abs/2503.02240)]
 
+- "DB-Explore: Automated Database Exploration and Instruction Synthesis for Text-to-SQL" [2025-03] [[paper](https://arxiv.org/abs/2503.04959)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2239,6 +2233,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "RAG-Verus: Repository-Level Program Verification with LLMs using Retrieval Augmented Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.05344)]
 
 - "FormalSpecCpp: A Dataset of C++ Formal Specifications created using LLMs" [2025-02] [[paper](https://arxiv.org/abs/2502.15217)]
+
+- "Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference" [2025-02] [[paper](https://arxiv.org/abs/2503.04779)]
 
 ### Test Generation
 
@@ -3594,6 +3590,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CodeBERTScore: Evaluating Code Generation with Pretrained Models of Code" [2023-02] [EMNLP 2023] [[paper](https://arxiv.org/abs/2302.05527)]
 
+- "Unsupervised Evaluation of Code LLMs with Round-Trip Correctness" [2024-02] [ICML 2024] [[paper](https://arxiv.org/abs/2402.08699)]
+
 - "CodeJudge: Evaluating Code Generation with Large Language Models" [2024-10] [EMNLP 2024] [[paper](https://arxiv.org/abs/2410.02184)]
 
 - "Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering" [2025-02] [[paper](https://arxiv.org/abs/2502.06193)]
@@ -3689,6 +3687,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-02 | arXiv                            | IndicEval-XL                                     | 6720                 | 12                                                                               | "IndicEval-XL: Bridging Linguistic Diversity in Code Generation Across Indic Languages" [[paper](https://arxiv.org/abs/2502.19067)] [[data](https://github.com/telekom/IndicEval-XL)]                                                                                                        |
 | 2025-02 | arXiv                            | PseudoEval                                       | 1059                 | Python, C++, Rust                                                                | "Isolating Language-Coding from Problem-Solving: Benchmarking LLMs with PseudoEval" [[paper](https://arxiv.org/abs/2502.19149)] [[data](https://anonymous.4open.science/r/PseudocodeACL25-7B74/README.md)]                                                                                   |
 | 2025-02 | arXiv                            | ProBench                                         | 790                  | C++, Java, Python                                                                | "ProBench: Benchmarking Large Language Models in Competitive Programming" [[paper](https://arxiv.org/abs/2502.20868)] [[data](https://github.com/YL-9/probench)]                                                                                                                             |
+| 2025-03 | arXiv                            | DyCodeEval                                       | -                    | -                                                                                | "Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination" [[paper](https://arxiv.org/abs/2503.04149)]                                                                                                                                          |
 
 \* Automatically mined/human-annotated
 
@@ -3730,6 +3729,7 @@ $^\diamond$ Machine/human prompts
 | 2024-12 | arXiv               | CodeRepoQA  | 585,687  | Python, Java, TS, JS, Go            | "CodeRepoQA: A Large-scale Benchmark for Software Engineering Question Answering" [[paper](https://arxiv.org/abs/2412.14764)] [[data](https://github.com/kinesiatricssxilm14/CodeRepoQA)]                                |
 | 2025-01 | arXiv               | CoReQA      | 1,563    | Python, Java, Go, TS                | "CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering" [[paper](https://arxiv.org/abs/2501.03447)]                                                                                     |
 | 2025-02 | arXiv               | EquiBench   | 2400     | C, CUDA, x86-64, Python             | "EquiBench: Benchmarking Code Reasoning Capabilities of Large Language Models via Equivalence Checking" [[paper](https://arxiv.org/abs/2502.12466)]                                                                      |
+| 2025-03 | arXiv               | LONGCODEU   | 3983     | Python                              | "LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding" [[paper](https://arxiv.org/abs/2503.04359)]                                                                                            |
 
 #### Text-to-SQL
 
