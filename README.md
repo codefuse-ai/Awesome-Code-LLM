@@ -4,13 +4,11 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/03/11] Featured papers:
+🔥🔥🔥 [2025/03/18] Featured papers:
 
-- 🔥🔥 [Control Flow-Augmented Decompiler based on Large Language Model](https://arxiv.org/abs/2503.07215) from Zhongguancun Laboratory.
+- 🔥 [Control Flow-Augmented Decompiler based on Large Language Model](https://arxiv.org/abs/2503.07215) from Zhongguancun Laboratory.
 
-- 🔥🔥 [DependEval: Benchmarking LLMs for Repository Dependency Understanding](https://arxiv.org/abs/2503.06689) from Nanyang Technological University.
-
-- 🔥 [Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs](https://arxiv.org/abs/2503.05139) from Ant Group.
+- 🔥 [DependEval: Benchmarking LLMs for Repository Dependency Understanding](https://arxiv.org/abs/2503.06689) from Nanyang Technological University.
 
 🔥🔥🔥 Recent works from Codefuse:
 
@@ -903,6 +901,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 53. **SoRFT**: "SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning" [2025-02] [[paper](https://arxiv.org/abs/2502.20127)]
 
+54. "Is Multi-Agent Debate (MAD) the Silver Bullet? An Empirical Analysis of MAD in Code Summarization and Translation" [2025-03] [[paper](https://arxiv.org/abs/2503.12029)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -1375,6 +1375,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Grammar-Based Code Representation: Is It a Worthy Pursuit for LLMs?" [2025-03] [[paper](https://arxiv.org/abs/2503.05507)]
 
+- "Enhancing High-Quality Code Generation in Large Language Models with Comparative Prefix-Tuning" [2025-03] [[paper](https://arxiv.org/abs/2503.09020)]
+
+- "Modularization is Better: Effective Code Generation with Modular Prompting" [2025-03] [[paper](https://arxiv.org/abs/2503.12483)]
+
+- "A Semantic-based Optimization Approach for Repairing LLMs: Case Study on Code Generation" [2025-03] [[paper](https://arxiv.org/abs/2503.12899)]
+
 ### Code RAG
 
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
@@ -1508,6 +1514,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques" [2025-01] [[paper](https://arxiv.org/abs/2501.14257)]
 
 - "ExeCoder: Empowering Large Language Models with Executability Representation for Code Translation" [2025-01] [[paper](https://arxiv.org/abs/2501.18460)]
+
+- "LLM-Driven Multi-step Translation from C to Rust using Static Analysis" [2025-03] [[paper](https://arxiv.org/abs/2503.12511)]
 
 ### Code Commenting and Summarization
 
@@ -1656,8 +1664,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Debugging with Open-Source Large Language Models: An Evaluation" [2024-09] [[paper](https://arxiv.org/abs/2409.03031)]
 
 - "VulnLLMEval: A Framework for Evaluating Large Language Models in Software Vulnerability Detection and Patching" [2024-09] [[paper](https://arxiv.org/abs/2409.10756)]
-
-- "ContractTinker: LLM-Empowered Vulnerability Repair for Real-World Smart Contracts" [2024-09] [[paper](https://arxiv.org/abs/2409.09661)]
 
 - "Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs" [2024-09] [[paper](https://arxiv.org/abs/2409.10033)]
 
@@ -2189,6 +2195,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "SQLCritic: Correcting Text-to-SQL Generation via Clause-wise Critic" [2025-03] [[paper](https://arxiv.org/abs/2503.07996)]
 
+- "TinySQL: A Progressive Text-to-SQL Dataset for Mechanistic Interpretability Research" [2025-03] [[paper](https://arxiv.org/abs/2503.12730)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2230,6 +2238,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "FormalSpecCpp: A Dataset of C++ Formal Specifications created using LLMs" [2025-02] [[paper](https://arxiv.org/abs/2502.15217)]
 
 - "Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference" [2025-02] [[paper](https://arxiv.org/abs/2503.04779)]
+
+- "Can LLMs Formally Reason as Abstract Interpreters for Program Analysis?" [2025-03] [[paper](https://arxiv.org/abs/2503.12686)]
 
 ### Test Generation
 
@@ -2657,21 +2667,13 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Beyond Natural Language Perplexity: Detecting Dead Code Poisoning in Code Generation Datasets" [2025-02] [[paper](https://arxiv.org/abs/2502.20246)]
 
+- "LocAgent: Graph-Guided LLM Agents for Code Localization" [2025-03] [[paper](https://arxiv.org/abs/2503.09089)]
+
+- "HALURust: Exploiting Hallucinations of Large Language Models to Detect Vulnerabilities in Rust" [2025-03] [[paper](https://arxiv.org/abs/2503.10793)]
+
 ### Malicious Code Detection
 
-- "Deep Android Malware Detection", 2017-03, CODASPY 2017, [[paper](https://dl.acm.org/doi/10.1145/3029806.3029823)]
-
-- "A Multimodal Deep Learning Method for Android Malware Detection Using Various Features", 2018-08, IEEE Trans. Inf. Forensics Secur. 2019, [[paper](https://ieeexplore.ieee.org/document/8443370)]
-
-- "Portable, Data-Driven Malware Detection using Language Processing and Machine Learning Techniques on Behavioral Analysis Reports", 2018-12, Digit. Investig. 2019, [[paper](https://arxiv.org/abs/1812.10327)]
-
 - "I-MAD: Interpretable Malware Detector Using Galaxy Transformer", 2019-09, Comput. Secur. 2021, [[paper](https://arxiv.org/abs/1909.06865)]
-
-- "Droidetec: Android Malware Detection and Malicious Code Localization through Deep Learning", 2020-02, [[paper](https://arxiv.org/abs/2002.03594)]
-
-- "Malicious Code Detection: Run Trace Output Analysis by LSTM", 2021-01, IEEE Access 2021, [[paper](https://arxiv.org/abs/2101.05646)]
-
-- "Intelligent malware detection based on graph convolutional network", 2021-08, J. Supercomput. 2021, [[paper](https://link.springer.com/article/10.1007/s11227-021-04020-y)]
 
 - "Malbert: A novel pre-training method for malware detection", 2021-09, Comput. Secur. 2021, [[paper](https://www.sciencedirect.com/science/article/pii/S0167404821002820)]
 
@@ -2679,11 +2681,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "M2VMapper: Malware-to-Vulnerability mapping for Android using text processing", 2021-12, Expert Syst. Appl. 2022, [[paper](https://www.sciencedirect.com/science/article/pii/S0957417421016572)]
 
-- "Malware Detection and Prevention using Artificial Intelligence Techniques", 2021-12, IEEE BigData 2021, [[paper](https://arxiv.org/abs/2206.12770)]
-
 - "An Ensemble of Pre-trained Transformer Models For Imbalanced Multiclass Malware Classification", 2021-12, Comput. Secur. 2022, [[paper](https://arxiv.org/abs/2112.13236)]
-
-- "EfficientNet convolutional neural networks-based Android malware detection", 2022-01, Comput. Secur. 2022, [[paper](https://www.sciencedirect.com/science/article/pii/S0167404822000219)]
 
 - "Static Malware Detection Using Stacked BiLSTM and GPT-2", 2022-05, IEEE Access 2022, [[paper](https://ieeexplore.ieee.org/document/9785789)]
 
@@ -2694,8 +2692,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "A Survey of Recent Advances in Deep Learning Models for Detecting Malware in Desktop and Mobile Platforms", 2022-09, ACM Computing Surveys, [[paper](https://dl.acm.org/doi/abs/10.1145/3638240)]
 
 - "Malicious Source Code Detection Using Transformer", 2022-09, [[paper](https://arxiv.org/abs/2209.07957)]
-
-- "Flexible Android Malware Detection Model based on Generative Adversarial Networks with Code Tensor", 2022-10, CyberC 2022, [[paper](https://arxiv.org/abs/2210.14225)]
 
 - "MalBERTv2: Code Aware BERT-Based Model for Malware Identification" [2023-03] [Big Data Cogn. Comput. 2023] [[paper](https://www.mdpi.com/2504-2289/7/2/60)]
 
@@ -2718,6 +2714,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "DetectBERT: Towards Full App-Level Representation Learning to Detect Android Malware" [2024-08] [[paper](https://arxiv.org/abs/2408.16353)]
 
 - "PackageIntel: Leveraging Large Language Models for Automated Intelligence Extraction in Package Ecosystems" [2024-09] [[paper](https://arxiv.org/abs/2409.15049)]
+
+- "AgentDroid: A Multi-Agent Framework for Detecting Fraudulent Android Applications" [2025-03] [[paper](https://arxiv.org/abs/2503.12163)]
 
 ### Compiler Optimization
 
@@ -2797,6 +2795,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Control Flow-Augmented Decompiler based on Large Language Model" [2025-03] [[paper](https://arxiv.org/abs/2503.07215)]
 
+- "ASMA-Tune: Unlocking LLMs' Assembly Code Comprehension via Structural-Semantic Instruction Tuning" [2025-03] [[paper](https://arxiv.org/abs/2503.11617)]
+
 ### Commit Message Generation
 
 - "Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond" [2024-04] [[paper](https://arxiv.org/abs/2404.14824)]
@@ -2806,6 +2806,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Optimization is Better than Generation: Optimizing Commit Message Leveraging Human-written Commit Message" [2025-01] [[paper](https://arxiv.org/abs/2501.09861)]
 
 - "An Empirical Study on Commit Message Generation using LLMs via In-Context Learning" [2025-02] [[paper](https://arxiv.org/abs/2502.18904)]
+
+- "Consider What Humans Consider: Optimizing Commit Message Leveraging Contexts Considered By Human" [2025-03] [[paper](https://arxiv.org/abs/2503.11960)]
 
 ### Code Review
 
@@ -2876,6 +2878,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Harnessing Large Language Models for Curated Code Reviews" [2025-02] [[paper](https://arxiv.org/abs/2502.03425)]
 
 - "Combining Large Language Models with Static Analyzers for Code Review Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.06633)]
+
+- "Automating Code Review: A Systematic Literature Review" [2025-03] [[paper](https://arxiv.org/abs/2503.09510)]
 
 ### Log Analysis
 
@@ -2950,6 +2954,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "An LLM-based Agent for Reliable Docker Environment Configuration" [2025-02] [[paper](https://arxiv.org/abs/2502.13681)]
 
 - "Automated Benchmark Generation for Repository-Level Coding Tasks" [2025-03] [[paper](https://arxiv.org/abs/2503.07701)]
+
+- "BYOS: Knowledge-driven Large Language Models Bring Your Own Operating System More Excellent" [2025-03] [[paper](https://arxiv.org/abs/2503.09663)]
 
 ### Code QA & Reasoning
 
@@ -3182,6 +3188,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Assessing Correctness in LLM-Based Code Generation via Uncertainty Estimation" [2025-02] [[paper](https://arxiv.org/abs/2502.11620)]
 
 - "Performance Evaluation of Large Language Models in Statistical Programming" [2025-02] [[paper](https://arxiv.org/abs/2502.13117)]
+
+- "Unveiling Pitfalls: Understanding Why AI-driven Code Agents Fail at GitHub Issue Resolution" [2025-03] [[paper](https://arxiv.org/abs/2503.12374)]
 
 ### Hallucination
 
@@ -3535,6 +3543,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "How Scientists Use Large Language Models to Program" [2025-02] [[paper](https://arxiv.org/abs/2502.17348)]
 
+- "Do Comments and Expertise Still Matter? An Experiment on Programmers' Adoption of AI-Generated JavaScript Code" [2025-03] [[paper](https://arxiv.org/abs/2503.11453)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -3689,6 +3699,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-02 | arXiv                            | PseudoEval                                       | 1059                 | Python, C++, Rust                                                                | "Isolating Language-Coding from Problem-Solving: Benchmarking LLMs with PseudoEval" [[paper](https://arxiv.org/abs/2502.19149)] [[data](https://anonymous.4open.science/r/PseudocodeACL25-7B74/README.md)]                                                                                   |
 | 2025-02 | arXiv                            | ProBench                                         | 790                  | C++, Java, Python                                                                | "ProBench: Benchmarking Large Language Models in Competitive Programming" [[paper](https://arxiv.org/abs/2502.20868)] [[data](https://github.com/YL-9/probench)]                                                                                                                             |
 | 2025-03 | arXiv                            | DyCodeEval                                       | -                    | -                                                                                | "Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination" [[paper](https://arxiv.org/abs/2503.04149)]                                                                                                                                          |
+| 2025-03 | arXiv                            | DynaCode                                         | 405                  | Python                                                                           | "DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation" [[paper](https://arxiv.org/abs/2503.10452)]                                                                                                                                    |
 
 \* Automatically mined/human-annotated
 
@@ -3867,6 +3878,7 @@ $^\diamond$ Machine/human prompts
 | 2024-06 | arXiv                        | VulDetectBench | 1000  | C/C++                       | "VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models" [[paper](https://arxiv.org/abs/2406.07595)] [[data](https://github.com/Sweetaroo/VulDetectBench)]                     |
 | 2024-08 | arXiv                        | CodeJudge-Eval | 1860  | Python                      | "CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?" [[paper](https://arxiv.org/abs/2408.10718)] [[data](https://github.com/CodeLLM-Research/CodeJudge-Eval)]                                   |
 | 2024-11 | arXiv                        | CleanVul       | 11632 | Java, Python, JS, C#, C/C++ | "CleanVul: Automatic Function-Level Vulnerability Detection in Code Commits Using LLM Heuristics" [[paper](https://arxiv.org/abs/2411.17274)] [[data](https://github.com/yikun-li/CleanVul)]                                 |
+| 2025-03 | arXiv                        | CASTLE         | 250   | C                           | "CASTLE: Benchmarking Dataset for Static Code Analyzers and LLMs towards CWE Detection" [[paper](https://arxiv.org/abs/2503.09433)] [[data](https://github.com/CASTLE-Benchmark/Tests-C250)]                                 |
 
 #### Code Retrieval
 
