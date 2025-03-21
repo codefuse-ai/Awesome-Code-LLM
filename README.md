@@ -4,7 +4,11 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/03/18] Featured papers:
+🔥🔥🔥 [2025/03/19] Featured papers:
+
+- 🔥🔥 [EnvBench: A Benchmark for Automated Environment Setup](https://arxiv.org/abs/2503.14443) from JetBrains Research.
+
+- 🔥🔥 [The KoLMogorov Test: Compression by Code Generation](https://arxiv.org/abs/2503.13992) from Meta.
 
 - 🔥 [Control Flow-Augmented Decompiler based on Large Language Model](https://arxiv.org/abs/2503.07215) from Zhongguancun Laboratory.
 
@@ -765,6 +769,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 57. "Code to Think, Think to Code: A Survey on Code-Enhanced Reasoning and Reasoning-Driven Code Intelligence in LLMs" [2025-02] [[paper](https://arxiv.org/abs/2502.19411)]
 
+58. "The KoLMogorov Test: Compression by Code Generation" [2025-03] [[paper](https://arxiv.org/abs/2503.13992)]
+
 ### 3.2 Code Simulation
 
 - "Code Simulation Challenges for Large Language Models" [2024-01] [[paper](https://arxiv.org/abs/2401.09074)]
@@ -902,6 +908,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 53. **SoRFT**: "SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning" [2025-02] [[paper](https://arxiv.org/abs/2502.20127)]
 
 54. "Is Multi-Agent Debate (MAD) the Silver Bullet? An Empirical Analysis of MAD in Code Summarization and Translation" [2025-03] [[paper](https://arxiv.org/abs/2503.12029)]
+
+55. **DARS**: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal" [2025-03] [[paper](https://arxiv.org/abs/2503.14269)]
 
 ### 3.4 Interactive Coding
 
@@ -1407,6 +1415,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CodeSwift: Accelerating LLM Inference for Efficient Code Generation" [2025-02] [[paper](https://arxiv.org/abs/2502.17139)]
 
+- "SOSecure: Safer Code Generation with RAG and StackOverflow Discussions" [2025-03] [[paper](https://arxiv.org/abs/2503.13654)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1586,6 +1596,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Code Summarization Beyond Function Level" [2025-02] [[paper](https://arxiv.org/abs/2502.16704)]
 
 ### Program Repair
+
+- "CURE: Code-Aware Neural Machine Translation for Automatic Program Repair" [2021-02] [ICSE 2021] [[paper](https://arxiv.org/abs/2103.00073)]
 
 - "DeepDebug: Fixing Python Bugs Using Stack Traces, Backtranslation, and Code Skeletons" [2021-05] [[paper](https://arxiv.org/abs/2105.09352)]
 
@@ -1782,6 +1794,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Distributed Approach to Haskell Based Applications Refactoring with LLMs Based Multi-Agent Systems" [2025-02] [[paper](https://arxiv.org/abs/2502.07928)]
 
 - "RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code" [2025-03] [[paper](https://arxiv.org/abs/2503.07832)]
+
+- "MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG and Multi-Agent LLM Collaboration" [2025-03] [[paper](https://arxiv.org/abs/2503.14340)]
 
 ### Type Prediction
 
@@ -2241,6 +2255,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Can LLMs Formally Reason as Abstract Interpreters for Program Analysis?" [2025-03] [[paper](https://arxiv.org/abs/2503.12686)]
 
+- "Can LLMs Enable Verification in Mainstream Programming?" [2025-03] [[paper](https://arxiv.org/abs/2503.14183)]
+
 ### Test Generation
 
 - "Unit Test Case Generation with Transformers and Focal Context" [2020-09] [AST@ICSE 2022] [[paper](https://arxiv.org/abs/2009.05617)]
@@ -2374,6 +2390,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ProjectTest: A Project-level LLM Unit Test Generation Benchmark and Impact of Error Fixing Mechanisms" [2025-02] [[paper](https://arxiv.org/abs/2502.06556)]
 
 - "CLOVER: A Test Case Generation Benchmark with Coverage, Long-Context, and Verification" [2025-02] [[paper](https://arxiv.org/abs/2502.08806)]
+
+- "LLM-based Unit Test Generation for Dynamically-Typed Programs" [2025-03] [[paper](https://arxiv.org/abs/2503.14000)]
+
+- "LLM Test Generation via Iterative Hybrid Program Analysis" [2025-03] [[paper](https://arxiv.org/abs/2503.13580)]
 
 ### Oracle Generation
 
@@ -2957,6 +2977,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "BYOS: Knowledge-driven Large Language Models Bring Your Own Operating System More Excellent" [2025-03] [[paper](https://arxiv.org/abs/2503.09663)]
 
+- "EnvBench: A Benchmark for Automated Environment Setup" [2025-03] [[paper](https://arxiv.org/abs/2503.14443)]
+
 ### Code QA & Reasoning
 
 - "DialogAgent: An Auto-engagement Agent for Code Question Answering Data Production" [2024-12] [[paper](https://arxiv.org/abs/2412.08069)]
@@ -3126,6 +3148,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Benchmarking Prompt Engineering Techniques for Secure Code Generation with GPT Models" [2025-02] [[paper](https://arxiv.org/abs/2502.06039)]
 
 - "Do LLMs Consider Security? An Empirical Study on Responses to Programming Questions" [2025-02] [[paper](https://arxiv.org/abs/2502.14202)]
+
+- "XOXO: Stealthy Cross-Origin Context Poisoning Attacks against AI Coding Assistants" [2025-03] [[paper](https://arxiv.org/abs/2503.14281)]
 
 ### Correctness
 
@@ -3356,6 +3380,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Detection of LLM-Paraphrased Code and Identification of the Responsible LLM Using Coding Style Features" [2025-02] [[paper](https://arxiv.org/abs/2502.17749)]
 
 - "Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code" [2025-02] [[paper](https://arxiv.org/abs/2502.18851)]
+
+- "CoDet-M4: Detecting Machine-Generated Code in Multi-Lingual, Multi-Generator and Multi-Domain Settings" [2025-03] [[paper](https://arxiv.org/abs/2503.13733)]
 
 ### Others
 
