@@ -4,15 +4,15 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/03/25] Featured papers:
+🔥🔥🔥 [2025/03/30] Featured papers:
 
-- 🔥🔥 [Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM](https://arxiv.org/abs/2503.17793) from Ant Group.
+- 🔥🔥 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215) from Qwen Team.
 
-- 🔥🔥 [LLMs Love Python: A Study of LLMs' Bias for Programming Languages and Libraries](https://arxiv.org/abs/2503.17181) from King’s College London.
+- 🔥🔥 [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) from DeepMind.
 
-- 🔥 [EnvBench: A Benchmark for Automated Environment Setup](https://arxiv.org/abs/2503.14443) from JetBrains Research.
+- 🔥 [Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM](https://arxiv.org/abs/2503.17793) from Ant Group.
 
-- 🔥 [The KoLMogorov Test: Compression by Code Generation](https://arxiv.org/abs/2503.13992) from Meta.
+- 🔥 [LLMs Love Python: A Study of LLMs' Bias for Programming Languages and Libraries](https://arxiv.org/abs/2503.17181) from King’s College London.
 
 🔥🔥🔥 Recent works from Codefuse:
 
@@ -358,6 +358,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 74. **Phi-4-Mini**: "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs" [2025-03] [[paper](https://arxiv.org/abs/2503.01743)]
 
 75. **Ling**: "Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs" [2025-03] [[paper](https://arxiv.org/abs/2503.05139)]
+
+76. **Gemma 3**: "Gemma 3 Technical Report" [2025-03] [[paper](https://arxiv.org/abs/2503.19786)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -1015,6 +1017,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "IterPref: Focal Preference Learning for Code Generation via Iterative Debugging" [2025-03] [[paper](https://arxiv.org/abs/2503.02783)]
 
+- "debug-gym: A Text-Based Environment for Interactive Debugging" [2025-03] [[paper](https://arxiv.org/abs/2503.21557)]
+
 ### 3.5 Frontend Navigation
 
 - "MarkupLM: Pre-training of Text and Markup Language for Visually-rich Document Understanding" [2021-10] [ACL 2022] [[paper](https://arxiv.org/abs/2110.08518)]
@@ -1434,6 +1438,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "SOSecure: Safer Code Generation with RAG and StackOverflow Discussions" [2025-03] [[paper](https://arxiv.org/abs/2503.13654)]
 
 - "When LLMs Meet API Documentation: Can Retrieval Augmentation Aid Code Generation Just as It Helps Developers?" [2025-03] [[paper](https://arxiv.org/abs/2503.15231)]
+
+- "What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond" [2025-03] [[paper](https://arxiv.org/abs/2503.20589)]
 
 ### Code Ranking
 
@@ -1915,6 +1921,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "aiXcoder-7B-v2: Training LLMs to Fully Utilize the Long Context in Repository-level Code Completion" [2025-03] [[paper](https://arxiv.org/abs/2503.15301)]
 
+- "Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs" [2025-03] [[paper](https://arxiv.org/abs/2503.21710)]
+
 ### Frontend Development
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -2240,6 +2248,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Feather-SQL: A Lightweight NL2SQL Framework with Dual-Model Collaboration Paradigm for Small Language Models" [2025-03] [[paper](https://arxiv.org/abs/2503.17811)]
 
 - "LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL" [2025-03] [[paper](https://arxiv.org/abs/2503.18596)]
+
+- "ExCoT: Optimizing Reasoning for Text-to-SQL with Execution Feedback" [2025-03] [[paper](https://arxiv.org/abs/2503.19988)]
 
 ### Program Proof
 
@@ -2805,6 +2815,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Optimizing Code Runtime Performance through Context-Aware Retrieval-Augmented Generation" [2025-01] [[paper](https://arxiv.org/abs/2501.16692)]
 
+- "VecTrans: LLM Transformation Framework for Better Auto-vectorization on High-performance CPU" [2025-03] [[paper](https://arxiv.org/abs/2503.19449)]
+
 ### Binary Analysis and Decompilation
 
 - "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
@@ -3328,6 +3340,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "On the Adversarial Robustness of Instruction-Tuned Large Language Models for Code" [2024-11] [[paper](https://arxiv.org/abs/2411.19508)]
 
 - "What You See Is Not Always What You Get: An Empirical Study of Code Comprehension by Large Language Models" [2024-12] [[paper](https://arxiv.org/abs/2412.08098)]
+
+- "Enhancing the Robustness of LLM-Generated Code: Empirical Study and Framework" [2025-03] [[paper](https://arxiv.org/abs/2503.20197)]
 
 ### Interpretability
 
