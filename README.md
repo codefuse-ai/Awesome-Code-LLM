@@ -4,15 +4,23 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/03/30] Featured papers:
+🔥🔥🔥 [2025/04/03] Featured papers:
 
-- 🔥🔥 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215) from Qwen Team.
+- 🔥🔥 [OpenCodeReasoning: Advancing Data Distillation for Competitive Coding](https://arxiv.org/abs/2504.01943) from NVIDIA.
 
-- 🔥🔥 [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) from DeepMind.
+- 🔥🔥 [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://arxiv.org/abs/2504.01848) from OpenAI.
 
-- 🔥 [Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM](https://arxiv.org/abs/2503.17793) from Ant Group.
+- 🔥🔥 [Command A: An Enterprise-Ready Large Language Model](https://arxiv.org/abs/2504.00698) from Cohere.
 
-- 🔥 [LLMs Love Python: A Study of LLMs' Bias for Programming Languages and Libraries](https://arxiv.org/abs/2503.17181) from King’s College London.
+- 🔥🔥 [ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding](https://arxiv.org/abs/2504.00019) from TU Darmstadt.
+
+- 🔥🔥 [Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute](https://arxiv.org/abs/2503.23803) from Alibaba Group.
+
+- 🔥🔥 [Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL](https://arxiv.org/abs/2503.23157) from Google.
+
+- 🔥 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215) from Qwen Team.
+
+- 🔥 [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) from DeepMind.
 
 🔥🔥🔥 Recent works from Codefuse:
 
@@ -199,6 +207,8 @@ We list several recent surveys on similar topics. While they are all about langu
 
 14. "Large Language Models (LLMs) for Source Code Analysis: applications, models and datasets" [2025-03] [[paper](https://arxiv.org/abs/2503.17502)]
 
+15. "Challenges and Paths Towards AI for Software Engineering" [2025-03] [[paper](https://arxiv.org/abs/2503.22625)]
+
 ## 2. Models
 
 <p align='center'>
@@ -361,6 +371,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 76. **Gemma 3**: "Gemma 3 Technical Report" [2025-03] [[paper](https://arxiv.org/abs/2503.19786)]
 
+77. **Command A**: "Command A: An Enterprise-Ready Large Language Model" [2025-04] [[paper](https://arxiv.org/abs/2504.00698)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -466,6 +478,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 21. **aiXcoder**: "aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Completion" [2024-10] [[paper](https://arxiv.org/abs/2410.13187)]
 
 22. **OpenCoder**: "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.04905)]
+
+23. **ObscuraCoder**: "ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding" [2025-03] [[paper](https://arxiv.org/abs/2504.00019)]
 
 #### Encoder-Decoder
 
@@ -606,6 +620,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 51. **NextCoder**: "Robust Learning of Diverse Code Edits" [2025-03] [[paper](https://arxiv.org/abs/2503.03656)]
 
 52. **FAIT**: "FAIT: Fault-Aware Fine-Tuning for Better Code Generation" [2025-03] [[paper](https://arxiv.org/abs/2503.16913)]
+
+53. **Z1**: "Z1: Efficient Test-time Scaling with Code" [2025-04] [[paper](https://arxiv.org/abs/2504.00810)]
+
+54. **OpenCodeReasoning**: "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding" [2025-04] [[paper](https://arxiv.org/abs/2504.01943)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -807,6 +825,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "What I cannot execute, I do not understand: Training and Evaluating LLMs on Program Execution Traces" [2025-02] [[paper](https://arxiv.org/abs/2503.05703)]
 
+- "L0-Reasoning Bench: Evaluating Procedural Correctness in Language Models via Simple Program Execution" [2025-03] [[paper](https://arxiv.org/abs/2503.22832)]
+
 ### 3.3 Code Agents
 
 1. **Self-collaboration**: "Self-collaboration Code Generation via ChatGPT" [2023-04] [[paper](https://arxiv.org/abs/2304.07590)]
@@ -921,6 +941,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 56. **SEAlign**: "SEAlign: Alignment Training for Software Engineering Agent" [2025-03] [[paper](https://arxiv.org/abs/2503.18455)]
 
+57. **SWE-SynInfer**: "Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute" [2025-03] [[paper](https://arxiv.org/abs/2503.23803)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -1018,6 +1040,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "IterPref: Focal Preference Learning for Code Generation via Iterative Debugging" [2025-03] [[paper](https://arxiv.org/abs/2503.02783)]
 
 - "debug-gym: A Text-Based Environment for Interactive Debugging" [2025-03] [[paper](https://arxiv.org/abs/2503.21557)]
+
+- "CodeIF-Bench: Evaluating Instruction-Following Capabilities of Large Language Models in Interactive Code Generation" [2025-03] [[paper](https://arxiv.org/abs/2503.22688)]
 
 ### 3.5 Frontend Navigation
 
@@ -1409,6 +1433,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Uncertainty-Guided Chain-of-Thought for Code Generation with LLMs" [2025-03] [[paper](https://arxiv.org/abs/2503.15341)]
 
+- "CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis" [2025-03] [[ppaer](https://arxiv.org/abs/2503.23145)]
+
 ### Code RAG
 
 - "CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation" [2024-05] [[paper](https://arxiv.org/abs/2405.02355)]
@@ -1737,6 +1763,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "UTFix: Change Aware Unit Test Repairing using LLM" [2025-03] [[paper](https://arxiv.org/abs/2503.14924)]
 
+- "Unlocking LLM Repair Capabilities in Low-Resource Programming Languages Through Cross-Language Translation and Multi-Agent Refinement" [2025-03] [[paper](https://arxiv.org/abs/2503.22512)]
+
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
 - "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
@@ -1923,6 +1951,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs" [2025-03] [[paper](https://arxiv.org/abs/2503.21710)]
 
+- "SRLCG: Self-Rectified Large-Scale Code Generation with Multidimensional Chain-of-Thought and Dynamic Backtracking" [2025-04] [[paper](https://arxiv.org/abs/2504.00532)]
+
 ### Frontend Development
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -2016,6 +2046,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "MLGym: A New Framework and Benchmark for Advancing AI Research Agents" [2025-02] [[paper](https://arxiv.org/abs/2502.14499)]
 
 - "MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems" [2025-03] [[paper](https://arxiv.org/abs/2503.03686)]
+
+- "SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers" [2025-03] [[paper](https://arxiv.org/abs/2504.00255)]
+
+- "PaperBench: Evaluating AI's Ability to Replicate AI Research" [2025-04] [[paper](https://arxiv.org/abs/2504.01848)]
 
 ### Text-To-SQL
 
@@ -2250,6 +2284,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL" [2025-03] [[paper](https://arxiv.org/abs/2503.18596)]
 
 - "ExCoT: Optimizing Reasoning for Text-to-SQL with Execution Feedback" [2025-03] [[paper](https://arxiv.org/abs/2503.19988)]
+
+- "EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing" [2025-03] [[paper](https://arxiv.org/abs/2503.22402)]
+
+- "Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL" [2025-03] [[paper](https://arxiv.org/abs/2503.23157)]
+
+- "Distill-C: Enhanced NL2SQL via Distilled Customization with LLMs" [2025-03] [[paper](https://arxiv.org/abs/2504.00048)]
 
 ### Program Proof
 
@@ -2734,6 +2774,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "LocAgent: Graph-Guided LLM Agents for Code Localization" [2025-03] [[paper](https://arxiv.org/abs/2503.09089)]
 
 - "HALURust: Exploiting Hallucinations of Large Language Models to Detect Vulnerabilities in Rust" [2025-03] [[paper](https://arxiv.org/abs/2503.10793)]
+
+- "CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching" [2025-03] [[paper](https://arxiv.org/abs/2503.22424)]
 
 ### Malicious Code Detection
 
@@ -3379,6 +3421,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "RustEvo^2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation" [2025-03] [[paper](https://arxiv.org/abs/2503.16922)]
 
+- "Identifying and Mitigating API Misuse in Large Language Models" [2025-03] [[paper](https://arxiv.org/abs/2503.22821)]
+
 ### Privacy
 
 - "Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach" [2024-04] [[paper](https://arxiv.org/abs/2404.14296)]
@@ -3502,6 +3546,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Human or LLM? A Comparative Study on Accessible Code Generation Capability" [2025-03] [[paper](https://arxiv.org/abs/2503.15885)]
 
 - "Automated Harmfulness Testing for Code Large Language Models" [2025-03] [[paper](https://arxiv.org/abs/2503.16740)]
+
+- "Code Red! On the Harmfulness of Applying Off-the-shelf Large Language Models to Programming Tasks" [2025-04] [[paper](https://arxiv.org/abs/2504.01850)]
 
 ## 7. Human-LLM Interaction
 
@@ -3972,6 +4018,7 @@ $^\diamond$ Machine/human prompts
 | 2024-08 | arXiv                        | CodeJudge-Eval | 1860  | Python                      | "CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?" [[paper](https://arxiv.org/abs/2408.10718)] [[data](https://github.com/CodeLLM-Research/CodeJudge-Eval)]                                   |
 | 2024-11 | arXiv                        | CleanVul       | 11632 | Java, Python, JS, C#, C/C++ | "CleanVul: Automatic Function-Level Vulnerability Detection in Code Commits Using LLM Heuristics" [[paper](https://arxiv.org/abs/2411.17274)] [[data](https://github.com/yikun-li/CleanVul)]                                 |
 | 2025-03 | arXiv                        | CASTLE         | 250   | C                           | "CASTLE: Benchmarking Dataset for Static Code Analyzers and LLMs towards CWE Detection" [[paper](https://arxiv.org/abs/2503.09433)] [[data](https://github.com/CASTLE-Benchmark/Tests-C250)]                                 |
+| 2025-03 | arXiv                        | DSDBench       | 1117  | Python                      | "Why Stop at One Error? Benchmarking LLMs as Data Science Code Debuggers for Multi-Hop and Multi-Bug Errors" [[paper](https://arxiv.org/abs/2503.22388)] [[data](https://github.com/KevinCL16/DSDBench)]                     |
 
 #### Code Retrieval
 
