@@ -6,6 +6,8 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 🔥🔥🔥 [2025/04/03] Featured papers:
 
+- 🔥🔥 [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605) from Bytedance Seed.
+
 - 🔥🔥 [OpenCodeReasoning: Advancing Data Distillation for Competitive Coding](https://arxiv.org/abs/2504.01943) from NVIDIA.
 
 - 🔥🔥 [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://arxiv.org/abs/2504.01848) from OpenAI.
@@ -1952,6 +1954,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs" [2025-03] [[paper](https://arxiv.org/abs/2503.21710)]
 
 - "SRLCG: Self-Rectified Large-Scale Code Generation with Multidimensional Chain-of-Thought and Dynamic Backtracking" [2025-04] [[paper](https://arxiv.org/abs/2504.00532)]
+
+- "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving" [2025-04] [[paper](https://arxiv.org/abs/2504.02605)]
 
 ### Frontend Development
 
