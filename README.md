@@ -4,25 +4,15 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/04/18] Featured papers:
+🔥🔥🔥 [2025/04/23] Featured papers:
 
-- 🔥🔥 [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703) from AWS.
+- 🔥🔥 [SWE-Synth: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs](https://arxiv.org/abs/2504.14757) from FPT Software AI Center.
 
-- 🔥🔥 [OpenCodeInstruct: A Large-scale Instruction Tuning Dataset for Code LLMs](https://arxiv.org/abs/2504.04030) from NVIDIA.
+- 🔥 [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703) from AWS.
 
-- 🔥🔥 [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605) from ByteDance.
+- 🔥 [OpenCodeInstruct: A Large-scale Instruction Tuning Dataset for Code LLMs](https://arxiv.org/abs/2504.04030) from NVIDIA.
 
-- 🔥 [OpenCodeReasoning: Advancing Data Distillation for Competitive Coding](https://arxiv.org/abs/2504.01943) from NVIDIA.
-
-- 🔥 [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://arxiv.org/abs/2504.01848) from OpenAI.
-
-- 🔥 [Command A: An Enterprise-Ready Large Language Model](https://arxiv.org/abs/2504.00698) from Cohere.
-
-- 🔥 [ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding](https://arxiv.org/abs/2504.00019) from TU Darmstadt.
-
-- 🔥 [Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute](https://arxiv.org/abs/2503.23803) from Alibaba Group.
-
-- 🔥 [Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL](https://arxiv.org/abs/2503.23157) from Google.
+- 🔥 [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605) from ByteDance.
 
 🔥🔥🔥 Recent works from Codefuse:
 
@@ -951,6 +941,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 58. **AdaCoder**: "AdaCoder: An Adaptive Planning and Multi-Agent Framework for Function-Level Code Generation" [2025-04] [[paper](https://arxiv.org/abs/2504.04220)]
 
+59. **SICA**: "A Self-Improving Coding Agent" [2025-04] [[paper](https://arxiv.org/abs/2504.15228)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -1310,6 +1302,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "RTLRepoCoder: Repository-Level RTL Code Completion through the Combination of Fine-Tuning and Retrieval Augmentation" [2025-04] [[paper](https://arxiv.org/abs/2504.08862)]
 
 - [**Verilog**] "SymRTLO: Enhancing RTL Code Optimization with LLMs and Neuron-Inspired Symbolic Reasoning" [2025-04] [[paper](https://arxiv.org/abs/2504.10369)]
+
+- [**Verilog**] "ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model" [2025-04] [[paper](https://arxiv.org/abs/2504.14560)]
+
+- [**Verilog**] "VeriCoder: Enhancing LLM-Based RTL Code Generation through Functional Correctness Validation" [2025-04] [[paper](https://arxiv.org/abs/2504.15659)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -1885,6 +1881,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Migrating Code At Scale With LLMs At Google" [2025-04] [[paper](https://arxiv.org/abs/2504.09691)]
 
+- "Using LLMs for Library Migration" [2025-04] [[paper](https://arxiv.org/abs/2504.13272)]
+
 ### Type Prediction
 
 - "Learning type annotation: is big data enough?" [2021-08] [ESEC/FSE 2021] [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
@@ -1982,6 +1980,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs" [2025-03] [[paper](https://arxiv.org/abs/2503.21710)]
 
 - "SRLCG: Self-Rectified Large-Scale Code Generation with Multidimensional Chain-of-Thought and Dynamic Backtracking" [2025-04] [[paper](https://arxiv.org/abs/2504.00532)]
+
+- "SWE-Synth: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs" [2025-04] [[paper](https://arxiv.org/abs/2504.14757)]
 
 ### Frontend Development
 
@@ -3423,6 +3423,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Enhancing the Robustness of LLM-Generated Code: Empirical Study and Framework" [2025-03] [[paper](https://arxiv.org/abs/2503.20197)]
 
+- "CODECRASH: Stress Testing LLM Reasoning under Structural and Semantic Perturbations" [2025-04] [[paper](https://arxiv.org/abs/2504.14119)]
+
 ### Interpretability
 
 - "A Critical Study of What Code-LLMs (Do Not) Learn" [2024-06] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2406.11930)]
@@ -3795,6 +3797,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation" [2025-02] [[paper](https://arxiv.org/abs/2502.19414)]
 
+- "CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation" [2025-04] [[paper](https://arxiv.org/abs/2504.13472)]
+
 #### Program Synthesis
 
 | Date    | Venue                            | Benchmark                                        | Size                 | Language                                                                         | Source                                                                                                                                                                                                                                                                                       |
@@ -3877,6 +3881,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-03 | arXiv                            | DyCodeEval                                       | -                    | -                                                                                | "Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination" [[paper](https://arxiv.org/abs/2503.04149)]                                                                                                                                          |
 | 2025-03 | arXiv                            | DynaCode                                         | 405                  | Python                                                                           | "DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation" [[paper](https://arxiv.org/abs/2503.10452)]                                                                                                                                    |
 | 2025-03 | arXiv                            | BigO(Bench)                                      | 3105                 | Python                                                                           | "BigO(Bench) -- Can LLMs Generate Code with Controlled Time and Space Complexity?" [[paper](https://arxiv.org/abs/2503.15242)] [[data](https://github.com/facebookresearch/bigobench)]                                                                                                       |
+| 2025-04 | arXiv                            | -                                                | 842K                 | Python                                                                           | "A Large-scale Class-level Benchmark Dataset for Code Generation with LLMs" [[paper](https://arxiv.org/abs/2504.15564)] [[data](https://anonymous.4open.science/r/class-level-benchmark-dataset-B132/README.md)]                                                                             |
 
 \* Automatically mined/human-annotated
 
@@ -3971,6 +3976,7 @@ $^\diamond$ Machine/human prompts
 | 2024-11 | arXiv                                | RustRepoTrans            | 375    | C++, Java, Python, Rust                                   | "Repository-level Code Translation Benchmark Targeting Rust" [[paper](https://arxiv.org/abs/2411.13990)] [[data](https://github.com/TrustedGPT/RustRepoTrans)]                                                      |
 | 2024-12 | arXiv                                | RepoTransBench           | 100    | Python, Java                                              | "RepoTransBench: A Real-World Benchmark for Repository-Level Code Translation" [[paper](https://arxiv.org/abs/2412.17744)]                                                                                          |
 | 2025-01 | arXiv                                | TransRepo-Bench          | 13     | Java, C#                                                  | "Skeleton-Guided-Translation: A Benchmarking Framework for Code Repository Translation with Fine-Grained Quality Evaluation" [[paper](https://arxiv.org/abs/2501.16050)]                                            |
+| 2025-04 | arXiv                                | CRUST-Bench              | 100    | C, Rust                                                   | "CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation" [[paper](https://arxiv.org/abs/2504.15254)] [[data](https://github.com/anirudhkhatry/CRUST-bench)]                                        |
 
 #### Program Repair
 
