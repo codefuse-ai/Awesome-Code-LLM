@@ -4,15 +4,16 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/04/23] Featured papers:
+🔥🔥🔥 [2025/05/04] Featured papers:
 
-- 🔥🔥 [SWE-Synth: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs](https://arxiv.org/abs/2504.14757) from FPT Software AI Center.
+- 🔥🔥 [SWE-smith: Scaling Data for Software Engineering Agents](https://arxiv.org/abs/2504.21798) from Stanford University.
 
-- 🔥 [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703) from AWS.
+- 🔥🔥 [Hallucination by Code Generation LLMs: Taxonomy, Benchmarks, Mitigation, and Challenges](https://arxiv.org/abs/2504.20799) from Handong Global University.
 
-- 🔥 [OpenCodeInstruct: A Large-scale Instruction Tuning Dataset for Code LLMs](https://arxiv.org/abs/2504.04030) from NVIDIA.
+- 🔥🔥 [AutoP2C: An LLM-Based Agent Framework for Code Repository Generation from Multimodal Content in Academic Papers](https://arxiv.org/abs/2504.20115) from University of Science and Technology
+  of China.
 
-- 🔥 [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605) from ByteDance.
+- 🔥 [SWE-Synth: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs](https://arxiv.org/abs/2504.14757) from FPT Software AI Center.
 
 🔥🔥🔥 Recent works from Codefuse:
 
@@ -943,6 +944,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 59. **SICA**: "A Self-Improving Coding Agent" [2025-04] [[paper](https://arxiv.org/abs/2504.15228)]
 
+60. **SWE-smith**: "SWE-smith: Scaling Data for Software Engineering Agents" [2025-04] [[paper](https://arxiv.org/abs/2504.21798)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -1042,6 +1045,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - "debug-gym: A Text-Based Environment for Interactive Debugging" [2025-03] [[paper](https://arxiv.org/abs/2503.21557)]
 
 - "CodeIF-Bench: Evaluating Instruction-Following Capabilities of Large Language Models in Interactive Code Generation" [2025-03] [[paper](https://arxiv.org/abs/2503.22688)]
+
+- "CodeFlowBench: A Multi-turn, Iterative Benchmark for Complex Code Generation" [2025-04] [[paper](https://arxiv.org/abs/2504.21751)]
 
 ### 3.5 Frontend Navigation
 
@@ -1306,6 +1311,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**Verilog**] "ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model" [2025-04] [[paper](https://arxiv.org/abs/2504.14560)]
 
 - [**Verilog**] "VeriCoder: Enhancing LLM-Based RTL Code Generation through Functional Correctness Validation" [2025-04] [[paper](https://arxiv.org/abs/2504.15659)]
+
+- [**Verilog**] "ComplexVCoder: An LLM-Driven Framework for Systematic Generation of Complex Verilog Code" [2025-04] [[paper](https://arxiv.org/abs/2504.20653)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -2080,6 +2087,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers" [2025-03] [[paper](https://arxiv.org/abs/2504.00255)]
 
 - "PaperBench: Evaluating AI's Ability to Replicate AI Research" [2025-04] [[paper](https://arxiv.org/abs/2504.01848)]
+
+- "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning" [2025-04] [[paper](https://arxiv.org/abs/2504.17192)]
+
+- "AutoP2C: An LLM-Based Agent Framework for Code Repository Generation from Multimodal Content in Academic Papers" [2025-04] [[paper](https://arxiv.org/abs/2504.20115)]
+
+- "ResearchCodeAgent: An LLM Multi-Agent System for Automated Codification of Research Methodologies" [2025-04] [[paper](https://arxiv.org/abs/2504.20117)]
 
 ### Text-To-SQL
 
@@ -3283,6 +3296,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Smoke and Mirrors: Jailbreaking LLM-based Code Generation via Implicit Malicious Prompts" [2025-03] [[paper](https://arxiv.org/abs/2503.17953)]
 
+- "Give LLMs a Security Course: Securing Retrieval-Augmented Code Generation via Knowledge Injection" [2025-04] [[paper](https://arxiv.org/abs/2504.16429)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -3368,6 +3383,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code" [2024-10] [[paper](https://arxiv.org/abs/2410.09997)]
 
 - "ETF: An Entity Tracing Framework for Hallucination Detection in Code Summaries" [2024-10] [[paper](https://arxiv.org/abs/2410.14748)]
+
+- "Hallucination by Code Generation LLMs: Taxonomy, Benchmarks, Mitigation, and Challenges" [2025-04] [[paper](https://arxiv.org/abs/2504.20799)]
 
 ### Efficiency
 
@@ -3723,6 +3740,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Do Comments and Expertise Still Matter? An Experiment on Programmers' Adoption of AI-Generated JavaScript Code" [2025-03] [[paper](https://arxiv.org/abs/2503.11453)]
 
+- "Prompting LLMs for Code Editing: Struggles and Remedies" [2025-04] [[paper](https://arxiv.org/abs/2504.20196)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -3740,6 +3759,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 6. **The Stack v2**: "StarCoder 2 and The Stack v2: The Next Generation" [2024-02] [[paper](https://arxiv.org/abs/2402.19173)] [[data](https://huggingface.co/datasets/bigcode/the-stack-v2-dedup)]
 
 7. **The Heap**: "The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models" [2025-01] [[paper](https://arxiv.org/abs/2501.09653)]
+
+8. "Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks" [2025-04] [[paper](https://arxiv.org/abs/2504.19444)]
 
 ### 8.2 Benchmarks
 
@@ -3772,6 +3793,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - **SuperGPQA**: "SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines" [2025-02] [[paper](https://arxiv.org/abs/2502.14739)]
 
 - **BBEH**: "BIG-Bench Extra Hard" [2025-02] [[paper](https://arxiv.org/abs/2502.19187)] [[data](https://github.com/google-deepmind/bbeh)]
+
+- "**CoCo-Bench**: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation" [2025-04] [[paper](https://arxiv.org/abs/2504.20673)]
 
 #### Evaluation Metrics
 
@@ -4159,6 +4182,7 @@ $^\diamond$ Machine/human prompts
 | 2025-03 | arXiv             | RepoST-Eval      | 296                    | Python                         | "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing" [[paper](https://arxiv.org/abs/2503.07358)] [[data](https://github.com/yiqingxyq/RepoST)]                                                             |
 | 2025-04 | arXiv             | Multi-SWE-bench  | 1632                   | Java, JS, TS, Go, Rust, C, C++ | "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving" [[paper](https://arxiv.org/abs/2504.02605)] [[data](https://github.com/multi-swe-bench/multi-swe-bench)]                                                                       |
 | 2025-04 | arXiv             | SWE-PolyBench    | 2110                   | Java, JS, TS, Python           | "SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents" [[paper](https://arxiv.org/abs/2504.08703)] [[data](https://github.com/amazon-science/SWE-PolyBench)]                                             |
+| 2025-04 | arXiv             | SecRepoBench     | 318                    | C/C++                          | "SecRepoBench: Benchmarking LLMs for Secure Code Generation in Real-World Repositories" [[paper](https://arxiv.org/abs/2504.21205)]                                                                                                            |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
