@@ -4,19 +4,19 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/06/03] Featured papers:
+🔥🔥🔥 [2025/06/05] Featured papers:
 
-- 🔥🔥 [CRScore++: Reinforcement Learning with Verifiable Tool and AI Feedback for Code Review](https://arxiv.org/abs/2506.00296) from Carnegie Mellon University.
+- 🔥🔥 [Seed-Coder: Let the Code Model Curate Data for Itself](https://arxiv.org/abs/2506.03524) from ByteDance Seed.
 
-- 🔥🔥 [Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve](https://arxiv.org/abs/2505.23946) from MIT-IBM Watson AI Lab.
+- 🔥🔥 [Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/abs/2506.03136) from ByteDance Seed.
+
+- 🔥🔥 [ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code](https://arxiv.org/abs/2506.02314) from Stanford University.
 
 - 🔥 [Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks](https://arxiv.org/abs/2505.16901) from Ant Group.
 
-- 🔥 [rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale Verified Dataset](https://arxiv.org/abs/2505.21297) from Microsoft Research Asia.
+- 🔥 [CRScore++: Reinforcement Learning with Verifiable Tool and AI Feedback for Code Review](https://arxiv.org/abs/2506.00296) from Carnegie Mellon University.
 
-- 🔥 [SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents](https://arxiv.org/abs/2505.20411) from Nebius.
-
-- 🔥 [Arctic-Text2SQL-R1: Simple Rewards, Strong Reasoning in Text-to-SQL](https://arxiv.org/abs/2505.20315) from Snowflake AI Research.
+- 🔥 [Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve](https://arxiv.org/abs/2505.23946) from MIT-IBM Watson AI Lab.
 
 🔥🔥🔥 [2025/05/29] ICLR 2025 papers have been added. Search for the keyword "ICLR 2025"!
 
@@ -137,6 +137,7 @@ If you find a paper to be missing from this repository, misplaced in a category,
    - [API Usage](#api-usage)
    - [Privacy](#privacy)
    - [Bias](#bias)
+   - [Contamination](#contamination)
    - [AI-Generated Code Detection](#ai-generated-code-detection)
    - [Others](#others)
 
@@ -381,6 +382,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 82. **Hunyuan-TurboS**: "Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought" [2025-05] [[paper](https://arxiv.org/abs/2505.15431)]
 
+83. **EuroLLM-9B**: "EuroLLM-9B: Technical Report" [2025-06] [[paper](https://arxiv.org/abs/2506.04079)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -492,6 +495,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 23. **ObscuraCoder**: "ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding" [2025-03] [ICLR 2025] [[paper](https://arxiv.org/abs/2504.00019)]
 
 24. "Structure-Aware Fill-in-the-Middle Pretraining for Code" [2025-05] [[paper](https://arxiv.org/abs/2506.00204)]
+
+25. **Seed-Coder**: "Seed-Coder: Let the Code Model Curate Data for Itself" [2025-06] [[paper](https://arxiv.org/abs/2506.03524)]
 
 #### Encoder-Decoder
 
@@ -645,6 +650,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 58. "CRPE: Expanding The Reasoning Capability of Large Language Model for Code Generation" [2025-05] [[paper](https://arxiv.org/abs/2505.10594)]
 
+59. **VisCoder**: "VisCoder: Fine-Tuning LLMs for Executable Python Visualization Code Generation" [2025-05] [[paper](https://arxiv.org/abs/2506.03930)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -700,6 +707,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 26. **AceReason-Nemotron**: "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning" [2025-05] [[paper](https://arxiv.org/abs/2505.16400)]
 
 27. **rStar-Coder**: "rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale Verified Dataset" [2025-05] [[paper](https://arxiv.org/abs/2505.21297)]
+
+28. **CURE**: "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning" [2025-06] [[paper](https://arxiv.org/abs/2506.03136)]
 
 ## 3. When Coding Meets Reasoning
 
@@ -988,6 +997,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 64. **RepoMaster**: "RepoMaster: Autonomous Exploration and Understanding of GitHub Repositories for Complex Task Solving" [2025-05] [[paper](https://arxiv.org/abs/2505.21577)]
 
 65. "Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve" [2025-05] [[paper](https://arxiv.org/abs/2505.23946)]
+
+66. "EvoGit: Decentralized Code Evolution via Git-Based Multi-Agent Collaboration" [2025-06] [[paper](https://arxiv.org/abs/2506.02049)]
 
 ### 3.4 Interactive Coding
 
@@ -1387,8 +1398,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "The Larger the Better? Improved LLM Code-Generation via Budget Reallocation" [2024-03] [[paper](https://arxiv.org/abs/2404.00725)]
 
-- "Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models" [2024-03] [ACL 2024] [[paper](https://arxiv.org/abs/2403.04811)]
-
 - "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective" [2024-04] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2404.07549)]
 
 - "Distilling Algorithmic Reasoning from LLMs via Explaining Solution Programs" [2024-04] [[paper](https://arxiv.org/abs/2404.08148)]
@@ -1538,6 +1547,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "When LLMs Meet API Documentation: Can Retrieval Augmentation Aid Code Generation Just as It Helps Developers?" [2025-03] [[paper](https://arxiv.org/abs/2503.15231)]
 
 - "What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond" [2025-03] [[paper](https://arxiv.org/abs/2503.20589)]
+
+- "Across Programming Language Silos: A Study on Cross-Lingual Retrieval-augmented Code Generation" [2025-06] [[paper](https://arxiv.org/abs/2506.03535)]
 
 ### Code Ranking
 
@@ -1854,6 +1865,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks" [2025-03] [[paper](https://arxiv.org/abs/2504.06939)]
 
 - "NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging" [2025-05] [[paper](https://arxiv.org/abs/2505.15356)]
+
+- "Empirical Evaluation of Generalizable Automated Program Repair with Large Language Models" [2025-06] [[paper](https://arxiv.org/abs/2506.03283)]
+
+- "Boosting Open-Source LLMs for Program Repair via Reasoning Transfer and LLM-Guided Reinforcement Learning" [2025-06] [[paper](https://arxiv.org/abs/2506.03921)]
 
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
@@ -2177,6 +2192,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research" [2025-05] [[paper](https://arxiv.org/abs/2505.19955)]
 
+- "ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code" [2025-06] [[paper](https://arxiv.org/abs/2506.02314)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -2206,8 +2223,6 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL" [2023-12] [[paper](https://arxiv.org/abs/2312.11242)]
 
 - "DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models" [2024-02] [EMNLP 2024 Findings] [[paper](https://arxiv.org/abs/2402.01117)]
-
-- "Investigating the Impact of Data Contamination of Large Language Models in Text-to-SQL Translation" [2024-02] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2402.08100)]
 
 - "Improving Demonstration Diversity by Human-Free Fusing for Text-to-SQL" [2024-02] [EMNLP 2024 Findings] [[paper](https://arxiv.org/abs/2402.10663)]
 
@@ -3657,6 +3672,14 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLMs Love Python: A Study of LLMs' Bias for Programming Languages and Libraries" [2025-03] [[paper](https://arxiv.org/abs/2503.17181)]
 
+### Contamination
+
+- "Investigating the Impact of Data Contamination of Large Language Models in Text-to-SQL Translation" [2024-02] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2402.08100)]
+
+- "Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models" [2024-03] [ACL 2024] [[paper](https://arxiv.org/abs/2403.04811)]
+
+- "Rethinking the effects of data contamination in Code Intelligence" [2025-06] [[paper](https://arxiv.org/abs/2506.02791)]
+
 ### AI-Generated Code Detection
 
 - "Who Wrote this Code? Watermarking for Code Generation" [2023-05] [ACL 2024] [[paper](https://arxiv.org/abs/2305.15060)]
@@ -4090,6 +4113,7 @@ $^\diamond$ Machine/human prompts
 | 2024-12 | ICLR 2025           | BigDocs         | 7.5M | HTML, LaTeX, SVG, JSON, Markdown, etc | "BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks" [[paper](https://arxiv.org/abs/2412.04626)] [[data](https://bigdocs.github.io/)]                                             |
 | 2024-12 | arXiv               | Visual SWEbench | 133  | Python                                | "CodeV: Issue Resolving with Visual Data" [[paper](https://arxiv.org/abs/2412.17315)] [[data](https://github.com/luolin101/CodeV)]                                                                                                          |
 | 2025-02 | arXiv               | Code-Vision     | 438  | Python                                | "Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities" [[paper](https://arxiv.org/abs/2502.11829)] [[data](https://github.com/wanghanbinpanda/CodeVision)]                                          |
+| 2025-06 | arXiv               | Flow2Code       | 5622 | 15                                    | "Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability" [[paper](https://arxiv.org/abs/2506.02073)] [[data](https://github.com/hml-github/Flow2Code)]                                                  |
 
 #### Code Reasoning and QA
 
