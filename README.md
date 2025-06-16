@@ -1,6 +1,17 @@
 # Awesome-Code-LLM
 
-This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 9](#9-recommended-readings).
+This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 9](#9-recommended-readings). If you refer to this repo, please cite:
+
+```
+@article{zhang2024unifying,
+   title={Unifying the Perspectives of {NLP} and Software Engineering: A Survey on Language Models for Code},
+   author={Ziyin Zhang and Chaoyu Chen and Bingchang Liu and Cong Liao and Zi Gong and Hang Yu and Jianguo Li and Rui Wang},
+   journal={Transactions on Machine Learning Research},
+   issn={2835-8856},
+   year={2024},
+   url={https://openreview.net/forum?id=hkNnGqZnpa}
+}
+```
 
 ## News
 
@@ -26,19 +37,7 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 #### How to Contribute
 
-If you find a paper to be missing from this repository, misplaced in a category, or lacking a reference to its journal/conference information, please do not hesitate to create an issue. If you find this repo helpful, please cite our survey:
-
-```
-@article{zhang2024unifying,
-   title={Unifying the Perspectives of {NLP} and Software Engineering: A Survey on Language Models for Code},
-   author={Ziyin Zhang and Chaoyu Chen and Bingchang Liu and Cong Liao and Zi Gong and Hang Yu and Jianguo Li and Rui Wang},
-   journal={Transactions on Machine Learning Research},
-   issn={2835-8856},
-   year={2024},
-   url={https://openreview.net/forum?id=hkNnGqZnpa},
-   note={}
-}
-```
+If you find a paper to be missing from this repository, misplaced in a category, or lacking a reference to its journal/conference information, please do not hesitate to create an issue.
 
 ## Table of Contents
 
@@ -996,11 +995,15 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 64. **RepoMaster**: "RepoMaster: Autonomous Exploration and Understanding of GitHub Repositories for Complex Task Solving" [2025-05] [[paper](https://arxiv.org/abs/2505.21577)]
 
-65. "Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve" [2025-05] [[paper](https://arxiv.org/abs/2505.23946)]
+65. **Code Researcher**: "Code Researcher: Deep Research Agent for Large Systems Code and Commit History" [2025-05] [[paper](https://arxiv.org/abs/2506.11060)]
 
-66. "EvoGit: Decentralized Code Evolution via Git-Based Multi-Agent Collaboration" [2025-06] [[paper](https://arxiv.org/abs/2506.02049)]
+66. "Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve" [2025-05] [[paper](https://arxiv.org/abs/2505.23946)]
 
-67. **SWE-Factory**: "SWE-Factory: Your Automated Factory for Issue Resolution Training Data and Evaluation Benchmarks" [2025-06] [[paper](https://arxiv.org/abs/2506.10954)]
+67. "EvoGit: Decentralized Code Evolution via Git-Based Multi-Agent Collaboration" [2025-06] [[paper](https://arxiv.org/abs/2506.02049)]
+
+68. **SWE-Factory**: "SWE-Factory: Your Automated Factory for Issue Resolution Training Data and Evaluation Benchmarks" [2025-06] [[paper](https://arxiv.org/abs/2506.10954)]
+
+69. **Agent-RLVR**: "Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards" [2025-06] [[paper](https://arxiv.org/abs/2506.11425)]
 
 ### 3.4 Interactive Coding
 
@@ -3744,6 +3747,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CoDet-M4: Detecting Machine-Generated Code in Multi-Lingual, Multi-Generator and Multi-Domain Settings" [2025-03] [[paper](https://arxiv.org/abs/2503.13733)]
 
+- "CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs" [2025-05] [[paper](https://arxiv.org/abs/2506.11059)]
+
 ### Others
 
 - "Code Membership Inference for Detecting Unauthorized Data Use in Code Pre-trained Language Models" [2023-12] [EMNLP 2024 Findings] [[paper](https://arxiv.org/abs/2312.07200)]
@@ -4121,6 +4126,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-05 | arXiv                            | OSS-Bench                                        | -                    | -                                                                                | "OSS-Bench: Benchmark Generator for Coding LLMs" [[paper](https://arxiv.org/abs/2505.12331)] [[data](https://github.com/oss-bench/oss-bench)]                                                                                                                                                |
 | 2025-05 | arXiv                            | DS-Bench                                         | 1000                 | Python                                                                           | "DS-Bench: A Realistic Benchmark for Data Science Code Generation" [[paper](https://arxiv.org/abs/2505.15621)] [[data](https://github.com/ShuyinOuyang/DS_bench)]                                                                                                                            |
 | 2025-06 | arXiv                            | ICPC-Eval                                        | 118                  | C++                                                                              | "ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests" [[paper](https://arxiv.org/abs/2506.04894)]                                                                                                                                                        |
+| 2025-06 | arXiv                            | LiveCodeBench Pro                                | 584                  | C++                                                                              | "LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?" [[paper](https://arxiv.org/abs/2506.11928)] [[data](https://github.com/GavinZhengOI/LiveCodeBench-Pro)]                                                                                                |
 
 \* Automatically mined/human-annotated
 
@@ -4330,6 +4336,7 @@ $^\diamond$ Machine/human prompts
 | 2024-06 | arXiv                                | CoSQA+               | 109K      | Python                                                  | "CoSQA+: Enhancing Code Search Dataset with Matching Code" [[paper](https://arxiv.org/abs/2406.11589)] [[data](https://github.com/DeepSoftwareAnalytics/CoSQA_Plus)]                                                                                |
 | 2024-07 | arXiv                                | CoIR                 | ~2M       | 14                                                      | "CoIR: A Comprehensive Benchmark for Code Information Retrieval Models" [[paper](https://arxiv.org/abs/2407.02883)] [[data](https://github.com/CoIR-team/coir)]                                                                                     |
 | 2024-08 | arXiv                                | SeqCoBench           | 14.5K     | Python                                                  | "What can Large Language Models Capture about Code Functional Equivalence?" [[paper](https://arxiv.org/abs/2408.11081)]                                                                                                                             |
+| 2025-05 | arXiv                                | CoQuIR               | 42,725    | 11                                                      | "CoQuIR: A Comprehensive Benchmark for Code Quality-Aware Information Retrieval" [[paper](https://arxiv.org/abs/2506.11066)] [[data](https://github.com/TRUMANCFY/CoQuIR)]                                                                          |
 
 #### Type Inference
 
