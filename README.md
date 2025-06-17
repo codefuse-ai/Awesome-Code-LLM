@@ -21,15 +21,13 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 - [CGM (Code Graph Model)](https://arxiv.org/abs/2505.16901) is released, **currently ranking 1st among open-source models on SWE-Bench leaderboard**. [[repo](https://github.com/codefuse-ai/CodeFuse-CGM)]
 
-🔥🔥🔥 [2025/06/13] Featured papers:
+🔥🔥🔥 [2025/06/17] Featured papers:
 
-- 🔥🔥 [Magistral](https://arxiv.org/abs/2506.10910) from Mistral AI.
+- 🔥🔥 [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) from Google DeepMind.
 
-- 🔥 [Seed-Coder: Let the Code Model Curate Data for Itself](https://arxiv.org/abs/2506.03524) from ByteDance Seed.
+- 🔥🔥 [The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason](https://arxiv.org/abs/2506.12286) from Purdue University.
 
-- 🔥 [Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/abs/2506.03136) from ByteDance Seed.
-
-- 🔥 [ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code](https://arxiv.org/abs/2506.02314) from Stanford University.
+- 🔥 [Magistral](https://arxiv.org/abs/2506.10910) from Mistral AI.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/05/29] ICLR 2025 papers have been added. Search for the keyword "ICLR 2025"!
 
@@ -645,6 +643,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 59. **VisCoder**: "VisCoder: Fine-Tuning LLMs for Executable Python Visualization Code Generation" [2025-05] [[paper](https://arxiv.org/abs/2506.03930)]
 
+60. "AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy" [2025-06] [[paper](https://arxiv.org/abs/2506.13284)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -1004,6 +1004,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 68. **SWE-Factory**: "SWE-Factory: Your Automated Factory for Issue Resolution Training Data and Evaluation Benchmarks" [2025-06] [[paper](https://arxiv.org/abs/2506.10954)]
 
 69. **Agent-RLVR**: "Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards" [2025-06] [[paper](https://arxiv.org/abs/2506.11425)]
+
+70. **AlphaEvolve**: "AlphaEvolve: A coding agent for scientific and algorithmic discovery" [2025-06] [[paper](https://arxiv.org/abs/2506.13131)]
 
 ### 3.4 Interactive Coding
 
@@ -2094,6 +2096,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "An Empirical Study on Strong-Weak Model Collaboration for Repo-level Code Generation" [2025-05] [[paper](https://arxiv.org/abs/2505.20182)]
 
 - "SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner" [2025-06] [[paper](https://arxiv.org/abs/2506.09003)]
+
+- "The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason" [2025-06] [[paper](https://arxiv.org/abs/2506.12286)]
 
 ### Frontend Development
 
@@ -4127,6 +4131,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-05 | arXiv                            | DS-Bench                                         | 1000                 | Python                                                                           | "DS-Bench: A Realistic Benchmark for Data Science Code Generation" [[paper](https://arxiv.org/abs/2505.15621)] [[data](https://github.com/ShuyinOuyang/DS_bench)]                                                                                                                            |
 | 2025-06 | arXiv                            | ICPC-Eval                                        | 118                  | C++                                                                              | "ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests" [[paper](https://arxiv.org/abs/2506.04894)]                                                                                                                                                        |
 | 2025-06 | arXiv                            | LiveCodeBench Pro                                | 584                  | C++                                                                              | "LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?" [[paper](https://arxiv.org/abs/2506.11928)] [[data](https://github.com/GavinZhengOI/LiveCodeBench-Pro)]                                                                                                |
+| 2025-06 | arXiv                            | HLCE                                             | 235                  | C++, Python                                                                      | "Humanity's Last Code Exam: Can Advanced LLMs Conquer Human's Hardest Code Competition?" [[paper](https://arxiv.org/abs/2506.12713)] [[data](https://github.com/Humanity-s-Last-Code-Exam/HLCE)]                                                                                             |
 
 \* Automatically mined/human-annotated
 
