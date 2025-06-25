@@ -22,7 +22,7 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 - [CGM (Code Graph Model)](https://arxiv.org/abs/2505.16901) is released, **currently ranking 1st among open-source models on [SWE-Bench leaderboard](https://www.swebench.com/)**. [[repo](https://github.com/codefuse-ai/CodeFuse-CGM)]
 
 <p align='center'>
-<img src='imgs/swe-leaderboard.png' style='width: 70%; '>
+<img src='imgs/swe-leaderboard.png' style='width: 90%; '>
 </p>
 
 🔥🔥🔥 [2025/06/25] Featured papers:
