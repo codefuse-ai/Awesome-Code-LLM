@@ -25,17 +25,19 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 <img src='imgs/swe-leaderboard.png' style='width: 90%; '>
 </p>
 
-🔥🔥🔥 [2025/06/25] Featured papers:
+🔥🔥🔥 [2025/07/13] Featured papers:
 
-- 🔥🔥 [Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/abs/2506.19290) from Skywork AI.
+- 🔥🔥 [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261) from Google.
 
-- 🔥🔥 [Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training](https://arxiv.org/abs/2506.18777) from University of Oxford.
+- 🔥🔥 [DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation](https://arxiv.org/abs/2506.20639) from Apple.
 
-- 🔥🔥 [Ring-lite: Scalable Reasoning via C3PO-Stabilized Reinforcement Learning for LLMs](https://arxiv.org/abs/2506.14731) from Ant Group.
+- 🔥🔥 [ReCode: Updating Code API Knowledge with Reinforcement Learning](https://arxiv.org/abs/2506.20495) from Zhejiang University.
 
-- 🔥 [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) from Google DeepMind.
+- 🔥 [Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/abs/2506.19290) from Skywork AI.
 
-- 🔥 [The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason](https://arxiv.org/abs/2506.12286) from Purdue University.
+- 🔥 [Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training](https://arxiv.org/abs/2506.18777) from University of Oxford.
+
+- 🔥 [Ring-lite: Scalable Reasoning via C3PO-Stabilized Reinforcement Learning for LLMs](https://arxiv.org/abs/2506.14731) from Ant Group.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/05/29] ICLR 2025 papers have been added. Search for the keyword "ICLR 2025"!
 
@@ -61,6 +63,7 @@ If you find a paper to be missing from this repository, misplaced in a category,
    - [Decoder](#decoder)
    - [Encoder-Decoder](#encoder-decoder)
    - [UniLM](#unilm)
+   - [Other Models](#other-models)
 
    <!-- prettier ignore -->
 
@@ -383,6 +386,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 83. **EuroLLM-9B**: "EuroLLM-9B: Technical Report" [2025-06] [[paper](https://arxiv.org/abs/2506.04079)]
 
+84. **Gemini 2.5**: "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities" [2025-07] [[paper](https://arxiv.org/abs/2507.06261)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -528,6 +533,10 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 1. **CugLM** (MLM + NSP + CLM): "Multi-task Learning based Pre-trained Language Model for Code Completion" [2020-12] [ASE 2020] [[paper](https://arxiv.org/abs/2012.14631)]
 
 2. **UniXcoder** (MLM + NSP + CLM + Span Corruption + Contrastive Learning + Code2Text): "UniXcoder: Unified Cross-Modal Pre-training for Code Representation" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.03850)] [[repo](https://github.com/microsoft/CodeBERT)]
+
+#### Other Models
+
+1. **DiffuCoder**: "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation" [2025-06] [[paper](https://arxiv.org/abs/2506.20639)]
 
 ### 2.4 (Instruction) Fine-Tuning on Code
 
@@ -1409,6 +1418,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**LaTeX**] "TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs" [2025-06] [[paper](https://arxiv.org/abs/2506.16990)]
 
+- [**Triton**] "AutoTriton: Automatic Triton Programming with Reinforcement Learning in LLMs" [2025-07] [[paper](https://arxiv.org/abs/2507.05687)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1584,6 +1595,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Across Programming Language Silos: A Study on Cross-Lingual Retrieval-augmented Code Generation" [2025-06] [[paper](https://arxiv.org/abs/2506.03535)]
 
 - "cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree" [2025-06] [[paper](https://arxiv.org/abs/2506.15655)]
+
+- "SACL: Understanding and Combating Textual Bias in Code Retrieval with Semantic-Augmented Reranking and Localization" [2025-06] [[paper](https://arxiv.org/abs/2506.20081)]
 
 ### Code Ranking
 
@@ -2125,6 +2138,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs" [2025-06] [[paper](https://arxiv.org/abs/2506.19290)]
 
+- "SWE-Bench-CL: Continual Learning for Coding Agents" [2025-06] [[paper](https://arxiv.org/abs/2507.00014)]
+
 ### Frontend Development
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -2242,6 +2257,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code" [2025-06] [[paper](https://arxiv.org/abs/2506.02314)]
 
 - "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking" [2025-06] [[paper](https://arxiv.org/abs/2506.19724)]
+
+- "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench" [2025-07] [[paper](https://arxiv.org/abs/2507.02554)]
 
 ### Text-To-SQL
 
@@ -2704,6 +2721,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CodeContests+: High-Quality Test Case Generation for Competitive Programming" [2025-06] [[paper](https://arxiv.org/abs/2506.05817)]
 
 - "Can LLMs Generate Reliable Test Case Generators? A Study on Competition-Level Programming Problems" [2025-06] [[paper](https://arxiv.org/abs/2506.06821)]
+
+- "Rethinking Verification for LLM Code Generation: From Generation to Testing" [2025-07] [[paper](https://arxiv.org/abs/2507.06920)]
 
 ### Oracle Generation
 
@@ -3709,6 +3728,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Identifying and Mitigating API Misuse in Large Language Models" [2025-03] [[paper](https://arxiv.org/abs/2503.22821)]
 
+- "ReCode: Updating Code API Knowledge with Reinforcement Learning" [2025-06] [[paper](https://arxiv.org/abs/2506.20495)]
+
 ### Privacy
 
 - "Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach" [2024-04] [[paper](https://arxiv.org/abs/2404.14296)]
@@ -3790,6 +3811,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs" [2025-05] [[paper](https://arxiv.org/abs/2506.11059)]
 
 - "I Know Which LLM Wrote Your Code Last Summer: LLM generated Code Stylometry for Authorship Attribution" [2025-06] [[paper](https://arxiv.org/abs/2506.17323)]
+
+- "Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice" [2025-07] [[paper](https://arxiv.org/abs/2507.05512)]
 
 ### Others
 
@@ -4081,6 +4104,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation" [2025-05] [[paper](https://arxiv.org/abs/2505.19502)]
 
+- "Estimating Correctness Without Oracles in LLM-Based Code Generation" [2025-06] [[paper](https://arxiv.org/abs/2507.00057)]
+
 #### Program Synthesis
 
 | Date    | Venue                            | Benchmark                                        | Size                 | Language                                                                         | Source                                                                                                                                                                                                                                                                                       |
@@ -4193,6 +4218,7 @@ $^\diamond$ Machine/human prompts
 | 2024-12 | arXiv               | Visual SWEbench | 133  | Python                                | "CodeV: Issue Resolving with Visual Data" [[paper](https://arxiv.org/abs/2412.17315)] [[data](https://github.com/luolin101/CodeV)]                                                                                                          |
 | 2025-02 | arXiv               | Code-Vision     | 438  | Python                                | "Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities" [[paper](https://arxiv.org/abs/2502.11829)] [[data](https://github.com/wanghanbinpanda/CodeVision)]                                          |
 | 2025-06 | arXiv               | Flow2Code       | 5622 | 15                                    | "Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability" [[paper](https://arxiv.org/abs/2506.02073)] [[data](https://github.com/hml-github/Flow2Code)]                                                  |
+| 2025-07 | arXiv               | ArtifactsBench  | 1825 | HTML/JavaScript                       | "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation" [[paper](https://arxiv.org/abs/2507.04952)] [[data](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark)]                                         |
 
 #### Code Reasoning and QA
 
@@ -4215,6 +4241,7 @@ $^\diamond$ Machine/human prompts
 | 2025-02 | arXiv               | EquiBench   | 2400     | C, CUDA, x86-64, Python             | "EquiBench: Benchmarking Code Reasoning Capabilities of Large Language Models via Equivalence Checking" [[paper](https://arxiv.org/abs/2502.12466)]                                                                      |
 | 2025-03 | arXiv               | LONGCODEU   | 3983     | Python                              | "LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding" [[paper](https://arxiv.org/abs/2503.04359)]                                                                                            |
 | 2025-05 | arXiv               | CodeSense   | 4495     | Python, C, Java                     | "CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning" [[paper](https://arxiv.org/abs/2506.00750)] [[data](https://codesense-bench.github.io/)]                                                     |
+| 2025-07 | arXiv               | CORE        | 12,533   | C/C++, Java, Python                 | "CORE: Benchmarking LLMs Code Reasoning Capabilities through Static Analysis Tasks" [[paper](https://arxiv.org/abs/2507.05269)] [[data](https://corebench.github.io/)]                                                   |
 
 #### Text-to-SQL
 
@@ -4462,6 +4489,7 @@ $^\diamond$ Machine/human prompts
 | 2025-05 | arXiv             | AgentIssue-Bench | 50                     |                                | "Can Agents Fix Agent Issues?" [[paper](https://arxiv.org/abs/2505.20749)] [[data](https://github.com/alfin06/AgentIssue-Bench)]                                                                                                               |
 | 2025-05 | arXiv             | GitGoodBench     | 900                    |                                | "GitGoodBench: A Novel Benchmark For Evaluating Agentic Performance On Git" [[paper](https://arxiv.org/abs/2505.22583)] [[data](https://github.com/JetBrains-Research/git-good-bench)]                                                         |
 | 2025-05 | arXiv             | SwingArena       | 400                    | Rust, Python, Go, C++          | "SwingArena: Competitive Programming Arena for Long-context GitHub Issue Solving" [[paper](https://arxiv.org/abs/2505.23932)] [[data](https://swing-bench.github.io)]                                                                          |
+| 2025-07 | arXiv             | CoreCodeBench    | 1545                   | Python                         | "CoreCodeBench: A Configurable Multi-Scenario Repository-Level Benchmark" [[paper](https://arxiv.org/abs/2507.05281)] [[data](https://github.com/AGI-Eval-Official/CoreCodeBench)]                                                             |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
