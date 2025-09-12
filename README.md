@@ -15,13 +15,17 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/09/08] Featured papers:
+🔥🔥🔥 [2025/09/12] Featured papers:
 
-- 🔥🔥 [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322) from Meituan.
+- 🔥🔥 [LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering](https://arxiv.org/abs/2509.09614) from Salesforce AI Research.
 
-- 🔥🔥 [Towards Better Correctness and Efficiency in Code Generation](https://arxiv.org/abs/2508.20124) from Qwen Team.
+- 🔥🔥 [Astra: A Multi-Agent System for GPU Kernel Performance Optimization](https://arxiv.org/abs/2509.07506) from Stanford University.
 
-- 🔥 [gpt-oss-120b & gpt-oss-20b Model Card](https://arxiv.org/abs/2508.10925) from OpenAI.
+- 🔥🔥 [GRACE: Graph-Guided Repository-Aware Code Completion through Hierarchical Code Fusion](https://arxiv.org/abs/2509.05980) from Zhejiang University.
+
+- 🔥 [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322) from Meituan.
+
+- 🔥 [Towards Better Correctness and Efficiency in Code Generation](https://arxiv.org/abs/2508.20124) from Qwen Team.
 
 🔥🔥🔥 [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -680,6 +684,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 63. "CodeEvo: Interaction-Driven Synthesis of Code-centric Data through Hybrid and Iterative Feedback" [2025-07] [[paper](https://arxiv.org/abs/2507.22080)]
 
 64. **Tree-of-Evolution**: "Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models" [2025-07] [ACL 2025] [[paper](https://aclanthology.org/2025.acl-long.14/)]
+
+65. **SCoder**: "SCoder: Iterative Self-Distillation for Bootstrapping Small-Scale Data Synthesizers to Empower Code LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.07858)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -1467,6 +1473,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "MultiPL-MoE: Multi-Programming-Lingual Extension of Large Language Models through Hybrid Mixture-of-Experts" [2025-08] [[paper](https://arxiv.org/abs/2508.19268)]
 
+- [**CUDA**] "Astra: A Multi-Agent System for GPU Kernel Performance Optimization" [2025-09] [[paper](https://arxiv.org/abs/2509.07506)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1620,6 +1628,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs" [2025-08] [[paper](https://arxiv.org/abs/2508.07434)]
 
 - "Alignment with Fill-In-the-Middle for Enhancing Code Generation" [2025-08] [[paper](https://arxiv.org/abs/2508.19532)]
+
+- "TigerCoder: A Novel Suite of LLMs for Code Generation in Bangla" [2025-09] [[paper](https://arxiv.org/abs/2509.09101)]
 
 ### Code RAG
 
@@ -2195,6 +2205,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "SaraCoder: Orchestrating Semantic and Structural Cues for Profit-Oriented Repository-Level Code Completion" [2025-08] [[paper](https://arxiv.org/abs/2508.10068)]
 
+- "GRACE: Graph-Guided Repository-Aware Code Completion through Hierarchical Code Fusion" [2025-09] [[paper](https://arxiv.org/abs/2509.05980)]
+
 ### Issue Resolution
 
 - "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?" [2023-10] [ICLR 2024] [[paper](https://arxiv.org/abs/2310.06770)]
@@ -2622,6 +2634,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "GradeSQL: Outcome Reward Models for Ranking SQL Queries from Large Language Models" [2025-09] [[paper](https://arxiv.org/abs/2509.01308)]
 
 - "SPFT-SQL: Enhancing Large Language Model for Text-to-SQL Parsing by Self-Play Fine-Tuning" [2025-09] [[paper](https://arxiv.org/abs/2509.03937)]
+
+- "Evaluating NL2SQL via SQL2NL" [2025-09] [[paper](https://arxiv.org/abs/2509.04657)]
 
 ### Program Proof
 
@@ -4220,6 +4234,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - **SELU**: "Evaluating Large Language Models on Non-Code Software Engineering Tasks" [2025-06] [[paper](https://arxiv.org/abs/2506.10833)]
 
 - **MERA Code**: "MERA Code: A Unified Framework for Evaluating Code Generation Across Tasks" [2025-07] [[paper](https://arxiv.org/abs/2507.12284)] [[data](https://github.com/MERA-Evaluation/MERA_CODE)]
+
+- **LoCoBench**: "LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering" [2025-09] [[paper](https://arxiv.org/abs/2509.09614)]
 
 #### Evaluation Metrics
 
