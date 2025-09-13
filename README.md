@@ -1993,13 +1993,23 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging" [2025-05] [[paper](https://arxiv.org/abs/2505.15356)]
 
-- "Empirical Evaluation of Generalizable Automated Program Repair with Large Language Models" [2025-06] [[paper](https://arxiv.org/abs/2506.03283)]
+- "The Art of Repair: Optimizing Iterative Program Repair with Instruction-Tuned Models" [2025-05] [EASE, June 2025] [[paper](https://arxiv.org/abs/2505.02931)] 
+
+- "Adversarial Reasoning for Repair Based on Inferred Program Intent" [2025-05] [ISSTA 2025] [[paper](https://arxiv.org/abs/2505.13008)]
+
+- "Empirical Evaluation of Generalizable Automated Program Repair with Large Language Models" [2025-06] [ICSE 2025] [[paper](https://arxiv.org/abs/2506.03283)]
 
 - "Boosting Open-Source LLMs for Program Repair via Reasoning Transfer and LLM-Guided Reinforcement Learning" [2025-06] [[paper](https://arxiv.org/abs/2506.03921)]
 
 - "EXPEREPAIR: Dual-Memory Enhanced LLM-based Repository-Level Program Repair" [2025-06] [[paper](https://arxiv.org/abs/2506.10484)]
 
 - "SynFix: Dependency-Aware Program Repair via RelationGraph Analysis" [2025-07] [ACL 2025 Findings] [[paper](https://aclanthology.org/2025.findings-acl.252/)]
+
+- "Agentic Program Repair from Test Failures at Scale: A Neuro-symbolic approach with static analysis and test execution feedback" [2025-07] [TSE, July 2025] [[paper](https://arxiv.org/abs/2507.18755)]
+
+- "The Impact of Fine-tuning Large Language Models on Automated Program Repair" [2025-07] [ICSME 2025] [[paper](https://arxiv.org/abs/2507.19909)]
+
+- "How Small is Enough? Empirical Evidence of Quantized Small Language Models for Automated Program Repair" [2025-08] [ESEM 2025] [[paper](https://arxiv.org/abs/2508.16499v1)]
 
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
