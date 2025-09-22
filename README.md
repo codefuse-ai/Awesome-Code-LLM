@@ -15,17 +15,17 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/09/12] Featured papers:
+🔥🔥🔥 [2025/09/22] Featured papers:
 
-- 🔥🔥 [LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering](https://arxiv.org/abs/2509.09614) from Salesforce AI Research.
+- 🔥🔥 [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) from Ant Group.
 
-- 🔥🔥 [Astra: A Multi-Agent System for GPU Kernel Performance Optimization](https://arxiv.org/abs/2509.07506) from Stanford University.
+- 🔥🔥 [SWE-QA: Can Language Models Answer Repository-level Code Questions?](https://arxiv.org/abs/2509.14635) from Shanghai Jiao Tong University.
 
-- 🔥🔥 [GRACE: Graph-Guided Repository-Aware Code Completion through Hierarchical Code Fusion](https://arxiv.org/abs/2509.05980) from Zhejiang University.
+- 🔥 [LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering](https://arxiv.org/abs/2509.09614) from Salesforce AI Research.
 
-- 🔥 [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322) from Meituan.
+- 🔥 [Astra: A Multi-Agent System for GPU Kernel Performance Optimization](https://arxiv.org/abs/2509.07506) from Stanford University.
 
-- 🔥 [Towards Better Correctness and Efficiency in Code Generation](https://arxiv.org/abs/2508.20124) from Qwen Team.
+- 🔥 [GRACE: Graph-Guided Repository-Aware Code Completion through Hierarchical Code Fusion](https://arxiv.org/abs/2509.05980) from Zhejiang University.
 
 🔥🔥🔥 [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -33,11 +33,11 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
-🔥🔥🔥 [2025/06/25] News from Codefuse
+🔥🔥🔥 [2025/09/22] News from Codefuse
+
+- [CGM (Code Graph Model)](https://arxiv.org/abs/2505.16901) is accepted to NeurIPS 2025. CGM currently ranks 1st among open-source models on [SWE-Bench leaderboard](https://www.swebench.com/). [[repo](https://github.com/codefuse-ai/CodeFuse-CGM)]
 
 - [GALLa: Graph Aligned Large Language Models](https://arxiv.org/abs/2409.04183) is accepted by ACL 2025 main conference. [[repo](https://github.com/codefuse-ai/GALLa)]
-
-- [CGM (Code Graph Model)](https://arxiv.org/abs/2505.16901) is released, **currently ranking 1st among open-source models on [SWE-Bench leaderboard](https://www.swebench.com/)**. [[repo](https://github.com/codefuse-ai/CodeFuse-CGM)]
 
 <p align='center'>
 <img src='imgs/swe-leaderboard.png' style='width: 90%; '>
@@ -553,6 +553,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 2. **Dream-Coder**: "Dream-Coder 7B: An Open Diffusion Language Model for Code" [2025-09] [[paper](https://arxiv.org/abs/2509.01142)]
 
+3. "Beyond Autoregression: An Empirical Study of Diffusion Large Language Models for Code Generation" [2025-09] [[paper](https://arxiv.org/abs/2509.11252)]
+
 ### 2.4 (Instruction) Fine-Tuning on Code
 
 These models apply Instruction Fine-Tuning techniques to enhance the capacities of Code LLMs.
@@ -687,6 +689,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 65. **SCoder**: "SCoder: Iterative Self-Distillation for Bootstrapping Small-Scale Data Synthesizers to Empower Code LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.07858)]
 
+66. "Do Code Semantics Help? A Comprehensive Study on Execution Trace-Based Information for Code Large Language Models" [2025-09] [[paper](https://arxiv.org/abs/2509.11686)]
+
+67. "SCoGen: Scenario-Centric Graph-Based Synthesis of Real-World Code Problems" [2025-09] [[paper](https://arxiv.org/abs/2509.14281)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -752,6 +758,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 31. **ReST-RL**: "ReST-RL: Achieving Accurate Code Reasoning of LLMs with Optimized Self-Training and Decoding" [2025-08] [[paper](https://arxiv.org/abs/2508.19576)]
 
 32. "Towards Better Correctness and Efficiency in Code Generation" [2025-08] [[paper](https://arxiv.org/abs/2508.20124)]
+
+33. "Building Coding Agents via Entropy-Enhanced Multi-Turn Preference Optimization" [2025-09] [[paper](https://arxiv.org/abs/2509.12434)]
 
 ## 3. When Coding Meets Reasoning
 
@@ -1993,7 +2001,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging" [2025-05] [[paper](https://arxiv.org/abs/2505.15356)]
 
-- "The Art of Repair: Optimizing Iterative Program Repair with Instruction-Tuned Models" [2025-05] [EASE, June 2025] [[paper](https://arxiv.org/abs/2505.02931)] 
+- "The Art of Repair: Optimizing Iterative Program Repair with Instruction-Tuned Models" [2025-05] [EASE, June 2025] [[paper](https://arxiv.org/abs/2505.02931)]
 
 - "Adversarial Reasoning for Repair Based on Inferred Program Intent" [2025-05] [ISSTA 2025] [[paper](https://arxiv.org/abs/2505.13008)]
 
@@ -2250,6 +2258,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "SWE-Exp: Experience-Driven Software Issue Resolution" [2025-07] [[paper](https://arxiv.org/abs/2507.23361)]
 
 - "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning" [2025-08] [[paper](https://arxiv.org/abs/2508.03501)]
+
+- "An Empirical Study on Failures in Automated Issue Solving" [2025-09] [[paper](https://arxiv.org/abs/2509.13941)]
 
 ### Frontend Development
 
@@ -2646,6 +2656,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "SPFT-SQL: Enhancing Large Language Model for Text-to-SQL Parsing by Self-Play Fine-Tuning" [2025-09] [[paper](https://arxiv.org/abs/2509.03937)]
 
 - "Evaluating NL2SQL via SQL2NL" [2025-09] [[paper](https://arxiv.org/abs/2509.04657)]
+
+- "DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction" [2025-09] [[paper](https://arxiv.org/abs/2509.14507)]
 
 ### Program Proof
 
@@ -3403,6 +3415,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Fine-Tuning Multilingual Language Models for Code Review: An Empirical Study on Industrial C# Projects" [2025-07] [[paper](https://arxiv.org/abs/2507.19271)]
 
+- "CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects" [2025-09] [[paper](https://arxiv.org/abs/2509.14856)]
+
 ### Log Analysis
 
 - "LogStamp: Automatic Online Log Parsing Based on Sequence Labelling" [2022-08] [[paper](https://arxiv.org/abs/2208.10282)]
@@ -3850,6 +3864,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?" [2025-07] [[paper](https://arxiv.org/abs/2507.19598)]
 
 - "When Prompts Go Wrong: Evaluating Code Model Robustness to Ambiguous, Contradictory, and Incomplete Task Descriptions" [2025-07] [[paper](https://arxiv.org/abs/2507.20439)]
+
+- "Prompt Stability in Code LLMs: Measuring Sensitivity across Emotion- and Personality-Driven Variations" [2025-09] [[paper](https://arxiv.org/abs/2509.13680)]
 
 ### Interpretability
 
@@ -4424,6 +4440,7 @@ $^\diamond$ Machine/human prompts
 | 2025-03 | ACL 2025            | LONGCODEU   | 3983     | Python                              | "LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding" [[paper](https://arxiv.org/abs/2503.04359)]                                                                                            |
 | 2025-05 | arXiv               | CodeSense   | 4495     | Python, C, Java                     | "CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning" [[paper](https://arxiv.org/abs/2506.00750)] [[data](https://codesense-bench.github.io/)]                                                     |
 | 2025-07 | arXiv               | CORE        | 12,533   | C/C++, Java, Python                 | "CORE: Benchmarking LLMs Code Reasoning Capabilities through Static Analysis Tasks" [[paper](https://arxiv.org/abs/2507.05269)] [[data](https://corebench.github.io/)]                                                   |
+| 2025-09 | arXiv               | SWE-QA      | 576      | Python                              | "SWE-QA: Can Language Models Answer Repository-level Code Questions?" [[paper](https://arxiv.org/abs/2509.14635)] [[data](https://github.com/peng-weihan/SWE-QA-Bench)]                                                  |
 
 #### Text-to-SQL
 
