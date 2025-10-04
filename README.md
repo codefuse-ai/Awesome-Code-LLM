@@ -15,15 +15,23 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/09/26] Featured papers:
+🔥🔥🔥 [2025/10/03] Featured papers:
 
-- 🔥🔥 [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) from Ant Group.
+- 🔥🔥 [BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software](https://arxiv.org/abs/2509.25248) from Arizona State University.
 
-- 🔥🔥 [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941) from Scale AI.
+- 🔥🔥 [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) from Mistral AI.
 
-- 🔥 [SWE-QA: Can Language Models Answer Repository-level Code Questions?](https://arxiv.org/abs/2509.14635) from Shanghai Jiao Tong University.
+- 🔥🔥 [LLaDA-MoE: A Sparse MoE Diffusion Language Model](https://arxiv.org/abs/2509.24389) from Ant Group.
 
-🔥🔥🔥 [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
+- 🔥🔥 [Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents](https://arxiv.org/abs/2509.23045) from Moonshot AI.
+
+- 🔥🔥 [ML2B: Multi-Lingual ML Benchmark For AutoML](https://arxiv.org/abs/2509.22768) from HSE University.
+
+- 🔥 [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) from Ant Group.
+
+- 🔥 [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941) from Scale AI.
+
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/15] 80 papers from ACL 2025 have been added. Search for the keyword "ACL 2025"!
 
@@ -393,6 +401,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 90. **LongCat-Flash**: "LongCat-Flash Technical Report" [2025-09] [[paper](https://arxiv.org/abs/2509.01322)]
 
+91. **LLaDA-MoE**: "LLaDA-MoE: A Sparse MoE Diffusion Language Model" [2025-09] [[paper](https://arxiv.org/abs/2509.24389)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -531,7 +541,7 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 11. **AST-T5** (Span Corruption): "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding" [2024-01] [ICML 2024] [[paper](https://arxiv.org/abs/2401.03003)]
 
-12. **DivoT5**: "Directional Diffusion-Style Code Editing Pre-traini" [2025-01] [[paper](https://arxiv.org/abs/2501.12079)]
+12. **DivoT5**: "Directional Diffusion-Style Code Editing Pre-training" [2025-01] [[paper](https://arxiv.org/abs/2501.12079)]
 
 #### UniLM
 
@@ -757,6 +767,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 34. "DELTA-Code: How Does RL Unlock and Transfer New Programming Algorithms in LLMs?" [2025-09] [[paper](https://arxiv.org/abs/2509.21016)]
 
+35. **Critique-Coder**: "Critique-Coder: Enhancing Coder Models by Critique Reinforcement Learning" [2025-09] [[paper](https://arxiv.org/abs/2509.22824)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -888,6 +900,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 63. "Code Execution as Grounded Supervision for LLM Reasoning" [2025-06] [[paper](https://arxiv.org/abs/2506.10343)]
 
 64. **PBB**: "Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training" [2025-06] [[paper](https://arxiv.org/abs/2506.18777)]
+
+65. "On Code-Induced Reasoning in LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.21499)]
 
 ### 3.2 Code Simulation
 
@@ -1074,6 +1088,12 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 76. "GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging" [2025-08] [[paper](https://arxiv.org/abs/2508.18993)]
 
 77. **MapCoder-Lite**: "MapCoder-Lite: Squeezing Multi-Agent Coding into a Single Small LLM" [2025-09] [[paper](https://arxiv.org/abs/2509.17489)]
+
+78. **Devstral**: "Devstral: Fine-tuning Language Models for Coding Agent Applications" [2025-09] [[paper](https://arxiv.org/abs/2509.25193)]
+
+79. **Lita**: "Lita: Light Agent Uncovers the Agentic Coding Capabilities of LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.25873)]
+
+80. **Kimi-Dev**: "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents" [2025-09] [[paper](https://arxiv.org/abs/2509.23045)]
 
 ### 3.4 Interactive Coding
 
@@ -1487,6 +1507,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**LaTeX**] "Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models" [2025-09] [[paper](https://arxiv.org/abs/2509.17589)]
 
+- "CodeChemist: Functional Knowledge Transfer for Low-Resource Code Generation via Test-Time Scaling" [2025-10] [[paper](https://arxiv.org/abs/2510.00501)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1642,6 +1664,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Alignment with Fill-In-the-Middle for Enhancing Code Generation" [2025-08] [[paper](https://arxiv.org/abs/2508.19532)]
 
 - "TigerCoder: A Novel Suite of LLMs for Code Generation in Bangla" [2025-09] [[paper](https://arxiv.org/abs/2509.09101)]
+
+- "SemGuard: Real-Time Semantic Evaluator for Correcting LLM-Generated Code" [2025-09] [[paper](https://arxiv.org/abs/2509.24507)]
+
+- "LongCodeZip: Compress Long Context for Code Language Models" [2025-10] [[paper](https://arxiv.org/abs/2510.00446)]
 
 ### Code RAG
 
@@ -2389,6 +2415,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench" [2025-07] [[paper](https://arxiv.org/abs/2507.02554)]
 
+- "ML2B: Multi-Lingual ML Benchmark For AutoML" [2025-09] [[paper](https://arxiv.org/abs/2509.22768)]
+
 ### Text-To-SQL
 
 - "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models" [2021-09] [EMNLP 2021] [[paper](https://arxiv.org/abs/2109.05093)]
@@ -2667,6 +2695,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction" [2025-09] [[paper](https://arxiv.org/abs/2509.14507)]
 
+- "A State-of-the-Art SQL Reasoning Model using RLVR" [2025-09] [[paper](https://arxiv.org/abs/2509.21459)]
+
+- "Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling" [2025-09] [[paper](https://arxiv.org/abs/2509.24403)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2716,6 +2748,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Re:Form -- Reducing Human Priors in Scalable Formal Software Verification with RL in LLMs: A Preliminary Study on Dafny" [2025-07] [[paper](https://arxiv.org/abs/2507.16331)]
 
 - "PyVeritas: On Verifying Python via LLM-Based Transpilation and Bounded Model Checking for C" [2025-08] [[paper](https://arxiv.org/abs/2508.08171)]
+
+- "InvBench: Can LLMs Accelerate Program Verification with Invariant Synthesis?" [2025-09] [[paper](https://arxiv.org/abs/2509.21629)]
+
+- "Towards Repository-Level Program Verification with Large Language Models" [2025-09] [[paper](https://arxiv.org/abs/2509.25197)]
 
 ### Test Generation
 
@@ -2870,6 +2906,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Rethinking Verification for LLM Code Generation: From Generation to Testing" [2025-07] [[paper](https://arxiv.org/abs/2507.06920)]
 
 - "Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning" [2025-08] [[paper](https://arxiv.org/abs/2508.05710)]
+
+- "Navigating the Labyrinth: Path-Sensitive Unit Test Generation with Large Language Models" [2025-09] [[paper](https://arxiv.org/abs/2509.23812)]
 
 ### Oracle Generation
 
@@ -3193,6 +3231,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "LLaVul: A Multimodal LLM for Interpretable Vulnerability Reasoning about Source Code" [2025-09] [[paper](https://arxiv.org/abs/2509.17337)]
 
+- "Improving Code Localization with Repository Memory" [2025-10] [[paper](https://arxiv.org/abs/2510.01003)]
+
 ### Malicious Code Detection
 
 - "I-MAD: Interpretable Malware Detector Using Galaxy Transformer", 2019-09, Comput. Secur. 2021, [[paper](https://arxiv.org/abs/1909.06865)]
@@ -3511,6 +3551,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Prompting for Performance: Exploring LLMs for Configuring Software" [2025-07] [[paper](https://arxiv.org/abs/2507.09790)]
 
+- "BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software" [2025-09] [[paper](https://arxiv.org/abs/2509.25248)]
+
 ### Code QA & Reasoning
 
 - "DialogAgent: An Auto-engagement Agent for Code Question Answering Data Production" [2024-12] [[paper](https://arxiv.org/abs/2412.08069)]
@@ -3534,6 +3576,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "MARCO: Meta-Reflection with Cross-Referencing for Code Reasoning" [2025-05] [[paper](https://arxiv.org/abs/2505.17481)]
 
 - "Complex Logical Instruction Generation" [2025-08] [[paper](https://arxiv.org/abs/2508.09125)]
+
+- "Regression Language Models for Code" [2025-09] [[paper](https://arxiv.org/abs/2509.26476)]
 
 ### Software Modeling
 
@@ -3723,6 +3767,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Localizing Malicious Outputs from CodeLLM" [2025-09] [[paper](https://arxiv.org/abs/2509.17070)]
 
+- "SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios" [2025-09] [[paper](https://arxiv.org/abs/2509.22097)]
+
+- "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks" [2025-10] [[paper](https://arxiv.org/abs/2510.01359)]
+
 ### Correctness
 
 - "An Empirical Evaluation of GitHub Copilot's Code Suggestions" [2022-05] [MSR 2022] [[paper](https://ieeexplore.ieee.org/document/9796235)]
@@ -3904,6 +3952,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "On Explaining (Large) Language Models For Code Using Global Code-Based Explanations" [2025-03] [[paper](https://arxiv.org/abs/2503.16771)]
 
 - "How Programming Concepts and Neurons Are Shared in Code Language Models" [2025-06] [ACL 2025 Findings] [[paper](https://arxiv.org/abs/2506.01074)]
+
+- "Analyzing Latent Concepts in Code Language Models" [2025-10] [[paper](https://arxiv.org/abs/2510.00476)]
 
 ### API Usage
 
@@ -4467,34 +4517,36 @@ $^\diamond$ Machine/human prompts
 - "A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions", 2022-08, arXiv, [[paper](https://arxiv.org/abs/2208.13629)]
 - "A survey on deep learning approaches for text-to-SQL", 2023-01, VLDB J., [[paper](https://link.springer.com/article/10.1007/s00778-022-00776-8)]
 
-| Date    | Venue               | Benchmark        | Size       | Language | Source                                                                                                                                                                                                       |
-| ------- | ------------------- | ---------------- | ---------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2017-08 | arXiv               | WikiSQL          | 80654      |          | "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning" [[paper](https://arxiv.org/abs/1709.00103)] [[data](https://github.com/salesforce/WikiSQL)]                      |
-| 2018-06 | CL 2018             | Advising         | 4570       |          | "Improving Text-to-SQL Evaluation Methodology" [[paper](https://arxiv.org/abs/1806.09029)] [[data](https://github.com/jkkummerfeld/text2sql-data/)]                                                          |
-| 2018-09 | EMNLP 2018          | Spider           | 10181      |          | "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task" [[paper](https://arxiv.org/abs/1809.08887)] [[data](https://yale-lily.github.io/spider)]    |
-| 2019-06 | ACL 2019            | SParC            | 12726      |          | "SParC: Cross-Domain Semantic Parsing in Context" [[paper](https://arxiv.org/abs/1906.02285)] [[data](https://yale-lily.github.io/sparc)]                                                                    |
-| 2019-07 | WWW 2020            | MIMICSQL         | 10000      |          | "Text-to-SQL Generation for Question Answering on Electronic Medical Records" [[paper](https://arxiv.org/abs/1908.01839)] [[data](https://github.com/wangpinggl/TREQS)]                                      |
-| 2019-09 | EMNLP-IJCNLP 2019   | CoSQL            | 15598      |          | "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases" [[paper](https://arxiv.org/abs/1909.05378)] [[data](https://yale-lily.github.io/cosql)]        |
-| 2020-05 | LREC 2020           | Criteria-to-SQL  | 2003       |          | "Dataset and Enhanced Model for Eligibility Criteria-to-SQL Semantic Parsing" [[paper](https://aclanthology.org/2020.lrec-1.714/)] [[data](https://github.com/xiaojingyu92/Criteria2SQL)]                    |
-| 2020-10 | EMNLP 2020 Findings | Squall           | 11276      |          | "On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries" [[paper](https://arxiv.org/abs/2010.11246)] [[data](https://github.com/tzshi/squall)]                                    |
-| 2020-10 | NAACL-HLT 2021      | Spider-Realistic | 508        |          | "Structure-Grounded Pretraining for Text-to-SQL" [[paper](https://arxiv.org/abs/2010.12773)] [[data](https://zenodo.org/records/5205322)]                                                                    |
-| 2021-06 | ACL/IJCNLP 2021     | Spider-Syn       | 8034       |          | "Towards Robustness of Text-to-SQL Models against Synonym Substitution" [[paper](https://arxiv.org/abs/2106.01065)] [[data](https://arxiv.org/abs/2106.01065)]                                               |
-| 2021-06 | NLP4Prog 2021       | SEDE             | 12023      |          | "Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data" [[paper](https://arxiv.org/abs/2106.05006)] [[data](https://github.com/hirupert/sede)]                                 |
-| 2021-06 | ACL/IJCNLP 2021     | KaggleDBQA       | 400        |          | "KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers" [[paper](https://arxiv.org/abs/2106.11455)] [[data](https://github.com/chiahsuan156/KaggleDBQA)]                                                   |
-| 2021-09 | EMNLP               | Spider-DK        | 535        |          | "Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization" [[paper](https://arxiv.org/abs/2109.05157)] [[data](https://github.com/ygan/Spider-DK)]                                     |
-| 2022-05 | NAACL 2022 Findings | Spider-SS/CG     | 8034/45599 |          | "Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment" [[paper](https://arxiv.org/abs/2205.02054)] [[data](https://github.com/ygan/SpiderSS-SpiderCG)]                |
-| 2023-05 | arXiv               | BIRD             | 12751      |          | "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs" [[paper](https://arxiv.org/abs/2305.03111)] [[data](https://bird-bench.github.io/)]              |
-| 2023-06 | ACL 2023            | XSemPLR          | 24.4K      |          | "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations" [[paper](https://arxiv.org/abs/2306.04085)] [[data](https://github.com/psunlpgroup/XSemPLR)]             |
-| 2024-05 | ACL 2024 Findings   | EHR-SeqSQL       | 31669      |          | "EHR-SeqSQL : A Sequential Text-to-SQL Dataset For Interactively Exploring Electronic Health Records" [[paper](https://arxiv.org/abs/2406.00019)]                                                            |
-| 2024-06 | NAACL 2024          | BookSQL          | 100K       |          | "BookSQL: A Large Scale Text-to-SQL Dataset for Accounting Domain" [[paper](https://arxiv.org/abs/2406.07860)] [[data](https://github.com/Exploration-Lab/BookSQL)]                                          |
-| 2024-08 | ACL 2024 Findings   | MultiSQL         | 9257       |          | "MultiSQL: A Schema-Integrated Context-Dependent Text2SQL Dataset with Diverse SQL Operations" [[paper](https://aclanthology.org/2024.findings-acl.823/)] [[data](https://github.com/grandchicken/MultiSQL)] |
-| 2024-09 | arXiv               | BEAVER           | 93         |          | "BEAVER: An Enterprise Benchmark for Text-to-SQL" [[paper](https://arxiv.org/abs/2409.02038)]                                                                                                                |
-| 2024-10 | arXiv               | PRACTIQ          | 2812       |          | "PRACTIQ: A Practical Conversational Text-to-SQL dataset with Ambiguous and Unanswerable Queries" [[paper](https://arxiv.org/abs/2410.11076)]                                                                |
-| 2024-10 | arXiv               | BIS              | 239        |          | "BIS: NL2SQL Service Evaluation Benchmark for Business Intelligence Scenarios" [[paper](https://arxiv.org/abs/2410.22925)] [[data](https://github.com/boracaglayan/bis-nl2sql)]                              |
-| 2024-11 | ICLR 2025           | Spider 2.0       | 632        |          | "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows" [[paper](https://arxiv.org/abs/2411.07763)] [[data](https://github.com/xlang-ai/Spider2)]                            |
-| 2025-01 | arXiv               | Dialect2SQL      | 9428       |          | "Dialect2SQL: A Novel Text-to-SQL Dataset for Arabic Dialects with a Focus on Moroccan Darija" [[paper](https://arxiv.org/abs/2501.11498)]                                                                   |
-| 2025-05 | arXiv               | LogicCat         | 4038       |          | "LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Multi-Domain Reasoning Challenges" [[paper](https://arxiv.org/abs/2505.18744)]                                                                       |
-| 2025-05 | arXiv               | BiomedSQL        | 68,000     |          | "BiomedSQL: Text-to-SQL for Scientific Reasoning on Biomedical Knowledge Bases" [[paper](https://arxiv.org/abs/2505.20321)] [[data](https://github.com/NIH-CARD/biomedsql)]                                  |
+| Date    | Venue               | Benchmark        | Size       | Language | Source                                                                                                                                                                                                                     |
+| ------- | ------------------- | ---------------- | ---------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2017-08 | arXiv               | WikiSQL          | 80654      |          | "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning" [[paper](https://arxiv.org/abs/1709.00103)] [[data](https://github.com/salesforce/WikiSQL)]                                    |
+| 2018-06 | CL 2018             | Advising         | 4570       |          | "Improving Text-to-SQL Evaluation Methodology" [[paper](https://arxiv.org/abs/1806.09029)] [[data](https://github.com/jkkummerfeld/text2sql-data/)]                                                                        |
+| 2018-09 | EMNLP 2018          | Spider           | 10181      |          | "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task" [[paper](https://arxiv.org/abs/1809.08887)] [[data](https://yale-lily.github.io/spider)]                  |
+| 2019-06 | ACL 2019            | SParC            | 12726      |          | "SParC: Cross-Domain Semantic Parsing in Context" [[paper](https://arxiv.org/abs/1906.02285)] [[data](https://yale-lily.github.io/sparc)]                                                                                  |
+| 2019-07 | WWW 2020            | MIMICSQL         | 10000      |          | "Text-to-SQL Generation for Question Answering on Electronic Medical Records" [[paper](https://arxiv.org/abs/1908.01839)] [[data](https://github.com/wangpinggl/TREQS)]                                                    |
+| 2019-09 | EMNLP-IJCNLP 2019   | CoSQL            | 15598      |          | "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases" [[paper](https://arxiv.org/abs/1909.05378)] [[data](https://yale-lily.github.io/cosql)]                      |
+| 2020-05 | LREC 2020           | Criteria-to-SQL  | 2003       |          | "Dataset and Enhanced Model for Eligibility Criteria-to-SQL Semantic Parsing" [[paper](https://aclanthology.org/2020.lrec-1.714/)] [[data](https://github.com/xiaojingyu92/Criteria2SQL)]                                  |
+| 2020-10 | EMNLP 2020 Findings | Squall           | 11276      |          | "On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries" [[paper](https://arxiv.org/abs/2010.11246)] [[data](https://github.com/tzshi/squall)]                                                  |
+| 2020-10 | NAACL-HLT 2021      | Spider-Realistic | 508        |          | "Structure-Grounded Pretraining for Text-to-SQL" [[paper](https://arxiv.org/abs/2010.12773)] [[data](https://zenodo.org/records/5205322)]                                                                                  |
+| 2021-06 | ACL/IJCNLP 2021     | Spider-Syn       | 8034       |          | "Towards Robustness of Text-to-SQL Models against Synonym Substitution" [[paper](https://arxiv.org/abs/2106.01065)] [[data](https://arxiv.org/abs/2106.01065)]                                                             |
+| 2021-06 | NLP4Prog 2021       | SEDE             | 12023      |          | "Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data" [[paper](https://arxiv.org/abs/2106.05006)] [[data](https://github.com/hirupert/sede)]                                               |
+| 2021-06 | ACL/IJCNLP 2021     | KaggleDBQA       | 400        |          | "KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers" [[paper](https://arxiv.org/abs/2106.11455)] [[data](https://github.com/chiahsuan156/KaggleDBQA)]                                                                 |
+| 2021-09 | EMNLP               | Spider-DK        | 535        |          | "Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization" [[paper](https://arxiv.org/abs/2109.05157)] [[data](https://github.com/ygan/Spider-DK)]                                                   |
+| 2022-05 | NAACL 2022 Findings | Spider-SS/CG     | 8034/45599 |          | "Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment" [[paper](https://arxiv.org/abs/2205.02054)] [[data](https://github.com/ygan/SpiderSS-SpiderCG)]                              |
+| 2023-05 | arXiv               | BIRD             | 12751      |          | "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs" [[paper](https://arxiv.org/abs/2305.03111)] [[data](https://bird-bench.github.io/)]                            |
+| 2023-06 | ACL 2023            | XSemPLR          | 24.4K      |          | "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations" [[paper](https://arxiv.org/abs/2306.04085)] [[data](https://github.com/psunlpgroup/XSemPLR)]                           |
+| 2024-05 | ACL 2024 Findings   | EHR-SeqSQL       | 31669      |          | "EHR-SeqSQL : A Sequential Text-to-SQL Dataset For Interactively Exploring Electronic Health Records" [[paper](https://arxiv.org/abs/2406.00019)]                                                                          |
+| 2024-06 | NAACL 2024          | BookSQL          | 100K       |          | "BookSQL: A Large Scale Text-to-SQL Dataset for Accounting Domain" [[paper](https://arxiv.org/abs/2406.07860)] [[data](https://github.com/Exploration-Lab/BookSQL)]                                                        |
+| 2024-08 | ACL 2024 Findings   | MultiSQL         | 9257       |          | "MultiSQL: A Schema-Integrated Context-Dependent Text2SQL Dataset with Diverse SQL Operations" [[paper](https://aclanthology.org/2024.findings-acl.823/)] [[data](https://github.com/grandchicken/MultiSQL)]               |
+| 2024-09 | arXiv               | BEAVER           | 93         |          | "BEAVER: An Enterprise Benchmark for Text-to-SQL" [[paper](https://arxiv.org/abs/2409.02038)]                                                                                                                              |
+| 2024-10 | arXiv               | PRACTIQ          | 2812       |          | "PRACTIQ: A Practical Conversational Text-to-SQL dataset with Ambiguous and Unanswerable Queries" [[paper](https://arxiv.org/abs/2410.11076)]                                                                              |
+| 2024-10 | arXiv               | BIS              | 239        |          | "BIS: NL2SQL Service Evaluation Benchmark for Business Intelligence Scenarios" [[paper](https://arxiv.org/abs/2410.22925)] [[data](https://github.com/boracaglayan/bis-nl2sql)]                                            |
+| 2024-11 | ICLR 2025           | Spider 2.0       | 632        |          | "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows" [[paper](https://arxiv.org/abs/2411.07763)] [[data](https://github.com/xlang-ai/Spider2)]                                          |
+| 2025-01 | arXiv               | Dialect2SQL      | 9428       |          | "Dialect2SQL: A Novel Text-to-SQL Dataset for Arabic Dialects with a Focus on Moroccan Darija" [[paper](https://arxiv.org/abs/2501.11498)]                                                                                 |
+| 2025-05 | arXiv               | LogicCat         | 4038       |          | "LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Multi-Domain Reasoning Challenges" [[paper](https://arxiv.org/abs/2505.18744)]                                                                                     |
+| 2025-05 | arXiv               | BiomedSQL        | 68,000     |          | "BiomedSQL: Text-to-SQL for Scientific Reasoning on Biomedical Knowledge Bases" [[paper](https://arxiv.org/abs/2505.20321)] [[data](https://github.com/NIH-CARD/biomedsql)]                                                |
+| 2025-09 | arXiv               | PARROT           | 598        |          | "PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation" [[paper](https://arxiv.org/abs/2509.23338)] [[data](https://github.com/weAIDB/PARROT)]                                                           |
+| 2025-09 | arXiv               | MultiSpider 2.0  | 5056       |          | "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents" [[paper](https://arxiv.org/abs/2509.24405)] [[data](https://github.com/phkhanhtrinh23/Multilingual_Text_to_SQL)] |
 
 #### Code Translation
 
@@ -4552,6 +4604,8 @@ $^\diamond$ Machine/human prompts
 | 2024-01 | arXiv                            | DebugBench          | 4253      | C++, Java, Python                                         | "DebugBench: Evaluating Debugging Capability of Large Language Models" [[paper](https://arxiv.org/abs/2401.04621)] [[data](https://github.com/thunlp/DebugBench)]                                                         |
 | 2024-11 | arXiv                            | MdEval              | 3513      | 18                                                        | "MdEval: Massively Multilingual Code Debugging" [[paper](https://arxiv.org/abs/2411.02310)]                                                                                                                               |
 | 2025-01 | arXiv                            | unnamed             | 48,398    | Python                                                    | "Suggesting Code Edits in Interactive Machine Learning Notebooks Using Large Language Models" [[paper](https://arxiv.org/abs/2501.09745)] [[data](https://zenodo.org/records/14281690)]                                   |
+| 2025-09 | arXiv                            | AgentPack           | 1.3M      | 20+                                                       | "AgentPack: A Dataset of Code Changes, Co-Authored by Agents and Humans" [[paper](https://arxiv.org/abs/2509.21891)] [[data](https://huggingface.co/datasets/nuprl/AgentPack)]                                            |
+| 2025-09 | arXiv                            | OCEDataFT           | 20K       | Python                                                    | "Generating High-Quality Datasets for Code Editing via Open-Source Language Models" [[paper](https://arxiv.org/abs/2509.25203)] [[data](https://github.com/zkzhang88/OpenCodeEdit)]                                       |
 
 \* These are code-change datasest, and only a subset therein concerns bug fixing.
 
@@ -4602,6 +4656,7 @@ $^\diamond$ Machine/human prompts
 | 2025-03 | arXiv                        | DSDBench       | 1117  | Python                      | "Why Stop at One Error? Benchmarking LLMs as Data Science Code Debuggers for Multi-Hop and Multi-Bug Errors" [[paper](https://arxiv.org/abs/2503.22388)] [[data](https://github.com/KevinCL16/DSDBench)]                         |
 | 2025-05 | arXiv                        | SecVulEval     | 25440 | C/C++                       | "SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection" [[paper](https://arxiv.org/abs/2505.19828)] [[data](https://github.com/basimbd/SecVulEval)]                                                         |
 | 2025-05 | arXiv                        | SV-TrustEval-C | 3,337 | C                           | "SV-TrustEval-C: Evaluating Structure and Semantic Reasoning in Large Language Models for Source Code Vulnerability Analysis" [[paper](https://arxiv.org/abs/2505.20630)] [[data](https://github.com/Jackline97/SV-TrustEval-C)] |
+| 2025-09 | arXiv                        | MULocBench     | 1,100 | Python                      | "A Benchmark for Localizing Code and Non-Code Issues in Software Projects" [[paper](https://arxiv.org/abs/2509.25242)] [[data](https://huggingface.co/datasets/somethingone/MULocBench)]                                         |
 
 #### Code Retrieval
 
