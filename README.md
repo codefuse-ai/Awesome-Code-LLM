@@ -15,21 +15,21 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/10/03] Featured papers:
+🔥🔥🔥 [2025/10/11] Featured papers:
 
-- 🔥🔥 [BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software](https://arxiv.org/abs/2509.25248) from Arizona State University.
-
-- 🔥🔥 [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) from Mistral AI.
-
-- 🔥🔥 [LLaDA-MoE: A Sparse MoE Diffusion Language Model](https://arxiv.org/abs/2509.24389) from Ant Group.
-
-- 🔥🔥 [Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents](https://arxiv.org/abs/2509.23045) from Moonshot AI.
-
-- 🔥🔥 [ML2B: Multi-Lingual ML Benchmark For AutoML](https://arxiv.org/abs/2509.22768) from HSE University.
+- 🔥🔥 [EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models](https://arxiv.org/abs/2510.03760) from City University of Hong Kong.
 
 - 🔥 [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) from Ant Group.
 
-- 🔥 [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941) from Scale AI.
+- 🔥 [BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software](https://arxiv.org/abs/2509.25248) from Arizona State University.
+
+- 🔥 [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) from Mistral AI.
+
+- 🔥 [LLaDA-MoE: A Sparse MoE Diffusion Language Model](https://arxiv.org/abs/2509.24389) from Ant Group.
+
+- 🔥 [Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents](https://arxiv.org/abs/2509.23045) from Moonshot AI.
+
+- 🔥 [ML2B: Multi-Lingual ML Benchmark For AutoML](https://arxiv.org/abs/2509.22768) from HSE University.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -517,6 +517,10 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 25. **Seed-Coder**: "Seed-Coder: Let the Code Model Curate Data for Itself" [2025-06] [[paper](https://arxiv.org/abs/2506.03524)]
 
+26. **CWM**: "CWM: An Open-Weights LLM for Research on Code Generation with World Models" [2025-09] [[paper](https://arxiv.org/abs/2510.02387)]
+
+27. **Mellum**: "Mellum: Production-Grade in-IDE Contextual Code Completion with Multi-File Project Understanding" [2025-10] [[paper](https://arxiv.org/abs/2510.05788)]
+
 #### Encoder-Decoder
 
 1. **PyMT5** (Span Corruption): "PyMT5: multi-mode translation of natural language and Python code with transformers" [2020-10] [EMNLP 2020] [[paper](https://arxiv.org/abs/2010.03150)]
@@ -556,6 +560,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 2. **Dream-Coder**: "Dream-Coder 7B: An Open Diffusion Language Model for Code" [2025-09] [[paper](https://arxiv.org/abs/2509.01142)]
 
 3. "Beyond Autoregression: An Empirical Study of Diffusion Large Language Models for Code Generation" [2025-09] [[paper](https://arxiv.org/abs/2509.11252)]
+
+4. **CoDA**: "CoDA: Coding LM via Diffusion Adaptation" [2025-10] [[paper](https://arxiv.org/abs/2510.03270)]
 
 ### 2.4 (Instruction) Fine-Tuning on Code
 
@@ -933,6 +939,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "L0-Reasoning Bench: Evaluating Procedural Correctness in Language Models via Simple Program Execution" [2025-03] [[paper](https://arxiv.org/abs/2503.22832)]
 
+- "PLSemanticsBench: Large Language Models As Programming Language Interpreters" [2025-10] [[paper](https://arxiv.org/abs/2510.03415)]
+
+- "Metric Calculating Benchmark: Code-Verifiable Complicate Instruction Following Benchmark for Large Language Models" [2025-10] [[paper](https://arxiv.org/abs/2510.07892)]
+
 ### 3.3 Code Agents
 
 1. **Self-collaboration**: "Self-collaboration Code Generation via ChatGPT" [2023-04] [[paper](https://arxiv.org/abs/2304.07590)]
@@ -1094,6 +1104,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 79. **Lita**: "Lita: Light Agent Uncovers the Agentic Coding Capabilities of LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.25873)]
 
 80. **Kimi-Dev**: "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents" [2025-09] [[paper](https://arxiv.org/abs/2509.23045)]
+
+81. **VeriGuard**: "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation" [2025-10] [[paper](https://arxiv.org/abs/2510.05156)]
 
 ### 3.4 Interactive Coding
 
@@ -1509,6 +1521,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "CodeChemist: Functional Knowledge Transfer for Low-Resource Code Generation via Test-Time Scaling" [2025-10] [[paper](https://arxiv.org/abs/2510.00501)]
 
+- [**CUDA**] "EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models" [2025-10] [[paper](https://arxiv.org/abs/2510.03760)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1710,6 +1724,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "A Deep Dive into Retrieval-Augmented Generation for Code Completion: Experience on WeChat" [2025-07] [[paper](https://arxiv.org/abs/2507.18515)]
 
 - "Impact-driven Context Filtering For Cross-file Code Completion" [2025-08] [[paper](https://arxiv.org/abs/2508.05970)]
+
+- "Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches" [2025-10] [[paper](https://arxiv.org/abs/2510.04905)]
 
 ### Code Ranking
 
@@ -2416,6 +2432,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench" [2025-07] [[paper](https://arxiv.org/abs/2507.02554)]
 
 - "ML2B: Multi-Lingual ML Benchmark For AutoML" [2025-09] [[paper](https://arxiv.org/abs/2509.22768)]
+
+- "RECODE-H: A Benchmark for Research Code Development with Interactive Human Feedback" [2025-10] [[paper](https://arxiv.org/abs/2510.06186)]
+
+- "AutoMLGen: Navigating Fine-Grained Optimization for Coding Agents" [2025-10] [[paper](https://arxiv.org/abs/2510.08511)]
 
 ### Text-To-SQL
 
@@ -3233,6 +3253,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Improving Code Localization with Repository Memory" [2025-10] [[paper](https://arxiv.org/abs/2510.01003)]
 
+- "Vul-R2: A Reasoning LLM for Automated Vulnerability Repair" [2025-10] [[paper](https://arxiv.org/abs/2510.05480)]
+
 ### Malicious Code Detection
 
 - "I-MAD: Interpretable Malware Detector Using Galaxy Transformer", 2019-09, Comput. Secur. 2021, [[paper](https://arxiv.org/abs/1909.06865)]
@@ -3578,6 +3600,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Complex Logical Instruction Generation" [2025-08] [[paper](https://arxiv.org/abs/2508.09125)]
 
 - "Regression Language Models for Code" [2025-09] [[paper](https://arxiv.org/abs/2509.26476)]
+
+- "When Names Disappear: Revealing What LLMs Actually Understand About Code" [2025-10] [[paper](https://arxiv.org/abs/2510.03178)]
 
 ### Software Modeling
 
@@ -4547,6 +4571,7 @@ $^\diamond$ Machine/human prompts
 | 2025-05 | arXiv               | BiomedSQL        | 68,000     |          | "BiomedSQL: Text-to-SQL for Scientific Reasoning on Biomedical Knowledge Bases" [[paper](https://arxiv.org/abs/2505.20321)] [[data](https://github.com/NIH-CARD/biomedsql)]                                                |
 | 2025-09 | arXiv               | PARROT           | 598        |          | "PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation" [[paper](https://arxiv.org/abs/2509.23338)] [[data](https://github.com/weAIDB/PARROT)]                                                           |
 | 2025-09 | arXiv               | MultiSpider 2.0  | 5056       |          | "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents" [[paper](https://arxiv.org/abs/2509.24405)] [[data](https://github.com/phkhanhtrinh23/Multilingual_Text_to_SQL)] |
+| 2025-10 | arXiv               | BIRD-INTERACT    | 600        |          | "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation for Large Language Models via Lens of Dynamic Interactions" [[paper](https://arxiv.org/abs/2510.05318)] [[data](https://bird-interact.github.io/)]                     |
 
 #### Code Translation
 
