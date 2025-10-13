@@ -15,21 +15,17 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 ## News
 
-🔥🔥🔥 [2025/10/11] Featured papers:
+🔥🔥🔥 [2025/10/13] Featured papers:
 
-- 🔥🔥 [EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models](https://arxiv.org/abs/2510.03760) from City University of Hong Kong.
+- 🔥🔥 [LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?](https://arxiv.org/abs/2510.09595) from University of Michigan.
+
+- 🔥🔥 [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702) from Harbin Institute of Technology.
+
+- 🔥🔥 [BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution](https://arxiv.org/abs/2510.08697) from Monash University.
 
 - 🔥 [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) from Ant Group.
 
-- 🔥 [BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software](https://arxiv.org/abs/2509.25248) from Arizona State University.
-
-- 🔥 [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) from Mistral AI.
-
-- 🔥 [LLaDA-MoE: A Sparse MoE Diffusion Language Model](https://arxiv.org/abs/2509.24389) from Ant Group.
-
-- 🔥 [Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents](https://arxiv.org/abs/2509.23045) from Moonshot AI.
-
-- 🔥 [ML2B: Multi-Lingual ML Benchmark For AutoML](https://arxiv.org/abs/2509.22768) from HSE University.
+- 🔥🔥 [EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models](https://arxiv.org/abs/2510.03760) from City University of Hong Kong.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -520,6 +516,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 26. **CWM**: "CWM: An Open-Weights LLM for Research on Code Generation with World Models" [2025-09] [[paper](https://arxiv.org/abs/2510.02387)]
 
 27. **Mellum**: "Mellum: Production-Grade in-IDE Contextual Code Completion with Multi-File Project Understanding" [2025-10] [[paper](https://arxiv.org/abs/2510.05788)]
+
+28. "Scaling Laws for Code: A More Data-Hungry Regime" [2025-10] [[paper](https://arxiv.org/abs/2510.08702)]
 
 #### Encoder-Decoder
 
@@ -3603,6 +3601,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "When Names Disappear: Revealing What LLMs Actually Understand About Code" [2025-10] [[paper](https://arxiv.org/abs/2510.03178)]
 
+- "MEC3O: Multi-Expert Consensus for Code Time Complexity Prediction" [2025-10] [[paper](https://arxiv.org/abs/2510.09049)]
+
 ### Software Modeling
 
 - "Towards using Few-Shot Prompt Learning for Automating Model Completion" [2022-12] [[paper](https://arxiv.org/abs/2212.03404)]
@@ -4391,6 +4391,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks" [2025-07] [[paper](https://arxiv.org/abs/2507.10535)]
 
+- "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution" [2025-10] [[paper](https://arxiv.org/abs/2510.08697)]
+
+- "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective" [2025-10] [[paper](https://arxiv.org/abs/2510.08720)]
+
 #### Program Synthesis
 
 | Date    | Venue                            | Benchmark                                        | Size                 | Language                                                                         | Source                                                                                                                                                                                                                                                                                       |
@@ -4485,6 +4489,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 | 2025-08 | arXiv                            | FPBench                                          | 1800                 | Python                                                                           | "Refining Critical Thinking in LLM Code Generation: A Faulty Premise-based Evaluation Framework" [[paper](https://arxiv.org/abs/2508.03622)] [[data](https://github.com/JialinLi13/FaultyPremise)]                                                                                           |
 | 2025-08 | arXiv                            | AutoCodeBench                                    | 3,920                | 20                                                                               | "AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators" [[paper](https://arxiv.org/abs/2508.09101)] [[data](https://autocodebench.github.io/)]                                                                                                                        |
 | 2025-08 | arXiv                            | AetherCode                                       | 456                  | C++                                                                              | "AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions" [[paper](https://arxiv.org/abs/2508.16402)] [[data](https://huggingface.co/datasets/m-a-p/AetherCode)]                                                                                                     |
+| 2025-10 | arXiv                            | LiveOIBench                                      | 403                  |                                                                                  | "LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?" [[paper](https://arxiv.org/abs/2510.09595)] [[data](https://liveoibench.github.io/)]                                                                                                         |
 
 \* Automatically mined/human-annotated
 
