@@ -1,5 +1,9 @@
 # Awesome-Code-LLM
 
+<p align='center'>
+<img src='imgs/wordcloud.png' style='width: 100%; '>
+</p>
+
 This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) - a comprehensive review of LLM researches for code. Works in each category are ordered chronologically. If you have a basic understanding of machine learning but are new to NLP, we also provide a list of recommended readings in [section 9](#9-recommended-readings). If you refer to this repo, please cite:
 
 ```
@@ -17,15 +21,11 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 
 🔥🔥🔥 [2025/10/13] Featured papers:
 
-- 🔥🔥 [LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?](https://arxiv.org/abs/2510.09595) from University of Michigan.
+- 🔥 [LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?](https://arxiv.org/abs/2510.09595) from University of Michigan.
 
-- 🔥🔥 [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702) from Harbin Institute of Technology.
+- 🔥 [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702) from Harbin Institute of Technology.
 
-- 🔥🔥 [BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution](https://arxiv.org/abs/2510.08697) from Monash University.
-
-- 🔥 [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) from Ant Group.
-
-- 🔥🔥 [EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models](https://arxiv.org/abs/2510.03760) from City University of Hong Kong.
+- 🔥 [BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution](https://arxiv.org/abs/2510.08697) from Monash University.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -34,6 +34,10 @@ This is the repo for our [TMLR](https://jmlr.org/tmlr/) survey [Unifying the Per
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
 
 🔥🔥🔥 [2025/09/22] News from Codefuse
+
+- We released [F2LLM](https://arxiv.org/abs/2510.02294), a fully open embedding model striking a strong balance between model size, training data, and embedding performance. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model & data](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings-68d4b32da791bbba993f8d14)]
+
+- We released a new benchmark focusing on code review: [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856)
 
 - [CGM (Code Graph Model)](https://arxiv.org/abs/2505.16901) is accepted to NeurIPS 2025. CGM currently ranks 1st among open-weight models on [SWE-Bench-Lite leaderboard](https://www.swebench.com/). [[repo](https://github.com/codefuse-ai/CodeFuse-CGM)]
 
@@ -3345,6 +3349,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Speed Up Your Code: Progressive Code Acceleration Through Bidirectional Tree Editing" [2025-07] [ACL 2025] [[paper](https://aclanthology.org/2025.acl-long.1387/)]
 
+- "ECO: Enhanced Code Optimization via Performance-Aware Prompting for Code-LLMs" [2025-10] [[paper](https://arxiv.org/abs/2510.10517)]
+
 ### Binary Analysis and Decompilation
 
 - "Using recurrent neural networks for decompilation" [2018-03] [SANER 2018] [[paper](https://ieeexplore.ieee.org/document/8330222)]
@@ -4088,6 +4094,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Droid: A Resource Suite for AI-Generated Code Detection" [2025-07] [[paper](https://arxiv.org/abs/2507.10583)]
 
 - "Optimizing Token Choice for Code Watermarking: A RL Approach" [2025-08] [[paper](https://arxiv.org/abs/2508.11925)]
+
+- "Large Language Models Are Effective Code Watermarkers" [2025-10] [[paper](https://arxiv.org/abs/2510.11251)]
 
 ### Others
 
