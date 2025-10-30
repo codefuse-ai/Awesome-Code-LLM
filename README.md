@@ -19,17 +19,17 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 
 ## News
 
-🔥🔥🔥 [2025/10/23] Featured papers:
+🔥🔥🔥 [2025/10/30] Featured papers:
 
-- 🔥🔥 [Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale Thinking Model](https://arxiv.org/abs/2510.18855) from Ant Group.
+- 🔥🔥 [VisCoder2: Building Multi-Language Visualization Coding Agents](https://arxiv.org/abs/2510.23642) from University of Waterloo.
 
-- 🔥🔥 [TritonRL: Training LLMs to Think and Code Triton Without Cheating](https://arxiv.org/abs/2510.17891) from Carnegie Mellon University.
+- 🔥🔥 [JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence](https://arxiv.org/abs/2510.23538) from The University of Hong Kong.
 
-- 🔥 [LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?](https://arxiv.org/abs/2510.09595) from University of Michigan.
+- 🔥🔥 [From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph](https://arxiv.org/abs/2510.19873) from Chinese Academy of Sciences.
 
-- 🔥 [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702) from Harbin Institute of Technology.
+- 🔥 [Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale Thinking Model](https://arxiv.org/abs/2510.18855) from Ant Group.
 
-- 🔥 [BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution](https://arxiv.org/abs/2510.08697) from Monash University.
+- 🔥 [TritonRL: Training LLMs to Think and Code Triton Without Cheating](https://arxiv.org/abs/2510.17891) from Carnegie Mellon University.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -711,6 +711,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 68. "Verification Limits Code LLM Training" [2025-09] [[paper](https://arxiv.org/abs/2509.20837)]
 
+69. **JanusCoder**: "JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence" [2025-10] [[paper](https://arxiv.org/abs/2510.23538)]
+
+70. **VisCoder2**: "VisCoder2: Building Multi-Language Visualization Coding Agents" [2025-10] [[paper](https://arxiv.org/abs/2510.23642)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -784,6 +788,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 35. **Critique-Coder**: "Critique-Coder: Enhancing Coder Models by Critique Reinforcement Learning" [2025-09] [[paper](https://arxiv.org/abs/2509.22824)]
 
 36. **CodeRL+**: "CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment" [2025-10] [[paper](https://arxiv.org/abs/2510.18471)]
+
+37. "GAPO: Group Adaptive Policy Optimization for Real-World Code Edit" [2025-10] [[paper](https://arxiv.org/abs/2510.21830)]
+
+38. **AesCoder**: "Code Aesthetics with Agentic Reward Feedback" [2025-10] [[paper](https://arxiv.org/abs/2510.23272)]
 
 ## 3. When Coding Meets Reasoning
 
@@ -918,6 +926,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 64. **PBB**: "Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training" [2025-06] [[paper](https://arxiv.org/abs/2506.18777)]
 
 65. "On Code-Induced Reasoning in LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.21499)]
+
+66. **PIPS**: "Once Upon an Input: Reasoning via Per-Instance Program Synthesis" [2025-10] [[paper](https://arxiv.org/abs/2510.22849)]
 
 ### 3.2 Code Simulation
 
@@ -1118,6 +1128,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 81. **VeriGuard**: "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation" [2025-10] [[paper](https://arxiv.org/abs/2510.05156)]
 
 82. **KAT-Coder**: "KAT-Coder Technical Report" [2025-10] [[paper](https://arxiv.org/abs/2510.18779)]
+
+83. **TOM-SWE**: "TOM-SWE: User Mental Modeling For Software Engineering Agents" [2025-10] [[paper](https://arxiv.org/abs/2510.21903)]
+
+84. **SwiftSolve**: "SwiftSolve: A Self-Iterative, Complexity-Aware Multi-Agent Framework for Competitive Programming" [2025-10] [[paper](https://arxiv.org/abs/2510.22626)]
 
 ### 3.4 Interactive Coding
 
@@ -1543,6 +1557,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**Triton**] "TritonRL: Training LLMs to Think and Code Triton Without Cheating" [2025-10] [[paper](https://arxiv.org/abs/2510.17891)]
 
+- [**CUDA**] "From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph" [2025-10] [[paper](https://arxiv.org/abs/2510.19873)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1749,6 +1765,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches" [2025-10] [[paper](https://arxiv.org/abs/2510.04905)]
 
+- "Practical Code RAG at Scale: Task-Aware Retrieval Design Choices under Compute Budgets" [2025-10] [[paper](https://arxiv.org/abs/2510.20609)]
+
 ### Code Ranking
 
 - "Fault-Aware Neural Code Rankers" [2022-06] [NeurIPS 2022] [[paper](https://arxiv.org/abs/2206.03865)]
@@ -1950,6 +1968,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "DocAgent: A Multi-Agent System for Automated Code Documentation Generation" [2025-04] [[paper](https://arxiv.org/abs/2504.08725)]
 
 - "HGAdapter: Hypergraph-based Adapters in Language Models for Code Summarization and Clone Detection" [2025-10] [[paper](https://arxiv.org/abs/2510.17591)]
+
+- "CodeWiki: Automated Repository-Level Documentation at Scale" [2025-10] [[paper](https://arxiv.org/abs/2510.24428)]
 
 ### Program Repair
 
@@ -2161,6 +2181,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Efficient Code Embeddings from Code Generation Models" [2025-08] [[paper](https://arxiv.org/abs/2508.21290)]
 
+- "Beyond Function-Level Search: Repository-Aware Dual-Encoder Code Retrieval with Adversarial Verification" [2025-10] [[paper](https://arxiv.org/abs/2510.24749)]
+
 ### Code Refactoring and Migration
 
 - "An Empirical Study on the Code Refactoring Capability of Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.02320)]
@@ -2342,6 +2364,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning" [2025-08] [[paper](https://arxiv.org/abs/2508.03501)]
 
 - "An Empirical Study on Failures in Automated Issue Solving" [2025-09] [[paper](https://arxiv.org/abs/2509.13941)]
+
+- "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills" [2025-10] [[paper](https://arxiv.org/abs/2510.19898)]
+
+- "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills" [2025-10] [[paper](https://arxiv.org/abs/2510.19898)]
+
+- "Scalable Supervising Software Agents with Patch Reasoner" [2025-10] [[paper](https://arxiv.org/abs/2510.22775)]
 
 ### Frontend Development
 
@@ -2759,6 +2787,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Rethinking Schema Linking: A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL" [2025-10] [[paper](https://arxiv.org/abs/2510.14296)]
 
+- "Squrve: A Unified and Modular Framework for Complex Real-World Text-to-SQL Tasks" [2025-10] [[paper](https://arxiv.org/abs/2510.24102)]
+
+- "DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model" [2025-10] [[paper](https://arxiv.org/abs/2510.23284)]
+
+- "MTIR-SQL: Multi-turn Tool-Integrated Reasoning Reinforcement Learning for Text-to-SQL" [2025-10] [[paper](https://arxiv.org/abs/2510.25510)]
+
 ### Program Proof
 
 - "Baldur: Whole-Proof Generation and Repair with Large Language Models" [2023-03] [FSE 2023] [[paper](https://arxiv.org/abs/2303.04910)]
@@ -2968,6 +3002,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning" [2025-08] [[paper](https://arxiv.org/abs/2508.05710)]
 
 - "Navigating the Labyrinth: Path-Sensitive Unit Test Generation with Large Language Models" [2025-09] [[paper](https://arxiv.org/abs/2509.23812)]
+
+- "LSPRAG: LSP-Guided RAG for Language-Agnostic Real-Time Unit Test Generation" [2025-10] [[paper](https://arxiv.org/abs/2510.22210)]
 
 ### Oracle Generation
 
@@ -3585,6 +3621,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Explaining GitHub Actions Failures with Large Language Models: Challenges, Insights, and Limitations" [2025-01] [[paper](https://arxiv.org/abs/2501.16495)]
 
+- "CodeAD: Synthesize Code of Rules for Log-based Anomaly Detection with LLMs" [2025-10] [[paper](https://arxiv.org/abs/2510.22986)]
+
 ### Software Configuration
 
 - "Configuration Validation with Large Language Models" [2023-10] [[paper](https://arxiv.org/abs/2310.09690)]
@@ -3616,6 +3654,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Prompting for Performance: Exploring LLMs for Configuring Software" [2025-07] [[paper](https://arxiv.org/abs/2507.09790)]
 
 - "BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software" [2025-09] [[paper](https://arxiv.org/abs/2509.25248)]
+
+- "Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents" [2025-10] [[paper](https://arxiv.org/abs/2510.25694)]
 
 ### Code QA & Reasoning
 
@@ -4341,6 +4381,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Intuition to Evidence: Measuring AI's True Impact on Developer Productivity" [2025-09] [[paper](https://arxiv.org/abs/2509.19708)]
 
+- "Does In-IDE Calibration of Large Language Models work at Scale?" [2025-10] [[paper](https://arxiv.org/abs/2510.22614)]
+
 ## 8. Datasets
 
 ### 8.1 Pretraining
@@ -4444,6 +4486,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution" [2025-10] [[paper](https://arxiv.org/abs/2510.08697)]
 
 - "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective" [2025-10] [[paper](https://arxiv.org/abs/2510.08720)]
+
+- "MATCH: Task-Driven Code Evaluation through Contrastive Learning" [2025-10] [[paper](https://arxiv.org/abs/2510.23169)]
 
 #### Program Synthesis
 
@@ -4629,6 +4673,7 @@ $^\diamond$ Machine/human prompts
 | 2025-09 | arXiv               | PARROT           | 598        |          | "PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation" [[paper](https://arxiv.org/abs/2509.23338)] [[data](https://github.com/weAIDB/PARROT)]                                                           |
 | 2025-09 | arXiv               | MultiSpider 2.0  | 5056       |          | "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents" [[paper](https://arxiv.org/abs/2509.24405)] [[data](https://github.com/phkhanhtrinh23/Multilingual_Text_to_SQL)] |
 | 2025-10 | arXiv               | BIRD-INTERACT    | 600        |          | "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation for Large Language Models via Lens of Dynamic Interactions" [[paper](https://arxiv.org/abs/2510.05318)] [[data](https://bird-interact.github.io/)]                     |
+| 2025-10 | arXiv               | Falcon           | 600        |          | "Falcon: A Comprehensive Chinese Text-to-SQL Benchmark for Enterprise-Grade Evaluation" [[paper](https://arxiv.org/abs/2510.24762)] [[data](https://github.com/eosphoros-ai/Falcon)]                                       |
 
 #### Code Translation
 
