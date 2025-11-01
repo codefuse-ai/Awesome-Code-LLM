@@ -1133,6 +1133,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 84. **SwiftSolve**: "SwiftSolve: A Self-Iterative, Complexity-Aware Multi-Agent Framework for Competitive Programming" [2025-10] [[paper](https://arxiv.org/abs/2510.22626)]
 
+85. **ReVeal**: "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification" [2025-10] [[paper](https://arxiv.org/abs/2506.11442)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
