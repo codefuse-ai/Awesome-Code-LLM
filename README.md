@@ -2235,6 +2235,14 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CODEMENV: Benchmarking Large Language Models on Code Migration" [2025-05] [ACL 2025 Findings] [[paper](https://arxiv.org/abs/2506.00894)]
 
+- "Byam: Fixing Breaking Dependency Updates with Large Language Models" [2025-05] [[paper](https://arxiv.org/abs/2505.07522)]
+
+- "Automatically Fixing Dependency Breaking Changes" [2025-06] [PACMSE, July 2025] [[paper](https://dl.acm.org/doi/10.1145/3729366)]
+
+- "Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution" [2025-08] [ICSME 2025] [[paper](https://arxiv.org/abs/2508.10517)]
+
+- "LLM Agents for Automated Dependency Upgrades" [2025-10] [ASE 2025] [[paper](https://arxiv.org/abs/2510.03480)]
+
 ### Type Prediction
 
 - "Learning type annotation: is big data enough?" [2021-08] [ESEC/FSE 2021] [[paper](https://dl.acm.org/doi/10.1145/3468264.3473135)]
