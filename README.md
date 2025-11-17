@@ -557,6 +557,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 12. **DivoT5**: "Directional Diffusion-Style Code Editing Pre-training" [2025-01] [[paper](https://arxiv.org/abs/2501.12079)]
 
+13. **COBOL-Java Validation**: "Automated Validation of COBOL to Java Transformation" [2025-04] [ASE 2024] [[paper](https://arxiv.org/abs/2506.10999)]
+
 #### UniLM
 
 1. **CugLM** (MLM + NSP + CLM): "Multi-task Learning based Pre-trained Language Model for Code Completion" [2020-12] [ASE 2020] [[paper](https://arxiv.org/abs/2012.14631)]
@@ -1138,6 +1140,16 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 85. **CodeClash**: "CodeClash: Benchmarking Goal-Oriented Software Engineering" [2025-11] [[paper](https://arxiv.org/abs/2511.00839)]
 
 86. "A Comprehensive Empirical Evaluation of Agent Frameworks on Code-centric Software Engineering Tasks" [2025-10] [[paper](https://arxiv.org/abs/2511.00872)]
+
+87. **Code Completion Context**: "Beyond More Context: How Granularity and Order Drive Code Completion Quality" [2025-10] [ASE 2025] [[paper](https://arxiv.org/abs/2510.06606)]
+
+88. **Code Chunking**: "Relative Positioning Based Code Chunking Method For Rich Context Retrieval In Repository Level Code Completion Task With Code Language Model" [2025-10] [ASE 2025 Workshop] [[paper](https://arxiv.org/abs/2510.08610)]
+
+89. **Ethical Profiling**: "Advancing Automated Ethical Profiling in SE: a Zero-Shot Evaluation of LLM Reasoning" [2025-10] [ASE 2025] [[paper](https://arxiv.org/abs/2510.00881)]
+
+90. **TRUSTVIS**: "TRUSTVIS: A Multi-Dimensional Trustworthiness Evaluation Framework for Large Language Models" [2025-10] [ASE 2025 Demo Track] [[paper](https://arxiv.org/abs/2510.13106)]
+
+91. **Contextualized Data-Wrangling**: "Contextualized Data-Wrangling Code Generation in Computational Notebooks" [2024-09] [ASE 2024] [[paper](https://arxiv.org/abs/2409.13551)]
 
 ### 3.4 Interactive Coding
 
@@ -1905,6 +1917,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "EffiReasonTrans: RL-Optimized Reasoning for Code Translation" [2025-10] [[paper](https://arxiv.org/abs/2510.18863)]
 
+- "WaDec: Decompiling WebAssembly Using Large Language Model" [2024-06] [ASE 2024] [[paper](https://arxiv.org/abs/2406.11346)]
+
+- "Automated Validation of COBOL to Java Transformation" [2025-04] [ASE 2025] [[paper](https://arxiv.org/abs/2506.10999)]
+
 ### Code Commenting and Summarization
 
 - "A Transformer-based Approach for Source Code Summarization" [2020-05] [ACL 2020] [[paper](https://arxiv.org/abs/2005.00653)]
@@ -2345,7 +2361,11 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation" [2025-09] [[paper](https://arxiv.org/abs/2509.16198)]
 
+- "Relative Positioning Based Code Chunking Method For Rich Context Retrieval In Repository Level Code Completion Task With Code Language Model" [2025-10] [ASE 2025] [[paper](https://arxiv.org/abs/2510.08610)]
+
 - "On Pretraining for Project-Level Code Completion" [2025-10] [[paper](https://arxiv.org/abs/2510.13697)]
+
+- "Challenge on Optimization of Context Collection for Code Completion" [2025-10] [ASE 2025] [[paper](https://arxiv.org/abs/2510.04349)]
 
 ### Issue Resolution
 
@@ -4280,6 +4300,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Style2Code: A Style-Controllable Code Generation Framework with Dual-Modal Contrastive Representation Learning" [2025-05] [[paper](https://arxiv.org/abs/2505.19442)]
 
 - "CodeAlignBench: Assessing Code Generation Models on Developer-Preferred Code Adjustments" [2025-10] [[paper](https://arxiv.org/abs/2510.27565)]
+
+- "What Types of Code Review Comments Do Developers Most Frequently Resolve?" [2025-10] [ASE 2025] [[paper](https://arxiv.org/abs/2510.05450)]
 
 ## 7. Human-LLM Interaction
 
