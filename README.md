@@ -19,19 +19,15 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 
 ## News
 
-🔥🔥🔥 [2025/11/10] Featured papers:
+🔥🔥🔥 [2025/11/24] Featured papers:
 
-- 🔥🔥 [SWE-Compass: Towards Unified Evaluation of Agentic Coding Abilities for Large Language Models](https://arxiv.org/abs/2511.05459) from Kuaishou Technology.
+- 🔥🔥 [Instella: Fully Open Language Models with Stellar Performance](https://arxiv.org/abs/2511.10628) from AMD.
 
-- 🔥🔥 [CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization](https://arxiv.org/abs/2511.01884) from University of Minnesota.
+- 🔥 [SWE-Compass: Towards Unified Evaluation of Agentic Coding Abilities for Large Language Models](https://arxiv.org/abs/2511.05459) from Kuaishou Technology.
 
-- 🔥🔥 [CodeClash: Benchmarking Goal-Oriented Software Engineering](https://arxiv.org/abs/2511.00839) from Stanford University.
+- 🔥 [CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization](https://arxiv.org/abs/2511.01884) from University of Minnesota.
 
-- 🔥 [VisCoder2: Building Multi-Language Visualization Coding Agents](https://arxiv.org/abs/2510.23642) from University of Waterloo.
-
-- 🔥 [JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence](https://arxiv.org/abs/2510.23538) from The University of Hong Kong.
-
-- 🔥 [From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph](https://arxiv.org/abs/2510.19873) from Chinese Academy of Sciences.
+- 🔥 [CodeClash: Benchmarking Goal-Oriented Software Engineering](https://arxiv.org/abs/2511.00839) from Stanford University.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
 
@@ -410,6 +406,10 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 91. **LLaDA-MoE**: "LLaDA-MoE: A Sparse MoE Diffusion Language Model" [2025-09] [[paper](https://arxiv.org/abs/2509.24389)]
 
 92. **Ring-1T**: "Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale Thinking Model" [2025-10] [[paper](https://arxiv.org/abs/2510.18855)]
+
+93. **Motif-2**: "Motif 2 12.7B technical report" [2025-11] [[paper](https://arxiv.org/abs/2511.07464)]
+
+94. **Instella**: "Instella: Fully Open Language Models with Stellar Performance" [2025-11] [[paper](https://arxiv.org/abs/2511.10628)]
 
 ### 2.2 Existing LLM Adapted to Code
 
@@ -795,6 +795,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 38. **AesCoder**: "Code Aesthetics with Agentic Reward Feedback" [2025-10] [[paper](https://arxiv.org/abs/2510.23272)]
 
+39. **MURPHY**: "MURPHY: Multi-Turn GRPO for Self Correcting Code Generation" [2025-11] [[paper](https://arxiv.org/abs/2511.07833)]
+
 ## 3. When Coding Meets Reasoning
 
 ### 3.1 Coding for Reasoning
@@ -1138,6 +1140,14 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 85. **CodeClash**: "CodeClash: Benchmarking Goal-Oriented Software Engineering" [2025-11] [[paper](https://arxiv.org/abs/2511.00839)]
 
 86. "A Comprehensive Empirical Evaluation of Agent Frameworks on Code-centric Software Engineering Tasks" [2025-10] [[paper](https://arxiv.org/abs/2511.00872)]
+
+87. "Designing LLM-based Multi-Agent Systems for Software Engineering Tasks: Quality Attributes, Design Patterns and Rationale" [2025-11] [[paper](https://arxiv.org/abs/2511.08475)]
+
+88. "Evaluating Software Process Models for Multi-Agent Class-Level Code Generation" [2025-11] [[paper](https://arxiv.org/abs/2511.09794)]
+
+89. **LoCoBench-Agent**: "LoCoBench-Agent: An Interactive Benchmark for LLM Agents in Long-Context Software Engineering" [2025-11] [[paper](https://arxiv.org/abs/2511.13998)]
+
+90. **Live-SWE-agent**: "Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?" [2025-11] [[paper](https://arxiv.org/abs/2511.13646)]
 
 ### 3.4 Interactive Coding
 
@@ -1566,6 +1576,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**CUDA**] "From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph" [2025-10] [[paper](https://arxiv.org/abs/2510.19873)]
 
 - [**CUDA**] "CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization" [2025-10] [[paper](https://arxiv.org/abs/2511.01884)]
+
+- [**CUDA**] "ProofWright: Towards Agentic Formal Verification of CUDA" [2025-11] [[paper](https://arxiv.org/abs/2511.12294)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -2347,6 +2359,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "On Pretraining for Project-Level Code Completion" [2025-10] [[paper](https://arxiv.org/abs/2510.13697)]
 
+- "SemanticForge: Repository-Level Code Generation through Semantic Knowledge Graphs and Constraint Satisfaction" [2025-11] [[paper](https://arxiv.org/abs/2511.07584)]
+
 ### Issue Resolution
 
 - "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?" [2023-10] [ICLR 2024] [[paper](https://arxiv.org/abs/2310.06770)]
@@ -2390,6 +2404,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills" [2025-10] [[paper](https://arxiv.org/abs/2510.19898)]
 
 - "Scalable Supervising Software Agents with Patch Reasoner" [2025-10] [[paper](https://arxiv.org/abs/2510.22775)]
+
+- "InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution" [2025-11] [[paper](https://arxiv.org/abs/2511.16004)]
 
 ### Frontend Development
 
@@ -2470,6 +2486,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "A11YN: aligning LLMs for accessible web UI code generation" [2025-10] [[paper](https://arxiv.org/abs/2510.13914)]
 
 - "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality" [2025-10] [[paper](https://arxiv.org/abs/2510.18560)]
+
+- "WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation" [2025-11] [[paper](https://arxiv.org/abs/2511.06251)]
 
 ### Automated Machine Learning
 
@@ -2818,6 +2836,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "SQLSpace: A Representation Space for Text-to-SQL to Discover and Mitigate Robustness Gaps" [2025-10] [[paper](https://arxiv.org/abs/2510.27532)]
 
 - "MARS-SQL: A multi-agent reinforcement learning framework for Text-to-SQL" [2025-11] [[paper](https://arxiv.org/abs/2511.01008)]
+
+- "Beyond SELECT: A Comprehensive Taxonomy-Guided Benchmark for Real-World Text-to-SQL Translation" [2025-11] [[paper](https://arxiv.org/abs/2511.13590)]
 
 ### Program Proof
 
@@ -3603,6 +3623,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Issue-Oriented Agent-Based Framework for Automated Review Comment Generation" [2025-11] [[paper](https://arxiv.org/abs/2511.00517)]
 
+- "Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice" [2025-11] [[paper](https://arxiv.org/abs/2511.07017)]
+
 ### Log Analysis
 
 - "LogStamp: Automatic Online Log Parsing Based on Sequence Labelling" [2022-08] [[paper](https://arxiv.org/abs/2208.10282)]
@@ -4046,6 +4068,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "EffiBench-X: A Multi-Language Benchmark for Measuring Efficiency of LLM-Generated Code" [2025-05] [[paper](https://arxiv.org/abs/2505.13004)]
 
 - "Evaluating the Energy-Efficiency of the Code Generated by LLMs" [2025-05] [[paper](https://arxiv.org/abs/2505.20324)]
+
+- "Dynamic Stability of LLM-Generated Code" [2025-11] [[paper](https://arxiv.org/abs/2511.07463)]
 
 ### Robustness
 
@@ -4940,6 +4964,7 @@ $^\diamond$ Machine/human prompts
 | 2025-10 | arXiv             | E2EDev             | 46                     | Python                          | "E2Edev: Benchmarking Large Language Models in End-to-End Software Development Task" [[paper](https://arxiv.org/abs/2510.14509)] [[data](https://github.com/SCUNLP/E2EDev)]                                                                    |
 | 2025-11 | arXiv             | SWE-Sharp-Bench    | 150                    | C#                              | "SWE-Sharp-Bench: A Reproducible Benchmark for C# Software Engineering Tasks" [[paper](https://arxiv.org/abs/2511.02352)] [[data](https://github.com/microsoft/prose/tree/main/misc/SWE-Sharp-Bench)]                                          |
 | 2025-11 | arXiv             | CodeProjectEval    | 18                     | Python                          | "Towards Realistic Project-Level Code Generation via Multi-Agent Collaboration and Semantic Architecture Modeling" [[paper](https://arxiv.org/abs/2511.03404)] [[data](https://github.com/whisperzqh/ProjectGen)]                              |
+| 2025-11 | arXiv             | SWE-fficiency      | 498                    | Python                          | "SWE-fficiency: Can Language Models Optimize Real-World Repositories on Real Workloads?" [[paper](https://arxiv.org/abs/2511.06090)] [[data](https://swefficiency.com/)]                                                                       |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
