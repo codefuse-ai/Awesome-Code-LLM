@@ -51,98 +51,131 @@ If you find a paper to be missing from this repository, misplaced in a category,
 
 ## Table of Contents
 
-- [Awesome-Code-LLM](#awesome-code-llm)
-  - [News](#news)
-      - [How to Contribute](#how-to-contribute)
-  - [Table of Contents](#table-of-contents)
-  - [1. Surveys](#1-surveys)
-  - [2. Models](#2-models)
-    - [2.1 Base LLMs and Pretraining Strategies](#21-base-llms-and-pretraining-strategies)
-    - [2.2 Existing LLM Adapted to Code](#22-existing-llm-adapted-to-code)
-    - [2.3 General Pretraining on Code](#23-general-pretraining-on-code)
-      - [Encoder](#encoder)
-      - [Decoder](#decoder)
-      - [Encoder-Decoder](#encoder-decoder)
-      - [UniLM](#unilm)
-      - [Other Models](#other-models)
-    - [2.4 (Instruction) Fine-Tuning on Code](#24-instruction-fine-tuning-on-code)
-    - [2.5 Reinforcement Learning on Code](#25-reinforcement-learning-on-code)
-  - [3. When Coding Meets Reasoning](#3-when-coding-meets-reasoning)
-    - [3.1 Coding for Reasoning](#31-coding-for-reasoning)
-    - [3.2 Code Simulation](#32-code-simulation)
-    - [3.3 Code Agents](#33-code-agents)
-    - [3.4 Interactive Coding](#34-interactive-coding)
-    - [3.5 Frontend Navigation](#35-frontend-navigation)
-  - [4. Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages)
-  - [5. Methods/Models for Downstream Tasks](#5-methodsmodels-for-downstream-tasks)
-    - [Code Generation](#code-generation)
-    - [Code RAG](#code-rag)
-    - [Code Ranking](#code-ranking)
-    - [Code Translation](#code-translation)
-    - [Code Commenting and Summarization](#code-commenting-and-summarization)
-    - [Program Repair](#program-repair)
-    - [Code Similarity and Embedding (Clone Detection, Code Search)](#code-similarity-and-embedding-clone-detection-code-search)
-    - [Code Refactoring and Migration](#code-refactoring-and-migration)
-    - [Type Prediction](#type-prediction)
-    - [Repository-Level Coding](#repository-level-coding)
-    - [Issue Resolution](#issue-resolution)
-    - [Frontend Development](#frontend-development)
-    - [Automated Machine Learning](#automated-machine-learning)
-    - [Text-To-SQL](#text-to-sql)
-    - [Program Proof](#program-proof)
-    - [Test Generation](#test-generation)
-    - [Oracle Generation](#oracle-generation)
-    - [Mutation Testing](#mutation-testing)
-    - [Fuzz Testing](#fuzz-testing)
-    - [Vulnerability Detection](#vulnerability-detection)
-    - [Malicious Code Detection](#malicious-code-detection)
-    - [Compiler Optimization](#compiler-optimization)
-    - [Binary Analysis and Decompilation](#binary-analysis-and-decompilation)
-    - [Commit Message Generation](#commit-message-generation)
-    - [Code Review](#code-review)
-    - [Log Analysis](#log-analysis)
-    - [Software Configuration](#software-configuration)
-    - [Code QA \& Reasoning](#code-qa--reasoning)
-    - [Software Modeling](#software-modeling)
-    - [Requirement Engineering](#requirement-engineering)
-  - [6. Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
-    - [Security and Vulnerabilities](#security-and-vulnerabilities)
-    - [Correctness](#correctness)
-    - [Hallucination](#hallucination)
-    - [Efficiency](#efficiency)
-    - [Robustness](#robustness)
-    - [Interpretability](#interpretability)
-    - [API Usage](#api-usage)
-    - [Privacy](#privacy)
-    - [Bias](#bias)
-    - [Contamination](#contamination)
-    - [AI-Generated Code Detection](#ai-generated-code-detection)
-    - [Others](#others)
-  - [7. Human-LLM Interaction](#7-human-llm-interaction)
-  - [8. Datasets](#8-datasets)
-    - [8.1 Pretraining](#81-pretraining)
-    - [8.2 Benchmarks](#82-benchmarks)
-      - [Integrated Benchmarks](#integrated-benchmarks)
-      - [Evaluation Metrics](#evaluation-metrics)
-      - [Program Synthesis](#program-synthesis)
-      - [Visually Grounded Program Synthesis](#visually-grounded-program-synthesis)
-      - [Code Reasoning and QA](#code-reasoning-and-qa)
-      - [Text-to-SQL](#text-to-sql-1)
-      - [Code Translation](#code-translation-1)
-      - [Program Repair](#program-repair-1)
-      - [Code Summarization](#code-summarization)
-      - [Defect/Vulnerability Detection](#defectvulnerability-detection)
-      - [Code Retrieval](#code-retrieval)
-      - [Type Inference](#type-inference)
-      - [Commit Message Generation](#commit-message-generation-1)
-      - [Repo-Level Coding](#repo-level-coding)
-      - [Other tasks are coming soon!](#other-tasks-are-coming-soon)
-  - [9. Recommended Readings](#9-recommended-readings)
-  - [Citation](#citation)
-  - [Star History](#star-history)
-  - [Join US](#join-us)
-    - [Recruitment](#recruitment)
-    - [Contact Us (WeChat)](#contact-us-wechat)
+1. [Surveys](#1-surveys)
+
+2. [Models](#2-models)
+
+   2.1 [Base LLMs and Pretraining Strategies](#21-base-llms-and-pretraining-strategies)
+
+   2.2 [Existing LLM Adapted to Code](#22-existing-llm-adapted-to-code)
+
+   2.3 [General Pretraining on Code](#23-general-pretraining-on-code)
+
+   - [Encoder](#encoder)
+   - [Decoder](#decoder)
+   - [Encoder-Decoder](#encoder-decoder)
+   - [UniLM](#unilm)
+   - [Other Models](#other-models)
+
+   <!-- prettier ignore -->
+
+   2.4 [(Instruction) Fine-Tuning on Code](#24-instruction-fine-tuning-on-code)
+
+   2.5 [Reinforcement Learning on Code](#25-reinforcement-learning-on-code)
+
+3. [When Coding Meets Reasoning](#3-when-coding-meets-reasoning)
+
+   3.1 [Coding for Reasoning](#31-coding-for-reasoning)
+
+   3.2 [Code Simulation](#32-code-simulation)
+
+   3.3 [Code Agents](#33-code-agents)
+
+   3.4 [Interactive Coding](#34-interactive-coding)
+
+   3.5 [Frontend Navigation](#35-frontend-navigation)
+
+4. [Code LLM for Low-Resource, Low-Level, and Domain-Specific Languages](#4-code-llm-for-low-resource-low-level-and-domain-specific-languages)
+
+5. [Methods/Models for Downstream Tasks](#5-methodsmodels-for-downstream-tasks)
+
+   - Programming
+
+     - [Code Generation](#code-generation)
+     - [Code RAG](#code-rag)
+     - [Code Ranking](#code-ranking)
+     - [Code Translation](#code-translation)
+     - [Code Commenting and Summarization](#code-commenting-and-summarization)
+     - [Program Repair](#program-repair)
+     - [Code Similarity and Embedding (Clone Detection, Code Search)](#code-similarity-and-embedding-clone-detection-code-search)
+     - [Code Refactoring and Migration](#code-refactoring-and-migration)
+     - [Type Prediction](#type-prediction)
+     - [Repository-Level Coding](#repository-level-coding)
+     - [Issue Resolution](#issue-resolution)
+     - [Frontend Development](#frontend-development)
+     - [Automated Machine Learning](#automated-machine-learning)
+     - [Text-To-SQL](#text-to-sql)
+     - [Program Proof](#program-proof)
+
+   - Testing and Deployment
+
+     - [Test Generation](#test-generation)
+     - [Oracle Generation](#oracle-generation)
+     - [Mutation Testing](#mutation-testing)
+     - [Fuzz Testing](#fuzz-testing)
+     - [Vulnerability Detection](#vulnerability-detection)
+     - [Malicious Code Detection](#malicious-code-detection)
+     - [Compiler Optimization](#compiler-optimization)
+     - [Binary Analysis and Decompilation](#binary-analysis-and-decompilation)
+
+   - DevOps
+
+     - [Commit Message Generation](#commit-message-generation)
+     - [Code Review](#code-review)
+     - [Log Analysis](#log-analysis)
+     - [Software Configuration](#software-configuration)
+     - [Code QA & Reasoning](#code-qa--reasoning)
+
+   - Requirement
+
+     - [Software Modeling](#software-modeling)
+     - [Requirement Engineering](#requirement-engineering)
+
+6. [Analysis of AI-Generated Code](#6-analysis-of-ai-generated-code)
+
+   - [Security and Vulnerabilities](#security-and-vulnerabilities)
+   - [Correctness](#correctness)
+   - [Hallucination](#hallucination)
+   - [Efficiency](#efficiency)
+   - [Robustness](#robustness)
+   - [Interpretability](#interpretability)
+   - [API Usage](#api-usage)
+   - [Privacy](#privacy)
+   - [Bias](#bias)
+   - [Contamination](#contamination)
+   - [AI-Generated Code Detection](#ai-generated-code-detection)
+   - [Others](#others)
+
+7. [Human-LLM Interaction](#7-human-llm-interaction)
+
+8. [Datasets](#8-datasets)
+
+   8.1 [Pretraining](#81-pretraining)
+
+   8.2 [Benchmarks](#82-benchmarks)
+
+   - [Integrated Benchmarks](#integrated-benchmarks)
+   - [Evaluation Metrics](#evaluation-metrics)
+   - [Program Synthesis](#program-synthesis)
+   - [Visually Grounded Program Synthesis](#visually-grounded-program-synthesis)
+   - [Code Reasoning and QA](#code-reasoning-and-qa)
+   - [Text-to-SQL](#text-to-sql-1)
+   - [Code Translation](#code-translation-1)
+   - [Program Repair](#program-repair-1)
+   - [Code Summarization](#code-summarization)
+   - [Defect/Vulnerability Detection](#defectvulnerability-detection)
+   - [Code Retrieval](#code-retrieval)
+   - [Type Inference](#type-inference)
+   - [Commit Message Generation](#commit-message-generation-1)
+   - [Repo-Level Coding](#repo-level-coding)
+
+9. [Recommended Readings](#9-recommended-readings)
+
+10. [Citation](#citation)
+
+11. [Star History](#star-history)
+
+12. [Join Us](#join-us)
 
 ## 1. Surveys
 
