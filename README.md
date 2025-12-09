@@ -19,17 +19,15 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 
 ## News
 
+🔥🔥🔥 [2025/12/09] **We are launching a new awesome project about embedding models: [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)**
+
 🔥🔥🔥 [2025/12/05] Featured papers:
 
-- 🔥🔥 [DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models](https://arxiv.org/abs/2512.02556) from DeepSeek-AI.
+- 🔥 [DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models](https://arxiv.org/abs/2512.02556) from DeepSeek-AI.
 
-- 🔥 [Instella: Fully Open Language Models with Stellar Performance](https://arxiv.org/abs/2511.10628) from AMD.
+🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/12/04] 67 papers from EMNLP 2025 have been added. Search for the keyword "EMNLP 2025"!
 
-🔥🔥🔥 [2025/12/04] 67 papers from EMNLP 2025 have been added. Search for the keyword "EMNLP 2025"!
-
-🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/08/24] 29 papers from ICML 2025 have been added. Search for the keyword "ICML 2025"!
-
-🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] **Our survey has been accepted for publication by [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/).**
+🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] Our survey has been accepted for publication by Transactions on Machine Learning Research (TMLR).
 
 🔥🔥🔥 [2025/09/22] News from Codefuse
 
@@ -5073,6 +5071,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 ## Other Awesome LLM Reading Lists
 
+- [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)
 - [Awesome-Speculative-Decoding](https://github.com/Geralt-Targaryen/Awesome-Speculative-Decoding)
 - [Awesome-LLM-MT](https://github.com/hsing-wang/Awesome-LLM-MT)
 - [Awesome Education LLM](https://github.com/Geralt-Targaryen/Awesome-Education-LLM)
