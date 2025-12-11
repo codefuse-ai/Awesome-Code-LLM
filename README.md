@@ -947,6 +947,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - "SelfPiCo: Self-Guided Partial Code Execution with LLMs" [2024-07] [[paper](https://arxiv.org/abs/2407.16974)]
 
+- "LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning" [2024-09] [ACL 2025] [[paper](https://arxiv.org/abs/2409.12929)]
+
 - "Large Language Models as Code Executors: An Exploratory Study" [2024-10] [[paper](https://arxiv.org/abs/2410.06667)]
 
 - "VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning" [2024-10] [[paper](https://arxiv.org/abs/2410.23402)]
