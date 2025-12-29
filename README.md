@@ -2171,7 +2171,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Less is More: Adaptive Program Repair with Bug Localization and Preference Learning" [2025-03] [[paper](https://arxiv.org/abs/2503.06510)]
 
-- "UTFix: Change Aware Unit Test Repairing using LLM" [2025-03][OOPSLA 2025] [[paper](https://dl.acm.org/doi/10.1145/3720419)]
+- "UTFix: Change Aware Unit Test Repairing using LLM" [2025-03][OOPSLA 2025] [[paper](https://dl.acm.org/doi/10.1145/3720419)][[repo](https://sites.google.com/view/utfix)]
 
 - "Unlocking LLM Repair Capabilities in Low-Resource Programming Languages Through Cross-Language Translation and Multi-Agent Refinement" [2025-03] [[paper](https://arxiv.org/abs/2503.22512)]
 
