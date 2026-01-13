@@ -37,15 +37,13 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] Our survey has been accepted for publication by Transactions on Machine Learning Research (TMLR).
 
-🔥🔥🔥 [2025/09/22] News from Codefuse
+🔥🔥🔥 [2026/01/01] News from Codefuse
+
+- We released [C2LLM](https://arxiv.org/abs/2512.21332), a family of state-of-the-art code embedding models in 0.5B and 7B sizes. C2LLM-7B ranks first on MTEB-Code leaderboard. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings-68d4b32da791bbba993f8d14)]
 
 - We released [F2LLM](https://arxiv.org/abs/2510.02294), a fully open embedding model striking a strong balance between model size, training data, and embedding performance. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model & data](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings-68d4b32da791bbba993f8d14)]
 
 - We released a new benchmark focusing on code review: [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856)
-
-- [CGM (Code Graph Model)](https://arxiv.org/abs/2505.16901) is accepted to NeurIPS 2025. CGM currently ranks 1st among open-weight models on [SWE-Bench-Lite leaderboard](https://www.swebench.com/). [[repo](https://github.com/codefuse-ai/CodeFuse-CGM)]
-
-- [GALLa: Graph Aligned Large Language Models](https://arxiv.org/abs/2409.04183) is accepted by ACL 2025 main conference. [[repo](https://github.com/codefuse-ai/GALLa)]
 
 #### How to Contribute
 
