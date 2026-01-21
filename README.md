@@ -5025,6 +5025,7 @@ $^\diamond$ Machine/human prompts
 | 2025-05 | arXiv                        | SecVulEval     | 25440 | C/C++                       | "SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection" [[paper](https://arxiv.org/abs/2505.19828)] [[data](https://github.com/basimbd/SecVulEval)]                                                         |
 | 2025-05 | arXiv                        | SV-TrustEval-C | 3,337 | C                           | "SV-TrustEval-C: Evaluating Structure and Semantic Reasoning in Large Language Models for Source Code Vulnerability Analysis" [[paper](https://arxiv.org/abs/2505.20630)] [[data](https://github.com/Jackline97/SV-TrustEval-C)] |
 | 2025-09 | arXiv                        | MULocBench     | 1,100 | Python                      | "A Benchmark for Localizing Code and Non-Code Issues in Software Projects" [[paper](https://arxiv.org/abs/2509.25242)] [[data](https://huggingface.co/datasets/somethingone/MULocBench)]                                         |
+| 2026-01 | arXiv                        | SciCoQA        | 611   | Python, Julia, Matlab, Yaml, C/C++, CUDA, R, Shell | "SciCoQA: Quality Assurance for Scientific Paper--Code Alignment" [[paper](https://arxiv.org/abs/2601.12910)] [[data](https://huggingface.co/datasets/UKPLab/scicoqa)]                                         |
 
 #### Code Retrieval
 
