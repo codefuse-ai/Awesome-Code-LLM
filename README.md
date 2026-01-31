@@ -5191,6 +5191,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 ## Other Awesome LLM Reading Lists
 
+- [Awesome DeepSeek V4](https://github.com/deepseek-community/awesome-deepseek-v4) - Unofficial benchmarks, architecture (Engram/mHC), and resources for V4.
 - [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)
 - [Awesome-Speculative-Decoding](https://github.com/Geralt-Targaryen/Awesome-Speculative-Decoding)
 - [Awesome-LLM-MT](https://github.com/hsing-wang/Awesome-LLM-MT)
