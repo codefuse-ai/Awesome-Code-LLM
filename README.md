@@ -1253,6 +1253,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 115. **Hybrid-Gym**: "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks" [2026-02] [[paper](https://arxiv.org/abs/2602.16819)]
 
+116. **Cortex**: Persistent AI memory for coding assistants. Auto-captures decisions, patterns, and context from Claude Code, Cursor, and Cline sessions. 3-layer memory. VSCode extension + CLI + MCP server. [[repo](https://github.com/SKULLFIRE07/cortex-memory)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
