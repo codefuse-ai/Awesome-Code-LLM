@@ -5334,6 +5334,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 ## Other Awesome LLM Reading Lists
 
+- [Awesome-LLM-Benchmarks](https://github.com/BenchGecko/awesome-llm-benchmarks) - A curated list of LLM and AI model benchmarks, datasets, and leaderboards.
 - [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)
 - [Awesome-Speculative-Decoding](https://github.com/Geralt-Targaryen/Awesome-Speculative-Decoding)
 - [Awesome-LLM-MT](https://github.com/hsing-wang/Awesome-LLM-MT)
