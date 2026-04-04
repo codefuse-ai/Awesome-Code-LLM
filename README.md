@@ -967,21 +967,23 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 58. "The KoLMogorov Test: Compression by Code Generation" [2025-03] [ICLR 2025] [[paper](https://arxiv.org/abs/2503.13992)]
 
-59. **MathCoder-VL**: "MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning" [2025-05] [ACL 2025 Findings] [[paper](https://arxiv.org/abs/2505.10557)]
+59. **OptimAI**: "OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents" [2025-04] [[paper](https://arxiv.org/abs/2504.16918)]
 
-60. **R1-Code-Interpreter**: "R1-Code-Interpreter: Training LLMs to Reason with Code via Supervised and Reinforcement Learning" [2025-05] [[paper](https://arxiv.org/abs/2505.21668)]
+60. **MathCoder-VL**: "MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning" [2025-05] [ACL 2025 Findings] [[paper](https://arxiv.org/abs/2505.10557)]
 
-61. "Towards Effective Code-Integrated Reasoning" [2025-05] [[paper](https://arxiv.org/abs/2505.24480)]
+61. **R1-Code-Interpreter**: "R1-Code-Interpreter: Training LLMs to Reason with Code via Supervised and Reinforcement Learning" [2025-05] [[paper](https://arxiv.org/abs/2505.21668)]
 
-62. "CoRT: Code-integrated Reasoning within Thinking" [2025-06] [[paper](https://arxiv.org/abs/2506.09820)]
+62. "Towards Effective Code-Integrated Reasoning" [2025-05] [[paper](https://arxiv.org/abs/2505.24480)]
 
-63. "Code Execution as Grounded Supervision for LLM Reasoning" [2025-06] [EMNLP 2025] [[paper](https://arxiv.org/abs/2506.10343)]
+63. "CoRT: Code-integrated Reasoning within Thinking" [2025-06] [[paper](https://arxiv.org/abs/2506.09820)]
 
-64. **PBB**: "Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training" [2025-06] [[paper](https://arxiv.org/abs/2506.18777)]
+64. "Code Execution as Grounded Supervision for LLM Reasoning" [2025-06] [EMNLP 2025] [[paper](https://arxiv.org/abs/2506.10343)]
 
-65. "On Code-Induced Reasoning in LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.21499)]
+65. **PBB**: "Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training" [2025-06] [[paper](https://arxiv.org/abs/2506.18777)]
 
-66. **PIPS**: "Once Upon an Input: Reasoning via Per-Instance Program Synthesis" [2025-10] [[paper](https://arxiv.org/abs/2510.22849)]
+66. "On Code-Induced Reasoning in LLMs" [2025-09] [[paper](https://arxiv.org/abs/2509.21499)]
+
+67. **PIPS**: "Once Upon an Input: Reasoning via Per-Instance Program Synthesis" [2025-10] [[paper](https://arxiv.org/abs/2510.22849)]
 
 ### 3.2 Code Simulation
 
