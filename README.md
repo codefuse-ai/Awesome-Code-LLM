@@ -17,6 +17,7 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 }
 ```
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - Multi-agent code orchestration system with 49 specialized Claude Code agents covering code review, architecture, security auditing, and quality gate verification.
 ## News
 
 🔥🔥🔥 [2025/12/09] **We are launching a new awesome project about embedding models: [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)**
