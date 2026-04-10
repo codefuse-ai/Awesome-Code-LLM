@@ -19,31 +19,25 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 
 ## News
 
-🔥🔥🔥 [2025/12/09] **We are launching a new awesome project about embedding models: [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)**
+🔥🔥🔥 [2026/03/31] Featured papers:
 
-🔥🔥🔥 [2026/03/02] Featured papers:
+- 🔥🔥 [Composer 2 Technical Report](https://arxiv.org/abs/2603.24477) from Cursor Research Team.
 
-- 🔥🔥 [CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation](https://arxiv.org/abs/2602.24286) from ByteDance.
+- 🔥 [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) from Zhipu AI.
 
-- 🔥🔥 [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) from Zhipu AI.
-
-- 🔥🔥 [SWE-Universe: Scale Real-World Verifiable Environments to Millions](https://arxiv.org/abs/2602.02361) from Qwen Team.
-
-- 🔥 [Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model](https://arxiv.org/abs/2601.15892) from ByteDance.
-
-- 🔥 [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces](https://arxiv.org/abs/2601.11868) from Stanford University.
-
-- 🔥 [X-Coder: Advancing Competitive Programming with Fully Synthetic Tasks, Solutions, and Tests](https://arxiv.org/abs/2601.06953) from Tsinghua University.
+- 🔥 [SWE-Universe: Scale Real-World Verifiable Environments to Millions](https://arxiv.org/abs/2602.02361) from Qwen Team.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/12/04] 67 papers from EMNLP 2025 have been added. Search for the keyword "EMNLP 2025"!
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] Our survey has been accepted for publication by Transactions on Machine Learning Research (TMLR).
 
-🔥🔥🔥 [2026/01/01] News from Codefuse
+🔥🔥🔥 [2026/03/31] News from Codefuse
+
+- We released [F2LLM-v2](https://arxiv.org/abs/2603.19223), a family of frontier multilingual emebedding models that sets new state-of-the-art on at least 11 MTEB benchmarks. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model & data](https://huggingface.co/collections/codefuse-ai/f2llm)]
+
+- We are launching a new awesome project about embedding models: [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)
 
 - We released [C2LLM](https://arxiv.org/abs/2512.21332), a family of state-of-the-art code embedding models in 0.5B and 7B sizes. C2LLM-7B ranks first on MTEB-Code leaderboard. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings-68d4b32da791bbba993f8d14)]
-
-- We released [F2LLM](https://arxiv.org/abs/2510.02294), a fully open embedding model striking a strong balance between model size, training data, and embedding performance. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model & data](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings-68d4b32da791bbba993f8d14)]
 
 - We released a new benchmark focusing on code review: [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856)
 
@@ -473,6 +467,8 @@ These models are general-purpose LLMs further pretrained on code-related data.
 
 - **Mify-Coder**: "State-of-the-art Small Language Coder Model: Mify-Coder" [2025-12] [[paper](https://arxiv.org/abs/2512.23747)]
 
+- **Composer 2**: "Composer 2 Technical Report" [2026-03] [[paper](https://arxiv.org/abs/2603.24477)]
+
 ### 2.3 General Pretraining on Code
 
 These models are Transformer encoders, decoders, and encoder-decoders pretrained from scratch using existing objectives for general language modeling.
@@ -561,6 +557,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 
 29. "Scaling Laws for Code: Every Programming Language Matters" [2025-12] [[paper](https://arxiv.org/abs/2512.13472)]
 
+30. **InCoder**: "InCoder-32B: Code Foundation Model for Industrial Scenarios" [2026-03] [[paper](https://arxiv.org/abs/2603.16790)]
+
 #### Encoder-Decoder
 
 1. **PyMT5** (Span Corruption): "PyMT5: multi-mode translation of natural language and Python code with transformers" [2020-10] [EMNLP 2020] [[paper](https://arxiv.org/abs/2010.03150)]
@@ -608,6 +606,8 @@ These models are Transformer encoders, decoders, and encoder-decoders pretrained
 6. **DreamOn**: "DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas" [2026-02] [[paper](https://arxiv.org/abs/2602.01326)]
 
 7. "CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding" [2026-02] [[paper](https://arxiv.org/abs/2602.01785)]
+
+8. **IQuest-Coder-V1**: "IQuest-Coder-V1 Technical Report" [2026-02] [[paper](https://arxiv.org/abs/2603.16733)]
 
 ### 2.4 (Instruction) Fine-Tuning on Code
 
@@ -763,6 +763,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 75. "Multi-task Code LLMs: Data Mix or Model Merge?" [2026-01] [[paper](https://arxiv.org/abs/2601.21115)]
 
+76. "QAQ: Bidirectional Semantic Coherence for Selecting High-Quality Synthetic Code Instructions" [2026-03] [[paper](https://arxiv.org/abs/2603.12165)]
+
 ### 2.5 Reinforcement Learning on Code
 
 1. **CompCoder**: "Compilable Neural Code Generation with Compiler Feedback" [2022-03] [ACL 2022] [[paper](https://arxiv.org/abs/2203.05132)]
@@ -846,6 +848,14 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 40. **VeRPO**: "VeRPO: Verifiable Dense Reward Policy Optimization for Code Generation" [2026-01] [[paper](https://arxiv.org/abs/2601.03525)]
 
 41. **Cobalt**: "Bridging Online and Offline RL: Contextual Bandit Learning for Multi-Turn Code Generation" [2026-02] [[paper](https://arxiv.org/abs/2602.03806)]
+
+42. **MicroCoder-GRPO**: "Breaking Training Bottlenecks: Effective and Stable Reinforcement Learning for Coding Models" [2026-03] [[paper](https://arxiv.org/abs/2603.07777)]
+
+43. "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning" [2026-03] [[paper](https://arxiv.org/abs/2603.05863)]
+
+44. **EvolveCoder**: "EvolveCoder: Evolving Test Cases via Adversarial Verification for Code Reinforcement Learning" [2026-03] [[paper](https://arxiv.org/abs/2603.12698)]
+
+45. **Code-A1**: "Code-A1: Adversarial Evolving of Code LLM and Test LLM via Reinforcement Learning" [2026-03] [[paper](https://arxiv.org/abs/2603.15611)]
 
 ## 3. When Coding Meets Reasoning
 
@@ -1252,6 +1262,16 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 114. **LongCLI-Bench**: "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces" [2026-02] [[paper](https://arxiv.org/abs/2602.14337)]
 
 115. **Hybrid-Gym**: "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks" [2026-02] [[paper](https://arxiv.org/abs/2602.16819)]
+
+116. "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining" [2026-03] [[paper](https://arxiv.org/abs/2603.11103)]
+
+117. **DeepCommit**: "EvoClaw: Evaluating AI Agents on Continuous Software Evolution" [2026-03] [[paper](https://arxiv.org/abs/2603.13428)]
+
+118. **CAID**: "Effective Strategies for Asynchronous Software Engineering Agents" [2026-03] [[paper](https://arxiv.org/abs/2603.21489)]
+
+119. "Coding Agents are Effective Long-Context Processors" [2026-03] [[paper](https://arxiv.org/abs/2603.20432)]
+
+120. **SlopCodeBench**: "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks" [2026-03] [[paper](https://arxiv.org/abs/2603.24755)]
 
 ### 3.4 Interactive Coding
 
@@ -1714,6 +1734,18 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 - [**CUDA**] "OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization" [2026-02] [[paper](https://arxiv.org/abs/2602.12305)]
 
 - [**CUDA**] "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation" [2026-02] [[paper](https://arxiv.org/abs/2602.24286)]
+
+- [**Verilog**] "SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation" [2026-02] [[paper](https://arxiv.org/abs/2603.08719)]
+
+- [**Cangjie**] "CangjieBench: Benchmarking LLMs on a Low-Resource General-Purpose Programming Language" [2026-03] [[paper](https://arxiv.org/abs/2603.14501)]
+
+- [**Verilog**] "VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation" [2026-03] [[paper](https://arxiv.org/abs/2603.17613)]
+
+- [**CUDA**] "SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits" [2026-03] [[paper](https://arxiv.org/abs/2603.19173)]
+
+- [**Triton**] "DRTriton: Large-Scale Synthetic Data Reinforcement Learning for Triton Kernel Generation" [2026-03] [[paper](https://arxiv.org/abs/2603.21465)]
+
+- [**CUDA**] "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels" [2026-03] [[paper](https://arxiv.org/abs/2603.24595)]
 
 ## 5. Methods/Models for Downstream Tasks
 
@@ -2299,6 +2331,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "DPO-F+: Aligning Code Repair Feedback with Developers' Preferences" [2025-11] [[paper](https://arxiv.org/abs/2511.01043)]
 
+- "Beyond Accuracy: Behavioral Dynamics of Agentic Multi-Hunk Repair" [2025-11] [[paper](https://arxiv.org/abs/2511.11012)]
+
 ### Code Similarity and Embedding (Clone Detection, Code Search)
 
 - "Self-Supervised Contrastive Learning for Code Retrieval and Summarization via Semantic-Preserving Transformations" [2020-09] [SIGIR 2021] [[paper](https://arxiv.org/abs/2009.02731)]
@@ -2376,6 +2410,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling" [2025-12] [[paper](https://arxiv.org/abs/2512.21332)]
 
 - "CSSG: Measuring Code Similarity with Semantic Graphs" [2026-01] [[paper](https://arxiv.org/abs/2601.04085)]
+
+- "F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World" [2026-03] [[paper](https://arxiv.org/abs/2603.19223)]
+
+- "On the Challenges and Opportunities of Learned Sparse Retrieval for Code" [2026-03] [[paper](https://arxiv.org/abs/2603.22008)]
 
 ### Code Refactoring and Migration
 
@@ -2603,6 +2641,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale" [2026-02] [[paper](https://arxiv.org/abs/2602.23866)]
 
+- "daVinci-Env: Open SWE Environment Synthesis at Scale" [2026-03] [[paper](https://arxiv.org/abs/2603.13023)]
+
+- "CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents" [2026-03] [[paper](https://arxiv.org/abs/2603.17829)]
+
 ### Frontend Development
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -2692,6 +2734,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback" [2025-12] [[paper](https://arxiv.org/abs/2601.04203)]
 
 - "WebCoderBench: Benchmarking Web Application Generation with Comprehensive and Interpretable Evaluation Metrics" [2026-01] [[paper](https://arxiv.org/abs/2601.02430)]
+
+- "WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing" [2026-03] [[paper](https://arxiv.org/abs/2603.25226)]
+
+- "Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification" [2026-03] [[paper](https://arxiv.org/abs/2603.26648)]
 
 ### Automated Machine Learning
 
@@ -3078,6 +3124,12 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL" [2026-02] [[paper](https://arxiv.org/abs/2602.15564)]
 
 - "APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL" [2026-02] [[paper](https://arxiv.org/abs/2602.16720)]
+
+- "EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution" [2026-03] [[paper](https://arxiv.org/abs/2603.10697)]
+
+- "Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System" [2026-03] [[paper](https://arxiv.org/abs/2603.07449)]
+
+- "Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL" [2026-03] [[paper](https://arxiv.org/abs/2603.05996)]
 
 ### Program Proof
 
@@ -3882,6 +3934,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "RovoDev Code Reviewer: A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian" [2026-01] [[paper](https://arxiv.org/abs/2601.01129)]
 
 - "AACR-Bench: Evaluating Automatic Code Review with Holistic Repository-Level Context" [2026-01] [[paper](https://arxiv.org/abs/2601.19494)]
+
+- "CR-Bench: Evaluating the Real-World Utility of AI Code Review Agents" [2026-03] [[paper](https://arxiv.org/abs/2603.11078)]
 
 ### Log Analysis
 
@@ -4859,6 +4913,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "Aletheia: What Makes RLVR For Code Verifiers Tick?" [2026-01] [[paper](https://arxiv.org/abs/2601.12186)]
 
+- "Comparing Developer and LLM Biases in Code Evaluation" [2026-03] [[paper](https://arxiv.org/abs/2603.24586)]
+
 #### Program Synthesis
 
 | Date    | Venue                            | Benchmark                                        | Size                 | Language                                                                         | Source                                                                                                                                                                                                                                                                                       |
@@ -4971,19 +5027,20 @@ $^\diamond$ Machine/human prompts
 
 #### Visually Grounded Program Synthesis
 
-| Date    | Venue               | Benchmark       | Size | Language                              | Source                                                                                                                                                                                                                                      |
-| ------- | ------------------- | --------------- | ---- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024-04 | EMNLP 2024 Findings | MMCode          | 3548 | Python                                | "MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems" [[paper](https://arxiv.org/abs/2404.09486)] [[data](https://github.com/happylkx/MMCode)]                                                |
-| 2024-05 | arXiv               | Plot2Code       | 132  | Python                                | "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots" [[paper](https://arxiv.org/abs/2405.07990)] [[data](https://huggingface.co/datasets/TencentARC/Plot2Code)] |
-| 2024-06 | ICLR 2025           | ChartMimic      | 1000 | Python                                | "ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation" [[paper](https://arxiv.org/abs/2406.09961)] [[data](https://github.com/ChartMimic/ChartMimic)]                                                 |
-| 2024-10 | arXiv               | HumanEval-V     | 108  | Python                                | "HumanEval-V: Evaluating Visual Understanding and Reasoning Abilities of Large Multimodal Models Through Coding Tasks" [[paper](https://arxiv.org/abs/2410.12381)] [[data](https://github.com/HumanEval-V/HumanEval-V-Benchmark)]           |
-| 2024-10 | arXiv               | TurtleBench     | 260  | Python                                | "TurtleBench: A Visual Programming Benchmark in Turtle Geometry" [[paper](https://arxiv.org/abs/2411.00264)] [[data](https://github.com/sinaris76/TurtleBench)]                                                                             |
-| 2024-12 | ICLR 2025           | BigDocs         | 7.5M | HTML, LaTeX, SVG, JSON, Markdown, etc | "BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks" [[paper](https://arxiv.org/abs/2412.04626)] [[data](https://bigdocs.github.io/)]                                             |
-| 2024-12 | ACL 2025 Findings   | Visual SWEbench | 133  | Python                                | "CodeV: Issue Resolving with Visual Data" [[paper](https://arxiv.org/abs/2412.17315)] [[data](https://github.com/luolin101/CodeV)]                                                                                                          |
-| 2025-02 | arXiv               | Code-Vision     | 438  | Python                                | "Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities" [[paper](https://arxiv.org/abs/2502.11829)] [[data](https://github.com/wanghanbinpanda/CodeVision)]                                          |
-| 2025-06 | ACL 2025 Findings   | Flow2Code       | 5622 | 15                                    | "Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability" [[paper](https://arxiv.org/abs/2506.02073)] [[data](https://github.com/hml-github/Flow2Code)]                                                  |
-| 2025-07 | arXiv               | ArtifactsBench  | 1825 | HTML/JavaScript                       | "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation" [[paper](https://arxiv.org/abs/2507.04952)] [[data](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark)]                                         |
-| 2025-08 | arXiv               | MCD             | 598K | HTML, Python                          | "VisCodex: Unified Multimodal Code Generation via Merging Vision and Coding Models" [[paper](https://arxiv.org/abs/2508.09945)] [[data](https://github.com/JackLingjie/VisCodex)]                                                           |
+| Date    | Venue               | Benchmark       | Size  | Language                              | Source                                                                                                                                                                                                                                      |
+| ------- | ------------------- | --------------- | ----- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2024-04 | EMNLP 2024 Findings | MMCode          | 3548  | Python                                | "MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems" [[paper](https://arxiv.org/abs/2404.09486)] [[data](https://github.com/happylkx/MMCode)]                                                |
+| 2024-05 | arXiv               | Plot2Code       | 132   | Python                                | "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots" [[paper](https://arxiv.org/abs/2405.07990)] [[data](https://huggingface.co/datasets/TencentARC/Plot2Code)] |
+| 2024-06 | ICLR 2025           | ChartMimic      | 1000  | Python                                | "ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation" [[paper](https://arxiv.org/abs/2406.09961)] [[data](https://github.com/ChartMimic/ChartMimic)]                                                 |
+| 2024-10 | arXiv               | HumanEval-V     | 108   | Python                                | "HumanEval-V: Evaluating Visual Understanding and Reasoning Abilities of Large Multimodal Models Through Coding Tasks" [[paper](https://arxiv.org/abs/2410.12381)] [[data](https://github.com/HumanEval-V/HumanEval-V-Benchmark)]           |
+| 2024-10 | arXiv               | TurtleBench     | 260   | Python                                | "TurtleBench: A Visual Programming Benchmark in Turtle Geometry" [[paper](https://arxiv.org/abs/2411.00264)] [[data](https://github.com/sinaris76/TurtleBench)]                                                                             |
+| 2024-12 | ICLR 2025           | BigDocs         | 7.5M  | HTML, LaTeX, SVG, JSON, Markdown, etc | "BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks" [[paper](https://arxiv.org/abs/2412.04626)] [[data](https://bigdocs.github.io/)]                                             |
+| 2024-12 | ACL 2025 Findings   | Visual SWEbench | 133   | Python                                | "CodeV: Issue Resolving with Visual Data" [[paper](https://arxiv.org/abs/2412.17315)] [[data](https://github.com/luolin101/CodeV)]                                                                                                          |
+| 2025-02 | arXiv               | Code-Vision     | 438   | Python                                | "Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities" [[paper](https://arxiv.org/abs/2502.11829)] [[data](https://github.com/wanghanbinpanda/CodeVision)]                                          |
+| 2025-06 | ACL 2025 Findings   | Flow2Code       | 5622  | 15                                    | "Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability" [[paper](https://arxiv.org/abs/2506.02073)] [[data](https://github.com/hml-github/Flow2Code)]                                                  |
+| 2025-07 | arXiv               | ArtifactsBench  | 1825  | HTML/JavaScript                       | "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation" [[paper](https://arxiv.org/abs/2507.04952)] [[data](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark)]                                         |
+| 2025-08 | arXiv               | MCD             | 598K  | HTML, Python                          | "VisCodex: Unified Multimodal Code Generation via Merging Vision and Coding Models" [[paper](https://arxiv.org/abs/2508.09945)] [[data](https://github.com/JackLingjie/VisCodex)]                                                           |
+| 2026-03 | arXiv               | RealChart2Code  | 2,800 | Python                                | "RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation" [[paper](https://arxiv.org/abs/2603.25804)] [[data](https://huggingface.co/datasets/zjj1233/RealChart2Code)]                                  |
 
 #### Code Reasoning and QA
 
@@ -5012,6 +5069,7 @@ $^\diamond$ Machine/human prompts
 | 2025-12 | arXiv               | gpuFLOPBench | 577      | CUDA                                | "Counting Without Running: Evaluating LLMs' Reasoning About Code Complexity" [[paper](https://arxiv.org/abs/2512.04355)] [[data](https://github.com/Scientific-Computing-Lab/gpuFLOPBench)]                              |
 | 2025-12 | arXiv               | SimpleDevQA  | 2740     | -                                   | "SimpleDevQA: Benchmarking Large Language Models on Development Knowledge QA" [[paper](https://arxiv.org/abs/2512.08867)] [[data](https://github.com/DeepSoftwareAnalytics/SimpleDevQA)]                                 |
 | 2025-12 | arXiv               | CodeSimpleQA | 1498     | -                                   | "CodeSimpleQA: Scaling Factuality in Code Large Language Models" [[paper](https://arxiv.org/abs/2512.19424)]                                                                                                             |
+| 2026-03 | arXiv               | SWE-QA-Pro   | 260      | Python                              | "SWE-QA-Pro: A Representative Benchmark and Scalable Training Recipe for Repository-Level Code Understanding" [[paper](https://arxiv.org/abs/2603.16124)] [[data](https://github.com/TIGER-AI-Lab/SWE-QA-Pro)]           |
 
 #### Text-to-SQL
 
@@ -5284,6 +5342,8 @@ $^\diamond$ Machine/human prompts
 | 2026-01 | EACL 2026           | TimeMachine-Bench  | 1,145                  | Python                          | "TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks" [[paper](https://arxiv.org/abs/2601.22597)] [[data](https://github.com/tohoku-nlp/timemachine-bench)]                                   |
 | 2026-02 | arXiv               | SWE-Refactor       | 1,099                  | Java                            | "SWE-Refactor: A Repository-Level Benchmark for Real-World LLM-Based Code Refactoring" [[paper](https://arxiv.org/abs/2602.03712)]                                                                                                             |
 | 2026-02 | arXiv               | FeatureBench       | 200                    | Python                          | "FeatureBench: Benchmarking Agentic Coding for Complex Feature Development" [[paper](https://arxiv.org/abs/2602.10975)] [[data](https://github.com/LiberCoders/FeatureBench)]                                                                  |
+| 2026-03 | arXiv               | BeyondSWE          | 500                    | Python                          | "BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?" [[paper](https://arxiv.org/abs/2603.03194)] [[data](https://github.com/AweAI-Team/BeyondSWE)]                                                                       |
+| 2026-03 | arXiv               | FormulaCode        | 957                    | Python                          | "Evaluating Agentic Optimization on Large Codebases" [[paper](https://arxiv.org/abs/2603.16011)] [[data](https://github.com/formula-code/fc-eval)]                                                                                             |
 
 \*Line Completion/API Invocation Completion/Function Completion
 
