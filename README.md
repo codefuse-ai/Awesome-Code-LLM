@@ -4650,6 +4650,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding" [2026-01] [[paper](https://arxiv.org/abs/2601.10343)]
 
 - "Idea First, Code Later: Disentangling Problem Solving from Code Generation in Evaluating LLMs for Competitive Programming" [2026-01] [[paper](https://arxiv.org/abs/2601.11332)]
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ## 7. Human-LLM Interaction
 
