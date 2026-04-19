@@ -1273,6 +1273,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 120. **SlopCodeBench**: "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks" [2026-03] [[paper](https://arxiv.org/abs/2603.24755)]
 
+121. **Codex Infinity**: Autonomous coding agent that runs continuously on bare metal VPS with full root access. Supports OpenAI Codex and Claude Max plans. [[website](https://codex-infinity.com)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
