@@ -856,6 +856,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 44. **EvolveCoder**: "EvolveCoder: Evolving Test Cases via Adversarial Verification for Code Reinforcement Learning" [2026-03] [[paper](https://arxiv.org/abs/2603.12698)]
 
 45. **Code-A1**: "Code-A1: Adversarial Evolving of Code LLM and Test LLM via Reinforcement Learning" [2026-03] [[paper](https://arxiv.org/abs/2603.15611)]
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) — AI monitoring dashboard for AI agents and LLMs (Vue3 + Node.js, open source). [![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor-frontend/main/Openclaw%20Monitor.jpg)](https://github.com/flik2002/openclaw-monitor-frontend)
+
 
 ## 3. When Coding Meets Reasoning
 
