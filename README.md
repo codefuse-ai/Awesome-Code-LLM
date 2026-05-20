@@ -19,27 +19,27 @@ This is the repo for our TMLR [code LLM survey](https://arxiv.org/abs/2311.07989
 
 ## News
 
-🔥🔥🔥 [2026/03/31] Featured papers:
+🔥🔥🔥 [2026/05/20] Featured papers:
 
-- 🔥🔥 [Composer 2 Technical Report](https://arxiv.org/abs/2603.24477) from Cursor Research Team.
+- 🔥🔥 [Beyond Retrieval: A Multitask Benchmark and Model for Code Search](https://arxiv.org/abs/2605.04615) from Ant Group.
 
-- 🔥 [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) from Zhipu AI.
-
-- 🔥 [SWE-Universe: Scale Real-World Verifiable Environments to Millions](https://arxiv.org/abs/2602.02361) from Qwen Team.
+- 🔥 [Composer 2 Technical Report](https://arxiv.org/abs/2603.24477) from Cursor Research Team.
 
 🔥🔥&nbsp;&nbsp;&nbsp;&nbsp; [2025/12/04] 67 papers from EMNLP 2025 have been added. Search for the keyword "EMNLP 2025"!
 
 🔥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2024/09/06] Our survey has been accepted for publication by Transactions on Machine Learning Research (TMLR).
 
-🔥🔥🔥 [2026/03/31] News from Codefuse
+🔥🔥🔥 [2026/05/20] News from Codefuse
+
+- We released [CoREB](https://arxiv.org/abs/2605.04615), a comprehensive code search benchmark covering two stages (retrieval, reranking), three tasks (text2code, code2text, code2code), and five languages. [[data](https://github.com/hq-bench/coreb)] [[model & data](https://huggingface.co/collections/hq-bench/beyond-retrieval)]
+
+- Our paper [ML-Embed](https://arxiv.org/abs/2605.15081) is accepted to ICML 2026. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model & data](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings)]
 
 - We released [F2LLM-v2](https://arxiv.org/abs/2603.19223), a family of frontier multilingual emebedding models that sets new state-of-the-art on at least 11 MTEB benchmarks. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model & data](https://huggingface.co/collections/codefuse-ai/f2llm)]
 
 - We are launching a new awesome project about embedding models: [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)
 
 - We released [C2LLM](https://arxiv.org/abs/2512.21332), a family of state-of-the-art code embedding models in 0.5B and 7B sizes. C2LLM-7B ranks first on MTEB-Code leaderboard. [[code](https://github.com/codefuse-ai/CodeFuse-Embeddings)] [[model](https://huggingface.co/collections/codefuse-ai/codefuse-embeddings-68d4b32da791bbba993f8d14)]
-
-- We released a new benchmark focusing on code review: [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856)
 
 #### How to Contribute
 
@@ -431,6 +431,8 @@ These LLMs are not specifically trained for code, but have demonstrated varying 
 
 109. **Trinity**: "Arcee Trinity Large Technical Report" [2026-02] [[paper](https://arxiv.org/abs/2602.17004)]
 
+110. **JoyAI-LLM Flash**: "JoyAI-LLM Flash: Advancing Mid-Scale LLMs with Token Efficiency" [2026-04] [[paper](https://arxiv.org/abs/2604.03044)]
+
 ### 2.2 Existing LLM Adapted to Code
 
 These models are general-purpose LLMs further pretrained on code-related data.
@@ -764,6 +766,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 75. "Multi-task Code LLMs: Data Mix or Model Merge?" [2026-01] [[paper](https://arxiv.org/abs/2601.21115)]
 
 76. "QAQ: Bidirectional Semantic Coherence for Selecting High-Quality Synthetic Code Instructions" [2026-03] [[paper](https://arxiv.org/abs/2603.12165)]
+
+77. "Embarrassingly Simple Self-Distillation Improves Code Generation" [2026-04] [[paper](https://arxiv.org/abs/2604.01193)]
+
+78. "Parallel-SFT: Improving Zero-Shot Cross-Programming-Language Transfer for Code RL" [2026-04] [[paper](https://arxiv.org/abs/2604.20835)]
 
 ### 2.5 Reinforcement Learning on Code
 
@@ -1273,6 +1279,10 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 120. **SlopCodeBench**: "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks" [2026-03] [[paper](https://arxiv.org/abs/2603.24755)]
 
+121. **KAT-Coder-V2**: "KAT-Coder-V2 Technical Report" [2026-03] [[paper](https://arxiv.org/abs/2603.27703)]
+
+122. **SWE Atlas**: "SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution" [2026-05] [[paper](https://arxiv.org/abs/2605.08366)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
@@ -1747,6 +1757,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 - [**CUDA**] "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels" [2026-03] [[paper](https://arxiv.org/abs/2603.24595)]
 
+- [**Triton**] "Kernel-Smith: A Unified Recipe for Evolutionary Kernel Optimization" [2026-03] [[paper](https://arxiv.org/abs/2603.28342)]
+
 ## 5. Methods/Models for Downstream Tasks
 
 For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF, and (occasionally) static program analysis); the second column contains non-Transformer neural methods (e.g. LSTM, CNN, GNN); the third column contains Transformer based methods (e.g. BERT, GPT, T5).
@@ -1926,6 +1938,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Secure Code Generation via Online Reinforcement Learning with Vulnerability Reward Model" [2026-02] [[paper](https://arxiv.org/abs/2602.07422)]
 
 - "TAROT: Test-driven and Capability-adaptive Curriculum Reinforcement Fine-tuning for Code Generation with Large Language Models" [2026-02] [[paper](https://arxiv.org/abs/2602.15449)]
+
+- "Think Anywhere in Code Generation" [2026-03] [[paper](https://arxiv.org/abs/2603.29957)]
 
 ### Code RAG
 
@@ -2415,6 +2429,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "On the Challenges and Opportunities of Learned Sparse Retrieval for Code" [2026-03] [[paper](https://arxiv.org/abs/2603.22008)]
 
+- "Beyond Retrieval: A Multitask Benchmark and Model for Code Search" [2026-05] [[paper](https://arxiv.org/abs/2605.04615)]
+
 ### Code Refactoring and Migration
 
 - "An Empirical Study on the Code Refactoring Capability of Large Language Models" [2024-11] [[paper](https://arxiv.org/abs/2411.02320)]
@@ -2645,6 +2661,10 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents" [2026-03] [[paper](https://arxiv.org/abs/2603.17829)]
 
+- "From SWE-ZERO to SWE-HERO: Execution-free to Execution-based Fine-tuning for Software Engineering Agents" [2026-04] [[paper](https://arxiv.org/abs/2604.01496)]
+
+- "ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Agents" [2026-04] [[paper](https://arxiv.org/abs/2604.07789)]
+
 ### Frontend Development
 
 - "Seeking the user interface", 2014-09, ASE 2014, [[paper](https://dl.acm.org/doi/10.1145/2642937.2642976)]
@@ -2788,6 +2808,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "RECODE-H: A Benchmark for Research Code Development with Interactive Human Feedback" [2025-10] [[paper](https://arxiv.org/abs/2510.06186)]
 
 - "AutoMLGen: Navigating Fine-Grained Optimization for Coding Agents" [2025-10] [[paper](https://arxiv.org/abs/2510.08511)]
+
+- "Synthetic Sandbox for Training Machine Learning Engineering Agents" [2026-04] [[paper](https://arxiv.org/abs/2604.04872)]
 
 ### Text-To-SQL
 
@@ -3130,6 +3152,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System" [2026-03] [[paper](https://arxiv.org/abs/2603.07449)]
 
 - "Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL" [2026-03] [[paper](https://arxiv.org/abs/2603.05996)]
+
+- "NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions" [2026-04] [[paper](https://arxiv.org/abs/2604.16493)]
 
 ### Program Proof
 
@@ -4359,6 +4383,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "A Systematic Literature Review of Code Hallucinations in LLMs: Characterization, Mitigation Methods, Challenges, and Future Directions for Reliable AI" [2025-11] [[paper](https://arxiv.org/abs/2511.00776)]
 
+- "An Empirical Analysis of Static Analysis Methods for Detection and Mitigation of Code Library Hallucinations" [2026-04] [[paper](https://arxiv.org/abs/2604.07755)]
+
 ### Efficiency
 
 - "EffiBench: Benchmarking the Efficiency of Automatically Generated Code" [2024-02] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2402.02037)]
@@ -4798,6 +4824,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "WhatsCode: Large-Scale GenAI Deployment for Developer Efficiency at WhatsApp" [2025-12] [[paper](https://arxiv.org/abs/2512.05314)]
 
 - "Professional Software Developers Don't Vibe, They Control: AI Agent Use for Coding in 2025" [2025-12] [[paper](https://arxiv.org/abs/2512.14012)]
+
+- "From Guessing to Placeholding: A Cost-Theoretic Framework for Uncertainty-Aware Code Completion" [2026-04] [[paper](https://arxiv.org/abs/2604.01849)]
 
 ## 8. Datasets
 
