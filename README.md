@@ -4895,6 +4895,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - **OmniCode**: "OmniCode: A Benchmark for Evaluating Software Engineering Agents" [2026-02] [[paper](https://arxiv.org/abs/2602.02262)]
 
+- **AWB**: "AI Workflow Benchmark: Evaluating End-to-End AI Coding Workflows on Real Open-Source Tasks" [2026-04] [[repo](https://github.com/xmpuspus/ai-workflow-benchmark)] [[methodology](https://github.com/xmpuspus/ai-workflow-benchmark/blob/main/METHODOLOGY.md)]
+
 #### Evaluation Metrics
 
 - "CodeBLEU: a Method for Automatic Evaluation of Code Synthesis" [2020-09] [[paper](https://arxiv.org/abs/2009.10297)]
