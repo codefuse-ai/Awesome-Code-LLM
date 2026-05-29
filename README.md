@@ -4486,7 +4486,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "Neuron-Guided Interpretation of Code LLMs: Where, Why, and How?" [2025-12] [[paper](https://arxiv.org/abs/2512.19980)]
 
 ### API Usage
-
+- [A3M Router](https://github.com/Das-rebel/a3m-router) - #1 LLM routing benchmark & cheapest router with memory. 47+ providers, parallel execution, ensemble voting. ([RouterArena #1](https://github.com/RouteWorks/RouterArena/pull/113))
 - "How and Why LLMs Use Deprecated APIs in Code Completion? An Empirical Study" [2024-06] [[paper](https://arxiv.org/abs/2406.09834)]
 
 - "Is ChatGPT a Good Software Librarian? An Exploratory Study on the Use of ChatGPT for Software Library Recommendations" [2024-08] [[paper](https://arxiv.org/abs/2408.05128)]
