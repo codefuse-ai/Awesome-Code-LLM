@@ -4848,6 +4848,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 8. "Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks" [2025-04] [[paper](https://arxiv.org/abs/2504.19444)]
 
 ### 8.2 Benchmarks
+- [vybing.dev](https://vybing.dev) - AI dev tool directory with benchmark-backed rankings; covers coding assistants, LLM APIs, agents, and dev tooling.
 
 #### Integrated Benchmarks
 
