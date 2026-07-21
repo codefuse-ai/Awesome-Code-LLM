@@ -5424,6 +5424,7 @@ $^\ddagger$ Migration/Temporal Edit
 
 - [Awesome-Omnimodal-Embeddings](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings)
 - [Awesome-Speculative-Decoding](https://github.com/Geralt-Targaryen/Awesome-Speculative-Decoding)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - GPL-3.0 autonomous penetration testing platform: per-technology agents, 80+ tools, proof-based findings, and a privacy gateway that keeps target data from the model.
 - [Awesome-LLM-MT](https://github.com/hsing-wang/Awesome-LLM-MT)
 - [Awesome Education LLM](https://github.com/Geralt-Targaryen/Awesome-Education-LLM)
 
