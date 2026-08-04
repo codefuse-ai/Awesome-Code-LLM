@@ -1282,6 +1282,7 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 121. **KAT-Coder-V2**: "KAT-Coder-V2 Technical Report" [2026-03] [[paper](https://arxiv.org/abs/2603.27703)]
 
 122. **SWE Atlas**: "SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution" [2026-05] [[paper](https://arxiv.org/abs/2605.08366)]
+123. **FIM-Midtraining**: "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models" [2026-07] [[paper](https://arxiv.org/abs/2607.12463)] [[repo](https://github.com/TIGER-AI-Lab/FIM-Midtraining)] [[data & models](https://huggingface.co/collections/TIGER-Lab/fim-midtraining)]
 
 ### 3.4 Interactive Coding
 
