@@ -5445,7 +5445,7 @@ If you find this repo or our survey helpful, please consider citing us:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=codefuse-ai/Awesome-Code-LLM&type=Date)](https://star-history.com/#codefuse-ai/Awesome-Code-LLM&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=codefuse-ai/Awesome-Code-LLM&type=Date)](https://star-history.dera.page/#codefuse-ai/Awesome-Code-LLM&Date)
 
 ## Join US
 
