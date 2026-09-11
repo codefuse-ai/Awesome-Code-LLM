@@ -1283,6 +1283,8 @@ These models apply Instruction Fine-Tuning techniques to enhance the capacities 
 
 122. **SWE Atlas**: "SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution" [2026-05] [[paper](https://arxiv.org/abs/2605.08366)]
 
+123. "Steer, Don't Solve: Training Small Critic Models for Large Code Agents" [2026-06] [[paper](https://arxiv.org/abs/2606.21811)] [[repo](https://github.com/shubhamrgandhi/critic-training)]
+
 ### 3.4 Interactive Coding
 
 - "Interactive Program Synthesis" [2017-03] [[paper](https://arxiv.org/abs/1703.03539)]
