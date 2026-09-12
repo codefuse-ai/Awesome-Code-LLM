@@ -3960,6 +3960,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "AACR-Bench: Evaluating Automatic Code Review with Holistic Repository-Level Context" [2026-01] [[paper](https://arxiv.org/abs/2601.19494)]
 
 - "CR-Bench: Evaluating the Real-World Utility of AI Code Review Agents" [2026-03] [[paper](https://arxiv.org/abs/2603.11078)]
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril): Open source review loop and verification platform with an amazing UI, handling isolated worktrees and automated verification gates
 
 ### Log Analysis
 
