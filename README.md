@@ -4676,6 +4676,7 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 - "OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding" [2026-01] [[paper](https://arxiv.org/abs/2601.10343)]
 
 - "Idea First, Code Later: Disentangling Problem Solving from Code Generation in Evaluating LLMs for Competitive Programming" [2026-01] [[paper](https://arxiv.org/abs/2601.11332)]
+- "Evaluating Code Slop in Long-Horizon Coding Agents" [2026-09] [COLM 2026 Workshop on Agent Behavior] [[paper](https://openreview.net/forum?id=VLgFkLRUfV)]
 
 ## 7. Human-LLM Interaction
 
