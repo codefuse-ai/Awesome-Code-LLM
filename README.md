@@ -467,6 +467,8 @@ These models are general-purpose LLMs further pretrained on code-related data.
 
 - **Ling-Coder-Lite**: "Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM" [2025-03] [[paper](https://arxiv.org/abs/2503.17793)]
 
+- **Apertus**: "Democratizing Open and Compliant LLMs for Global Language Environments" [2025-09] [[paper](https://arxiv.org/abs/2509.14233)]
+
 - **Mify-Coder**: "State-of-the-art Small Language Coder Model: Mify-Coder" [2025-12] [[paper](https://arxiv.org/abs/2512.23747)]
 
 - **Composer 2**: "Composer 2 Technical Report" [2026-03] [[paper](https://arxiv.org/abs/2603.24477)]
