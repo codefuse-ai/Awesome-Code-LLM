@@ -3369,6 +3369,8 @@ For each task, the first column contains non-neural methods (e.g. n-gram, TF-IDF
 
 - "TestExplora: Benchmarking LLMs for Proactive Bug Discovery via Repository-Level Test Generation" [2026-02] [[paper](https://arxiv.org/abs/2602.10471)]
 
+- "SCATE: Learning to Supervise Coding Agents for Cost-Effective Test Generation" [2026-07] [[paper](https://arxiv.org/abs/2607.08983)]
+
 ### Oracle Generation
 
 - "Generating Accurate Assert Statements for Unit Test Cases using Pretrained Transformers" [2020-09] [[paper](https://arxiv.org/abs/2009.05634)]
